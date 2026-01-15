@@ -1,0 +1,63 @@
+{
+  "common": {
+    "data_path": "../data/addition_problems_dataset(1-50)(1).json",
+    "num_samples": 20,
+    "model": "/home/jinsk/Models/Llama-3.2-3B-Instruct",
+    "steps": 20,
+    "optimizer": "sgd",
+    "momentum": 0.9,
+    "scheduler": "none",
+    "grad_clip": 1.0,
+    "fast_eval": false,
+    "reset_mode": "per_token",
+    "tracked_topk": 10,
+    "num_topk": 10,
+    "snapshot_steps": "auto",
+    "loss_float32": true,
+    "eval_ar": true,
+    "eval_ar_tta": true,
+    "topk_list": "1,5,10",
+    "dtype": "bf16",
+    "device_map": "auto",
+    "seed": 42,
+    "output_dir": "sweep3b"
+  },
+  "experiments": [
+    {
+      "exp_name": "3b_mlp_ln_L16_lr1e-3",
+      "update_target": "mlp+ln",
+      "num_layers": "16",
+      "lr": 0.001
+    },
+    {
+      "exp_name": "3b_mlp_L16_lr1e-3",
+      "update_target": "mlp",
+      "num_layers": "16",
+      "lr": 0.001
+    },
+    {
+      "exp_name": "3b_ln_L16_lr1e-3",
+      "update_target": "ln",
+      "num_layers": "16",
+      "lr": 0.001
+    },
+    {
+      "exp_name": "3b_attn_ln_L16_lr5e-4",
+      "update_target": "attn+ln",
+      "num_layers": "16",
+      "lr": 0.0005
+    },
+    {
+      "exp_name": "3b_mlp_ln_all_lr5e-4",
+      "update_target": "mlp+ln",
+      "num_layers": "all",
+      "lr": 0.0005
+    },
+    {
+      "exp_name": "3b_mlp_ln_all_lr1e-3",
+      "update_target": "mlp+ln",
+      "num_layers": "all",
+      "lr": 0.001
+    }
+  ]
+}

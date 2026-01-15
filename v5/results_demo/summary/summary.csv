@@ -1,0 +1,5 @@
+exp_name,model,mode,token_acc,token_acc_at_5,seq_acc,seq_acc_at_5,rank_mean,mrr,token_prob_mean,token_count,sample_count,runtime_min,flipped_count,steps,lr,update_target,num_layers,layer_stride
+demo_llama1b_steps5,Llama-3.2-1B-Instruct,tf,0.625,0.75,0.4,0.6,23.875,0.6971638655462185,0.5413433975045336,8,5,0.7317216833432515,0,5,0.001,mlp+ln,all,1
+demo_llama1b_steps5,Llama-3.2-1B-Instruct,tf_tta,0.625,0.875,0.4,0.8,43.125,0.7503720238095238,0.6422990563078201,8,5,0.7317216833432515,0,5,0.001,mlp+ln,all,1
+demo_llama1b_steps5,Llama-3.2-1B-Instruct,ar,0.5,0.625,0.4,0.6,36.375,0.5734014893085947,0.4972473107991391,8,5,0.7317216833432515,0,5,0.001,mlp+ln,all,1
+demo_llama1b_steps5,Llama-3.2-1B-Instruct,ar_tta,0.5,0.75,0.4,0.8,44.75,0.6343005952380952,0.5183675104999566,8,5,0.7317216833432515,0,5,0.001,mlp+ln,all,1
