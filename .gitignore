@@ -13,6 +13,9 @@ venv/
 # Jupyter
 **/.ipynb_checkpoints/
 
+# Local datasets (downloaded/preprocessed)
+data/gsm8k/*.json
+
 # Experiment artifacts
 logs/
 runs/
