@@ -1,0 +1,383 @@
+{
+  "summary": {
+    "method": "sanity_1b_ln",
+    "algo": "ane_tta",
+    "task": "gsm8k",
+    "eval_mode": "ar",
+    "tta_reset": "sample",
+    "model": "Llama-3.2-1B-Instruct",
+    "steps": 1,
+    "lr": 0.01,
+    "update_target": "ln",
+    "num_layers": "all",
+    "layer_stride": 1,
+    "optimizer": "sgd",
+    "momentum": 0.0,
+    "token_total": 2,
+    "token_correct_before": 0,
+    "token_correct_after": 0,
+    "token_acc_before": 0.0,
+    "token_acc_after": 0.0,
+    "token_topk_correct_before": {
+      "5": 0
+    },
+    "token_topk_correct_after": {
+      "5": 0
+    },
+    "token_topk_acc_before": {
+      "5": 0.0
+    },
+    "token_topk_acc_after": {
+      "5": 0.0
+    },
+    "seq_total": 2,
+    "seq_correct_before": 0,
+    "seq_correct_after": 0,
+    "seq_acc_before": 0.0,
+    "seq_acc_after": 0.0,
+    "str_total": 2,
+    "str_correct_before": 0,
+    "str_correct_after": 0,
+    "str_acc_before": 0.0,
+    "str_acc_after": 0.0,
+    "flipped_count": 0,
+    "elapsed_minutes": 0.02357098658879598,
+    "trainable": {
+      "trainable_params": 65536,
+      "trainable_pct": 0.00530306168952231,
+      "layer_count": 16,
+      "total_layers": 16
+    }
+  },
+  "results": [
+    {
+      "id": "gsm8k-test-1155",
+      "question": "John buys a cassette with 2 songs.  The first song is 5 minutes and the second song is 60% longer.  How much time was the total cassette?",
+      "answer": "13",
+      "eval_mode": "ar",
+      "pred_before_str": "115",
+      "pred_after_str": "115",
+      "correct_before_str": false,
+      "correct_after_str": false,
+      "tokens": [
+        {
+          "position": 0,
+          "answer_len": 1,
+          "target_id": 1032,
+          "target_token": "13",
+          "pred_before_id": 7322,
+          "pred_before": "115",
+          "pred_after_id": 7322,
+          "pred_after": "115",
+          "correct_before": false,
+          "correct_after": false,
+          "rank_before": 123,
+          "rank_after": 125,
+          "prob_before": 0.0015100088203325868,
+          "prob_after": 0.001230511930771172,
+          "metrics": {
+            "loss": [
+              1.0839478969573975,
+              1.0839478969573975
+            ],
+            "target_prob": [
+              0.0015100088203325868,
+              0.001230511930771172
+            ],
+            "target_rank": [
+              123,
+              125
+            ],
+            "num_topk_probs": [
+              [
+                0.05000462755560875,
+                0.0343676432967186,
+                0.03032933920621872,
+                0.026765547692775726,
+                0.026765547692775726,
+                0.023620514199137688,
+                0.02084502950310707,
+                0.02084502950310707,
+                0.02084502950310707,
+                0.018395675346255302
+              ],
+              [
+                0.052322737872600555,
+                0.035960856825113297,
+                0.03173534572124481,
+                0.03173534572124481,
+                0.02800634317100048,
+                0.02471551112830639,
+                0.02471551112830639,
+                0.021811360493302345,
+                0.021811360493302345,
+                0.019248461350798607
+              ]
+            ],
+            "num_topk_snapshots": [
+              {
+                "step": 0,
+                "topk": [
+                  {
+                    "idx": 7322,
+                    "prob": 0.05000462755560875
+                  },
+                  {
+                    "idx": 18,
+                    "prob": 0.0343676432967186
+                  },
+                  {
+                    "idx": 2075,
+                    "prob": 0.03032933920621872
+                  },
+                  {
+                    "idx": 6550,
+                    "prob": 0.026765547692775726
+                  },
+                  {
+                    "idx": 2813,
+                    "prob": 0.026765547692775726
+                  },
+                  {
+                    "idx": 2131,
+                    "prob": 0.023620514199137688
+                  },
+                  {
+                    "idx": 3080,
+                    "prob": 0.02084502950310707
+                  },
+                  {
+                    "idx": 8546,
+                    "prob": 0.02084502950310707
+                  },
+                  {
+                    "idx": 6549,
+                    "prob": 0.02084502950310707
+                  },
+                  {
+                    "idx": 16,
+                    "prob": 0.018395675346255302
+                  }
+                ]
+              },
+              {
+                "step": 1,
+                "topk": [
+                  {
+                    "idx": 7322,
+                    "prob": 0.052322737872600555
+                  },
+                  {
+                    "idx": 2075,
+                    "prob": 0.035960856825113297
+                  },
+                  {
+                    "idx": 18,
+                    "prob": 0.03173534572124481
+                  },
+                  {
+                    "idx": 6550,
+                    "prob": 0.03173534572124481
+                  },
+                  {
+                    "idx": 2813,
+                    "prob": 0.02800634317100048
+                  },
+                  {
+                    "idx": 3080,
+                    "prob": 0.02471551112830639
+                  },
+                  {
+                    "idx": 2131,
+                    "prob": 0.02471551112830639
+                  },
+                  {
+                    "idx": 2721,
+                    "prob": 0.021811360493302345
+                  },
+                  {
+                    "idx": 5313,
+                    "prob": 0.021811360493302345
+                  },
+                  {
+                    "idx": 16,
+                    "prob": 0.019248461350798607
+                  }
+                ]
+              }
+            ],
+            "status": [
+              "baseline",
+              "ok"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "gsm8k-test-1283",
+      "question": "Frances sells 20 cupcakes for $2 for each cupcake and  40  cookies at $1 each.  She buys five trays at $4 for each tray. How much money does Frances have left?",
+      "answer": "60",
+      "eval_mode": "ar",
+      "pred_before_str": "120",
+      "pred_after_str": "120",
+      "correct_before_str": false,
+      "correct_after_str": false,
+      "tokens": [
+        {
+          "position": 0,
+          "answer_len": 1,
+          "target_id": 1399,
+          "target_token": "60",
+          "pred_before_id": 4364,
+          "pred_before": "120",
+          "pred_after_id": 4364,
+          "pred_after": "120",
+          "correct_before": false,
+          "correct_after": false,
+          "rank_before": 34,
+          "rank_after": 25,
+          "prob_before": 0.006227376405149698,
+          "prob_after": 0.007220204453915358,
+          "metrics": {
+            "loss": [
+              1.1269586086273193,
+              1.1269586086273193
+            ],
+            "target_prob": [
+              0.006227376405149698,
+              0.007220204453915358
+            ],
+            "target_rank": [
+              34,
+              25
+            ],
+            "num_topk_probs": [
+              [
+                0.03162524104118347,
+                0.024629762396216393,
+                0.024629762396216393,
+                0.021735690534114838,
+                0.021735690534114838,
+                0.021735690534114838,
+                0.01918167807161808,
+                0.016927773132920265,
+                0.016927773132920265,
+                0.014938706532120705
+              ],
+              [
+                0.03235870972275734,
+                0.0285564623773098,
+                0.025200989097356796,
+                0.022239794954657555,
+                0.022239794954657555,
+                0.019626550376415253,
+                0.019626550376415253,
+                0.01732037030160427,
+                0.015285173431038857,
+                0.015285173431038857
+              ]
+            ],
+            "num_topk_snapshots": [
+              {
+                "step": 0,
+                "topk": [
+                  {
+                    "idx": 4364,
+                    "prob": 0.03162524104118347
+                  },
+                  {
+                    "idx": 1490,
+                    "prob": 0.024629762396216393
+                  },
+                  {
+                    "idx": 1041,
+                    "prob": 0.024629762396216393
+                  },
+                  {
+                    "idx": 8273,
+                    "prob": 0.021735690534114838
+                  },
+                  {
+                    "idx": 6640,
+                    "prob": 0.021735690534114838
+                  },
+                  {
+                    "idx": 3965,
+                    "prob": 0.021735690534114838
+                  },
+                  {
+                    "idx": 8546,
+                    "prob": 0.01918167807161808
+                  },
+                  {
+                    "idx": 1049,
+                    "prob": 0.016927773132920265
+                  },
+                  {
+                    "idx": 8027,
+                    "prob": 0.016927773132920265
+                  },
+                  {
+                    "idx": 1954,
+                    "prob": 0.014938706532120705
+                  }
+                ]
+              },
+              {
+                "step": 1,
+                "topk": [
+                  {
+                    "idx": 4364,
+                    "prob": 0.03235870972275734
+                  },
+                  {
+                    "idx": 1490,
+                    "prob": 0.0285564623773098
+                  },
+                  {
+                    "idx": 1041,
+                    "prob": 0.025200989097356796
+                  },
+                  {
+                    "idx": 8273,
+                    "prob": 0.022239794954657555
+                  },
+                  {
+                    "idx": 6640,
+                    "prob": 0.022239794954657555
+                  },
+                  {
+                    "idx": 3965,
+                    "prob": 0.019626550376415253
+                  },
+                  {
+                    "idx": 8546,
+                    "prob": 0.019626550376415253
+                  },
+                  {
+                    "idx": 3487,
+                    "prob": 0.01732037030160427
+                  },
+                  {
+                    "idx": 1049,
+                    "prob": 0.015285173431038857
+                  },
+                  {
+                    "idx": 1227,
+                    "prob": 0.015285173431038857
+                  }
+                ]
+              }
+            ],
+            "status": [
+              "baseline",
+              "ok"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "flipped_cases": []
+}
