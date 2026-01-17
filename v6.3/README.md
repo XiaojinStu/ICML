@@ -1,18 +1,18 @@
-# v6.3 (GSM8K + decoding-style evaluation)
+# v6.3（GSM8K + 解码式评估）
 
-v6.3 implements a **decoding-style** (teacher-forcing) evaluation for GSM8K:
+v6.3 在 GSM8K 上采用一种更“解码增强”（teacher-forcing）的评估方式，而不是让模型自由生成完整答案：
 
-- Use the *gold answer tokenization* to decide whether the **next position** should output a **numeric token**.
-- Only evaluate / adapt at those numeric-token positions.
-- Feed `prompt + gold_prefix_tokens` and compare the model's numeric-subvocab prediction with the gold numeric token.
+- 先对 *标准答案（gold）* 做分词，判断每一个位置的“下一个 token”是否应当是**数值 token**。
+- 只在这些数值 token 的位置做评估/自适应（ANE/TTA）。
+- 每次把 `prompt + gold_prefix_tokens` 作为输入，让模型预测下一个数值 token，并与 gold 的数值 token 直接比较。
 
-This avoids depending on strict answer formatting during free generation.
+这样可以尽量避免因为输出格式不稳定（多余文本、换行等）带来的评估噪声。
 
-## Negative answers
+## 负号支持
 
-Negative answers are supported:
-- If the gold answer begins with `-`, that token stays in the gold prefix.
-- The procedure evaluates numeric tokens that follow the sign.
+支持负数答案：
+- 如果 gold 以 `-` 开头，`-` 会保留在 gold 前缀里；
+- 评估与对齐从 `-` 之后的数值 token 开始进行。
 
 ## Prepare GSM8K locally
 
