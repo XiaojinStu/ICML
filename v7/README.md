@@ -1,10 +1,6 @@
 # v7（主实验代码：Greedy vs Greedy+ANE）
 
-v7 作为主实验的统一运行版本，整合了：
-- `v6.3` 的数据集接入思路（本地 JSON 格式 + GSM8K 适配）；
-- `v5.x` 的 token 级别记录与论文风格可视化（heatmap / flipped curves / subspace evolution 等）。
-
-当前版本先接入两套数据集（其余先预留接口）：
+接入两套数据集（其余先预留接口）：
 - **算数数据集**：`addition_50`（本地 `data/addition_problems_dataset(1-50)(1).json`）
 - **数学数据集**：`gsm8k`（本地 `data/gsm8k/gsm8k_test_*.json`）
 
@@ -16,7 +12,7 @@ v7 作为主实验的统一运行版本，整合了：
 ```
 其中 `answer` 为整数（字符串或数字皆可，支持 `-13`）。
 
-## 默认实验设置（可通过 CLI 覆盖）
+## 默认实验设置（可通过CLI覆盖）
 
 - model：`/home/jinsk/Models/Llama-3.2-3B-Instruct`
 - eval_mode：`tf`（teacher forcing）
@@ -27,7 +23,7 @@ v7 作为主实验的统一运行版本，整合了：
 
 ## 运行示例
 
-### 1) Addition-50（快速 sanity check）
+### 1) Addition-50（快速check）
 ```bash
 python v7/experiment_v7.py \
   --dataset addition_50 \
@@ -48,7 +44,7 @@ python v7/experiment_v7.py \
   --config_name demo_gsm8k50_tf
 ```
 
-### 3) Autoregressive（用于 EM 指标）
+### 3) Autoregressive（用于EM指标）
 ```bash
 python v7/experiment_v7.py \
   --dataset gsm8k \
