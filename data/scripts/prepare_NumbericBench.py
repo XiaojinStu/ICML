@@ -76,7 +76,7 @@ if __name__ == "__main__":
     
     # 保存结果
     if results:
-        save_results(results, "NumbericBench_all.json")
+        save_results(results, "NumericBench_all.json")
         
         # 打印前几条结果作为示例
         print("\n前10条转换结果:")
