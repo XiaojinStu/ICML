@@ -1,4 +1,4 @@
-"""Validate datasets under `datasets_final/int` for v8.3 integer pipeline."""
+"""Validate datasets under `datasets_final/main` for v9 numeric-string pipeline."""
 
 from __future__ import annotations
 
@@ -9,7 +9,8 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 
-INT_RE = re.compile(r"^-?[0-9]+$")
+# We keep answers as numeric strings; require at least one digit and no whitespace after stripping.
+HAS_DIGIT_RE = re.compile(r".*[0-9].*")
 
 
 def load(path: Path) -> Any:
@@ -38,15 +39,16 @@ def validate_one(path: Path) -> Dict[str, Any]:
             dup += 1
         ids.add(ex_id)
         ans = str(ex["answer"]).strip().replace(",", "")
-        if not INT_RE.fullmatch(ans):
+        ans = ans.replace(" ", "").replace("\n", "").replace("\r", "").replace("\t", "")
+        if not ans or (not HAS_DIGIT_RE.fullmatch(ans)):
             bad += 1
     return {"file": path.name, "n": n, "missing_keys": missing, "bad_answer": bad, "dup_id": dup}
 
 
 def main() -> None:
-    root = Path("datasets_final/int")
+    root = Path("datasets_final/main")
     if not root.exists():
-        raise SystemExit("datasets_final/int not found")
+        raise SystemExit("datasets_final/main not found")
     rows: List[Dict[str, Any]] = []
     for p in sorted(root.glob("*.json")):
         rows.append(validate_one(p))
@@ -63,4 +65,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

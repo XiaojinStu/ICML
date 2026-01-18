@@ -1,0 +1,3082 @@
+[
+  {
+    "id": "nubp-sampled-0",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Add two numbers: 880934 + 9778",
+    "answer": "890712",
+    "category": "add_Integer_Integer_Integer",
+    "subcategory": "6"
+  },
+  {
+    "id": "nubp-sampled-1",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Add two numbers: 689 + 37",
+    "answer": "726",
+    "category": "add_Integer_Integer_Integer",
+    "subcategory": "3"
+  },
+  {
+    "id": "nubp-sampled-2",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Add two numbers: 732111024237 + 75902332",
+    "answer": "732186926569",
+    "category": "add_Integer_Integer_Integer",
+    "subcategory": "12"
+  },
+  {
+    "id": "nubp-sampled-3",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Add two numbers: 37861240 + 61444721436",
+    "answer": "61482582676",
+    "category": "add_Integer_Integer_Integer",
+    "subcategory": "11"
+  },
+  {
+    "id": "nubp-sampled-4",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Add two numbers: 6186743 + 8867885118",
+    "answer": "8874071861",
+    "category": "add_Integer_Integer_Integer",
+    "subcategory": "10"
+  },
+  {
+    "id": "nubp-sampled-5",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Add two numbers: 4225108 + 8939298",
+    "answer": "13164406",
+    "category": "add_Integer_Integer_Integer",
+    "subcategory": "7"
+  },
+  {
+    "id": "nubp-sampled-6",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Add two numbers: 123409 + 348216",
+    "answer": "471625",
+    "category": "add_Integer_Integer_Integer",
+    "subcategory": "6"
+  },
+  {
+    "id": "nubp-sampled-7",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Add two numbers: 85649647285288561093 + 7622094998724",
+    "answer": "85649654907383559817",
+    "category": "add_Integer_Integer_Integer",
+    "subcategory": "20"
+  },
+  {
+    "id": "nubp-sampled-8",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Add two numbers: 19524 + 2743",
+    "answer": "22267",
+    "category": "add_Integer_Integer_Integer",
+    "subcategory": "5"
+  },
+  {
+    "id": "nubp-sampled-9",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Add two numbers: 2225897882463592 + 9779627661786454",
+    "answer": "12005525544250046",
+    "category": "add_Integer_Integer_Integer",
+    "subcategory": "16"
+  },
+  {
+    "id": "nubp-sampled-10",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Add two numbers: 6.9053 + 2597.3507",
+    "answer": "2604.256",
+    "category": "add_Float_Float_Float",
+    "subcategory": "4"
+  },
+  {
+    "id": "nubp-sampled-11",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Add two numbers: 78.215 + 74.78",
+    "answer": "152.995",
+    "category": "add_Float_Float_Float",
+    "subcategory": "3"
+  },
+  {
+    "id": "nubp-sampled-12",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Add two numbers: 3.975212 + 7.807",
+    "answer": "11.782212",
+    "category": "add_Float_Float_Float",
+    "subcategory": "6"
+  },
+  {
+    "id": "nubp-sampled-13",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Add two numbers: 6123659287.8049864025 + 205645913.6389742191",
+    "answer": "6329305201.4439606216",
+    "category": "add_Float_Float_Float",
+    "subcategory": "10"
+  },
+  {
+    "id": "nubp-sampled-14",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Add two numbers: 44556.81173132 + 83274.3766432249",
+    "answer": "127831.1883745449",
+    "category": "add_Float_Float_Float",
+    "subcategory": "10"
+  },
+  {
+    "id": "nubp-sampled-15",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Add two numbers: 328660319196.3633694208371 + 437858332.8841484396020939345",
+    "answer": "329098177529.2475178604391939345",
+    "category": "add_Float_Float_Float",
+    "subcategory": "19"
+  },
+  {
+    "id": "nubp-sampled-16",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Add two numbers: 765.172 + 4.78",
+    "answer": "769.952",
+    "category": "add_Float_Float_Float",
+    "subcategory": "3"
+  },
+  {
+    "id": "nubp-sampled-17",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Add two numbers: 32622637.089998374 + 4568.687693938",
+    "answer": "32627205.777692312",
+    "category": "add_Float_Float_Float",
+    "subcategory": "9"
+  },
+  {
+    "id": "nubp-sampled-18",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Add two numbers: 21521199054148.39197661983791 + 6021467850.15587506393870644114",
+    "answer": "21527220521998.54785168377661644114",
+    "category": "add_Float_Float_Float",
+    "subcategory": "20"
+  },
+  {
+    "id": "nubp-sampled-19",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Add two numbers: 61185.3385637607191461 + 80067.8021561838115004",
+    "answer": "141253.1407199445306465",
+    "category": "add_Float_Float_Float",
+    "subcategory": "16"
+  },
+  {
+    "id": "nubp-sampled-20",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Add two numbers: 75828842/66933195 + 83116/35977",
+    "answer": "8291313684254/2408055556515",
+    "category": "add_Fraction_Fraction_Fraction",
+    "subcategory": "8"
+  },
+  {
+    "id": "nubp-sampled-21",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Add two numbers: 57775730418636/139447942272623 + 11938365/14544224",
+    "answer": "2505083598321758639859/2028162108752097979552",
+    "category": "add_Fraction_Fraction_Fraction",
+    "subcategory": "15"
+  },
+  {
+    "id": "nubp-sampled-22",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Add two numbers: 75317069510717877727/85645318436959035617 + 9255941501/9382844552",
+    "answer": "1499416412618254134644111534421/803596709500526242786142408584",
+    "category": "add_Fraction_Fraction_Fraction",
+    "subcategory": "20"
+  },
+  {
+    "id": "nubp-sampled-23",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Add two numbers: 29136748/706005145 + 3450013989/5313075791",
+    "answer": "2590533376983241073/3751058844220944695",
+    "category": "add_Fraction_Fraction_Fraction",
+    "subcategory": "10"
+  },
+  {
+    "id": "nubp-sampled-24",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Add two numbers: 5/1 + 4/9",
+    "answer": "49/9",
+    "category": "add_Fraction_Fraction_Fraction",
+    "subcategory": "1"
+  },
+  {
+    "id": "nubp-sampled-25",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Add two numbers: 240/167 + 134756/473495",
+    "answer": "136143052/79073665",
+    "category": "add_Fraction_Fraction_Fraction",
+    "subcategory": "6"
+  },
+  {
+    "id": "nubp-sampled-26",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Add two numbers: 328616284383/43683942004058 + 726833427/1268238892",
+    "answer": "16083856612038888435201/27700837102709388711868",
+    "category": "add_Fraction_Fraction_Fraction",
+    "subcategory": "14"
+  },
+  {
+    "id": "nubp-sampled-27",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Add two numbers: 10859081/16591131 + 15710880739/380080024014",
+    "answer": "1462660349238698981/2101985822966473278",
+    "category": "add_Fraction_Fraction_Fraction",
+    "subcategory": "12"
+  },
+  {
+    "id": "nubp-sampled-28",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Add two numbers: 2129854952/2953367993 + 488987294/783952983",
+    "answer": "3113865566061002758/2315301648009073119",
+    "category": "add_Fraction_Fraction_Fraction",
+    "subcategory": "10"
+  },
+  {
+    "id": "nubp-sampled-29",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Add two numbers: 359511/352358 + 898/2281",
+    "answer": "1136462075/803728598",
+    "category": "add_Fraction_Fraction_Fraction",
+    "subcategory": "6"
+  },
+  {
+    "id": "nubp-sampled-30",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Add two numbers: 241/120 + 42465437/46858415",
+    "answer": "3277746091/1124601960",
+    "category": "add_easy_Fraction_Fraction_Fraction",
+    "subcategory": "8"
+  },
+  {
+    "id": "nubp-sampled-31",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Add two numbers: 153/536 + 176980385797/218928884826",
+    "answer": "64178803082785/58672941133368",
+    "category": "add_easy_Fraction_Fraction_Fraction",
+    "subcategory": "12"
+  },
+  {
+    "id": "nubp-sampled-32",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Add two numbers: 1001/2753 + 245/398",
+    "answer": "1072883/1095694",
+    "category": "add_easy_Fraction_Fraction_Fraction",
+    "subcategory": "4"
+  },
+  {
+    "id": "nubp-sampled-33",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Add two numbers: 607/1115 + 43/95",
+    "answer": "21122/21185",
+    "category": "add_easy_Fraction_Fraction_Fraction",
+    "subcategory": "4"
+  },
+  {
+    "id": "nubp-sampled-34",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Add two numbers: 923/437 + 239428573424/4343586419047",
+    "answer": "4113760551366669/1898147265123539",
+    "category": "add_easy_Fraction_Fraction_Fraction",
+    "subcategory": "13"
+  },
+  {
+    "id": "nubp-sampled-35",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Add two numbers: 88/167 + 4377/8597",
+    "answer": "1487495/1435699",
+    "category": "add_easy_Fraction_Fraction_Fraction",
+    "subcategory": "4"
+  },
+  {
+    "id": "nubp-sampled-36",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Add two numbers: 112631625449/179822262083 + 100/97",
+    "answer": "28907493876853/17442759422051",
+    "category": "add_easy_Fraction_Fraction_Fraction",
+    "subcategory": "12"
+  },
+  {
+    "id": "nubp-sampled-37",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Add two numbers: 991/59 + 282266208211/194805934070",
+    "answer": "209706386947819/11493550110130",
+    "category": "add_easy_Fraction_Fraction_Fraction",
+    "subcategory": "12"
+  },
+  {
+    "id": "nubp-sampled-38",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Add two numbers: 11870346608081825450/45796323691524679609 + 643/149",
+    "answer": "31215717778254560980637/6823652230037177261741",
+    "category": "add_easy_Fraction_Fraction_Fraction",
+    "subcategory": "20"
+  },
+  {
+    "id": "nubp-sampled-39",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Add two numbers: 7/64 + 915178281/473779405",
+    "answer": "61887865819/30321881920",
+    "category": "add_easy_Fraction_Fraction_Fraction",
+    "subcategory": "9"
+  },
+  {
+    "id": "nubp-sampled-40",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Add two numbers: 6.9118e23 + 9.2315e25",
+    "answer": "9.300618e25",
+    "category": "add_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "4"
+  },
+  {
+    "id": "nubp-sampled-41",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Add two numbers: 4.58957117992e27 + 6.761918023031201386e31",
+    "answer": "6.762376980149193386e31",
+    "category": "add_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "18"
+  },
+  {
+    "id": "nubp-sampled-42",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Add two numbers: 5.30317660844293741662e27 + 4.3498169403132e25",
+    "answer": "5.34667477784606941662e27",
+    "category": "add_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "20"
+  },
+  {
+    "id": "nubp-sampled-43",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Add two numbers: 8.0321453e89 + 9.4249718e91",
+    "answer": "9.505293253e91",
+    "category": "add_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "7"
+  },
+  {
+    "id": "nubp-sampled-44",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Add two numbers: 1.873065234532287e0 + 4.82731327e0",
+    "answer": "6.700378504532287e0",
+    "category": "add_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "15"
+  },
+  {
+    "id": "nubp-sampled-45",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Add two numbers: 7.61123e71 + 3.98464e69",
+    "answer": "7.6510764e71",
+    "category": "add_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "5"
+  },
+  {
+    "id": "nubp-sampled-46",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Add two numbers: 7.50443477e74 + 7.875517999978e74",
+    "answer": "1.5379952769978e75",
+    "category": "add_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "12"
+  },
+  {
+    "id": "nubp-sampled-47",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Add two numbers: 9.2980399e72 + 5.94642615902488e76",
+    "answer": "5.94735596301488e76",
+    "category": "add_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "14"
+  },
+  {
+    "id": "nubp-sampled-48",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Add two numbers: 6.148710251e53 + 6.62364e57",
+    "answer": "6.6242548710251e57",
+    "category": "add_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "9"
+  },
+  {
+    "id": "nubp-sampled-49",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Add two numbers: 8.21e64 + 2.21884e59",
+    "answer": "8.2100221884e64",
+    "category": "add_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "5"
+  },
+  {
+    "id": "nubp-sampled-50",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Subtract two numbers: 1379 - 15",
+    "answer": "1364",
+    "category": "sub_Integer_Integer_Integer",
+    "subcategory": "4"
+  },
+  {
+    "id": "nubp-sampled-51",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Subtract two numbers: 5299099020 - 4433714394",
+    "answer": "865384626",
+    "category": "sub_Integer_Integer_Integer",
+    "subcategory": "10"
+  },
+  {
+    "id": "nubp-sampled-52",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Subtract two numbers: 654278092316 - 2306248652",
+    "answer": "651971843664",
+    "category": "sub_Integer_Integer_Integer",
+    "subcategory": "12"
+  },
+  {
+    "id": "nubp-sampled-53",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Subtract two numbers: 82030 - 644",
+    "answer": "81386",
+    "category": "sub_Integer_Integer_Integer",
+    "subcategory": "5"
+  },
+  {
+    "id": "nubp-sampled-54",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Subtract two numbers: 1656711795 - 898046",
+    "answer": "1655813749",
+    "category": "sub_Integer_Integer_Integer",
+    "subcategory": "10"
+  },
+  {
+    "id": "nubp-sampled-55",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Subtract two numbers: 376765 - 249489",
+    "answer": "127276",
+    "category": "sub_Integer_Integer_Integer",
+    "subcategory": "6"
+  },
+  {
+    "id": "nubp-sampled-56",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Subtract two numbers: 879391264623483 - 90321187647",
+    "answer": "879300943435836",
+    "category": "sub_Integer_Integer_Integer",
+    "subcategory": "15"
+  },
+  {
+    "id": "nubp-sampled-57",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Subtract two numbers: 101338233136 - 8704321523",
+    "answer": "92633911613",
+    "category": "sub_Integer_Integer_Integer",
+    "subcategory": "12"
+  },
+  {
+    "id": "nubp-sampled-58",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Subtract two numbers: 78983304822669458 - 30326354",
+    "answer": "78983304792343104",
+    "category": "sub_Integer_Integer_Integer",
+    "subcategory": "17"
+  },
+  {
+    "id": "nubp-sampled-59",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Subtract two numbers: 89572098101885 - 51732777930922",
+    "answer": "37839320170963",
+    "category": "sub_Integer_Integer_Integer",
+    "subcategory": "14"
+  },
+  {
+    "id": "nubp-sampled-60",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Subtract two numbers: 61197424.22071931 - 825.1172",
+    "answer": "61196599.10351931",
+    "category": "sub_Float_Float_Float",
+    "subcategory": "8"
+  },
+  {
+    "id": "nubp-sampled-61",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Subtract two numbers: 99942821637815.168003244411112 - 8848093.059468859",
+    "answer": "99942812789722.108534385411112",
+    "category": "sub_Float_Float_Float",
+    "subcategory": "15"
+  },
+  {
+    "id": "nubp-sampled-62",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Subtract two numbers: 14135.3131318793 - 5.25434300488044",
+    "answer": "14130.05878887441956",
+    "category": "sub_Float_Float_Float",
+    "subcategory": "14"
+  },
+  {
+    "id": "nubp-sampled-63",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Subtract two numbers: 5912631.19151032 - 5532.688417277",
+    "answer": "5907098.503093043",
+    "category": "sub_Float_Float_Float",
+    "subcategory": "9"
+  },
+  {
+    "id": "nubp-sampled-64",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Subtract two numbers: 6258682051.56490977262 - 142187.50005762034",
+    "answer": "6258539864.06485215228",
+    "category": "sub_Float_Float_Float",
+    "subcategory": "11"
+  },
+  {
+    "id": "nubp-sampled-65",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Subtract two numbers: 5213.33105 - 30.65296",
+    "answer": "5182.67809",
+    "category": "sub_Float_Float_Float",
+    "subcategory": "5"
+  },
+  {
+    "id": "nubp-sampled-66",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Subtract two numbers: 2701554.11938058 - 444.68635",
+    "answer": "2701109.43303058",
+    "category": "sub_Float_Float_Float",
+    "subcategory": "8"
+  },
+  {
+    "id": "nubp-sampled-67",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Subtract two numbers: 970058025210.60355246013844399406 - 432484109161.26561311795373",
+    "answer": "537573916049.33793934218471399406",
+    "category": "sub_Float_Float_Float",
+    "subcategory": "20"
+  },
+  {
+    "id": "nubp-sampled-68",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Subtract two numbers: 183241.04480996482 - 26.18101533299",
+    "answer": "183214.86379463183",
+    "category": "sub_Float_Float_Float",
+    "subcategory": "11"
+  },
+  {
+    "id": "nubp-sampled-69",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Subtract two numbers: 991.94283034 - 94.28695",
+    "answer": "897.65588034",
+    "category": "sub_Float_Float_Float",
+    "subcategory": "8"
+  },
+  {
+    "id": "nubp-sampled-70",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Subtract two numbers: 9650937810568723/3113497336742290 - 1938257903/1010742208",
+    "answer": "1859924686507360476971257/1573471586370510860788160",
+    "category": "sub_Fraction_Fraction_Fraction",
+    "subcategory": "16"
+  },
+  {
+    "id": "nubp-sampled-71",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Subtract two numbers: 6165673629924/1941587274599 - 1587843901/2323197776",
+    "answer": "11241141752350049478325/4510691238258298091824",
+    "category": "sub_Fraction_Fraction_Fraction",
+    "subcategory": "13"
+  },
+  {
+    "id": "nubp-sampled-72",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Subtract two numbers: 72873/22463 - 4477506011/5809102190",
+    "answer": "322748486366777/130489862493970",
+    "category": "sub_Fraction_Fraction_Fraction",
+    "subcategory": "10"
+  },
+  {
+    "id": "nubp-sampled-73",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Subtract two numbers: 6573026308001390984/4543009454803114199 - 103732090027/724299636055",
+    "answer": "4289584696906198994494328334747/3290500094708319586016302844945",
+    "category": "sub_Fraction_Fraction_Fraction",
+    "subcategory": "19"
+  },
+  {
+    "id": "nubp-sampled-74",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Subtract two numbers: 40097711/13073820 - 1991/1634",
+    "answer": "19744842077/10681310940",
+    "category": "sub_Fraction_Fraction_Fraction",
+    "subcategory": "8"
+  },
+  {
+    "id": "nubp-sampled-75",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Subtract two numbers: 75911242451/99619677605 - 440449395/19158518357",
+    "answer": "1410469505268943874032/1908565422113814294985",
+    "category": "sub_Fraction_Fraction_Fraction",
+    "subcategory": "11"
+  },
+  {
+    "id": "nubp-sampled-76",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Subtract two numbers: 9/1 - 9/16",
+    "answer": "135/16",
+    "category": "sub_Fraction_Fraction_Fraction",
+    "subcategory": "2"
+  },
+  {
+    "id": "nubp-sampled-77",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Subtract two numbers: 19419918/10619947 - 9401/6768",
+    "answer": "31595883277/71875801296",
+    "category": "sub_Fraction_Fraction_Fraction",
+    "subcategory": "8"
+  },
+  {
+    "id": "nubp-sampled-78",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Subtract two numbers: 19/14 - 3/13",
+    "answer": "205/182",
+    "category": "sub_Fraction_Fraction_Fraction",
+    "subcategory": "2"
+  },
+  {
+    "id": "nubp-sampled-79",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Subtract two numbers: 9400442764/4139614657 - 15269629694/27259969501",
+    "answer": "193045400154291315806/112845769295712576157",
+    "category": "sub_Fraction_Fraction_Fraction",
+    "subcategory": "11"
+  },
+  {
+    "id": "nubp-sampled-80",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Subtract two numbers: 8.8905785205241e59 - 2.8357969041718115e54",
+    "answer": "8.890550162555058281885e59",
+    "category": "sub_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "16"
+  },
+  {
+    "id": "nubp-sampled-81",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Subtract two numbers: 8.38520172676e43 - 9.7649364e41",
+    "answer": "8.28755236276e43",
+    "category": "sub_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "11"
+  },
+  {
+    "id": "nubp-sampled-82",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Subtract two numbers: 3.15835e57 - 4.6571e53",
+    "answer": "3.15788429e57",
+    "category": "sub_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "5"
+  },
+  {
+    "id": "nubp-sampled-83",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Subtract two numbers: 3.23899e69 - 2.614974071e64",
+    "answer": "3.23896385025929e69",
+    "category": "sub_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "9"
+  },
+  {
+    "id": "nubp-sampled-84",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Subtract two numbers: 4.572645e83 - 8.1905393569644e79",
+    "answer": "4.57182594606430356e83",
+    "category": "sub_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "13"
+  },
+  {
+    "id": "nubp-sampled-85",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Subtract two numbers: 8.526433591e89 - 3.60039631e85",
+    "answer": "8.526073551369e89",
+    "category": "sub_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "9"
+  },
+  {
+    "id": "nubp-sampled-86",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Subtract two numbers: 6.6419687065207948358e72 - 1.588249383998e68",
+    "answer": "6.6418098815823950358e72",
+    "category": "sub_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "19"
+  },
+  {
+    "id": "nubp-sampled-87",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Subtract two numbers: 1.155607733853481e21 - 3.180400736e17",
+    "answer": "1.155289693779881e21",
+    "category": "sub_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "15"
+  },
+  {
+    "id": "nubp-sampled-88",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Subtract two numbers: 1.330257754385381002e75 - 4.693344604601e71",
+    "answer": "1.329788419924920902e75",
+    "category": "sub_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "18"
+  },
+  {
+    "id": "nubp-sampled-89",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Subtract two numbers: 7.71905e52 - 4.0980242e48",
+    "answer": "7.71864019758e52",
+    "category": "sub_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "7"
+  },
+  {
+    "id": "nubp-sampled-90",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the maximal number: 927084920186423813186659560639222366355 and 95124369526434724474384",
+    "answer": "927084920186423813186659560639222366355",
+    "category": "max_Integer_Integer_Integer",
+    "subcategory": "39"
+  },
+  {
+    "id": "nubp-sampled-91",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the maximal number: 39296668858432919247476 and 42389879798012642852852",
+    "answer": "42389879798012642852852",
+    "category": "max_Integer_Integer_Integer",
+    "subcategory": "23"
+  },
+  {
+    "id": "nubp-sampled-92",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the maximal number: 2291207945666727374157394026680373063 and 848550672324250816",
+    "answer": "2291207945666727374157394026680373063",
+    "category": "max_Integer_Integer_Integer",
+    "subcategory": "37"
+  },
+  {
+    "id": "nubp-sampled-93",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the maximal number: 90711046694128229255262045026777385620716468923 and 787455585429290690422480543006859163280513449359882229717582313731525981977426",
+    "answer": "787455585429290690422480543006859163280513449359882229717582313731525981977426",
+    "category": "max_Integer_Integer_Integer",
+    "subcategory": "78"
+  },
+  {
+    "id": "nubp-sampled-94",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the maximal number: 7186370133751410313698205280567267168152615 and 492234131800236196870161284490004618034916134911629103680898575961608994183",
+    "answer": "492234131800236196870161284490004618034916134911629103680898575961608994183",
+    "category": "max_Integer_Integer_Integer",
+    "subcategory": "75"
+  },
+  {
+    "id": "nubp-sampled-95",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the maximal number: 8731227499629275265082 and 800332209419922329806549437069031651644",
+    "answer": "800332209419922329806549437069031651644",
+    "category": "max_Integer_Integer_Integer",
+    "subcategory": "39"
+  },
+  {
+    "id": "nubp-sampled-96",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the maximal number: 372452759547672811607703630518695858814738413845459302108152913132985599414375793 and 30843130609667131715903243267348483467193218794150057857393207753984654769670629",
+    "answer": "372452759547672811607703630518695858814738413845459302108152913132985599414375793",
+    "category": "max_Integer_Integer_Integer",
+    "subcategory": "81"
+  },
+  {
+    "id": "nubp-sampled-97",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the maximal number: 20908653628092283917554326693552763914047 and 2786804446381198105427744343181428464297029001803863527489501",
+    "answer": "2786804446381198105427744343181428464297029001803863527489501",
+    "category": "max_Integer_Integer_Integer",
+    "subcategory": "61"
+  },
+  {
+    "id": "nubp-sampled-98",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the maximal number: 999110853840367352701525843079294707291612881549563499914081312289678794498953779 and 56144533767679203105092306794606432813402992115436910383288157710",
+    "answer": "999110853840367352701525843079294707291612881549563499914081312289678794498953779",
+    "category": "max_Integer_Integer_Integer",
+    "subcategory": "81"
+  },
+  {
+    "id": "nubp-sampled-99",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the maximal number: 647797477126070034078555202639829137370631358895436908753 and 16741531408734336560457621730909",
+    "answer": "647797477126070034078555202639829137370631358895436908753",
+    "category": "max_Integer_Integer_Integer",
+    "subcategory": "57"
+  },
+  {
+    "id": "nubp-sampled-100",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Get the maximal number: 695103264.02670416742060484688422608728557 and 789291309138879843378699575018577.06552778500824654590496054098273373031160269696786",
+    "answer": "789291309138879843378699575018577.06552778500824654590496054098273373031160269696786",
+    "category": "max_Float_Float_Float",
+    "subcategory": "50"
+  },
+  {
+    "id": "nubp-sampled-101",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Get the maximal number: 248185604013782529392621087128.4605288945832577992711987275832 and 54075637314292973883858.1940324356430178915271416487034",
+    "answer": "248185604013782529392621087128.4605288945832577992711987275832",
+    "category": "max_Float_Float_Float",
+    "subcategory": "31"
+  },
+  {
+    "id": "nubp-sampled-102",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Get the maximal number: 96434.9032612006085 and 831.214456139613778903639",
+    "answer": "96434.9032612006085",
+    "category": "max_Float_Float_Float",
+    "subcategory": "21"
+  },
+  {
+    "id": "nubp-sampled-103",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Get the maximal number: 1295331361800.0466489348836425987009246505913179812586875761738707914 and 149464975307898876972952720.959279806918233250231178070103038762631104283555105423797147428081864",
+    "answer": "149464975307898876972952720.959279806918233250231178070103038762631104283555105423797147428081864",
+    "category": "max_Float_Float_Float",
+    "subcategory": "69"
+  },
+  {
+    "id": "nubp-sampled-104",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Get the maximal number: 41943340978905778176251130592818.10364232839328012886079360340842185015374977408267924434 and 833845545819779297216861.1190214171181661362362873822785545619180157271379235943057468144058",
+    "answer": "41943340978905778176251130592818.10364232839328012886079360340842185015374977408267924434",
+    "category": "max_Float_Float_Float",
+    "subcategory": "67"
+  },
+  {
+    "id": "nubp-sampled-105",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Get the maximal number: 21.022903724302 and 40194761590226.37112470555348",
+    "answer": "40194761590226.37112470555348",
+    "category": "max_Float_Float_Float",
+    "subcategory": "14"
+  },
+  {
+    "id": "nubp-sampled-106",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Get the maximal number: 8.422811 and 78.082094715",
+    "answer": "78.082094715",
+    "category": "max_Float_Float_Float",
+    "subcategory": "9"
+  },
+  {
+    "id": "nubp-sampled-107",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Get the maximal number: 5513.03522003282 and 2385387543104438.66252252303432978",
+    "answer": "2385387543104438.66252252303432978",
+    "category": "max_Float_Float_Float",
+    "subcategory": "17"
+  },
+  {
+    "id": "nubp-sampled-108",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Get the maximal number: 9.85413852904962 and 49.91927611560210626996816",
+    "answer": "49.91927611560210626996816",
+    "category": "max_Float_Float_Float",
+    "subcategory": "23"
+  },
+  {
+    "id": "nubp-sampled-109",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Get the maximal number: 1474224715416067705194113095302938591134.1544540971158160833083564203774073364312787044299 and 6957115402969210801428289052282021755763336.6700378596841529228702005266640708609767357081312183781623229852513605479410425635515",
+    "answer": "6957115402969210801428289052282021755763336.6700378596841529228702005266640708609767357081312183781623229852513605479410425635515",
+    "category": "max_Float_Float_Float",
+    "subcategory": "85"
+  },
+  {
+    "id": "nubp-sampled-110",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Get the maximal number: 5121/743593 and 181721/796196",
+    "answer": "181721/796196",
+    "category": "max_Fraction_Fraction_Fraction",
+    "subcategory": "6"
+  },
+  {
+    "id": "nubp-sampled-111",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Get the maximal number: 2325975643/3613463272 and 317300643583251/800351539099216",
+    "answer": "2325975643/3613463272",
+    "category": "max_Fraction_Fraction_Fraction",
+    "subcategory": "15"
+  },
+  {
+    "id": "nubp-sampled-112",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Get the maximal number: 43178074430461146089/80121612218102475657 and 703739821975/762405679376",
+    "answer": "703739821975/762405679376",
+    "category": "max_Fraction_Fraction_Fraction",
+    "subcategory": "20"
+  },
+  {
+    "id": "nubp-sampled-113",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Get the maximal number: 133/226 and 26/29",
+    "answer": "26/29",
+    "category": "max_Fraction_Fraction_Fraction",
+    "subcategory": "3"
+  },
+  {
+    "id": "nubp-sampled-114",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Get the maximal number: 3931864041/6892175548 and 8702955238721/9124602120622",
+    "answer": "8702955238721/9124602120622",
+    "category": "max_Fraction_Fraction_Fraction",
+    "subcategory": "13"
+  },
+  {
+    "id": "nubp-sampled-115",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Get the maximal number: 293103/317773 and 2210450886949/2446408302237",
+    "answer": "293103/317773",
+    "category": "max_Fraction_Fraction_Fraction",
+    "subcategory": "13"
+  },
+  {
+    "id": "nubp-sampled-116",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Get the maximal number: 4188009449/6103454387 and 11088250639252907327/13892820685162450043",
+    "answer": "11088250639252907327/13892820685162450043",
+    "category": "max_Fraction_Fraction_Fraction",
+    "subcategory": "20"
+  },
+  {
+    "id": "nubp-sampled-117",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Get the maximal number: 20232465/25977128 and 2737769740257689/2876998087450234",
+    "answer": "2737769740257689/2876998087450234",
+    "category": "max_Fraction_Fraction_Fraction",
+    "subcategory": "16"
+  },
+  {
+    "id": "nubp-sampled-118",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Get the maximal number: 166977246919955123/320951528534534927 and 2083779946/3859224325",
+    "answer": "2083779946/3859224325",
+    "category": "max_Fraction_Fraction_Fraction",
+    "subcategory": "18"
+  },
+  {
+    "id": "nubp-sampled-119",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Get the maximal number: 152566422/306664121 and 5018162/9751823",
+    "answer": "5018162/9751823",
+    "category": "max_Fraction_Fraction_Fraction",
+    "subcategory": "9"
+  },
+  {
+    "id": "nubp-sampled-120",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Get the maximal number: 7.2090170393358455548078768649245538560672868224483e24 and 2.819161713898455106228571942104631172909320795534608550412113528534459795085e80",
+    "answer": "2.819161713898455106228571942104631172909320795534608550412113528534459795085e80",
+    "category": "max_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "75"
+  },
+  {
+    "id": "nubp-sampled-121",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Get the maximal number: 6.1858e71 and 7.2157e62",
+    "answer": "6.1858e71",
+    "category": "max_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "4"
+  },
+  {
+    "id": "nubp-sampled-122",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Get the maximal number: 6.4229925412457513584374823948590544853862040704275944090781630255135655027398602e8 and 7.28043079677604211915081301717153802345173736490059777584440536886382976557959974459432899864e87",
+    "answer": "7.28043079677604211915081301717153802345173736490059777584440536886382976557959974459432899864e87",
+    "category": "max_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "92"
+  },
+  {
+    "id": "nubp-sampled-123",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Get the maximal number: 7.32738846505411012347061587503627680457712674969121786963279074012241963741e99 and 1.0152010628543965278672519675030202966334151111428395169803485026933713971909071372953895517754813e64",
+    "answer": "7.32738846505411012347061587503627680457712674969121786963279074012241963741e99",
+    "category": "max_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "97"
+  },
+  {
+    "id": "nubp-sampled-124",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Get the maximal number: 8.898725886990255131e82 and 1.976142926e51",
+    "answer": "8.898725886990255131e82",
+    "category": "max_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "18"
+  },
+  {
+    "id": "nubp-sampled-125",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Get the maximal number: 8.61595172776882886769248889001226672238080634672470779418413811229257491433581102329831990659e86 and 7.1083566971585252100925762506643339636612168142237615900469657400312210396e40",
+    "answer": "8.61595172776882886769248889001226672238080634672470779418413811229257491433581102329831990659e86",
+    "category": "max_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "92"
+  },
+  {
+    "id": "nubp-sampled-126",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Get the maximal number: 4.06204923130739994697333905912856608730529077205568264547645771e45 and 8.4814407590312374885976581974109986792865826579280206023716410216898689324e84",
+    "answer": "8.4814407590312374885976581974109986792865826579280206023716410216898689324e84",
+    "category": "max_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "73"
+  },
+  {
+    "id": "nubp-sampled-127",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Get the maximal number: 2.5720215483099319937780078192401502603e61 and 3.806957846582851738011790522839821e91",
+    "answer": "3.806957846582851738011790522839821e91",
+    "category": "max_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "37"
+  },
+  {
+    "id": "nubp-sampled-128",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Get the maximal number: 4.330746992503998939731199081715218451865460826525963307445005853848224528567880244918814e40 and 1.77432717104096363454420922559807088906402498e4",
+    "answer": "4.330746992503998939731199081715218451865460826525963307445005853848224528567880244918814e40",
+    "category": "max_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "87"
+  },
+  {
+    "id": "nubp-sampled-129",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Get the maximal number: 7.51306555563051494521096760423899870377513849264e72 and 4.686293312839829929489024543763e66",
+    "answer": "7.51306555563051494521096760423899870377513849264e72",
+    "category": "max_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "47"
+  },
+  {
+    "id": "nubp-sampled-130",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the maximal number: 2190970820492699813 and 2190970820492690487",
+    "answer": "2190970820492699813",
+    "category": "max_hard_Integer_Integer_Integer",
+    "subcategory": "19"
+  },
+  {
+    "id": "nubp-sampled-131",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the maximal number: 6287155278894170559729187955612690558773603 and 6280549242294366011026213193672581301475333",
+    "answer": "6287155278894170559729187955612690558773603",
+    "category": "max_hard_Integer_Integer_Integer",
+    "subcategory": "43"
+  },
+  {
+    "id": "nubp-sampled-132",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the maximal number: 2069476572533165337840526430636015272197432885306503372828757 and 2069476572533165337840526430636015272197432113560142790001428",
+    "answer": "2069476572533165337840526430636015272197432885306503372828757",
+    "category": "max_hard_Integer_Integer_Integer",
+    "subcategory": "61"
+  },
+  {
+    "id": "nubp-sampled-133",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the maximal number: 1581224558635355113074152 and 1581224559535687685005357",
+    "answer": "1581224559535687685005357",
+    "category": "max_hard_Integer_Integer_Integer",
+    "subcategory": "25"
+  },
+  {
+    "id": "nubp-sampled-134",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the maximal number: 7613395921065543472963387031734084279830589302592650840160954395 and 7613395921066065428915482627279762132304445884330713704274333233",
+    "answer": "7613395921066065428915482627279762132304445884330713704274333233",
+    "category": "max_hard_Integer_Integer_Integer",
+    "subcategory": "64"
+  },
+  {
+    "id": "nubp-sampled-135",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the maximal number: 14570 and 14399",
+    "answer": "14570",
+    "category": "max_hard_Integer_Integer_Integer",
+    "subcategory": "5"
+  },
+  {
+    "id": "nubp-sampled-136",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the maximal number: 364958681044496188904238892484954298132510167892268430588451246616729518863004318251416828163917771 and 364958681044496188904238892484954298132510167892284077566847502869031901115903649053698254958385733",
+    "answer": "364958681044496188904238892484954298132510167892284077566847502869031901115903649053698254958385733",
+    "category": "max_hard_Integer_Integer_Integer",
+    "subcategory": "99"
+  },
+  {
+    "id": "nubp-sampled-137",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the maximal number: 656259649664118769432337493580403076390671215856770568067756624587980568223473733595136558497943213 and 656259649664118769432337493580403076390671215856770568067756624587980562955081373208101414567770988",
+    "answer": "656259649664118769432337493580403076390671215856770568067756624587980568223473733595136558497943213",
+    "category": "max_hard_Integer_Integer_Integer",
+    "subcategory": "99"
+  },
+  {
+    "id": "nubp-sampled-138",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the maximal number: 529066296524623809108376208534032285599 and 529066296524623809108376208534032897372",
+    "answer": "529066296524623809108376208534032897372",
+    "category": "max_hard_Integer_Integer_Integer",
+    "subcategory": "39"
+  },
+  {
+    "id": "nubp-sampled-139",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the maximal number: 4962816476581817532646490778189999021625471544830494954433540469089474 and 4962816476581817532646490778189999021341744797228551572041899048737359",
+    "answer": "4962816476581817532646490778189999021625471544830494954433540469089474",
+    "category": "max_hard_Integer_Integer_Integer",
+    "subcategory": "70"
+  },
+  {
+    "id": "nubp-sampled-140",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Get the maximal number: 413812.7055122093630556673667036 and 68846306654963.29308398499213719296854853",
+    "answer": "68846306654963.29308398499213719296854853",
+    "category": "max_hard_Float_Float_Float",
+    "subcategory": "26"
+  },
+  {
+    "id": "nubp-sampled-141",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Get the maximal number: 76023280447315.688213479180470156517862003922247588 and 19260064600321342950208430.688213479180477124248361508127650584538983593776067790185382279376584",
+    "answer": "19260064600321342950208430.688213479180477124248361508127650584538983593776067790185382279376584",
+    "category": "max_hard_Float_Float_Float",
+    "subcategory": "69"
+  },
+  {
+    "id": "nubp-sampled-142",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Get the maximal number: 8549469937718.3328314557753539 and 87890621836.33283149138876",
+    "answer": "8549469937718.3328314557753539",
+    "category": "max_hard_Float_Float_Float",
+    "subcategory": "16"
+  },
+  {
+    "id": "nubp-sampled-143",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Get the maximal number: 8964.59148199007456442362658518550702485717212848312518684907 and 39367762904492219058506386379974530754492048377218688797.591481990074564423626585185507024857172128698526495682082887490220507878941744774796",
+    "answer": "39367762904492219058506386379974530754492048377218688797.591481990074564423626585185507024857172128698526495682082887490220507878941744774796",
+    "category": "max_hard_Float_Float_Float",
+    "subcategory": "84"
+  },
+  {
+    "id": "nubp-sampled-144",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Get the maximal number: 7982936330133383916348.8112155797769696821477920220489 and 3718190874505419996243652405885274.811215579776969682147792022048334079077755",
+    "answer": "3718190874505419996243652405885274.811215579776969682147792022048334079077755",
+    "category": "max_hard_Float_Float_Float",
+    "subcategory": "42"
+  },
+  {
+    "id": "nubp-sampled-145",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Get the maximal number: 8000438794220.47200430674944148731726003614285497301113146687841453326397977641704627595998116280435 and 81580756008442630708166534748378010404.47200430674944148731726003614285406827209081725508997487007500597105",
+    "answer": "81580756008442630708166534748378010404.47200430674944148731726003614285406827209081725508997487007500597105",
+    "category": "max_hard_Float_Float_Float",
+    "subcategory": "86"
+  },
+  {
+    "id": "nubp-sampled-146",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Get the maximal number: 24999006662027535774233704987577836451.890500967008278774467841578982124565747882759134966560064014263398605 and 4166612250019661442875456743627699572725.89050096700827878044685955799850116553170129218443819",
+    "answer": "4166612250019661442875456743627699572725.89050096700827878044685955799850116553170129218443819",
+    "category": "max_hard_Float_Float_Float",
+    "subcategory": "69"
+  },
+  {
+    "id": "nubp-sampled-147",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Get the maximal number: 47341704537795991170697067.15759421082002349652671839506981968507013765413625471 and 23302620982070269100474225388680857565796646754742470999463528521208687461.8852997180757817105067135908778503778078685896825375771621444338470391072315589947",
+    "answer": "23302620982070269100474225388680857565796646754742470999463528521208687461.8852997180757817105067135908778503778078685896825375771621444338470391072315589947",
+    "category": "max_hard_Float_Float_Float",
+    "subcategory": "82"
+  },
+  {
+    "id": "nubp-sampled-148",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Get the maximal number: 518674002518809514310591815.06455024750273644472131964964 and 2664.0645502475020954902036902387",
+    "answer": "518674002518809514310591815.06455024750273644472131964964",
+    "category": "max_hard_Float_Float_Float",
+    "subcategory": "29"
+  },
+  {
+    "id": "nubp-sampled-149",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Get the maximal number: 9.86244066263 and 351213561309235698.31040087615365149385393",
+    "answer": "351213561309235698.31040087615365149385393",
+    "category": "max_hard_Float_Float_Float",
+    "subcategory": "23"
+  },
+  {
+    "id": "nubp-sampled-150",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Get the maximal number: 9.8188822003367883819180557582231546620332749952439312e8 and 9.818882200336788381918055758223154635438892e8",
+    "answer": "9.8188822003367883819180557582231546620332749952439312e8",
+    "category": "max_hard_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "52"
+  },
+  {
+    "id": "nubp-sampled-151",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Get the maximal number: 2.833531941115342485493857e21 and 2.83306752183457944896685e50",
+    "answer": "2.83306752183457944896685e50",
+    "category": "max_hard_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "24"
+  },
+  {
+    "id": "nubp-sampled-152",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Get the maximal number: 2.5584835735843608071449091154756442267357068178340015613336784592767633401e23 and 2.558485064095646152920577041174483469161851e23",
+    "answer": "2.558485064095646152920577041174483469161851e23",
+    "category": "max_hard_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "73"
+  },
+  {
+    "id": "nubp-sampled-153",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Get the maximal number: 8.861717486243226100688042668874969655857670431211972895609061283707034811e44 and 8.861717486243758870225693882347832758061734382818704009101e44",
+    "answer": "8.861717486243758870225693882347832758061734382818704009101e44",
+    "category": "max_hard_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "72"
+  },
+  {
+    "id": "nubp-sampled-154",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Get the maximal number: 9.425e96 and 2.9e57",
+    "answer": "9.425e96",
+    "category": "max_hard_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "3"
+  },
+  {
+    "id": "nubp-sampled-155",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Get the maximal number: 4.599895686129135579127411913330072451985279408303110785073209826159702705558940063e6 and 4.59989568612913942784128855422201365362932197545256868232435471518343553764e6",
+    "answer": "4.59989568612913942784128855422201365362932197545256868232435471518343553764e6",
+    "category": "max_hard_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "81"
+  },
+  {
+    "id": "nubp-sampled-156",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Get the maximal number: 1.752237548735126242416121819938414550932288861e78 and 1.62925310523290846825219552361109085177e78",
+    "answer": "1.752237548735126242416121819938414550932288861e78",
+    "category": "max_hard_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "45"
+  },
+  {
+    "id": "nubp-sampled-157",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Get the maximal number: 5.6721036856796361023092232407695622712428065540055473190139048926617e62 and 5.6721036883213555370342709691864968007577303e62",
+    "answer": "5.6721036883213555370342709691864968007577303e62",
+    "category": "max_hard_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "67"
+  },
+  {
+    "id": "nubp-sampled-158",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Get the maximal number: 4.993e11 and 4.99627e11",
+    "answer": "4.99627e11",
+    "category": "max_hard_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "5"
+  },
+  {
+    "id": "nubp-sampled-159",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Get the maximal number: 2.175693858e40 and 2.17565044821817694e40",
+    "answer": "2.175693858e40",
+    "category": "max_hard_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "17"
+  },
+  {
+    "id": "nubp-sampled-160",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Multiply two numbers: 60934723498111 * 9347613263",
+    "answer": "569594229548180139046193",
+    "category": "multiply_hard_Integer_Integer_Integer",
+    "subcategory": "14"
+  },
+  {
+    "id": "nubp-sampled-161",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Multiply two numbers: 59774836 * 6612592810718",
+    "answer": "395266650795447492248",
+    "category": "multiply_hard_Integer_Integer_Integer",
+    "subcategory": "13"
+  },
+  {
+    "id": "nubp-sampled-162",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Multiply two numbers: 6415551629 * 1611254692",
+    "answer": "10337087663994493268",
+    "category": "multiply_hard_Integer_Integer_Integer",
+    "subcategory": "10"
+  },
+  {
+    "id": "nubp-sampled-163",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Multiply two numbers: 6961 * 8660",
+    "answer": "60282260",
+    "category": "multiply_hard_Integer_Integer_Integer",
+    "subcategory": "4"
+  },
+  {
+    "id": "nubp-sampled-164",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Multiply two numbers: 4693235618 * 601752",
+    "answer": "2824163919602736",
+    "category": "multiply_hard_Integer_Integer_Integer",
+    "subcategory": "10"
+  },
+  {
+    "id": "nubp-sampled-165",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Multiply two numbers: 77 * 25759",
+    "answer": "1983443",
+    "category": "multiply_hard_Integer_Integer_Integer",
+    "subcategory": "5"
+  },
+  {
+    "id": "nubp-sampled-166",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Multiply two numbers: 9978 * 81863",
+    "answer": "816829014",
+    "category": "multiply_hard_Integer_Integer_Integer",
+    "subcategory": "5"
+  },
+  {
+    "id": "nubp-sampled-167",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Multiply two numbers: 91386647847476 * 491501267836294994",
+    "answer": "44916653280343472865377054335144",
+    "category": "multiply_hard_Integer_Integer_Integer",
+    "subcategory": "18"
+  },
+  {
+    "id": "nubp-sampled-168",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Multiply two numbers: 66451 * 240",
+    "answer": "15948240",
+    "category": "multiply_hard_Integer_Integer_Integer",
+    "subcategory": "5"
+  },
+  {
+    "id": "nubp-sampled-169",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Multiply two numbers: 85649647285288561093 * 7622094998724",
+    "answer": "652829748215672565128121631045332",
+    "category": "multiply_hard_Integer_Integer_Integer",
+    "subcategory": "20"
+  },
+  {
+    "id": "nubp-sampled-170",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Multiply two numbers: 17783.85341 * 73538.7019274",
+    "answer": "1307801495.038566062434",
+    "category": "multiply_hard_Float_Float_Float",
+    "subcategory": "7"
+  },
+  {
+    "id": "nubp-sampled-171",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Multiply two numbers: 355.4608536 * 79435.0244366",
+    "answer": "28236041.59197069508176",
+    "category": "multiply_hard_Float_Float_Float",
+    "subcategory": "7"
+  },
+  {
+    "id": "nubp-sampled-172",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Multiply two numbers: 14677324.05508042551309 * 9130281709319533.767034336884689057",
+    "answer": "134008103361856418231406.10450659377457296516457433325613",
+    "category": "multiply_hard_Float_Float_Float",
+    "subcategory": "18"
+  },
+  {
+    "id": "nubp-sampled-173",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Multiply two numbers: 68855810.81931349 * 826219.2982686",
+    "answer": "56889999696848.667335797623414",
+    "category": "multiply_hard_Float_Float_Float",
+    "subcategory": "8"
+  },
+  {
+    "id": "nubp-sampled-174",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Multiply two numbers: 916047.5869324 * 6.27171690796",
+    "answer": "5745191.139459891029541904",
+    "category": "multiply_hard_Float_Float_Float",
+    "subcategory": "11"
+  },
+  {
+    "id": "nubp-sampled-175",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Multiply two numbers: 5888.6733588774728232 * 466140825364.13709994781436104425",
+    "answer": "2744951059806950.6951631251673341372741465021476266",
+    "category": "multiply_hard_Float_Float_Float",
+    "subcategory": "20"
+  },
+  {
+    "id": "nubp-sampled-176",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Multiply two numbers: 551.3059880965386533 * 11945611780514.91645611918906",
+    "answer": "6585687306074428.439713773385717846336140492898",
+    "category": "multiply_hard_Float_Float_Float",
+    "subcategory": "16"
+  },
+  {
+    "id": "nubp-sampled-177",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Multiply two numbers: 3.855065248 * 227.02969918",
+    "answer": "875.21430357271209664",
+    "category": "multiply_hard_Float_Float_Float",
+    "subcategory": "9"
+  },
+  {
+    "id": "nubp-sampled-178",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Multiply two numbers: 76796737.9574585833867 * 60445733287054098.98911701121019910743",
+    "answer": "4642035139892325309632299.896701238624540356692776566533181",
+    "category": "multiply_hard_Float_Float_Float",
+    "subcategory": "20"
+  },
+  {
+    "id": "nubp-sampled-179",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Multiply two numbers: 884054.32342328 * 30431882.893600687",
+    "answer": "26903437641998.64376932319979336",
+    "category": "multiply_hard_Float_Float_Float",
+    "subcategory": "9"
+  },
+  {
+    "id": "nubp-sampled-180",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Multiply two numbers: 53166134383/36504904223 * 77625621465/31646041313",
+    "answer": "4127054222372079331095/1155235707168166164799",
+    "category": "multiply_hard_Fraction_Fraction_Fraction",
+    "subcategory": "11"
+  },
+  {
+    "id": "nubp-sampled-181",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Multiply two numbers: 41332954864/86439577293 * 4763125167497/33949898351434",
+    "answer": "98437018779867970427704/1467307431319136260194081",
+    "category": "multiply_hard_Fraction_Fraction_Fraction",
+    "subcategory": "14"
+  },
+  {
+    "id": "nubp-sampled-182",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Multiply two numbers: 7497043703250/1937771956901 * 46810966813/26249376042",
+    "answer": "58490643998074395040375/8477550796722760994307",
+    "category": "multiply_hard_Fraction_Fraction_Fraction",
+    "subcategory": "13"
+  },
+  {
+    "id": "nubp-sampled-183",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Multiply two numbers: 260935451873165/190190926044214 * 29491372954113/44336262586333",
+    "answer": "7695344728141512625441077645/8432354838634111728350127262",
+    "category": "multiply_hard_Fraction_Fraction_Fraction",
+    "subcategory": "15"
+  },
+  {
+    "id": "nubp-sampled-184",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Multiply two numbers: 3230294020184702/4382929804656565 * 21879467336835082/80279853508118215",
+    "answer": "70677112503004872486857753315564/351860962654194222497337495831475",
+    "category": "multiply_hard_Fraction_Fraction_Fraction",
+    "subcategory": "17"
+  },
+  {
+    "id": "nubp-sampled-185",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Multiply two numbers: 137320732011443/325226253819186 * 9837400013757/2073074589778",
+    "answer": "5175781498001879994181691/2583211811192508516229428",
+    "category": "multiply_hard_Fraction_Fraction_Fraction",
+    "subcategory": "15"
+  },
+  {
+    "id": "nubp-sampled-186",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Multiply two numbers: 3804/2071 * 749/666",
+    "answer": "474866/229881",
+    "category": "multiply_hard_Fraction_Fraction_Fraction",
+    "subcategory": "4"
+  },
+  {
+    "id": "nubp-sampled-187",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Multiply two numbers: 28686415/43354863 * 814829255/894921976",
+    "answer": "23374530163070825/38799219665169288",
+    "category": "multiply_hard_Fraction_Fraction_Fraction",
+    "subcategory": "9"
+  },
+  {
+    "id": "nubp-sampled-188",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Multiply two numbers: 6812/9497 * 47892463/36784326",
+    "answer": "163121728978/174670372011",
+    "category": "multiply_hard_Fraction_Fraction_Fraction",
+    "subcategory": "8"
+  },
+  {
+    "id": "nubp-sampled-189",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Multiply two numbers: 55/152 * 9/11",
+    "answer": "45/152",
+    "category": "multiply_hard_Fraction_Fraction_Fraction",
+    "subcategory": "3"
+  },
+  {
+    "id": "nubp-sampled-190",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Multiply two numbers: 5.298779694e94 * 2.15454979235081e45",
+    "answer": "1.141648468942038855245214e140",
+    "category": "multiply_hard_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "14"
+  },
+  {
+    "id": "nubp-sampled-191",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Multiply two numbers: 5.991e44 * 8.447e99",
+    "answer": "5.0605977e144",
+    "category": "multiply_hard_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "3"
+  },
+  {
+    "id": "nubp-sampled-192",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Multiply two numbers: 4.4021591211e97 * 2.1046771326e28",
+    "answer": "9.26512363624568415786e125",
+    "category": "multiply_hard_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "10"
+  },
+  {
+    "id": "nubp-sampled-193",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Multiply two numbers: 6.6251191313e53 * 7.8349165e39",
+    "answer": "5.190725519628803645e93",
+    "category": "multiply_hard_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "10"
+  },
+  {
+    "id": "nubp-sampled-194",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Multiply two numbers: 3.175e15 * 8.61e39",
+    "answer": "2.733675e55",
+    "category": "multiply_hard_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "3"
+  },
+  {
+    "id": "nubp-sampled-195",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Multiply two numbers: 6.65532e3 * 4.9898e1",
+    "answer": "3.3208715736e5",
+    "category": "multiply_hard_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "5"
+  },
+  {
+    "id": "nubp-sampled-196",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Multiply two numbers: 7.6353e31 * 1.534e41",
+    "answer": "1.17125502e73",
+    "category": "multiply_hard_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "4"
+  },
+  {
+    "id": "nubp-sampled-197",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Multiply two numbers: 3.97799583e51 * 4.6696620034e20",
+    "answer": "1.8575895977034645822e72",
+    "category": "multiply_hard_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "10"
+  },
+  {
+    "id": "nubp-sampled-198",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Multiply two numbers: 3.51778e41 * 5.46986e60",
+    "answer": "1.92417641108e102",
+    "category": "multiply_hard_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "5"
+  },
+  {
+    "id": "nubp-sampled-199",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Multiply two numbers: 8.3525e31 * 8.809e60",
+    "answer": "7.35771725e92",
+    "category": "multiply_hard_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "4"
+  },
+  {
+    "id": "nubp-sampled-200",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Multiply two numbers: 7535438851018 * 814",
+    "answer": "6133847224728652",
+    "category": "multiply_easy_Integer_Integer_Integer",
+    "subcategory": "13"
+  },
+  {
+    "id": "nubp-sampled-201",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Multiply two numbers: 83640 * 284",
+    "answer": "23753760",
+    "category": "multiply_easy_Integer_Integer_Integer",
+    "subcategory": "5"
+  },
+  {
+    "id": "nubp-sampled-202",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Multiply two numbers: 2807648598068030849 * 97",
+    "answer": "272341914012598992353",
+    "category": "multiply_easy_Integer_Integer_Integer",
+    "subcategory": "19"
+  },
+  {
+    "id": "nubp-sampled-203",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Multiply two numbers: 7351055203 * 691",
+    "answer": "5079579145273",
+    "category": "multiply_easy_Integer_Integer_Integer",
+    "subcategory": "10"
+  },
+  {
+    "id": "nubp-sampled-204",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Multiply two numbers: 924455631878 * 398",
+    "answer": "367933341487444",
+    "category": "multiply_easy_Integer_Integer_Integer",
+    "subcategory": "12"
+  },
+  {
+    "id": "nubp-sampled-205",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Multiply two numbers: 338154549178593851 * 529",
+    "answer": "178883756515476147179",
+    "category": "multiply_easy_Integer_Integer_Integer",
+    "subcategory": "18"
+  },
+  {
+    "id": "nubp-sampled-206",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Multiply two numbers: 4304230312 * 318",
+    "answer": "1368745239216",
+    "category": "multiply_easy_Integer_Integer_Integer",
+    "subcategory": "10"
+  },
+  {
+    "id": "nubp-sampled-207",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Multiply two numbers: 95860978563239274562 * 147",
+    "answer": "14091563848796173360614",
+    "category": "multiply_easy_Integer_Integer_Integer",
+    "subcategory": "20"
+  },
+  {
+    "id": "nubp-sampled-208",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Multiply two numbers: 9586404 * 47",
+    "answer": "450560988",
+    "category": "multiply_easy_Integer_Integer_Integer",
+    "subcategory": "7"
+  },
+  {
+    "id": "nubp-sampled-209",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Multiply two numbers: 141316811192638651 * 4",
+    "answer": "565267244770554604",
+    "category": "multiply_easy_Integer_Integer_Integer",
+    "subcategory": "18"
+  },
+  {
+    "id": "nubp-sampled-210",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Multiply two numbers: 35545.6874216384 * 221.772",
+    "answer": "7883038.1908715912448",
+    "category": "multiply_easy_Float_Float_Float",
+    "subcategory": "10"
+  },
+  {
+    "id": "nubp-sampled-211",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Multiply two numbers: 947747581395784.593784253466777949 * 238.222",
+    "answer": "225774324335266597.500472429362776566678",
+    "category": "multiply_easy_Float_Float_Float",
+    "subcategory": "18"
+  },
+  {
+    "id": "nubp-sampled-212",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Multiply two numbers: 325.5571386964882947 * 582.21",
+    "answer": "189542.621720482450057287",
+    "category": "multiply_easy_Float_Float_Float",
+    "subcategory": "16"
+  },
+  {
+    "id": "nubp-sampled-213",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Multiply two numbers: 6.451637142 * 398.806",
+    "answer": "2572.951602052452",
+    "category": "multiply_easy_Float_Float_Float",
+    "subcategory": "9"
+  },
+  {
+    "id": "nubp-sampled-214",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Multiply two numbers: 10.360431 * 607.214",
+    "answer": "6290.998749234",
+    "category": "multiply_easy_Float_Float_Float",
+    "subcategory": "6"
+  },
+  {
+    "id": "nubp-sampled-215",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Multiply two numbers: 9.117983 * 90.928",
+    "answer": "829.079958224",
+    "category": "multiply_easy_Float_Float_Float",
+    "subcategory": "6"
+  },
+  {
+    "id": "nubp-sampled-216",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Multiply two numbers: 351938544414563.33559161921107099 * 815.77",
+    "answer": "287100906377068332.2755752038153815123",
+    "category": "multiply_easy_Float_Float_Float",
+    "subcategory": "17"
+  },
+  {
+    "id": "nubp-sampled-217",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Multiply two numbers: 4.49536815230525 * 63.356",
+    "answer": "284.808544657451419",
+    "category": "multiply_easy_Float_Float_Float",
+    "subcategory": "14"
+  },
+  {
+    "id": "nubp-sampled-218",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Multiply two numbers: 291179293134927.3672137732959021 * 567.626",
+    "answer": "165280937445006281.7420852808597254146",
+    "category": "multiply_easy_Float_Float_Float",
+    "subcategory": "16"
+  },
+  {
+    "id": "nubp-sampled-219",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Multiply two numbers: 561.5080490786602947 * 754.398",
+    "answer": "423600.5492088431690010906",
+    "category": "multiply_easy_Float_Float_Float",
+    "subcategory": "16"
+  },
+  {
+    "id": "nubp-sampled-220",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Multiply two numbers: 9689676173294352/7353976355494849 * 5/194",
+    "answer": "24224190433235880/713335706483000353",
+    "category": "multiply_easy_Fraction_Fraction_Fraction",
+    "subcategory": "16"
+  },
+  {
+    "id": "nubp-sampled-221",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Multiply two numbers: 28/17 * 17/12",
+    "answer": "7/3",
+    "category": "multiply_easy_Fraction_Fraction_Fraction",
+    "subcategory": "2"
+  },
+  {
+    "id": "nubp-sampled-222",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Multiply two numbers: 2344/2515 * 721/120",
+    "answer": "211253/37725",
+    "category": "multiply_easy_Fraction_Fraction_Fraction",
+    "subcategory": "4"
+  },
+  {
+    "id": "nubp-sampled-223",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Multiply two numbers: 52/85 * 6/1",
+    "answer": "312/85",
+    "category": "multiply_easy_Fraction_Fraction_Fraction",
+    "subcategory": "2"
+  },
+  {
+    "id": "nubp-sampled-224",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Multiply two numbers: 7211217302737/13515339318179 * 871/859",
+    "answer": "6280970270683927/11609676474315761",
+    "category": "multiply_easy_Fraction_Fraction_Fraction",
+    "subcategory": "14"
+  },
+  {
+    "id": "nubp-sampled-225",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Multiply two numbers: 481871298283/175946689504 * 683/411",
+    "answer": "329118096727289/72314089386144",
+    "category": "multiply_easy_Fraction_Fraction_Fraction",
+    "subcategory": "12"
+  },
+  {
+    "id": "nubp-sampled-226",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Multiply two numbers: 1171/3057 * 91/10",
+    "answer": "106561/30570",
+    "category": "multiply_easy_Fraction_Fraction_Fraction",
+    "subcategory": "4"
+  },
+  {
+    "id": "nubp-sampled-227",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Multiply two numbers: 743376765/667054697 * 506/111",
+    "answer": "125382881030/24681023789",
+    "category": "multiply_easy_Fraction_Fraction_Fraction",
+    "subcategory": "9"
+  },
+  {
+    "id": "nubp-sampled-228",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Multiply two numbers: 606811/5732107 * 919/797",
+    "answer": "557659309/4568489279",
+    "category": "multiply_easy_Fraction_Fraction_Fraction",
+    "subcategory": "7"
+  },
+  {
+    "id": "nubp-sampled-229",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Multiply two numbers: 7652970/9904409 * 603/527",
+    "answer": "2221830/2513059",
+    "category": "multiply_easy_Fraction_Fraction_Fraction",
+    "subcategory": "7"
+  },
+  {
+    "id": "nubp-sampled-230",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Multiply two numbers: 9.56939788992521338315e49 * 5.838e48",
+    "answer": "5.58661448813833957308297e98",
+    "category": "multiply_easy_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "20"
+  },
+  {
+    "id": "nubp-sampled-231",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Multiply two numbers: 9.78700038028213613e83 * 3.47e94",
+    "answer": "3.39608913195790123711e178",
+    "category": "multiply_easy_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "17"
+  },
+  {
+    "id": "nubp-sampled-232",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Multiply two numbers: 7.8571024e33 * 1.298e97",
+    "answer": "1.01985189152e131",
+    "category": "multiply_easy_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "7"
+  },
+  {
+    "id": "nubp-sampled-233",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Multiply two numbers: 6.9668758215090437e1 * 8.941e88",
+    "answer": "6.22908367201123597217e90",
+    "category": "multiply_easy_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "16"
+  },
+  {
+    "id": "nubp-sampled-234",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Multiply two numbers: 4.725625562e9 * 8.947e13",
+    "answer": "4.2280171903214e23",
+    "category": "multiply_easy_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "9"
+  },
+  {
+    "id": "nubp-sampled-235",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Multiply two numbers: 5.558023474398e25 * 3.833e31",
+    "answer": "2.1303903977367534e57",
+    "category": "multiply_easy_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "12"
+  },
+  {
+    "id": "nubp-sampled-236",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Multiply two numbers: 4.258866258824678488e52 * 9.312e82",
+    "answer": "3.9658562602175406080256e135",
+    "category": "multiply_easy_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "18"
+  },
+  {
+    "id": "nubp-sampled-237",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Multiply two numbers: 5.09232758888e73 * 5.599e54",
+    "answer": "2.851194217013912e128",
+    "category": "multiply_easy_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "11"
+  },
+  {
+    "id": "nubp-sampled-238",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Multiply two numbers: 2.31791e52 * 7.511e49",
+    "answer": "1.740982201e102",
+    "category": "multiply_easy_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "5"
+  },
+  {
+    "id": "nubp-sampled-239",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Multiply two numbers: 6.56359470835400806e2 * 1.656e65",
+    "answer": "1.086931283703423734736e68",
+    "category": "multiply_easy_ScientificNotation_ScientificNotation_ScientificNotation",
+    "subcategory": "17"
+  },
+  {
+    "id": "nubp-sampled-240",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Compare two numbers digit by digit and return the larger digit at each position, treating any missing digits as 0. 39747204332583264914885179446042862986217874524012399853990001218168001 and 41007892208370052663667748828126830999725234459102907725022537935880786055771",
+    "answer": "41007899748374352683667948888179846999865986459874927725399857995881788168771",
+    "category": "digit_max_Integer_Integer_Integer",
+    "subcategory": "77"
+  },
+  {
+    "id": "nubp-sampled-241",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Compare two numbers digit by digit and return the larger digit at each position, treating any missing digits as 0. 1277325150 and 82791770039341379",
+    "answer": "82791771279345379",
+    "category": "digit_max_Integer_Integer_Integer",
+    "subcategory": "17"
+  },
+  {
+    "id": "nubp-sampled-242",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Compare two numbers digit by digit and return the larger digit at each position, treating any missing digits as 0. 7905997991 and 39749114771",
+    "answer": "39949997991",
+    "category": "digit_max_Integer_Integer_Integer",
+    "subcategory": "11"
+  },
+  {
+    "id": "nubp-sampled-243",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Compare two numbers digit by digit and return the larger digit at each position, treating any missing digits as 0. 639427518860614484807050724865193826851889523839769521244257856416520864655174838410335794 and 692776119917214580499133498814319694543268772745604204072647852266",
+    "answer": "639427518860614484807050794876199927854889599839799824349697856468772865655274878647855796",
+    "category": "digit_max_Integer_Integer_Integer",
+    "subcategory": "90"
+  },
+  {
+    "id": "nubp-sampled-244",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Compare two numbers digit by digit and return the larger digit at each position, treating any missing digits as 0. 190175588011101096276093096121433093255733826889707920872538300710366140096 and 39627864133605940756757101490862331267062",
+    "answer": "190175588011101096276093096121433099657864836889947956877538490862366267096",
+    "category": "digit_max_Integer_Integer_Integer",
+    "subcategory": "75"
+  },
+  {
+    "id": "nubp-sampled-245",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Compare two numbers digit by digit and return the larger digit at each position, treating any missing digits as 0. 9822 and 835747",
+    "answer": "839847",
+    "category": "digit_max_Integer_Integer_Integer",
+    "subcategory": "6"
+  },
+  {
+    "id": "nubp-sampled-246",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Compare two numbers digit by digit and return the larger digit at each position, treating any missing digits as 0. 204001358417 and 30959410818615659",
+    "answer": "30959414818658659",
+    "category": "digit_max_Integer_Integer_Integer",
+    "subcategory": "17"
+  },
+  {
+    "id": "nubp-sampled-247",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Compare two numbers digit by digit and return the larger digit at each position, treating any missing digits as 0. 51011552902196602405001251244576245 and 485446816565981111985",
+    "answer": "51011552902196685446816565984576985",
+    "category": "digit_max_Integer_Integer_Integer",
+    "subcategory": "35"
+  },
+  {
+    "id": "nubp-sampled-248",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Compare two numbers digit by digit and return the larger digit at each position, treating any missing digits as 0. 68860848330329502093164432 and 72848020219042305946240",
+    "answer": "68872848330329542395966442",
+    "category": "digit_max_Integer_Integer_Integer",
+    "subcategory": "26"
+  },
+  {
+    "id": "nubp-sampled-249",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Compare two numbers digit by digit and return the larger digit at each position, treating any missing digits as 0. 4837475269801242311480748389155354253947749535181260495276 and 116684261612717855709021457770378345963261",
+    "answer": "4837475269801242316684768689757855759947759775388365995276",
+    "category": "digit_max_Integer_Integer_Integer",
+    "subcategory": "58"
+  },
+  {
+    "id": "nubp-sampled-250",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Compare two numbers digit by digit and return the larger digit at each position, treating any missing digits as 0. 13973919388000008360781148561757781988616.8507250292694607966200959945798504525546577804870000402408 and 8925781427152325982842721394791221911981207220282470667564663.205439522805586022059084509787372251622919227953635463330243365546",
+    "answer": "8925781427152325982843973999798221918981787248582777787988666.855739529869586796659095999789872452654959787987635463340843365546",
+    "category": "digit_max_Float_Float_Float",
+    "subcategory": "66"
+  },
+  {
+    "id": "nubp-sampled-251",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Compare two numbers digit by digit and return the larger digit at each position, treating any missing digits as 0. 50716.4229205915239747294970411533414106924210829801666924774785029666 and 564026488846593191163.539437793400726112496439404328714969240098325123278530092043872228",
+    "answer": "564026488846593191766.539937793523976729497449454348714999441098985166698577498543976628",
+    "category": "digit_max_Float_Float_Float",
+    "subcategory": "66"
+  },
+  {
+    "id": "nubp-sampled-252",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Compare two numbers digit by digit and return the larger digit at each position, treating any missing digits as 0. 67101861099660894071608804569.1048111904352786471195075370605 and 741096039350313.8508888607241287539991",
+    "answer": "67101861099660894096639854569.8548888907352787579995075370605",
+    "category": "digit_max_Float_Float_Float",
+    "subcategory": "31"
+  },
+  {
+    "id": "nubp-sampled-253",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Compare two numbers digit by digit and return the larger digit at each position, treating any missing digits as 0. 95944824102784727.7545098692358998536134090176985098828256909787276 and 9568583447644.4221298825232427935610131026886877366963328559489185145",
+    "answer": "95949868583787747.7545298895358998936634191176986898868966929789489185145",
+    "category": "digit_max_Float_Float_Float",
+    "subcategory": "55"
+  },
+  {
+    "id": "nubp-sampled-254",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Compare two numbers digit by digit and return the larger digit at each position, treating any missing digits as 0. 63736.966481107 and 795902.0648800422",
+    "answer": "795936.9668811472",
+    "category": "digit_max_Float_Float_Float",
+    "subcategory": "10"
+  },
+  {
+    "id": "nubp-sampled-255",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Compare two numbers digit by digit and return the larger digit at each position, treating any missing digits as 0. 2769701769074969.691209086328559970949 and 11353.452097818058122054483323",
+    "answer": "2769701769074969.692299888358559974989323",
+    "category": "digit_max_Float_Float_Float",
+    "subcategory": "24"
+  },
+  {
+    "id": "nubp-sampled-256",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Compare two numbers digit by digit and return the larger digit at each position, treating any missing digits as 0. 3359028391468952017370031.3387156269762048985690146581892263709514945825056399 and 22467579365996647491983457.36125492632459661960373954347091291535659299",
+    "answer": "23469579395998957497983457.3687559269765968996697396584899269759565949925056399",
+    "category": "digit_max_Float_Float_Float",
+    "subcategory": "52"
+  },
+  {
+    "id": "nubp-sampled-257",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Compare two numbers digit by digit and return the larger digit at each position, treating any missing digits as 0. 572.321 and 447.078",
+    "answer": "577.378",
+    "category": "digit_max_Float_Float_Float",
+    "subcategory": "3"
+  },
+  {
+    "id": "nubp-sampled-258",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Compare two numbers digit by digit and return the larger digit at each position, treating any missing digits as 0. 6182617508513554136489308256929259042830.519974729673593099989992813836880790549714051073446713 and 57837846290308229046204501801309710.67411801617294686730775276072768332982",
+    "answer": "6182657838846594338489348256929859349830.679978729673996899989992863837883799849714051073446713",
+    "category": "digit_max_Float_Float_Float",
+    "subcategory": "54"
+  },
+  {
+    "id": "nubp-sampled-259",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Compare two numbers digit by digit and return the larger digit at each position, treating any missing digits as 0. 193925241894809719831264406751175.9406242059393381468577941205897517024 and 59901036421759234648349.624823235503114339954214262",
+    "answer": "193925241899909739831769436758379.9448242359393383499577942625897517024",
+    "category": "digit_max_Float_Float_Float",
+    "subcategory": "37"
+  },
+  {
+    "id": "nubp-sampled-260",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The task is to add two given numbers digit by digit and return the result modulo 10 (ignoring carry), treating any missing digits as 0. 9442929314016832048897269055552659641270741217055161263702085566 digit add 297485788248953531971721154848629455849555",
+    "answer": "9442929314016832048897456430230897594701612938109909882157824011",
+    "category": "digit_add_Integer_Integer_Integer",
+    "subcategory": "64"
+  },
+  {
+    "id": "nubp-sampled-261",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The task is to add two given numbers digit by digit and return the result modulo 10 (ignoring carry), treating any missing digits as 0. 4811448635375559100256714 digit add 718664170298222099782241188025202812469156",
+    "answer": "718664170298222093593689713390751912615860",
+    "category": "digit_add_Integer_Integer_Integer",
+    "subcategory": "42"
+  },
+  {
+    "id": "nubp-sampled-262",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The task is to add two given numbers digit by digit and return the result modulo 10 (ignoring carry), treating any missing digits as 0. 457009758161031678681986826687942020892896446849699019444383 digit add 26182723666799272126473080186876829181205316452495209",
+    "answer": "457009774243754234370158942050922106668615527044905461839582",
+    "category": "digit_add_Integer_Integer_Integer",
+    "subcategory": "60"
+  },
+  {
+    "id": "nubp-sampled-263",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The task is to add two given numbers digit by digit and return the result modulo 10 (ignoring carry), treating any missing digits as 0. 848937639576501428817110566012096630541514362816328238324353994796778064676381663414229443871908 digit add 797518615955283948491487800891383456611210874614598090818755768171734546278236237372466224150343",
+    "answer": "535445244421784366208597366803379086152724136420816228132008652867402500844517890786685667921241",
+    "category": "digit_add_Integer_Integer_Integer",
+    "subcategory": "96"
+  },
+  {
+    "id": "nubp-sampled-264",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The task is to add two given numbers digit by digit and return the result modulo 10 (ignoring carry), treating any missing digits as 0. 6743906187915300847357781614944935656301836091029390362441303422513316957426538677808579874963209917 digit add 253356722611236468779891978164043338209321568859344",
+    "answer": "6743906187915300847357781614944935656301836091029543618163914658971085748394692610136778195421058251",
+    "category": "digit_add_Integer_Integer_Integer",
+    "subcategory": "100"
+  },
+  {
+    "id": "nubp-sampled-265",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The task is to add two given numbers digit by digit and return the result modulo 10 (ignoring carry), treating any missing digits as 0. 91158987960116773491701738580815448552433557656832106198424646169408399560922 digit add 7325325794151979019613148214565810275507191955829803131599813573627234823",
+    "answer": "91155202285800824360710341628029903362608054747787925991555135972971916794745",
+    "category": "digit_add_Integer_Integer_Integer",
+    "subcategory": "77"
+  },
+  {
+    "id": "nubp-sampled-266",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The task is to add two given numbers digit by digit and return the result modulo 10 (ignoring carry), treating any missing digits as 0. 7208765862098254486494101962017803036804398266363924483744597406980319116717629282774074476 digit add 6329342420876950528983216201017659796015238692268979500939",
+    "answer": "7208765862098254486494101962017809355146718032213442366950798413539005121945211440643574305",
+    "category": "digit_add_Integer_Integer_Integer",
+    "subcategory": "91"
+  },
+  {
+    "id": "nubp-sampled-267",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The task is to add two given numbers digit by digit and return the result modulo 10 (ignoring carry), treating any missing digits as 0. 63234449391008045091353849111153094615304457928108773680464767253700760970191009 digit add 477860103967550485304062005569506668250992581706333193038559097030808762037090821302059683765667521",
+    "answer": "477860103967550485367296444850504603241245320817486187643853444958906435617454588555759343635758520",
+    "category": "digit_add_Integer_Integer_Integer",
+    "subcategory": "99"
+  },
+  {
+    "id": "nubp-sampled-268",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The task is to add two given numbers digit by digit and return the result modulo 10 (ignoring carry), treating any missing digits as 0. 7026049633178563421052640607070702207512350182678631 digit add 43225869422522658453261268748853208098651736180766497629408161851391",
+    "answer": "43225869422522655479200891816316629040291333150468694131758243429922",
+    "category": "digit_add_Integer_Integer_Integer",
+    "subcategory": "68"
+  },
+  {
+    "id": "nubp-sampled-269",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The task is to add two given numbers digit by digit and return the result modulo 10 (ignoring carry), treating any missing digits as 0. 6917550700349197630644011 digit add 1069507407179896526782",
+    "answer": "6918519207746266426160793",
+    "category": "digit_add_Integer_Integer_Integer",
+    "subcategory": "25"
+  },
+  {
+    "id": "nubp-sampled-270",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . The task is to add two given numbers digit by digit and return the result modulo 10 (ignoring carry), treating any missing digits as 0. 14171709.3886187859125 digit add 17520944082632.250115782480585716948031875",
+    "answer": "17520958153331.538723467392085716948031875",
+    "category": "digit_add_Float_Float_Float",
+    "subcategory": "27"
+  },
+  {
+    "id": "nubp-sampled-271",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . The task is to add two given numbers digit by digit and return the result modulo 10 (ignoring carry), treating any missing digits as 0. 43139772343253923310095698803343.07254538318414641675677535180042431357 digit add 85975750243838145989471400058.71255442409023840352216163816893192001478",
+    "answer": "43114647093496751455974069203391.78409970717437481927883698996835523358478",
+    "category": "digit_add_Float_Float_Float",
+    "subcategory": "41"
+  },
+  {
+    "id": "nubp-sampled-272",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . The task is to add two given numbers digit by digit and return the result modulo 10 (ignoring carry), treating any missing digits as 0. 67300.7789790687017401430233739130504 digit add 8926046547.020430450926100247",
+    "answer": "8926003847.7983094186278403800233739130504",
+    "category": "digit_add_Float_Float_Float",
+    "subcategory": "31"
+  },
+  {
+    "id": "nubp-sampled-273",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . The task is to add two given numbers digit by digit and return the result modulo 10 (ignoring carry), treating any missing digits as 0. 236942515.6972534155 digit add 233451083.1534428067",
+    "answer": "469393598.7406952112",
+    "category": "digit_add_Float_Float_Float",
+    "subcategory": "10"
+  },
+  {
+    "id": "nubp-sampled-274",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . The task is to add two given numbers digit by digit and return the result modulo 10 (ignoring carry), treating any missing digits as 0. 620774.0108498623034027862037591399431609065719212242488474566253 digit add 87847007688431693028463704.249960664245086227621218501807989857344985072986132986600379375732296204532518",
+    "answer": "87847007688431693028083478.259709426548488903824967630740049753815806296124979332225679375732296204532518",
+    "category": "digit_add_Float_Float_Float",
+    "subcategory": "78"
+  },
+  {
+    "id": "nubp-sampled-275",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . The task is to add two given numbers digit by digit and return the result modulo 10 (ignoring carry), treating any missing digits as 0. 17065227475997207187063477226907.344111348407725760096670365722079179594163768241563728825439 digit add 48904038770797331105688934493034473942913687494656189941268495333867173822.416326065428800736731747689236315332714624335926776559305369174240364694815490496791166231981992424",
+    "answer": "48904038770797331105688934493034473942913694459873554838465572396234399729.750437303825525496727317944958384401208787093167239277120798174240364694815490496791166231981992424",
+    "category": "digit_add_Float_Float_Float",
+    "subcategory": "99"
+  },
+  {
+    "id": "nubp-sampled-276",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . The task is to add two given numbers digit by digit and return the result modulo 10 (ignoring carry), treating any missing digits as 0. 46953222804689641050307714293016705144342851575278.36772371049118048003768924143757400325510430289769286820031847888513 digit add 87805036591393180241009933177591801579364458516110563880755.33107935937935529730410404466038293860861829667386616822988557399414752483",
+    "answer": "87805036537246302045688574127898515762370153650452314355923.69879206976043567733178328509785693185371259846045892642919394177927752483",
+    "category": "digit_add_Float_Float_Float",
+    "subcategory": "74"
+  },
+  {
+    "id": "nubp-sampled-277",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . The task is to add two given numbers digit by digit and return the result modulo 10 (ignoring carry), treating any missing digits as 0. 57.4437278577 digit add 48769.2149116111",
+    "answer": "48716.6576384688",
+    "category": "digit_add_Float_Float_Float",
+    "subcategory": "10"
+  },
+  {
+    "id": "nubp-sampled-278",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . The task is to add two given numbers digit by digit and return the result modulo 10 (ignoring carry), treating any missing digits as 0. 8215132135327964.39433878788572341492076 digit add 695599572804797551477768.82875193556530096486598987115903903874486236",
+    "answer": "695599570019829686794622.11208961234002337878564987115903903874486236",
+    "category": "digit_add_Float_Float_Float",
+    "subcategory": "44"
+  },
+  {
+    "id": "nubp-sampled-279",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . The task is to add two given numbers digit by digit and return the result modulo 10 (ignoring carry), treating any missing digits as 0. 470.98081 digit add 5968.7641302658",
+    "answer": "5338.6449402658",
+    "category": "digit_add_Float_Float_Float",
+    "subcategory": "10"
+  },
+  {
+    "id": "nubp-sampled-280",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the digit at the given position (from left to right, starting from 0). 59493253870 at position 5",
+    "answer": "2",
+    "category": "get_digit_Integer_int_int",
+    "subcategory": "11"
+  },
+  {
+    "id": "nubp-sampled-281",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the digit at the given position (from left to right, starting from 0). 826556221949492133032412271457435684182823841643821707216927292682805766341412503 at position 53",
+    "answer": "7",
+    "category": "get_digit_Integer_int_int",
+    "subcategory": "81"
+  },
+  {
+    "id": "nubp-sampled-282",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the digit at the given position (from left to right, starting from 0). 9215726420175283980658238095077631401655210967530408931089971206998 at position 66",
+    "answer": "8",
+    "category": "get_digit_Integer_int_int",
+    "subcategory": "67"
+  },
+  {
+    "id": "nubp-sampled-283",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the digit at the given position (from left to right, starting from 0). 7495096890421201696591736888111868053235837727777576397909077287826464 at position 69",
+    "answer": "4",
+    "category": "get_digit_Integer_int_int",
+    "subcategory": "70"
+  },
+  {
+    "id": "nubp-sampled-284",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the digit at the given position (from left to right, starting from 0). 16283117493809211003754180043371463598904606355011314774431007176370711924 at position 18",
+    "answer": "0",
+    "category": "get_digit_Integer_int_int",
+    "subcategory": "74"
+  },
+  {
+    "id": "nubp-sampled-285",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the digit at the given position (from left to right, starting from 0). 8094494865039340480391713 at position 11",
+    "answer": "3",
+    "category": "get_digit_Integer_int_int",
+    "subcategory": "25"
+  },
+  {
+    "id": "nubp-sampled-286",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the digit at the given position (from left to right, starting from 0). 869006213350 at position 0",
+    "answer": "8",
+    "category": "get_digit_Integer_int_int",
+    "subcategory": "12"
+  },
+  {
+    "id": "nubp-sampled-287",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the digit at the given position (from left to right, starting from 0). 25067028996261421267501641665925534927483449138467313614077991368419034 at position 46",
+    "answer": "8",
+    "category": "get_digit_Integer_int_int",
+    "subcategory": "71"
+  },
+  {
+    "id": "nubp-sampled-288",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the digit at the given position (from left to right, starting from 0). 456838632707022 at position 6",
+    "answer": "6",
+    "category": "get_digit_Integer_int_int",
+    "subcategory": "15"
+  },
+  {
+    "id": "nubp-sampled-289",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the digit at the given position (from left to right, starting from 0). 40916513401949285147185559175 at position 0",
+    "answer": "4",
+    "category": "get_digit_Integer_int_int",
+    "subcategory": "29"
+  },
+  {
+    "id": "nubp-sampled-290",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the digit at the given position (from left to right, starting from 0). 7462270.16746101062 at position 8",
+    "answer": "6",
+    "category": "get_digit_Float_int_int",
+    "subcategory": "11"
+  },
+  {
+    "id": "nubp-sampled-291",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the digit at the given position (from left to right, starting from 0). 44007841584150126732948843808.48118757212820419678306636578215808338994074955720551939607271495202169370295134 at position 17",
+    "answer": "7",
+    "category": "get_digit_Float_int_int",
+    "subcategory": "80"
+  },
+  {
+    "id": "nubp-sampled-292",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the digit at the given position (from left to right, starting from 0). 582.54915333414 at position 0",
+    "answer": "5",
+    "category": "get_digit_Float_int_int",
+    "subcategory": "11"
+  },
+  {
+    "id": "nubp-sampled-293",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the digit at the given position (from left to right, starting from 0). 65891216804066743880923029466226640816215863604692161690632834.1819786302093240407569328607683350363083788673853784579152701966870505603491607040448042694 at position 42",
+    "answer": "6",
+    "category": "get_digit_Float_int_int",
+    "subcategory": "91"
+  },
+  {
+    "id": "nubp-sampled-294",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the digit at the given position (from left to right, starting from 0). 8663486906407937842589315420850.629583375086539130127506980310912 at position 34",
+    "answer": "5",
+    "category": "get_digit_Float_int_int",
+    "subcategory": "33"
+  },
+  {
+    "id": "nubp-sampled-295",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the digit at the given position (from left to right, starting from 0). 4811353099988961.5422809306663826327185662796489223546379974526180348285 at position 13",
+    "answer": "9",
+    "category": "get_digit_Float_int_int",
+    "subcategory": "55"
+  },
+  {
+    "id": "nubp-sampled-296",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the digit at the given position (from left to right, starting from 0). 87.756020104579885428 at position 18",
+    "answer": "2",
+    "category": "get_digit_Float_int_int",
+    "subcategory": "18"
+  },
+  {
+    "id": "nubp-sampled-297",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the digit at the given position (from left to right, starting from 0). 84454236670582493336689823123261875808.38011064974472586342442765006703096640742267108936281367985267541936247136717 at position 98",
+    "answer": "6",
+    "category": "get_digit_Float_int_int",
+    "subcategory": "77"
+  },
+  {
+    "id": "nubp-sampled-298",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the digit at the given position (from left to right, starting from 0). 315197577835543441991.56605566782125244091989809996781625 at position 12",
+    "answer": "5",
+    "category": "get_digit_Float_int_int",
+    "subcategory": "35"
+  },
+  {
+    "id": "nubp-sampled-299",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Get the digit at the given position (from left to right, starting from 0). 18773155811173302350025960364338357805137490742029052146697948618555346629089.069116998482156218737900006825539508347339912081691275508334080915040640563164 at position 124",
+    "answer": "1",
+    "category": "get_digit_Float_int_int",
+    "subcategory": "78"
+  },
+  {
+    "id": "nubp-sampled-300",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The total number of digits of 5823471277802784007834210237685174606171355151465128047976291508625020750291636509",
+    "answer": "82",
+    "category": "length_Integer_none_int",
+    "subcategory": "82"
+  },
+  {
+    "id": "nubp-sampled-301",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The total number of digits of 8792794306",
+    "answer": "10",
+    "category": "length_Integer_none_int",
+    "subcategory": "10"
+  },
+  {
+    "id": "nubp-sampled-302",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The total number of digits of 12191742030290713456829338466065013895223723264879492795226774896362336745853127714253",
+    "answer": "86",
+    "category": "length_Integer_none_int",
+    "subcategory": "86"
+  },
+  {
+    "id": "nubp-sampled-303",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The total number of digits of 554778044125805",
+    "answer": "15",
+    "category": "length_Integer_none_int",
+    "subcategory": "15"
+  },
+  {
+    "id": "nubp-sampled-304",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The total number of digits of 61731657060417938432667835583873753481083201941276019306613",
+    "answer": "59",
+    "category": "length_Integer_none_int",
+    "subcategory": "59"
+  },
+  {
+    "id": "nubp-sampled-305",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The total number of digits of 1133840691177454566676071868891162024725018190789951283087612288593480960024557253805223464",
+    "answer": "91",
+    "category": "length_Integer_none_int",
+    "subcategory": "91"
+  },
+  {
+    "id": "nubp-sampled-306",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The total number of digits of 960176879564518815713981909278834648583590067414286250115432125659361934941906122",
+    "answer": "81",
+    "category": "length_Integer_none_int",
+    "subcategory": "81"
+  },
+  {
+    "id": "nubp-sampled-307",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The total number of digits of 3182626427194735104319636158713311569059367604900763970434335223055164547691686",
+    "answer": "79",
+    "category": "length_Integer_none_int",
+    "subcategory": "79"
+  },
+  {
+    "id": "nubp-sampled-308",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The total number of digits of 1319224214880100220853311106499193548357187622736481865756282014738749141",
+    "answer": "73",
+    "category": "length_Integer_none_int",
+    "subcategory": "73"
+  },
+  {
+    "id": "nubp-sampled-309",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The total number of digits of 7819101509492790312617611462665251868534519065",
+    "answer": "46",
+    "category": "length_Integer_none_int",
+    "subcategory": "46"
+  },
+  {
+    "id": "nubp-sampled-310",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The total number of digits of 868768605011841125765073.0755147187362743896743869506137761076",
+    "answer": "61",
+    "category": "length_Float_none_int",
+    "subcategory": "37"
+  },
+  {
+    "id": "nubp-sampled-311",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The total number of digits of 74920687683522378158.03082800375016220875023459521",
+    "answer": "49",
+    "category": "length_Float_none_int",
+    "subcategory": "29"
+  },
+  {
+    "id": "nubp-sampled-312",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The total number of digits of 2037064814979238.221243584930838851378114551903077235823706528680920924284220924270824639737473502930426481",
+    "answer": "106",
+    "category": "length_Float_none_int",
+    "subcategory": "90"
+  },
+  {
+    "id": "nubp-sampled-313",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The total number of digits of 151952832574762306804228523888717444.646995037816207642535055982907313764181475701788251088156262527860934563787118347668703348454001",
+    "answer": "132",
+    "category": "length_Float_none_int",
+    "subcategory": "96"
+  },
+  {
+    "id": "nubp-sampled-314",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The total number of digits of 930619626104521596216958542164.39871084235251971205912800030438108544252576",
+    "answer": "74",
+    "category": "length_Float_none_int",
+    "subcategory": "44"
+  },
+  {
+    "id": "nubp-sampled-315",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The total number of digits of 9917642557323299414191558.8688979315946982977233118949733547",
+    "answer": "59",
+    "category": "length_Float_none_int",
+    "subcategory": "34"
+  },
+  {
+    "id": "nubp-sampled-316",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The total number of digits of 9302016.5282371252075220291525694492384310019",
+    "answer": "44",
+    "category": "length_Float_none_int",
+    "subcategory": "37"
+  },
+  {
+    "id": "nubp-sampled-317",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The total number of digits of 82372852415204761082210281711174478913742277.179949344791692665554021698430306986053379867586183947",
+    "answer": "98",
+    "category": "length_Float_none_int",
+    "subcategory": "54"
+  },
+  {
+    "id": "nubp-sampled-318",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The total number of digits of 10980031446415457408.33040178837552242671",
+    "answer": "40",
+    "category": "length_Float_none_int",
+    "subcategory": "20"
+  },
+  {
+    "id": "nubp-sampled-319",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . The total number of digits of 1839652654832501909721926698153923751126845144.8932364793074685613832524435240900179333014013818556282874575818999408854472536060184473896",
+    "answer": "137",
+    "category": "length_Float_none_int",
+    "subcategory": "91"
+  },
+  {
+    "id": "nubp-sampled-320",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Divide two numbers and return the result as a fraction. 122322098206 / 203391782238",
+    "answer": "61161049103/101695891119",
+    "category": "truediv_Integer_Integer_Fraction",
+    "subcategory": "12"
+  },
+  {
+    "id": "nubp-sampled-321",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Divide two numbers and return the result as a fraction. 45458988665325464 / 5501195077",
+    "answer": "45458988665325464/5501195077",
+    "category": "truediv_Integer_Integer_Fraction",
+    "subcategory": "17"
+  },
+  {
+    "id": "nubp-sampled-322",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Divide two numbers and return the result as a fraction. 5650289916 / 1091709620626",
+    "answer": "2825144958/545854810313",
+    "category": "truediv_Integer_Integer_Fraction",
+    "subcategory": "13"
+  },
+  {
+    "id": "nubp-sampled-323",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Divide two numbers and return the result as a fraction. 94801 / 36312",
+    "answer": "94801/36312",
+    "category": "truediv_Integer_Integer_Fraction",
+    "subcategory": "5"
+  },
+  {
+    "id": "nubp-sampled-324",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Divide two numbers and return the result as a fraction. 807 / 71",
+    "answer": "807/71",
+    "category": "truediv_Integer_Integer_Fraction",
+    "subcategory": "3"
+  },
+  {
+    "id": "nubp-sampled-325",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Divide two numbers and return the result as a fraction. 727913146607332 / 754963335170120237",
+    "answer": "103987592372476/107851905024302891",
+    "category": "truediv_Integer_Integer_Fraction",
+    "subcategory": "18"
+  },
+  {
+    "id": "nubp-sampled-326",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Divide two numbers and return the result as a fraction. 462915 / 477148",
+    "answer": "462915/477148",
+    "category": "truediv_Integer_Integer_Fraction",
+    "subcategory": "6"
+  },
+  {
+    "id": "nubp-sampled-327",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Divide two numbers and return the result as a fraction. 5735 / 53036",
+    "answer": "5735/53036",
+    "category": "truediv_Integer_Integer_Fraction",
+    "subcategory": "5"
+  },
+  {
+    "id": "nubp-sampled-328",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Divide two numbers and return the result as a fraction. 36014512400126588853 / 1193493978658",
+    "answer": "36014512400126588853/1193493978658",
+    "category": "truediv_Integer_Integer_Fraction",
+    "subcategory": "20"
+  },
+  {
+    "id": "nubp-sampled-329",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Divide two numbers and return the result as a fraction. 3657389 / 727654691",
+    "answer": "3657389/727654691",
+    "category": "truediv_Integer_Integer_Fraction",
+    "subcategory": "9"
+  },
+  {
+    "id": "nubp-sampled-330",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Divide two numbers and return the result as a fraction. (31541711142300147/97954788205418837) / (101659318/179352379)",
+    "answer": "5657080931102338896499713/9958016963797322873773166",
+    "category": "truediv_Fraction_Fraction_Fraction",
+    "subcategory": "17"
+  },
+  {
+    "id": "nubp-sampled-331",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Divide two numbers and return the result as a fraction. (324923647/621263187) / (11895/84392)",
+    "answer": "27420956417624/7389925609365",
+    "category": "truediv_Fraction_Fraction_Fraction",
+    "subcategory": "9"
+  },
+  {
+    "id": "nubp-sampled-332",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Divide two numbers and return the result as a fraction. (80218/75987) / (18881/43442)",
+    "answer": "3484830356/1434710547",
+    "category": "truediv_Fraction_Fraction_Fraction",
+    "subcategory": "5"
+  },
+  {
+    "id": "nubp-sampled-333",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Divide two numbers and return the result as a fraction. (856804576100/691575312077) / (2780047/7317882)",
+    "answer": "482307291150755400/147893220893363663",
+    "category": "truediv_Fraction_Fraction_Fraction",
+    "subcategory": "12"
+  },
+  {
+    "id": "nubp-sampled-334",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Divide two numbers and return the result as a fraction. (397/776) / (1/1)",
+    "answer": "397/776",
+    "category": "truediv_Fraction_Fraction_Fraction",
+    "subcategory": "3"
+  },
+  {
+    "id": "nubp-sampled-335",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Divide two numbers and return the result as a fraction. (682588/988771) / (460573454/837369723)",
+    "answer": "285789262241562/227700837342517",
+    "category": "truediv_Fraction_Fraction_Fraction",
+    "subcategory": "9"
+  },
+  {
+    "id": "nubp-sampled-336",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Divide two numbers and return the result as a fraction. (38981352953/27204185503) / (2872546267285/8191249853333)",
+    "answer": "319306001658983156442349/78145281521171360169355",
+    "category": "truediv_Fraction_Fraction_Fraction",
+    "subcategory": "13"
+  },
+  {
+    "id": "nubp-sampled-337",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Divide two numbers and return the result as a fraction. (754345/846038) / (4029420367/8378748368)",
+    "answer": "3160233468829480/1704521374227973",
+    "category": "truediv_Fraction_Fraction_Fraction",
+    "subcategory": "10"
+  },
+  {
+    "id": "nubp-sampled-338",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Divide two numbers and return the result as a fraction. (96958/99453) / (184315/107636)",
+    "answer": "10436171288/18330679695",
+    "category": "truediv_Fraction_Fraction_Fraction",
+    "subcategory": "6"
+  },
+  {
+    "id": "nubp-sampled-339",
+    "question": "Directly return the answer as an **irreducible** fraction without any comma separator, like 7/13 . Divide two numbers and return the result as a fraction. (13521808983/36520053598) / (972401521626833/780811913775607)",
+    "answer": "1508284221389203454125383/5073165098369813902142162",
+    "category": "truediv_Fraction_Fraction_Fraction",
+    "subcategory": "15"
+  },
+  {
+    "id": "nubp-sampled-340",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the result as an integer. 57617192539337839458 // 45417107070782038",
+    "answer": "1268",
+    "category": "floordiv_Integer_Integer_Integer",
+    "subcategory": "20"
+  },
+  {
+    "id": "nubp-sampled-341",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the result as an integer. 766837197432 // 447881442374",
+    "answer": "1",
+    "category": "floordiv_Integer_Integer_Integer",
+    "subcategory": "12"
+  },
+  {
+    "id": "nubp-sampled-342",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the result as an integer. 58596123294987233148 // 3294354335566793",
+    "answer": "17786",
+    "category": "floordiv_Integer_Integer_Integer",
+    "subcategory": "20"
+  },
+  {
+    "id": "nubp-sampled-343",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the result as an integer. 519 // 71",
+    "answer": "7",
+    "category": "floordiv_Integer_Integer_Integer",
+    "subcategory": "3"
+  },
+  {
+    "id": "nubp-sampled-344",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the result as an integer. 735901733009 // 18796699",
+    "answer": "39150",
+    "category": "floordiv_Integer_Integer_Integer",
+    "subcategory": "12"
+  },
+  {
+    "id": "nubp-sampled-345",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the result as an integer. 993425 // 5270",
+    "answer": "188",
+    "category": "floordiv_Integer_Integer_Integer",
+    "subcategory": "6"
+  },
+  {
+    "id": "nubp-sampled-346",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the result as an integer. 3244639 // 504245",
+    "answer": "6",
+    "category": "floordiv_Integer_Integer_Integer",
+    "subcategory": "7"
+  },
+  {
+    "id": "nubp-sampled-347",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the result as an integer. 56415560267 // 5380162",
+    "answer": "10485",
+    "category": "floordiv_Integer_Integer_Integer",
+    "subcategory": "11"
+  },
+  {
+    "id": "nubp-sampled-348",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the result as an integer. 972098 // 9445",
+    "answer": "102",
+    "category": "floordiv_Integer_Integer_Integer",
+    "subcategory": "6"
+  },
+  {
+    "id": "nubp-sampled-349",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the result as an integer. 825469 // 4911",
+    "answer": "168",
+    "category": "floordiv_Integer_Integer_Integer",
+    "subcategory": "6"
+  },
+  {
+    "id": "nubp-sampled-350",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the remainder. 49542772 % 311521",
+    "answer": "10933",
+    "category": "mod_Integer_Integer_Integer",
+    "subcategory": "8"
+  },
+  {
+    "id": "nubp-sampled-351",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the remainder. 41015966947 % 2139153",
+    "answer": "1986478",
+    "category": "mod_Integer_Integer_Integer",
+    "subcategory": "11"
+  },
+  {
+    "id": "nubp-sampled-352",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the remainder. 733075963886 % 55686313",
+    "answer": "21339554",
+    "category": "mod_Integer_Integer_Integer",
+    "subcategory": "12"
+  },
+  {
+    "id": "nubp-sampled-353",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the remainder. 152011166 % 5046029",
+    "answer": "630296",
+    "category": "mod_Integer_Integer_Integer",
+    "subcategory": "9"
+  },
+  {
+    "id": "nubp-sampled-354",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the remainder. 94301785874807 % 968441189",
+    "answer": "793537121",
+    "category": "mod_Integer_Integer_Integer",
+    "subcategory": "14"
+  },
+  {
+    "id": "nubp-sampled-355",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the remainder. 880188299 % 60359",
+    "answer": "33361",
+    "category": "mod_Integer_Integer_Integer",
+    "subcategory": "9"
+  },
+  {
+    "id": "nubp-sampled-356",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the remainder. 96469627039 % 56428175",
+    "answer": "33875964",
+    "category": "mod_Integer_Integer_Integer",
+    "subcategory": "11"
+  },
+  {
+    "id": "nubp-sampled-357",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the remainder. 4874753567755901087 % 98259180597428",
+    "answer": "17359136900579",
+    "category": "mod_Integer_Integer_Integer",
+    "subcategory": "19"
+  },
+  {
+    "id": "nubp-sampled-358",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the remainder. 4965116511533594440 % 10976925670435",
+    "answer": "561505423935",
+    "category": "mod_Integer_Integer_Integer",
+    "subcategory": "19"
+  },
+  {
+    "id": "nubp-sampled-359",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the remainder. 17891749510 % 14220177",
+    "answer": "2766844",
+    "category": "mod_Integer_Integer_Integer",
+    "subcategory": "11"
+  },
+  {
+    "id": "nubp-sampled-360",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the remainder. 9673 % 203",
+    "answer": "132",
+    "category": "mod_easy_Integer_Integer_Integer",
+    "subcategory": "4"
+  },
+  {
+    "id": "nubp-sampled-361",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the remainder. 231597 % 79",
+    "answer": "48",
+    "category": "mod_easy_Integer_Integer_Integer",
+    "subcategory": "6"
+  },
+  {
+    "id": "nubp-sampled-362",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the remainder. 4687306738331562 % 755",
+    "answer": "297",
+    "category": "mod_easy_Integer_Integer_Integer",
+    "subcategory": "16"
+  },
+  {
+    "id": "nubp-sampled-363",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the remainder. 504151372161 % 100",
+    "answer": "61",
+    "category": "mod_easy_Integer_Integer_Integer",
+    "subcategory": "12"
+  },
+  {
+    "id": "nubp-sampled-364",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the remainder. 4988 % 776",
+    "answer": "332",
+    "category": "mod_easy_Integer_Integer_Integer",
+    "subcategory": "4"
+  },
+  {
+    "id": "nubp-sampled-365",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the remainder. 553 % 316",
+    "answer": "237",
+    "category": "mod_easy_Integer_Integer_Integer",
+    "subcategory": "3"
+  },
+  {
+    "id": "nubp-sampled-366",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the remainder. 6495332470644 % 705",
+    "answer": "9",
+    "category": "mod_easy_Integer_Integer_Integer",
+    "subcategory": "13"
+  },
+  {
+    "id": "nubp-sampled-367",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the remainder. 6822525 % 5",
+    "answer": "0",
+    "category": "mod_easy_Integer_Integer_Integer",
+    "subcategory": "7"
+  },
+  {
+    "id": "nubp-sampled-368",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the remainder. 22660667930 % 86",
+    "answer": "62",
+    "category": "mod_easy_Integer_Integer_Integer",
+    "subcategory": "11"
+  },
+  {
+    "id": "nubp-sampled-369",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Divide two numbers and return the remainder. 89461568 % 915",
+    "answer": "188",
+    "category": "mod_easy_Integer_Integer_Integer",
+    "subcategory": "8"
+  },
+  {
+    "id": "nubp-sampled-370",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Convert the number to float: 13953125904496113/5120000",
+    "answer": "2725219903.2218970703125",
+    "category": "to_float_Fraction_none_Float",
+    "subcategory": "17"
+  },
+  {
+    "id": "nubp-sampled-371",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Convert the number to float: 12473191010839278337/12500000000000000",
+    "answer": "997.85528086714226696",
+    "category": "to_float_Fraction_none_Float",
+    "subcategory": "20"
+  },
+  {
+    "id": "nubp-sampled-372",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Convert the number to float: 1961673043293109/160000000000",
+    "answer": "12260.45652058193125",
+    "category": "to_float_Fraction_none_Float",
+    "subcategory": "16"
+  },
+  {
+    "id": "nubp-sampled-373",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Convert the number to float: 89/5",
+    "answer": "17.8",
+    "category": "to_float_Fraction_none_Float",
+    "subcategory": "2"
+  },
+  {
+    "id": "nubp-sampled-374",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Convert the number to float: 970637/5000",
+    "answer": "194.1274",
+    "category": "to_float_Fraction_none_Float",
+    "subcategory": "6"
+  },
+  {
+    "id": "nubp-sampled-375",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Convert the number to float: 97997/20",
+    "answer": "4899.85",
+    "category": "to_float_Fraction_none_Float",
+    "subcategory": "5"
+  },
+  {
+    "id": "nubp-sampled-376",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Convert the number to float: 2295967/62500",
+    "answer": "36.735472",
+    "category": "to_float_Fraction_none_Float",
+    "subcategory": "7"
+  },
+  {
+    "id": "nubp-sampled-377",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Convert the number to float: 32118381832889683841/190734863281250",
+    "answer": "168392.82174402066561630208",
+    "category": "to_float_Fraction_none_Float",
+    "subcategory": "20"
+  },
+  {
+    "id": "nubp-sampled-378",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Convert the number to float: 135/4",
+    "answer": "33.75",
+    "category": "to_float_Fraction_none_Float",
+    "subcategory": "3"
+  },
+  {
+    "id": "nubp-sampled-379",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Convert the number to float: 79456031688387/3125",
+    "answer": "25425930140.28384",
+    "category": "to_float_Fraction_none_Float",
+    "subcategory": "14"
+  },
+  {
+    "id": "nubp-sampled-380",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Convert the number to float: 4.1763200628049669624735771300800671231807373135869697625847409599735758616032498e20",
+    "answer": "417632006280496696247.35771300800671231807373135869697625847409599735758616032498",
+    "category": "to_float_ScientificNotation_none_Float",
+    "subcategory": "79"
+  },
+  {
+    "id": "nubp-sampled-381",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Convert the number to float: 2.128825403060592088820109659581179140508743846740822702780928721858899265995e29",
+    "answer": "212882540306059208882010965958.1179140508743846740822702780928721858899265995",
+    "category": "to_float_ScientificNotation_none_Float",
+    "subcategory": "75"
+  },
+  {
+    "id": "nubp-sampled-382",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Convert the number to float: 8.7174391399023556363558e7",
+    "answer": "87174391.399023556363558",
+    "category": "to_float_ScientificNotation_none_Float",
+    "subcategory": "22"
+  },
+  {
+    "id": "nubp-sampled-383",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Convert the number to float: 1.56058459010717001589185387125109145320028977385322796287707e3",
+    "answer": "1560.58459010717001589185387125109145320028977385322796287707",
+    "category": "to_float_ScientificNotation_none_Float",
+    "subcategory": "59"
+  },
+  {
+    "id": "nubp-sampled-384",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Convert the number to float: 6.5804770529398235108e18",
+    "answer": "6580477052939823510.8",
+    "category": "to_float_ScientificNotation_none_Float",
+    "subcategory": "19"
+  },
+  {
+    "id": "nubp-sampled-385",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Convert the number to float: 8.77885387e7",
+    "answer": "87788538.7",
+    "category": "to_float_ScientificNotation_none_Float",
+    "subcategory": "8"
+  },
+  {
+    "id": "nubp-sampled-386",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Convert the number to float: 5.6370333596566289412915918924319320409002118e15",
+    "answer": "5637033359656628.9412915918924319320409002118",
+    "category": "to_float_ScientificNotation_none_Float",
+    "subcategory": "43"
+  },
+  {
+    "id": "nubp-sampled-387",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Convert the number to float: 2.00732515062481968023193947701815788966818722756012e2",
+    "answer": "200.732515062481968023193947701815788966818722756012",
+    "category": "to_float_ScientificNotation_none_Float",
+    "subcategory": "50"
+  },
+  {
+    "id": "nubp-sampled-388",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Convert the number to float: 9.93187876e7",
+    "answer": "99318787.6",
+    "category": "to_float_ScientificNotation_none_Float",
+    "subcategory": "8"
+  },
+  {
+    "id": "nubp-sampled-389",
+    "question": "Directly return the answer as a float without any comma separator, like 10.4 . Convert the number to float: 6.6434865853927850993003066127403312008388252237232e0",
+    "answer": "6.6434865853927850993003066127403312008388252237232",
+    "category": "to_float_ScientificNotation_none_Float",
+    "subcategory": "49"
+  },
+  {
+    "id": "nubp-sampled-390",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 73699133496001114000000000000000",
+    "answer": "7.3699133496001114e31",
+    "category": "to_scient_Integer_none_ScientificNotation",
+    "subcategory": "32"
+  },
+  {
+    "id": "nubp-sampled-391",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 1992989482070116363589585037924799600069640170739845492611655414650823877570000000000000000000",
+    "answer": "1.99298948207011636358958503792479960006964017073984549261165541465082387757e93",
+    "category": "to_scient_Integer_none_ScientificNotation",
+    "subcategory": "94"
+  },
+  {
+    "id": "nubp-sampled-392",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 6576845908072222217221082994915340000",
+    "answer": "6.57684590807222221722108299491534e36",
+    "category": "to_scient_Integer_none_ScientificNotation",
+    "subcategory": "37"
+  },
+  {
+    "id": "nubp-sampled-393",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 40117858046178080766610791276789891123520602270929935312746431897598169688454125000000000000",
+    "answer": "4.0117858046178080766610791276789891123520602270929935312746431897598169688454125e91",
+    "category": "to_scient_Integer_none_ScientificNotation",
+    "subcategory": "92"
+  },
+  {
+    "id": "nubp-sampled-394",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 398104782410000000",
+    "answer": "3.9810478241e17",
+    "category": "to_scient_Integer_none_ScientificNotation",
+    "subcategory": "18"
+  },
+  {
+    "id": "nubp-sampled-395",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 190337317133311590019009048614669652735715229620100",
+    "answer": "1.903373171333115900190090486146696527357152296201e50",
+    "category": "to_scient_Integer_none_ScientificNotation",
+    "subcategory": "51"
+  },
+  {
+    "id": "nubp-sampled-396",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 435714878121210071865337678222852122589227201658000000000000000000000000000000",
+    "answer": "4.35714878121210071865337678222852122589227201658e77",
+    "category": "to_scient_Integer_none_ScientificNotation",
+    "subcategory": "78"
+  },
+  {
+    "id": "nubp-sampled-397",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 5143222429503258927655983248385435124534209003169445770000",
+    "answer": "5.14322242950325892765598324838543512453420900316944577e57",
+    "category": "to_scient_Integer_none_ScientificNotation",
+    "subcategory": "58"
+  },
+  {
+    "id": "nubp-sampled-398",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 26347911212550534408525708504179358441963326588751452086521485957023000000000000000000",
+    "answer": "2.6347911212550534408525708504179358441963326588751452086521485957023e85",
+    "category": "to_scient_Integer_none_ScientificNotation",
+    "subcategory": "86"
+  },
+  {
+    "id": "nubp-sampled-399",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 4926239269431987418410000",
+    "answer": "4.92623926943198741841e24",
+    "category": "to_scient_Integer_none_ScientificNotation",
+    "subcategory": "25"
+  },
+  {
+    "id": "nubp-sampled-400",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 95611543292490.5241277139543928097564840662943135",
+    "answer": "9.56115432924905241277139543928097564840662943135e13",
+    "category": "to_scient_Float_none_ScientificNotation",
+    "subcategory": "34"
+  },
+  {
+    "id": "nubp-sampled-401",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 279041894566568484043240.524503798971678835016216",
+    "answer": "2.79041894566568484043240524503798971678835016216e23",
+    "category": "to_scient_Float_none_ScientificNotation",
+    "subcategory": "24"
+  },
+  {
+    "id": "nubp-sampled-402",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 510796236574713.26252664268416624994613063",
+    "answer": "5.1079623657471326252664268416624994613063e14",
+    "category": "to_scient_Float_none_ScientificNotation",
+    "subcategory": "26"
+  },
+  {
+    "id": "nubp-sampled-403",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 2419528526630025871375527464732384022337.436865032410052319970328579380286368185856478009541560186",
+    "answer": "2.419528526630025871375527464732384022337436865032410052319970328579380286368185856478009541560186e39",
+    "category": "to_scient_Float_none_ScientificNotation",
+    "subcategory": "57"
+  },
+  {
+    "id": "nubp-sampled-404",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 7.386318",
+    "answer": "7.386318e0",
+    "category": "to_scient_Float_none_ScientificNotation",
+    "subcategory": "6"
+  },
+  {
+    "id": "nubp-sampled-405",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 8604722882.89481212877970287915728346",
+    "answer": "8.60472288289481212877970287915728346e9",
+    "category": "to_scient_Float_none_ScientificNotation",
+    "subcategory": "26"
+  },
+  {
+    "id": "nubp-sampled-406",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 310520966437795876687193509929788738636418803877975.586175969760636956617692627737596787973401542642715000916363068068262432539833982559145280306137862",
+    "answer": "3.10520966437795876687193509929788738636418803877975586175969760636956617692627737596787973401542642715000916363068068262432539833982559145280306137862e50",
+    "category": "to_scient_Float_none_ScientificNotation",
+    "subcategory": "99"
+  },
+  {
+    "id": "nubp-sampled-407",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 1.7212270748324624066304015866185994387304298744",
+    "answer": "1.7212270748324624066304015866185994387304298744e0",
+    "category": "to_scient_Float_none_ScientificNotation",
+    "subcategory": "46"
+  },
+  {
+    "id": "nubp-sampled-408",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 9679466759909807944986055.25968438645702859618647588107601220120875178299562992889",
+    "answer": "9.67946675990980794498605525968438645702859618647588107601220120875178299562992889e24",
+    "category": "to_scient_Float_none_ScientificNotation",
+    "subcategory": "56"
+  },
+  {
+    "id": "nubp-sampled-409",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 96254988660128371640812838451714442605017779299075288482774977809289.673543341656598473581109812303582758766033059615160733829038019796752024356480678471053399",
+    "answer": "9.6254988660128371640812838451714442605017779299075288482774977809289673543341656598473581109812303582758766033059615160733829038019796752024356480678471053399e67",
+    "category": "to_scient_Float_none_ScientificNotation",
+    "subcategory": "90"
+  },
+  {
+    "id": "nubp-sampled-410",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Count the number of the given digit in the given number: 3824115194977118672538254308798616895 count the occurrence time of digit 7",
+    "answer": "4",
+    "category": "count_Integer_int_int",
+    "subcategory": "37"
+  },
+  {
+    "id": "nubp-sampled-411",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Count the number of the given digit in the given number: 584396365078639899742258158061766073623 count the occurrence time of digit 6",
+    "answer": "7",
+    "category": "count_Integer_int_int",
+    "subcategory": "39"
+  },
+  {
+    "id": "nubp-sampled-412",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Count the number of the given digit in the given number: 2387493754706613655316752 count the occurrence time of digit 5",
+    "answer": "4",
+    "category": "count_Integer_int_int",
+    "subcategory": "25"
+  },
+  {
+    "id": "nubp-sampled-413",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Count the number of the given digit in the given number: 867525179782120775539387251397449160469786576378567523923554234136375710134188252453756235325134 count the occurrence time of digit 0",
+    "answer": "3",
+    "category": "count_Integer_int_int",
+    "subcategory": "96"
+  },
+  {
+    "id": "nubp-sampled-414",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Count the number of the given digit in the given number: 3773650519870421948 count the occurrence time of digit 0",
+    "answer": "2",
+    "category": "count_Integer_int_int",
+    "subcategory": "19"
+  },
+  {
+    "id": "nubp-sampled-415",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Count the number of the given digit in the given number: 1720779717090701964043167632067435710543420785988097620 count the occurrence time of digit 3",
+    "answer": "4",
+    "category": "count_Integer_int_int",
+    "subcategory": "55"
+  },
+  {
+    "id": "nubp-sampled-416",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Count the number of the given digit in the given number: 5926091920 count the occurrence time of digit 7",
+    "answer": "0",
+    "category": "count_Integer_int_int",
+    "subcategory": "10"
+  },
+  {
+    "id": "nubp-sampled-417",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Count the number of the given digit in the given number: 876335439391294407040356250093517395706571137822897597569911688003 count the occurrence time of digit 8",
+    "answer": "5",
+    "category": "count_Integer_int_int",
+    "subcategory": "66"
+  },
+  {
+    "id": "nubp-sampled-418",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Count the number of the given digit in the given number: 2700237924912404052593850265050602 count the occurrence time of digit 5",
+    "answer": "5",
+    "category": "count_Integer_int_int",
+    "subcategory": "34"
+  },
+  {
+    "id": "nubp-sampled-419",
+    "question": "Directly return the answer as an integer without any comma separator, like 123 . Count the number of the given digit in the given number: 7477400078058072661041542769778 count the occurrence time of digit 9",
+    "answer": "1",
+    "category": "count_Integer_int_int",
+    "subcategory": "31"
+  },
+  {
+    "id": "nubp-sampled-420",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 80513737892208329112556174118825331905390596180834085925096258200 and keep significant figures as 2",
+    "answer": "8.00e64",
+    "category": "sig_Integer_int_ScientificNotation",
+    "subcategory": "65"
+  },
+  {
+    "id": "nubp-sampled-421",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 66419602856015963798497819991559130204648051817742 and keep significant figures as 22",
+    "answer": "6.641960285601596379850e49",
+    "category": "sig_Integer_int_ScientificNotation",
+    "subcategory": "50"
+  },
+  {
+    "id": "nubp-sampled-422",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 131180906525194881357214300064395333725075930 and keep significant figures as 32",
+    "answer": "1.3118090652519488135721430006439e44",
+    "category": "sig_Integer_int_ScientificNotation",
+    "subcategory": "45"
+  },
+  {
+    "id": "nubp-sampled-423",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 1156431131058603836836021369525897 and keep significant figures as 30",
+    "answer": "1.15643113105860383683602136952e33",
+    "category": "sig_Integer_int_ScientificNotation",
+    "subcategory": "34"
+  },
+  {
+    "id": "nubp-sampled-424",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 7427381524459317363623851142686601 and keep significant figures as 23",
+    "answer": "7.4273815244593173636238e33",
+    "category": "sig_Integer_int_ScientificNotation",
+    "subcategory": "34"
+  },
+  {
+    "id": "nubp-sampled-425",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 64036681 and keep significant figures as 5",
+    "answer": "6.4037e7",
+    "category": "sig_Integer_int_ScientificNotation",
+    "subcategory": "8"
+  },
+  {
+    "id": "nubp-sampled-426",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 6385783562369025207637779025811802088785588966272320521567015994950498771285174632746962689 and keep significant figures as 65",
+    "answer": "6.3857835623690252076377790258118020887855889662723205215670159949e90",
+    "category": "sig_Integer_int_ScientificNotation",
+    "subcategory": "91"
+  },
+  {
+    "id": "nubp-sampled-427",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 569022454214824799240275856249 and keep significant figures as 28",
+    "answer": "5.690224542148247992402758562e29",
+    "category": "sig_Integer_int_ScientificNotation",
+    "subcategory": "30"
+  },
+  {
+    "id": "nubp-sampled-428",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 520452417063758908731204081180718862283791412525341275099 and keep significant figures as 3",
+    "answer": "5.20e56",
+    "category": "sig_Integer_int_ScientificNotation",
+    "subcategory": "57"
+  },
+  {
+    "id": "nubp-sampled-429",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 832868511012356050616304547914402565605168168178 and keep significant figures as 2",
+    "answer": "8.3e47",
+    "category": "sig_Integer_int_ScientificNotation",
+    "subcategory": "48"
+  },
+  {
+    "id": "nubp-sampled-430",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 6563135288.929659149311482390403552320910731548172 and keep significant figures as 5",
+    "answer": "6.5631e9",
+    "category": "sig_Float_int_ScientificNotation",
+    "subcategory": "39"
+  },
+  {
+    "id": "nubp-sampled-431",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 5879.887938538783 and keep significant figures as 5",
+    "answer": "5.8799e3",
+    "category": "sig_Float_int_ScientificNotation",
+    "subcategory": "12"
+  },
+  {
+    "id": "nubp-sampled-432",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 912.494427982485526219444598519310067172038 and keep significant figures as 13",
+    "answer": "9.124944279825e2",
+    "category": "sig_Float_int_ScientificNotation",
+    "subcategory": "39"
+  },
+  {
+    "id": "nubp-sampled-433",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 47314077246742341191511184377489.0083939797410365755401481563312552726639618695532 and keep significant figures as 71",
+    "answer": "4.7314077246742341191511184377489008393979741036575540148156331255272664e31",
+    "category": "sig_Float_int_ScientificNotation",
+    "subcategory": "49"
+  },
+  {
+    "id": "nubp-sampled-434",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 515102955087824635948222152556375468302990038996166319623692.818200424453385718504568659659471405328143159349439395929313704357235413455923469388582 and keep significant figures as 127",
+    "answer": "5.151029550878246359482221525563754683029900389961663196236928182004244533857185045686596594714053281431593494393959293137043572e59",
+    "category": "sig_Float_int_ScientificNotation",
+    "subcategory": "87"
+  },
+  {
+    "id": "nubp-sampled-435",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 6326754676474607241699894.299877648168594139647356765358224973168948416987975832049514917802605 and keep significant figures as 62",
+    "answer": "6.3267546764746072416998942998776481685941396473567653582249732e24",
+    "category": "sig_Float_int_ScientificNotation",
+    "subcategory": "69"
+  },
+  {
+    "id": "nubp-sampled-436",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 97479.1945500255650941782148179860957711438910522747174749293 and keep significant figures as 47",
+    "answer": "9.7479194550025565094178214817986095771143891052e4",
+    "category": "sig_Float_int_ScientificNotation",
+    "subcategory": "55"
+  },
+  {
+    "id": "nubp-sampled-437",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 41833681990714324614600271414961490086895418802864657486317578002.13432710109738956189913719530309989398782125396591067385049025946221422937486904691404346881 and keep significant figures as 21",
+    "answer": "4.18336819907143246146e64",
+    "category": "sig_Float_int_ScientificNotation",
+    "subcategory": "92"
+  },
+  {
+    "id": "nubp-sampled-438",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 4912632254723609499269672967219307258175614732465589.9344203001561740812420427941641603721124728840726997975733486175392464447 and keep significant figures as 72",
+    "answer": "4.91263225472360949926967296721930725817561473246558993442030015617408124e51",
+    "category": "sig_Float_int_ScientificNotation",
+    "subcategory": "73"
+  },
+  {
+    "id": "nubp-sampled-439",
+    "question": "Directly return the answer as a scientific notation without any comma separator, like 1.23e4 . The float part should be in the range [1, 10). Convert the number to scientific notation: 34744174615866322806872357339013404121561.2426745822754921367013849554899826576227981051 and keep significant figures as 44",
+    "answer": "3.4744174615866322806872357339013404121561243e40",
+    "category": "sig_Float_int_ScientificNotation",
+    "subcategory": "46"
+  }
+]
