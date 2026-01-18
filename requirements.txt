@@ -1,0 +1,12 @@
+# Minimal runtime dependencies (inferred from imports)
+numpy
+torch
+transformers
+tqdm
+matplotlib
+seaborn
+pandas
+pyarrow
+
+# Optional: only needed if you use --optimizer adam8bit (v3/ane_tta.py)
+# bitsandbytes

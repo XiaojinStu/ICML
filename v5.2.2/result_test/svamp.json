@@ -1,0 +1,46 @@
+{
+  "summary": {
+    "method": "svamp",
+    "algo": "ane_tta",
+    "eval_mode": "ar",
+    "model": "Llama-3.2-1B-Instruct",
+    "steps": 5,
+    "lr": 0.001,
+    "update_target": "mlp+ln",
+    "num_layers": "all",
+    "layer_stride": 1,
+    "optimizer": "sgd",
+    "token_total": 0,
+    "token_correct_before": 0,
+    "token_correct_after": 0,
+    "token_acc_before": 0.0,
+    "token_acc_after": 0.0,
+    "token_topk_correct_before": {
+      "5": 0
+    },
+    "token_topk_correct_after": {
+      "5": 0
+    },
+    "token_topk_acc_before": {
+      "5": 0
+    },
+    "token_topk_acc_after": {
+      "5": 0
+    },
+    "seq_total": 0,
+    "seq_correct_before": 0,
+    "seq_correct_after": 0,
+    "seq_acc_before": 0.0,
+    "seq_acc_after": 0.0,
+    "flipped_count": 0,
+    "elapsed_minutes": 0.0009800116221110025,
+    "trainable": {
+      "trainable_params": 805371904,
+      "trainable_pct": 65.16932510253967,
+      "layer_count": 16,
+      "total_layers": 16
+    }
+  },
+  "results": [],
+  "flipped_cases": []
+}

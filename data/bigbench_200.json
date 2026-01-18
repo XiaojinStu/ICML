@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "2_digit_division-0",
+    "question": "What is 35 divided by 1?",
+    "answer": "35"
+  },
+  {
+    "id": "2_digit_division-1",
+    "question": "What is 69 divided by 69?",
+    "answer": "1"
+  },
+  {
+    "id": "2_digit_division-2",
+    "question": "What is 75 divided by 75?",
+    "answer": "1"
+  },
+  {
+    "id": "2_digit_division-3",
+    "question": "What is 58 divided by 2?",
+    "answer": "29"
+  },
+  {
+    "id": "2_digit_division-4",
+    "question": "What is 90 divided by 5?",
+    "answer": "18"
+  },
+  {
+    "id": "2_digit_division-5",
+    "question": "What is 88 divided by 88?",
+    "answer": "1"
+  },
+  {
+    "id": "2_digit_division-6",
+    "question": "What is 83 divided by 83?",
+    "answer": "1"
+  },
+  {
+    "id": "2_digit_division-7",
+    "question": "What is 44 divided by 4?",
+    "answer": "11"
+  },
+  {
+    "id": "2_digit_division-8",
+    "question": "What is 85 divided by 85?",
+    "answer": "1"
+  },
+  {
+    "id": "2_digit_division-9",
+    "question": "What is 64 divided by 2?",
+    "answer": "32"
+  },
+  {
+    "id": "3_digit_subtraction-0",
+    "question": "What is 141 minus 906?",
+    "answer": "-765"
+  },
+  {
+    "id": "3_digit_subtraction-1",
+    "question": "What is 103 minus 753?",
+    "answer": "-650"
+  },
+  {
+    "id": "3_digit_subtraction-2",
+    "question": "What is 160 minus 788?",
+    "answer": "-628"
+  },
+  {
+    "id": "3_digit_subtraction-3",
+    "question": "What is 649 minus 244?",
+    "answer": "405"
+  },
+  {
+    "id": "3_digit_subtraction-4",
+    "question": "What is 296 minus 613?",
+    "answer": "-317"
+  },
+  {
+    "id": "3_digit_subtraction-5",
+    "question": "What is 775 minus 265?",
+    "answer": "510"
+  },
+  {
+    "id": "3_digit_subtraction-6",
+    "question": "What is 251 minus 285?",
+    "answer": "-34"
+  },
+  {
+    "id": "3_digit_subtraction-7",
+    "question": "What is 113 minus 648?",
+    "answer": "-535"
+  },
+  {
+    "id": "3_digit_subtraction-8",
+    "question": "What is 638 minus 297?",
+    "answer": "341"
+  },
+  {
+    "id": "3_digit_subtraction-9",
+    "question": "What is 101 minus 379?",
+    "answer": "-278"
+  },
+  {
+    "id": "4_digit_addition-0",
+    "question": "What is 5940 plus 5702?",
+    "answer": "11642"
+  },
+  {
+    "id": "4_digit_addition-1",
+    "question": "What is 7047 plus 5348?",
+    "answer": "12395"
+  },
+  {
+    "id": "4_digit_addition-2",
+    "question": "What is 3401 plus 6247?",
+    "answer": "9648"
+  },
+  {
+    "id": "4_digit_addition-3",
+    "question": "What is 8838 plus 2102?",
+    "answer": "10940"
+  },
+  {
+    "id": "4_digit_addition-4",
+    "question": "What is 3370 plus 2481?",
+    "answer": "5851"
+  },
+  {
+    "id": "4_digit_addition-5",
+    "question": "What is 7308 plus 6777?",
+    "answer": "14085"
+  },
+  {
+    "id": "4_digit_addition-6",
+    "question": "What is 7782 plus 6463?",
+    "answer": "14245"
+  },
+  {
+    "id": "4_digit_addition-7",
+    "question": "What is 7859 plus 9144?",
+    "answer": "17003"
+  },
+  {
+    "id": "4_digit_addition-8",
+    "question": "What is 9785 plus 4770?",
+    "answer": "14555"
+  },
+  {
+    "id": "4_digit_addition-9",
+    "question": "What is 9633 plus 4593?",
+    "answer": "14226"
+  },
+  {
+    "id": "3_digit_multiplication-0",
+    "question": "What is 697 times 205?",
+    "answer": "142885"
+  },
+  {
+    "id": "3_digit_multiplication-1",
+    "question": "What is 797 times 374?",
+    "answer": "298078"
+  },
+  {
+    "id": "3_digit_multiplication-2",
+    "question": "What is 552 times 356?",
+    "answer": "196512"
+  },
+  {
+    "id": "3_digit_multiplication-3",
+    "question": "What is 355 times 646?",
+    "answer": "229330"
+  },
+  {
+    "id": "3_digit_multiplication-4",
+    "question": "What is 638 times 369?",
+    "answer": "235422"
+  },
+  {
+    "id": "3_digit_multiplication-5",
+    "question": "What is 452 times 980?",
+    "answer": "442960"
+  },
+  {
+    "id": "3_digit_multiplication-6",
+    "question": "What is 867 times 675?",
+    "answer": "585225"
+  },
+  {
+    "id": "3_digit_multiplication-7",
+    "question": "What is 211 times 858?",
+    "answer": "181038"
+  },
+  {
+    "id": "3_digit_multiplication-8",
+    "question": "What is 125 times 555?",
+    "answer": "69375"
+  },
+  {
+    "id": "3_digit_multiplication-9",
+    "question": "What is 910 times 868?",
+    "answer": "789880"
+  },
+  {
+    "id": "5_digit_addition-0",
+    "question": "What is 26270 plus 70625?",
+    "answer": "96895"
+  },
+  {
+    "id": "5_digit_addition-1",
+    "question": "What is 30017 plus 79947?",
+    "answer": "109964"
+  },
+  {
+    "id": "5_digit_addition-2",
+    "question": "What is 32517 plus 45695?",
+    "answer": "78212"
+  },
+  {
+    "id": "5_digit_addition-3",
+    "question": "What is 17451 plus 61616?",
+    "answer": "79067"
+  },
+  {
+    "id": "5_digit_addition-4",
+    "question": "What is 30435 plus 27339?",
+    "answer": "57774"
+  },
+  {
+    "id": "5_digit_addition-5",
+    "question": "What is 85217 plus 46605?",
+    "answer": "131822"
+  },
+  {
+    "id": "5_digit_addition-6",
+    "question": "What is 24401 plus 42534?",
+    "answer": "66935"
+  },
+  {
+    "id": "5_digit_addition-7",
+    "question": "What is 18791 plus 59469?",
+    "answer": "78260"
+  },
+  {
+    "id": "5_digit_addition-8",
+    "question": "What is 79323 plus 74219?",
+    "answer": "153542"
+  },
+  {
+    "id": "5_digit_addition-9",
+    "question": "What is 80971 plus 62939?",
+    "answer": "143910"
+  },
+  {
+    "id": "3_digit_division-0",
+    "question": "What is 852 divided by 4?",
+    "answer": "213"
+  },
+  {
+    "id": "3_digit_division-1",
+    "question": "What is 128 divided by 64?",
+    "answer": "2"
+  },
+  {
+    "id": "3_digit_division-2",
+    "question": "What is 812 divided by 4?",
+    "answer": "203"
+  },
+  {
+    "id": "3_digit_division-3",
+    "question": "What is 366 divided by 6?",
+    "answer": "61"
+  },
+  {
+    "id": "3_digit_division-4",
+    "question": "What is 765 divided by 9?",
+    "answer": "85"
+  },
+  {
+    "id": "3_digit_division-5",
+    "question": "What is 144 divided by 4?",
+    "answer": "36"
+  },
+  {
+    "id": "3_digit_division-6",
+    "question": "What is 760 divided by 760?",
+    "answer": "1"
+  },
+  {
+    "id": "3_digit_division-7",
+    "question": "What is 677 divided by 677?",
+    "answer": "1"
+  },
+  {
+    "id": "3_digit_division-8",
+    "question": "What is 400 divided by 5?",
+    "answer": "80"
+  },
+  {
+    "id": "3_digit_division-9",
+    "question": "What is 378 divided by 9?",
+    "answer": "42"
+  },
+  {
+    "id": "4_digit_multiplication-0",
+    "question": "What is 5431 times 3918?",
+    "answer": "21278658"
+  },
+  {
+    "id": "4_digit_multiplication-1",
+    "question": "What is 5698 times 4555?",
+    "answer": "25954390"
+  },
+  {
+    "id": "4_digit_multiplication-2",
+    "question": "What is 3719 times 3349?",
+    "answer": "12454931"
+  },
+  {
+    "id": "4_digit_multiplication-3",
+    "question": "What is 9301 times 4153?",
+    "answer": "38627053"
+  },
+  {
+    "id": "4_digit_multiplication-4",
+    "question": "What is 1540 times 2344?",
+    "answer": "3609760"
+  },
+  {
+    "id": "4_digit_multiplication-5",
+    "question": "What is 9680 times 8376?",
+    "answer": "81079680"
+  },
+  {
+    "id": "4_digit_multiplication-6",
+    "question": "What is 2701 times 2044?",
+    "answer": "5520844"
+  },
+  {
+    "id": "4_digit_multiplication-7",
+    "question": "What is 3820 times 3464?",
+    "answer": "13232480"
+  },
+  {
+    "id": "4_digit_multiplication-8",
+    "question": "What is 3423 times 4446?",
+    "answer": "15218658"
+  },
+  {
+    "id": "4_digit_multiplication-9",
+    "question": "What is 5694 times 9589?",
+    "answer": "54599766"
+  },
+  {
+    "id": "1_digit_subtraction-0",
+    "question": "What is 0 minus 0?",
+    "answer": "0"
+  },
+  {
+    "id": "1_digit_subtraction-1",
+    "question": "What is 0 minus 1?",
+    "answer": "-1"
+  },
+  {
+    "id": "1_digit_subtraction-2",
+    "question": "What is 0 minus 2?",
+    "answer": "-2"
+  },
+  {
+    "id": "1_digit_subtraction-3",
+    "question": "What is 0 minus 3?",
+    "answer": "-3"
+  },
+  {
+    "id": "1_digit_subtraction-4",
+    "question": "What is 0 minus 4?",
+    "answer": "-4"
+  },
+  {
+    "id": "1_digit_subtraction-5",
+    "question": "What is 0 minus 5?",
+    "answer": "-5"
+  },
+  {
+    "id": "1_digit_subtraction-6",
+    "question": "What is 0 minus 6?",
+    "answer": "-6"
+  },
+  {
+    "id": "1_digit_subtraction-7",
+    "question": "What is 0 minus 7?",
+    "answer": "-7"
+  },
+  {
+    "id": "1_digit_subtraction-8",
+    "question": "What is 0 minus 8?",
+    "answer": "-8"
+  },
+  {
+    "id": "1_digit_subtraction-9",
+    "question": "What is 0 minus 9?",
+    "answer": "-9"
+  },
+  {
+    "id": "3_digit_addition-0",
+    "question": "What is 161 plus 390?",
+    "answer": "551"
+  },
+  {
+    "id": "3_digit_addition-1",
+    "question": "What is 576 plus 770?",
+    "answer": "1346"
+  },
+  {
+    "id": "3_digit_addition-2",
+    "question": "What is 377 plus 778?",
+    "answer": "1155"
+  },
+  {
+    "id": "3_digit_addition-3",
+    "question": "What is 988 plus 764?",
+    "answer": "1752"
+  },
+  {
+    "id": "3_digit_addition-4",
+    "question": "What is 826 plus 201?",
+    "answer": "1027"
+  },
+  {
+    "id": "3_digit_addition-5",
+    "question": "What is 190 plus 290?",
+    "answer": "480"
+  },
+  {
+    "id": "3_digit_addition-6",
+    "question": "What is 829 plus 122?",
+    "answer": "951"
+  },
+  {
+    "id": "3_digit_addition-7",
+    "question": "What is 441 plus 601?",
+    "answer": "1042"
+  },
+  {
+    "id": "3_digit_addition-8",
+    "question": "What is 800 plus 460?",
+    "answer": "1260"
+  },
+  {
+    "id": "3_digit_addition-9",
+    "question": "What is 382 plus 931?",
+    "answer": "1313"
+  },
+  {
+    "id": "2_digit_addition-0",
+    "question": "What is 80 plus 29?",
+    "answer": "109"
+  },
+  {
+    "id": "2_digit_addition-1",
+    "question": "What is 36 plus 97?",
+    "answer": "133"
+  },
+  {
+    "id": "2_digit_addition-2",
+    "question": "What is 72 plus 42?",
+    "answer": "114"
+  },
+  {
+    "id": "2_digit_addition-3",
+    "question": "What is 64 plus 45?",
+    "answer": "109"
+  },
+  {
+    "id": "2_digit_addition-4",
+    "question": "What is 91 plus 43?",
+    "answer": "134"
+  },
+  {
+    "id": "2_digit_addition-5",
+    "question": "What is 64 plus 81?",
+    "answer": "145"
+  },
+  {
+    "id": "2_digit_addition-6",
+    "question": "What is 79 plus 14?",
+    "answer": "93"
+  },
+  {
+    "id": "2_digit_addition-7",
+    "question": "What is 65 plus 26?",
+    "answer": "91"
+  },
+  {
+    "id": "2_digit_addition-8",
+    "question": "What is 55 plus 36?",
+    "answer": "91"
+  },
+  {
+    "id": "2_digit_addition-9",
+    "question": "What is 81 plus 62?",
+    "answer": "143"
+  },
+  {
+    "id": "4_digit_division-0",
+    "question": "What is 9116 divided by 86?",
+    "answer": "106"
+  },
+  {
+    "id": "4_digit_division-1",
+    "question": "What is 2615 divided by 2615?",
+    "answer": "1"
+  },
+  {
+    "id": "4_digit_division-2",
+    "question": "What is 8595 divided by 3?",
+    "answer": "2865"
+  },
+  {
+    "id": "4_digit_division-3",
+    "question": "What is 9394 divided by 77?",
+    "answer": "122"
+  },
+  {
+    "id": "4_digit_division-4",
+    "question": "What is 7308 divided by 28?",
+    "answer": "261"
+  },
+  {
+    "id": "4_digit_division-5",
+    "question": "What is 5749 divided by 5749?",
+    "answer": "1"
+  },
+  {
+    "id": "4_digit_division-6",
+    "question": "What is 1212 divided by 4?",
+    "answer": "303"
+  },
+  {
+    "id": "4_digit_division-7",
+    "question": "What is 4743 divided by 31?",
+    "answer": "153"
+  },
+  {
+    "id": "4_digit_division-8",
+    "question": "What is 7180 divided by 2?",
+    "answer": "3590"
+  },
+  {
+    "id": "4_digit_division-9",
+    "question": "What is 6552 divided by 2?",
+    "answer": "3276"
+  },
+  {
+    "id": "1_digit_multiplication-0",
+    "question": "What is 0 times 0?",
+    "answer": "0"
+  },
+  {
+    "id": "1_digit_multiplication-1",
+    "question": "What is 0 times 1?",
+    "answer": "0"
+  },
+  {
+    "id": "1_digit_multiplication-2",
+    "question": "What is 0 times 2?",
+    "answer": "0"
+  },
+  {
+    "id": "1_digit_multiplication-3",
+    "question": "What is 0 times 3?",
+    "answer": "0"
+  },
+  {
+    "id": "1_digit_multiplication-4",
+    "question": "What is 0 times 4?",
+    "answer": "0"
+  },
+  {
+    "id": "1_digit_multiplication-5",
+    "question": "What is 0 times 5?",
+    "answer": "0"
+  },
+  {
+    "id": "1_digit_multiplication-6",
+    "question": "What is 0 times 6?",
+    "answer": "0"
+  },
+  {
+    "id": "1_digit_multiplication-7",
+    "question": "What is 0 times 7?",
+    "answer": "0"
+  },
+  {
+    "id": "1_digit_multiplication-8",
+    "question": "What is 0 times 8?",
+    "answer": "0"
+  },
+  {
+    "id": "1_digit_multiplication-9",
+    "question": "What is 0 times 9?",
+    "answer": "0"
+  },
+  {
+    "id": "4_digit_subtraction-0",
+    "question": "What is 8190 minus 4432?",
+    "answer": "3758"
+  },
+  {
+    "id": "4_digit_subtraction-1",
+    "question": "What is 6726 minus 9671?",
+    "answer": "-2945"
+  },
+  {
+    "id": "4_digit_subtraction-2",
+    "question": "What is 4935 minus 8695?",
+    "answer": "-3760"
+  },
+  {
+    "id": "4_digit_subtraction-3",
+    "question": "What is 1301 minus 4277?",
+    "answer": "-2976"
+  },
+  {
+    "id": "4_digit_subtraction-4",
+    "question": "What is 2773 minus 3635?",
+    "answer": "-862"
+  },
+  {
+    "id": "4_digit_subtraction-5",
+    "question": "What is 9970 minus 8872?",
+    "answer": "1098"
+  },
+  {
+    "id": "4_digit_subtraction-6",
+    "question": "What is 5302 minus 1943?",
+    "answer": "3359"
+  },
+  {
+    "id": "4_digit_subtraction-7",
+    "question": "What is 6263 minus 1389?",
+    "answer": "4874"
+  },
+  {
+    "id": "4_digit_subtraction-8",
+    "question": "What is 1513 minus 9311?",
+    "answer": "-7798"
+  },
+  {
+    "id": "4_digit_subtraction-9",
+    "question": "What is 9126 minus 7577?",
+    "answer": "1549"
+  },
+  {
+    "id": "5_digit_subtraction-0",
+    "question": "What is 58458 minus 68759?",
+    "answer": "-10301"
+  },
+  {
+    "id": "5_digit_subtraction-1",
+    "question": "What is 75902 minus 93120?",
+    "answer": "-17218"
+  },
+  {
+    "id": "5_digit_subtraction-2",
+    "question": "What is 75468 minus 14926?",
+    "answer": "60542"
+  },
+  {
+    "id": "5_digit_subtraction-3",
+    "question": "What is 61854 minus 16974?",
+    "answer": "44880"
+  },
+  {
+    "id": "5_digit_subtraction-4",
+    "question": "What is 47524 minus 31151?",
+    "answer": "16373"
+  },
+  {
+    "id": "5_digit_subtraction-5",
+    "question": "What is 52380 minus 47202?",
+    "answer": "5178"
+  },
+  {
+    "id": "5_digit_subtraction-6",
+    "question": "What is 26179 minus 40214?",
+    "answer": "-14035"
+  },
+  {
+    "id": "5_digit_subtraction-7",
+    "question": "What is 91655 minus 32232?",
+    "answer": "59423"
+  },
+  {
+    "id": "5_digit_subtraction-8",
+    "question": "What is 10519 minus 74250?",
+    "answer": "-63731"
+  },
+  {
+    "id": "5_digit_subtraction-9",
+    "question": "What is 97347 minus 48679?",
+    "answer": "48668"
+  },
+  {
+    "id": "2_digit_subtraction-0",
+    "question": "What is 61 minus 49?",
+    "answer": "12"
+  },
+  {
+    "id": "2_digit_subtraction-1",
+    "question": "What is 37 minus 47?",
+    "answer": "-10"
+  },
+  {
+    "id": "2_digit_subtraction-2",
+    "question": "What is 28 minus 65?",
+    "answer": "-37"
+  },
+  {
+    "id": "2_digit_subtraction-3",
+    "question": "What is 34 minus 33?",
+    "answer": "1"
+  },
+  {
+    "id": "2_digit_subtraction-4",
+    "question": "What is 46 minus 30?",
+    "answer": "16"
+  },
+  {
+    "id": "2_digit_subtraction-5",
+    "question": "What is 24 minus 46?",
+    "answer": "-22"
+  },
+  {
+    "id": "2_digit_subtraction-6",
+    "question": "What is 99 minus 24?",
+    "answer": "75"
+  },
+  {
+    "id": "2_digit_subtraction-7",
+    "question": "What is 62 minus 85?",
+    "answer": "-23"
+  },
+  {
+    "id": "2_digit_subtraction-8",
+    "question": "What is 98 minus 77?",
+    "answer": "21"
+  },
+  {
+    "id": "2_digit_subtraction-9",
+    "question": "What is 99 minus 35?",
+    "answer": "64"
+  },
+  {
+    "id": "2_digit_multiplication-0",
+    "question": "What is 50 times 20?",
+    "answer": "1000"
+  },
+  {
+    "id": "2_digit_multiplication-1",
+    "question": "What is 53 times 23?",
+    "answer": "1219"
+  },
+  {
+    "id": "2_digit_multiplication-2",
+    "question": "What is 60 times 66?",
+    "answer": "3960"
+  },
+  {
+    "id": "2_digit_multiplication-3",
+    "question": "What is 11 times 10?",
+    "answer": "110"
+  },
+  {
+    "id": "2_digit_multiplication-4",
+    "question": "What is 98 times 71?",
+    "answer": "6958"
+  },
+  {
+    "id": "2_digit_multiplication-5",
+    "question": "What is 32 times 71?",
+    "answer": "2272"
+  },
+  {
+    "id": "2_digit_multiplication-6",
+    "question": "What is 94 times 26?",
+    "answer": "2444"
+  },
+  {
+    "id": "2_digit_multiplication-7",
+    "question": "What is 15 times 54?",
+    "answer": "810"
+  },
+  {
+    "id": "2_digit_multiplication-8",
+    "question": "What is 69 times 29?",
+    "answer": "2001"
+  },
+  {
+    "id": "2_digit_multiplication-9",
+    "question": "What is 37 times 42?",
+    "answer": "1554"
+  },
+  {
+    "id": "1_digit_division-0",
+    "question": "What is 1 divided by 1?",
+    "answer": "1"
+  },
+  {
+    "id": "1_digit_division-1",
+    "question": "What is 2 divided by 1?",
+    "answer": "2"
+  },
+  {
+    "id": "1_digit_division-2",
+    "question": "What is 2 divided by 2?",
+    "answer": "1"
+  },
+  {
+    "id": "1_digit_division-3",
+    "question": "What is 3 divided by 1?",
+    "answer": "3"
+  },
+  {
+    "id": "1_digit_division-4",
+    "question": "What is 3 divided by 3?",
+    "answer": "1"
+  },
+  {
+    "id": "1_digit_division-5",
+    "question": "What is 4 divided by 1?",
+    "answer": "4"
+  },
+  {
+    "id": "1_digit_division-6",
+    "question": "What is 4 divided by 2?",
+    "answer": "2"
+  },
+  {
+    "id": "1_digit_division-7",
+    "question": "What is 4 divided by 4?",
+    "answer": "1"
+  },
+  {
+    "id": "1_digit_division-8",
+    "question": "What is 5 divided by 1?",
+    "answer": "5"
+  },
+  {
+    "id": "1_digit_division-9",
+    "question": "What is 5 divided by 5?",
+    "answer": "1"
+  },
+  {
+    "id": "1_digit_addition-0",
+    "question": "What is 0 plus 0?",
+    "answer": "0"
+  },
+  {
+    "id": "1_digit_addition-1",
+    "question": "What is 0 plus 1?",
+    "answer": "1"
+  },
+  {
+    "id": "1_digit_addition-2",
+    "question": "What is 0 plus 2?",
+    "answer": "2"
+  },
+  {
+    "id": "1_digit_addition-3",
+    "question": "What is 0 plus 3?",
+    "answer": "3"
+  },
+  {
+    "id": "1_digit_addition-4",
+    "question": "What is 0 plus 4?",
+    "answer": "4"
+  },
+  {
+    "id": "1_digit_addition-5",
+    "question": "What is 0 plus 5?",
+    "answer": "5"
+  },
+  {
+    "id": "1_digit_addition-6",
+    "question": "What is 0 plus 6?",
+    "answer": "6"
+  },
+  {
+    "id": "1_digit_addition-7",
+    "question": "What is 0 plus 7?",
+    "answer": "7"
+  },
+  {
+    "id": "1_digit_addition-8",
+    "question": "What is 0 plus 8?",
+    "answer": "8"
+  },
+  {
+    "id": "1_digit_addition-9",
+    "question": "What is 0 plus 9?",
+    "answer": "9"
+  },
+  {
+    "id": "5_digit_multiplication-0",
+    "question": "What is 68824 times 42716?",
+    "answer": "2939885984"
+  },
+  {
+    "id": "5_digit_multiplication-1",
+    "question": "What is 57363 times 35243?",
+    "answer": "2021644209"
+  },
+  {
+    "id": "5_digit_multiplication-2",
+    "question": "What is 34096 times 71994?",
+    "answer": "2454707424"
+  },
+  {
+    "id": "5_digit_multiplication-3",
+    "question": "What is 60864 times 31630?",
+    "answer": "1925128320"
+  },
+  {
+    "id": "5_digit_multiplication-4",
+    "question": "What is 90497 times 10034?",
+    "answer": "908046898"
+  },
+  {
+    "id": "5_digit_multiplication-5",
+    "question": "What is 76248 times 66840?",
+    "answer": "5096416320"
+  },
+  {
+    "id": "5_digit_multiplication-6",
+    "question": "What is 82892 times 34493?",
+    "answer": "2859193756"
+  },
+  {
+    "id": "5_digit_multiplication-7",
+    "question": "What is 38753 times 57322?",
+    "answer": "2221399466"
+  },
+  {
+    "id": "5_digit_multiplication-8",
+    "question": "What is 59469 times 35982?",
+    "answer": "2139813558"
+  },
+  {
+    "id": "5_digit_multiplication-9",
+    "question": "What is 99921 times 62990?",
+    "answer": "6294023790"
+  },
+  {
+    "id": "5_digit_division-0",
+    "question": "What is 77568 divided by 48?",
+    "answer": "1616"
+  },
+  {
+    "id": "5_digit_division-1",
+    "question": "What is 30736 divided by 904?",
+    "answer": "34"
+  },
+  {
+    "id": "5_digit_division-2",
+    "question": "What is 83968 divided by 164?",
+    "answer": "512"
+  },
+  {
+    "id": "5_digit_division-3",
+    "question": "What is 17532 divided by 1461?",
+    "answer": "12"
+  },
+  {
+    "id": "5_digit_division-4",
+    "question": "What is 18760 divided by 9380?",
+    "answer": "2"
+  },
+  {
+    "id": "5_digit_division-5",
+    "question": "What is 86756 divided by 92?",
+    "answer": "943"
+  },
+  {
+    "id": "5_digit_division-6",
+    "question": "What is 94645 divided by 4115?",
+    "answer": "23"
+  },
+  {
+    "id": "5_digit_division-7",
+    "question": "What is 13034 divided by 686?",
+    "answer": "19"
+  },
+  {
+    "id": "5_digit_division-8",
+    "question": "What is 83384 divided by 41692?",
+    "answer": "2"
+  },
+  {
+    "id": "5_digit_division-9",
+    "question": "What is 81784 divided by 20446?",
+    "answer": "4"
+  }
+]

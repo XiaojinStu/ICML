@@ -1,0 +1,384 @@
+==================================================
+NAE-TTA v2.1 Full Experiment Suite
+==================================================
+Models: 1B, 3B, 8B
+Steps: 5, 20, 50
+Samples: 50
+Total experiments: 9
+==================================================
+
+========== Llama-3.2-1B-Instruct ==========
+
+==================================================
+Running: llama1b_steps5
+Model: /home/jinsk/Models/Llama-3.2-1B-Instruct
+Steps: 5
+==================================================
+2026-01-12 13:50:21.030700: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-01-12 13:50:21.086472: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+======================================================================
+Experiment: llama1b_steps5
+======================================================================
+Model: Llama-3.2-1B-Instruct
+Numerical tokens: 1110/128000
+Sample numerical tokens: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '00', '20', '10', '201', '12', '19', '11', '32', '16', '15']
+Processing samples:   0%|          | 0/50 [00:00<?, ?it/s]Processing samples:   2%|▏         | 1/50 [00:00<00:48,  1.02it/s]Processing samples:   4%|▍         | 2/50 [00:01<00:25,  1.90it/s]Processing samples:   6%|▌         | 3/50 [00:01<00:26,  1.80it/s]Processing samples:   8%|▊         | 4/50 [00:02<00:22,  2.08it/s]Processing samples:  10%|█         | 5/50 [00:02<00:20,  2.18it/s]Processing samples:  12%|█▏        | 6/50 [00:03<00:22,  1.92it/s]Processing samples:  14%|█▍        | 7/50 [00:03<00:23,  1.81it/s]Processing samples:  16%|█▌        | 8/50 [00:04<00:23,  1.78it/s]Processing samples:  18%|█▊        | 9/50 [00:05<00:26,  1.54it/s]Processing samples:  20%|██        | 10/50 [00:06<00:28,  1.41it/s]Processing samples:  22%|██▏       | 11/50 [00:06<00:29,  1.33it/s]Processing samples:  24%|██▍       | 12/50 [00:07<00:29,  1.28it/s]Processing samples:  26%|██▌       | 13/50 [00:08<00:32,  1.16it/s]Processing samples:  28%|██▊       | 14/50 [00:09<00:33,  1.08it/s]Processing samples:  30%|███       | 15/50 [00:10<00:33,  1.03it/s]Processing samples:  32%|███▏      | 16/50 [00:12<00:35,  1.05s/it]Processing samples:  34%|███▍      | 17/50 [00:13<00:34,  1.06s/it]Processing samples:  36%|███▌      | 18/50 [00:14<00:35,  1.12s/it]Processing samples:  38%|███▊      | 19/50 [00:15<00:37,  1.20s/it]Processing samples:  40%|████      | 20/50 [00:17<00:38,  1.27s/it]Processing samples:  42%|████▏     | 21/50 [00:18<00:39,  1.35s/it]Processing samples:  44%|████▍     | 22/50 [00:20<00:40,  1.46s/it]Processing samples:  46%|████▌     | 23/50 [00:22<00:40,  1.51s/it]Processing samples:  48%|████▊     | 24/50 [00:23<00:40,  1.55s/it]Processing samples:  50%|█████     | 25/50 [00:25<00:39,  1.57s/it]Processing samples:  52%|█████▏    | 26/50 [00:27<00:39,  1.64s/it]Processing samples:  54%|█████▍    | 27/50 [00:29<00:39,  1.73s/it]Processing samples:  56%|█████▌    | 28/50 [00:31<00:40,  1.85s/it]Processing samples:  58%|█████▊    | 29/50 [00:33<00:39,  1.87s/it]Processing samples:  60%|██████    | 30/50 [00:35<00:37,  1.85s/it]Processing samples:  62%|██████▏   | 31/50 [00:37<00:36,  1.90s/it]Processing samples:  64%|██████▍   | 32/50 [00:39<00:36,  2.04s/it]Processing samples:  66%|██████▌   | 33/50 [00:41<00:36,  2.13s/it]Processing samples:  68%|██████▊   | 34/50 [00:44<00:36,  2.26s/it]Processing samples:  70%|███████   | 35/50 [00:46<00:34,  2.30s/it]Processing samples:  72%|███████▏  | 36/50 [00:49<00:33,  2.42s/it]Processing samples:  74%|███████▍  | 37/50 [00:52<00:32,  2.52s/it]Processing samples:  76%|███████▌  | 38/50 [00:54<00:31,  2.59s/it]Processing samples:  78%|███████▊  | 39/50 [00:57<00:28,  2.63s/it]Processing samples:  80%|████████  | 40/50 [01:00<00:25,  2.60s/it]Processing samples:  82%|████████▏ | 41/50 [01:03<00:23,  2.66s/it]Processing samples:  84%|████████▍ | 42/50 [01:06<00:22,  2.80s/it]Processing samples:  86%|████████▌ | 43/50 [01:09<00:20,  2.88s/it]Processing samples:  88%|████████▊ | 44/50 [01:12<00:17,  2.98s/it]Processing samples:  90%|█████████ | 45/50 [01:15<00:15,  3.11s/it]Processing samples:  92%|█████████▏| 46/50 [01:19<00:12,  3.17s/it]Processing samples:  94%|█████████▍| 47/50 [01:22<00:09,  3.22s/it]Processing samples:  96%|█████████▌| 48/50 [01:25<00:06,  3.27s/it]Processing samples:  98%|█████████▊| 49/50 [01:29<00:03,  3.30s/it]Processing samples: 100%|██████████| 50/50 [01:32<00:00,  3.27s/it]Processing samples: 100%|██████████| 50/50 [01:32<00:00,  1.85s/it]
+
+======================================================================
+Results Summary
+======================================================================
+Total tokens: 453
+Accuracy Before TTA: 0.0287 (13/453)
+Accuracy After TTA:  0.0287 (13/453)
+Improvement: +0.0000
+======================================================================
+Results saved to: results_nae/llama1b_steps5.json
+
+Generating visualizations...
+
+Generating visualizations for: llama1b_steps5
+  Saved: results_nae/llama1b_steps5_prob_heatmap.png
+  Saved: results_nae/llama1b_steps5_rank_heatmap.png
+  Saved: results_nae/llama1b_steps5_top10_cases.png
+  Saved: results_nae/llama1b_steps5_accuracy.png
+All visualizations completed for llama1b_steps5
+
+Completed: llama1b_steps5
+
+==================================================
+Running: llama1b_steps20
+Model: /home/jinsk/Models/Llama-3.2-1B-Instruct
+Steps: 20
+==================================================
+2026-01-12 13:52:28.026576: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-01-12 13:52:28.082910: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+======================================================================
+Experiment: llama1b_steps20
+======================================================================
+Model: Llama-3.2-1B-Instruct
+Numerical tokens: 1110/128000
+Sample numerical tokens: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '00', '20', '10', '201', '12', '19', '11', '32', '16', '15']
+Processing samples:   0%|          | 0/50 [00:00<?, ?it/s]Processing samples:   2%|▏         | 1/50 [00:01<01:35,  1.96s/it]Processing samples:   4%|▍         | 2/50 [00:02<00:57,  1.20s/it]Processing samples:   6%|▌         | 3/50 [00:03<00:59,  1.27s/it]Processing samples:   8%|▊         | 4/50 [00:05<01:03,  1.38s/it]Processing samples:  10%|█         | 5/50 [00:06<01:02,  1.39s/it]Processing samples:  12%|█▏        | 6/50 [00:09<01:14,  1.70s/it]Processing samples:  14%|█▍        | 7/50 [00:11<01:17,  1.81s/it]Processing samples:  16%|█▌        | 8/50 [00:13<01:20,  1.91s/it]Processing samples:  18%|█▊        | 9/50 [00:16<01:30,  2.22s/it]Processing samples:  20%|██        | 10/50 [00:19<01:36,  2.42s/it]Processing samples:  22%|██▏       | 11/50 [00:22<01:40,  2.58s/it]Processing samples:  24%|██▍       | 12/50 [00:25<01:41,  2.68s/it]Processing samples:  26%|██▌       | 13/50 [00:28<01:52,  3.03s/it]Processing samples:  28%|██▊       | 14/50 [00:32<01:56,  3.24s/it]Processing samples:  30%|███       | 15/50 [00:36<01:59,  3.42s/it]Processing samples:  32%|███▏      | 16/50 [00:40<02:07,  3.76s/it]Processing samples:  34%|███▍      | 17/50 [00:45<02:12,  4.02s/it]Processing samples:  36%|███▌      | 18/50 [00:50<02:19,  4.34s/it]Processing samples:  38%|███▊      | 19/50 [00:56<02:24,  4.67s/it]Processing samples:  40%|████      | 20/50 [01:01<02:24,  4.83s/it]Processing samples:  42%|████▏     | 21/50 [01:07<02:29,  5.16s/it]Processing samples:  44%|████▍     | 22/50 [01:13<02:30,  5.36s/it]Processing samples:  46%|████▌     | 23/50 [01:18<02:27,  5.47s/it]Processing samples:  48%|████▊     | 24/50 [01:25<02:31,  5.84s/it]Processing samples:  50%|█████     | 25/50 [01:32<02:34,  6.16s/it]Processing samples:  52%|█████▏    | 26/50 [01:38<02:30,  6.26s/it]Processing samples:  54%|█████▍    | 27/50 [01:46<02:34,  6.71s/it]Processing samples:  56%|█████▌    | 28/50 [01:54<02:34,  7.02s/it]Processing samples:  58%|█████▊    | 29/50 [02:02<02:32,  7.24s/it]Processing samples:  60%|██████    | 30/50 [02:09<02:27,  7.36s/it]Processing samples:  62%|██████▏   | 31/50 [02:18<02:26,  7.69s/it]Processing samples:  64%|██████▍   | 32/50 [02:26<02:20,  7.81s/it]Processing samples:  66%|██████▌   | 33/50 [02:33<02:11,  7.74s/it]Processing samples:  68%|██████▊   | 34/50 [02:43<02:10,  8.17s/it]Processing samples:  70%|███████   | 35/50 [02:52<02:07,  8.48s/it]Processing samples:  72%|███████▏  | 36/50 [03:00<01:59,  8.52s/it]Processing samples:  74%|███████▍  | 37/50 [03:09<01:52,  8.64s/it]Processing samples:  76%|███████▌  | 38/50 [03:19<01:47,  8.95s/it]Processing samples:  78%|███████▊  | 39/50 [03:30<01:44,  9.52s/it]Processing samples:  80%|████████  | 40/50 [03:40<01:38,  9.85s/it]Processing samples:  82%|████████▏ | 41/50 [03:50<01:27,  9.72s/it]Processing samples:  84%|████████▍ | 42/50 [04:00<01:18,  9.83s/it]Processing samples:  86%|████████▌ | 43/50 [04:10<01:10, 10.02s/it]Processing samples:  88%|████████▊ | 44/50 [04:21<01:01, 10.31s/it]Processing samples:  90%|█████████ | 45/50 [04:34<00:54, 10.90s/it]Processing samples:  92%|█████████▏| 46/50 [04:45<00:43, 10.99s/it]Processing samples:  94%|█████████▍| 47/50 [04:57<00:34, 11.37s/it]Processing samples:  96%|█████████▌| 48/50 [05:09<00:23, 11.50s/it]Processing samples:  98%|█████████▊| 49/50 [05:22<00:11, 11.88s/it]Processing samples: 100%|██████████| 50/50 [05:33<00:00, 11.64s/it]Processing samples: 100%|██████████| 50/50 [05:33<00:00,  6.67s/it]
+
+======================================================================
+Results Summary
+======================================================================
+Total tokens: 453
+Accuracy Before TTA: 0.0287 (13/453)
+Accuracy After TTA:  0.0287 (13/453)
+Improvement: +0.0000
+======================================================================
+Results saved to: results_nae/llama1b_steps20.json
+
+Generating visualizations...
+
+Generating visualizations for: llama1b_steps20
+  Saved: results_nae/llama1b_steps20_subspace_evolution.png
+  Saved: results_nae/llama1b_steps20_prob_heatmap.png
+  Saved: results_nae/llama1b_steps20_rank_heatmap.png
+  Saved: results_nae/llama1b_steps20_top10_cases.png
+  Saved: results_nae/llama1b_steps20_accuracy.png
+All visualizations completed for llama1b_steps20
+
+Completed: llama1b_steps20
+
+==================================================
+Running: llama1b_steps50
+Model: /home/jinsk/Models/Llama-3.2-1B-Instruct
+Steps: 50
+==================================================
+2026-01-12 13:58:27.220330: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-01-12 13:58:27.278972: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+======================================================================
+Experiment: llama1b_steps50
+======================================================================
+Model: Llama-3.2-1B-Instruct
+Numerical tokens: 1110/128000
+Sample numerical tokens: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '00', '20', '10', '201', '12', '19', '11', '32', '16', '15']
+Processing samples:   0%|          | 0/50 [00:00<?, ?it/s]Processing samples:   2%|▏         | 1/50 [00:02<02:08,  2.63s/it]Processing samples:   4%|▍         | 2/50 [00:04<01:45,  2.19s/it]Processing samples:   6%|▌         | 3/50 [00:08<02:17,  2.92s/it]Processing samples:   8%|▊         | 4/50 [00:12<02:28,  3.23s/it]Processing samples:  10%|█         | 5/50 [00:15<02:30,  3.35s/it]Processing samples:  12%|█▏        | 6/50 [00:21<03:00,  4.11s/it]Processing samples:  14%|█▍        | 7/50 [00:26<03:18,  4.61s/it]Processing samples:  16%|█▌        | 8/50 [00:32<03:27,  4.94s/it]Processing samples:  18%|█▊        | 9/50 [00:39<03:55,  5.74s/it]Processing samples:  20%|██        | 10/50 [00:47<04:11,  6.28s/it]Processing samples:  22%|██▏       | 11/50 [00:54<04:18,  6.64s/it]Processing samples:  24%|██▍       | 12/50 [01:01<04:13,  6.68s/it]Processing samples:  26%|██▌       | 13/50 [01:09<04:23,  7.12s/it]Processing samples:  28%|██▊       | 14/50 [01:19<04:39,  7.77s/it]Processing samples:  30%|███       | 15/50 [01:28<04:48,  8.26s/it]Processing samples:  32%|███▏      | 16/50 [01:39<05:07,  9.05s/it]Processing samples:  34%|███▍      | 17/50 [01:50<05:20,  9.71s/it]Processing samples:  36%|███▌      | 18/50 [02:03<05:43, 10.72s/it]Processing samples:  38%|███▊      | 19/50 [02:15<05:43, 11.08s/it]Processing samples:  40%|████      | 20/50 [02:27<05:44, 11.48s/it]Processing samples:  42%|████▏     | 21/50 [02:40<05:45, 11.90s/it]Processing samples:  44%|████▍     | 22/50 [02:54<05:47, 12.43s/it]Processing samples:  46%|████▌     | 23/50 [03:08<05:51, 13.03s/it]Processing samples:  48%|████▊     | 24/50 [03:24<05:54, 13.65s/it]Processing samples:  50%|█████     | 25/50 [03:38<05:46, 13.88s/it]Processing samples:  52%|█████▏    | 26/50 [03:52<05:37, 14.04s/it]Processing samples:  54%|█████▍    | 27/50 [04:10<05:48, 15.13s/it]Processing samples:  56%|█████▌    | 28/50 [04:28<05:54, 16.11s/it]Processing samples:  58%|█████▊    | 29/50 [04:47<05:54, 16.87s/it]Processing samples:  60%|██████    | 30/50 [05:04<05:39, 17.00s/it]Processing samples:  62%|██████▏   | 31/50 [05:23<05:33, 17.56s/it]Processing samples:  64%|██████▍   | 32/50 [05:44<05:33, 18.55s/it]Processing samples:  66%|██████▌   | 33/50 [06:01<05:09, 18.20s/it]Processing samples:  68%|██████▊   | 34/50 [06:23<05:09, 19.34s/it]Processing samples:  70%|███████   | 35/50 [06:46<05:04, 20.32s/it]Processing samples:  72%|███████▏  | 36/50 [07:11<05:01, 21.55s/it]Processing samples:  74%|███████▍  | 37/50 [07:33<04:45, 21.97s/it]Processing samples:  76%|███████▌  | 38/50 [07:57<04:29, 22.43s/it]Processing samples:  78%|███████▊  | 39/50 [08:20<04:09, 22.69s/it]Processing samples:  80%|████████  | 40/50 [08:46<03:55, 23.52s/it]Processing samples:  82%|████████▏ | 41/50 [09:11<03:35, 23.97s/it]Processing samples:  84%|████████▍ | 42/50 [09:36<03:15, 24.47s/it]Processing samples:  86%|████████▌ | 43/50 [10:02<02:54, 24.90s/it]Processing samples:  88%|████████▊ | 44/50 [10:29<02:32, 25.36s/it]Processing samples:  90%|█████████ | 45/50 [10:57<02:10, 26.17s/it]Processing samples:  92%|█████████▏| 46/50 [11:26<01:47, 26.96s/it]Processing samples:  94%|█████████▍| 47/50 [11:56<01:23, 27.84s/it]Processing samples:  96%|█████████▌| 48/50 [12:25<00:56, 28.42s/it]Processing samples:  98%|█████████▊| 49/50 [12:56<00:28, 28.99s/it]Processing samples: 100%|██████████| 50/50 [13:26<00:00, 29.28s/it]Processing samples: 100%|██████████| 50/50 [13:26<00:00, 16.12s/it]
+
+======================================================================
+Results Summary
+======================================================================
+Total tokens: 453
+Accuracy Before TTA: 0.0287 (13/453)
+Accuracy After TTA:  0.0287 (13/453)
+Improvement: +0.0000
+======================================================================
+Results saved to: results_nae/llama1b_steps50.json
+
+Generating visualizations...
+
+Generating visualizations for: llama1b_steps50
+  Saved: results_nae/llama1b_steps50_subspace_evolution.png
+  Saved: results_nae/llama1b_steps50_prob_heatmap.png
+  Saved: results_nae/llama1b_steps50_rank_heatmap.png
+  Saved: results_nae/llama1b_steps50_top10_cases.png
+  Saved: results_nae/llama1b_steps50_accuracy.png
+All visualizations completed for llama1b_steps50
+
+Completed: llama1b_steps50
+
+========== Llama-3.2-3B-Instruct ==========
+
+==================================================
+Running: llama3b_steps5
+Model: /home/jinsk/Models/Llama-3.2-3B-Instruct
+Steps: 5
+==================================================
+2026-01-12 14:12:15.644285: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-01-12 14:12:15.701276: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+======================================================================
+Experiment: llama3b_steps5
+======================================================================
+Model: Llama-3.2-3B-Instruct
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:31<00:31, 31.31s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:44<00:00, 20.51s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:44<00:00, 22.13s/it]
+Numerical tokens: 1110/128000
+Sample numerical tokens: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '00', '20', '10', '201', '12', '19', '11', '32', '16', '15']
+Processing samples:   0%|          | 0/50 [00:00<?, ?it/s]Processing samples:   2%|▏         | 1/50 [00:01<01:19,  1.62s/it]Processing samples:   4%|▍         | 2/50 [00:01<00:41,  1.17it/s]Processing samples:   6%|▌         | 3/50 [00:03<00:46,  1.01it/s]Processing samples:   8%|▊         | 4/50 [00:03<00:39,  1.17it/s]Processing samples:  10%|█         | 5/50 [00:04<00:35,  1.28it/s]Processing samples:  12%|█▏        | 6/50 [00:05<00:37,  1.19it/s]Processing samples:  14%|█▍        | 7/50 [00:06<00:38,  1.12it/s]Processing samples:  16%|█▌        | 8/50 [00:07<00:38,  1.09it/s]Processing samples:  18%|█▊        | 9/50 [00:08<00:42,  1.03s/it]Processing samples:  20%|██        | 10/50 [00:09<00:44,  1.11s/it]Processing samples:  22%|██▏       | 11/50 [00:11<00:45,  1.16s/it]Processing samples:  24%|██▍       | 12/50 [00:12<00:45,  1.20s/it]Processing samples:  26%|██▌       | 13/50 [00:14<00:48,  1.32s/it]Processing samples:  28%|██▊       | 14/50 [00:15<00:50,  1.41s/it]Processing samples:  30%|███       | 15/50 [00:17<00:51,  1.48s/it]Processing samples:  32%|███▏      | 16/50 [00:19<00:54,  1.61s/it]Processing samples:  34%|███▍      | 17/50 [00:21<00:56,  1.71s/it]Processing samples:  36%|███▌      | 18/50 [00:23<00:59,  1.87s/it]Processing samples:  38%|███▊      | 19/50 [00:25<01:01,  1.98s/it]Processing samples:  40%|████      | 20/50 [00:27<01:01,  2.07s/it]Processing samples:  42%|████▏     | 21/50 [00:30<01:04,  2.21s/it]Processing samples:  44%|████▍     | 22/50 [00:33<01:04,  2.31s/it]Processing samples:  46%|████▌     | 23/50 [00:35<01:04,  2.38s/it]Processing samples:  48%|████▊     | 24/50 [00:38<01:06,  2.54s/it]Processing samples:  50%|█████     | 25/50 [00:41<01:06,  2.64s/it]Processing samples:  52%|█████▏    | 26/50 [00:44<01:05,  2.71s/it]Processing samples:  54%|█████▍    | 27/50 [00:47<01:05,  2.87s/it]Processing samples:  56%|█████▌    | 28/50 [00:50<01:05,  2.97s/it]Processing samples:  58%|█████▊    | 29/50 [00:53<01:03,  3.03s/it]Processing samples:  60%|██████    | 30/50 [00:56<01:00,  3.04s/it]Processing samples:  62%|██████▏   | 31/50 [01:00<01:00,  3.20s/it]Processing samples:  64%|██████▍   | 32/50 [01:03<00:59,  3.29s/it]Processing samples:  66%|██████▌   | 33/50 [01:07<00:57,  3.38s/it]Processing samples:  68%|██████▊   | 34/50 [01:11<00:56,  3.52s/it]Processing samples:  70%|███████   | 35/50 [01:15<00:54,  3.61s/it]Processing samples:  72%|███████▏  | 36/50 [01:19<00:52,  3.78s/it]Processing samples:  74%|███████▍  | 37/50 [01:23<00:50,  3.90s/it]Processing samples:  76%|███████▌  | 38/50 [01:27<00:47,  3.98s/it]Processing samples:  78%|███████▊  | 39/50 [01:32<00:45,  4.13s/it]Processing samples:  80%|████████  | 40/50 [01:36<00:42,  4.24s/it]Processing samples:  82%|████████▏ | 41/50 [01:41<00:38,  4.31s/it]Processing samples:  84%|████████▍ | 42/50 [01:46<00:35,  4.46s/it]Processing samples:  86%|████████▌ | 43/50 [01:50<00:31,  4.56s/it]Processing samples:  88%|████████▊ | 44/50 [01:55<00:27,  4.63s/it]Processing samples:  90%|█████████ | 45/50 [02:00<00:23,  4.78s/it]Processing samples:  92%|█████████▏| 46/50 [02:05<00:19,  4.92s/it]Processing samples:  94%|█████████▍| 47/50 [02:11<00:14,  4.97s/it]Processing samples:  96%|█████████▌| 48/50 [02:16<00:10,  5.03s/it]Processing samples:  98%|█████████▊| 49/50 [02:21<00:05,  5.18s/it]Processing samples: 100%|██████████| 50/50 [02:27<00:00,  5.26s/it]Processing samples: 100%|██████████| 50/50 [02:27<00:00,  2.94s/it]
+
+======================================================================
+Results Summary
+======================================================================
+Total tokens: 453
+Accuracy Before TTA: 0.1170 (53/453)
+Accuracy After TTA:  0.1126 (51/453)
+Improvement: -0.0044
+======================================================================
+Results saved to: results_nae/llama3b_steps5.json
+
+Generating visualizations...
+
+Generating visualizations for: llama3b_steps5
+  Saved: results_nae/llama3b_steps5_prob_heatmap.png
+  Saved: results_nae/llama3b_steps5_rank_heatmap.png
+  Saved: results_nae/llama3b_steps5_top10_cases.png
+  Saved: results_nae/llama3b_steps5_accuracy.png
+All visualizations completed for llama3b_steps5
+
+Completed: llama3b_steps5
+
+==================================================
+Running: llama3b_steps20
+Model: /home/jinsk/Models/Llama-3.2-3B-Instruct
+Steps: 20
+==================================================
+2026-01-12 14:15:47.101386: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-01-12 14:15:47.156563: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+======================================================================
+Experiment: llama3b_steps20
+======================================================================
+Model: Llama-3.2-3B-Instruct
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.03s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.17s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.30s/it]
+Numerical tokens: 1110/128000
+Sample numerical tokens: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '00', '20', '10', '201', '12', '19', '11', '32', '16', '15']
+Processing samples:   0%|          | 0/50 [00:00<?, ?it/s]Processing samples:   2%|▏         | 1/50 [00:01<01:29,  1.83s/it]Processing samples:   4%|▍         | 2/50 [00:03<01:09,  1.45s/it]Processing samples:   6%|▌         | 3/50 [00:05<01:27,  1.86s/it]Processing samples:   8%|▊         | 4/50 [00:07<01:34,  2.06s/it]Processing samples:  10%|█         | 5/50 [00:10<01:36,  2.15s/it]Processing samples:  12%|█▏        | 6/50 [00:13<01:55,  2.62s/it]Processing samples:  14%|█▍        | 7/50 [00:16<02:01,  2.83s/it]Processing samples:  16%|█▌        | 8/50 [00:20<02:05,  3.00s/it]Processing samples:  18%|█▊        | 9/50 [00:24<02:23,  3.51s/it]Processing samples:  20%|██        | 10/50 [00:29<02:29,  3.74s/it]Processing samples:  22%|██▏       | 11/50 [00:33<02:36,  4.01s/it]Processing samples:  24%|██▍       | 12/50 [00:38<02:39,  4.20s/it]Processing samples:  26%|██▌       | 13/50 [00:44<02:52,  4.65s/it]Processing samples:  28%|██▊       | 14/50 [00:49<02:55,  4.87s/it]Processing samples:  30%|███       | 15/50 [00:54<02:55,  5.00s/it]Processing samples:  32%|███▏      | 16/50 [01:01<03:10,  5.61s/it]Processing samples:  34%|███▍      | 17/50 [01:08<03:18,  6.03s/it]Processing samples:  36%|███▌      | 18/50 [01:16<03:32,  6.64s/it]Processing samples:  38%|███▊      | 19/50 [01:24<03:39,  7.09s/it]Processing samples:  40%|████      | 20/50 [01:33<03:42,  7.41s/it]Processing samples:  42%|████▏     | 21/50 [01:41<03:46,  7.82s/it]Processing samples:  44%|████▍     | 22/50 [01:50<03:44,  8.01s/it]Processing samples:  46%|████▌     | 23/50 [01:59<03:42,  8.22s/it]Processing samples:  48%|████▊     | 24/50 [02:08<03:46,  8.70s/it]Processing samples:  50%|█████     | 25/50 [02:18<03:45,  9.02s/it]Processing samples:  52%|█████▏    | 26/50 [02:28<03:43,  9.30s/it]Processing samples:  54%|█████▍    | 27/50 [02:39<03:45,  9.80s/it]Processing samples:  56%|█████▌    | 28/50 [02:50<03:45, 10.24s/it]Processing samples:  58%|█████▊    | 29/50 [03:01<03:37, 10.36s/it]Processing samples:  60%|██████    | 30/50 [03:12<03:33, 10.67s/it]Processing samples:  62%|██████▏   | 31/50 [03:26<03:38, 11.48s/it]Processing samples:  64%|██████▍   | 32/50 [03:38<03:32, 11.83s/it]Processing samples:  66%|██████▌   | 33/50 [03:51<03:24, 12.01s/it]Processing samples:  68%|██████▊   | 34/50 [04:04<03:19, 12.44s/it]Processing samples:  70%|███████   | 35/50 [04:18<03:12, 12.85s/it]Processing samples:  72%|███████▏  | 36/50 [04:32<03:04, 13.20s/it]Processing samples:  74%|███████▍  | 37/50 [04:47<02:58, 13.71s/it]Processing samples:  76%|███████▌  | 38/50 [05:02<02:47, 13.99s/it]Processing samples:  78%|███████▊  | 39/50 [05:17<02:38, 14.37s/it]Processing samples:  80%|████████  | 40/50 [05:31<02:24, 14.42s/it]Processing samples:  82%|████████▏ | 41/50 [05:47<02:12, 14.70s/it]Processing samples:  84%|████████▍ | 42/50 [06:03<02:02, 15.32s/it]Processing samples:  86%|████████▌ | 43/50 [06:19<01:47, 15.40s/it]Processing samples:  88%|████████▊ | 44/50 [06:36<01:34, 15.76s/it]Processing samples:  90%|█████████ | 45/50 [06:53<01:21, 16.28s/it]Processing samples:  92%|█████████▏| 46/50 [07:12<01:07, 16.95s/it]Processing samples:  94%|█████████▍| 47/50 [07:30<00:52, 17.37s/it]Processing samples:  96%|█████████▌| 48/50 [07:48<00:34, 17.41s/it]Processing samples:  98%|█████████▊| 49/50 [08:07<00:18, 18.13s/it]Processing samples: 100%|██████████| 50/50 [08:27<00:00, 18.61s/it]Processing samples: 100%|██████████| 50/50 [08:27<00:00, 10.15s/it]
+
+======================================================================
+Results Summary
+======================================================================
+Total tokens: 453
+Accuracy Before TTA: 0.1170 (53/453)
+Accuracy After TTA:  0.1148 (52/453)
+Improvement: -0.0022
+======================================================================
+Results saved to: results_nae/llama3b_steps20.json
+
+Generating visualizations...
+
+Generating visualizations for: llama3b_steps20
+  Saved: results_nae/llama3b_steps20_subspace_evolution.png
+  Saved: results_nae/llama3b_steps20_prob_heatmap.png
+  Saved: results_nae/llama3b_steps20_rank_heatmap.png
+  Saved: results_nae/llama3b_steps20_top10_cases.png
+  Saved: results_nae/llama3b_steps20_accuracy.png
+All visualizations completed for llama3b_steps20
+
+Completed: llama3b_steps20
+
+==================================================
+Running: llama3b_steps50
+Model: /home/jinsk/Models/Llama-3.2-3B-Instruct
+Steps: 50
+==================================================
+2026-01-12 14:24:38.066359: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-01-12 14:24:38.125809: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+======================================================================
+Experiment: llama3b_steps50
+======================================================================
+Model: Llama-3.2-3B-Instruct
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.89s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.09s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.21s/it]
+Numerical tokens: 1110/128000
+Sample numerical tokens: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '00', '20', '10', '201', '12', '19', '11', '32', '16', '15']
+Processing samples:   0%|          | 0/50 [00:00<?, ?it/s]Processing samples:   2%|▏         | 1/50 [00:04<03:30,  4.29s/it]Processing samples:   4%|▍         | 2/50 [00:07<02:54,  3.63s/it]Processing samples:   6%|▌         | 3/50 [00:12<03:25,  4.36s/it]Processing samples:   8%|▊         | 4/50 [00:18<03:45,  4.90s/it]Processing samples:  10%|█         | 5/50 [00:23<03:50,  5.13s/it]Processing samples:  12%|█▏        | 6/50 [00:32<04:32,  6.18s/it]Processing samples:  14%|█▍        | 7/50 [00:39<04:48,  6.71s/it]Processing samples:  16%|█▌        | 8/50 [00:48<04:59,  7.14s/it]Processing samples:  18%|█▊        | 9/50 [00:59<05:44,  8.40s/it]Processing samples:  20%|██        | 10/50 [01:10<06:06,  9.17s/it]Processing samples:  22%|██▏       | 11/50 [01:21<06:23,  9.84s/it]Processing samples:  24%|██▍       | 12/50 [01:32<06:31, 10.31s/it]Processing samples:  26%|██▌       | 13/50 [01:46<06:57, 11.29s/it]Processing samples:  28%|██▊       | 14/50 [02:00<07:13, 12.03s/it]Processing samples:  30%|███       | 15/50 [02:13<07:15, 12.45s/it]Processing samples:  32%|███▏      | 16/50 [02:29<07:41, 13.58s/it]Processing samples:  34%|███▍      | 17/50 [02:44<07:44, 14.06s/it]Processing samples:  36%|███▌      | 18/50 [03:04<08:26, 15.84s/it]Processing samples:  38%|███▊      | 19/50 [03:24<08:42, 16.87s/it]Processing samples:  40%|████      | 20/50 [03:43<08:49, 17.65s/it]Processing samples:  42%|████▏     | 21/50 [04:04<08:56, 18.50s/it]Processing samples:  44%|████▍     | 22/50 [04:24<08:56, 19.16s/it]Processing samples:  46%|████▌     | 23/50 [04:44<08:44, 19.43s/it]Processing samples:  48%|████▊     | 24/50 [05:08<08:56, 20.65s/it]Processing samples:  50%|█████     | 25/50 [05:31<08:54, 21.39s/it]Processing samples:  52%|█████▏    | 26/50 [05:56<09:00, 22.53s/it]Processing samples:  54%|█████▍    | 27/50 [06:24<09:11, 23.96s/it]Processing samples:  56%|█████▌    | 28/50 [06:50<09:04, 24.74s/it]Processing samples:  58%|█████▊    | 29/50 [07:15<08:40, 24.79s/it]Processing samples:  60%|██████    | 30/50 [07:43<08:33, 25.66s/it]Processing samples:  62%|██████▏   | 31/50 [08:13<08:36, 27.19s/it]Processing samples:  64%|██████▍   | 32/50 [08:45<08:30, 28.36s/it]Processing samples:  66%|██████▌   | 33/50 [09:13<08:02, 28.35s/it]Processing samples:  68%|██████▊   | 34/50 [09:44<07:45, 29.08s/it]Processing samples:  70%|███████   | 35/50 [10:15<07:26, 29.75s/it]Processing samples:  72%|███████▏  | 36/50 [10:50<07:19, 31.38s/it]Processing samples:  74%|███████▍  | 37/50 [11:25<07:01, 32.43s/it]Processing samples:  76%|███████▌  | 38/50 [12:00<06:39, 33.27s/it]Processing samples:  78%|███████▊  | 39/50 [12:39<06:25, 35.04s/it]Processing samples:  80%|████████  | 40/50 [13:18<05:59, 35.99s/it]Processing samples:  82%|████████▏ | 41/50 [13:57<05:31, 36.88s/it]Processing samples:  84%|████████▍ | 42/50 [14:37<05:03, 37.96s/it]Processing samples:  86%|████████▌ | 43/50 [15:19<04:33, 39.14s/it]Processing samples:  88%|████████▊ | 44/50 [15:59<03:56, 39.37s/it]Processing samples:  90%|█████████ | 45/50 [16:42<03:23, 40.61s/it]Processing samples:  92%|█████████▏| 46/50 [17:27<02:47, 41.79s/it]Processing samples:  94%|█████████▍| 47/50 [18:11<02:07, 42.41s/it]Processing samples:  96%|█████████▌| 48/50 [18:54<01:25, 42.75s/it]Processing samples:  98%|█████████▊| 49/50 [19:42<00:44, 44.27s/it]Processing samples: 100%|██████████| 50/50 [20:28<00:00, 44.61s/it]Processing samples: 100%|██████████| 50/50 [20:28<00:00, 24.56s/it]
+
+======================================================================
+Results Summary
+======================================================================
+Total tokens: 453
+Accuracy Before TTA: 0.1170 (53/453)
+Accuracy After TTA:  0.1148 (52/453)
+Improvement: -0.0022
+======================================================================
+Results saved to: results_nae/llama3b_steps50.json
+
+Generating visualizations...
+
+Generating visualizations for: llama3b_steps50
+  Saved: results_nae/llama3b_steps50_subspace_evolution.png
+  Saved: results_nae/llama3b_steps50_prob_heatmap.png
+  Saved: results_nae/llama3b_steps50_rank_heatmap.png
+  Saved: results_nae/llama3b_steps50_top10_cases.png
+  Saved: results_nae/llama3b_steps50_accuracy.png
+All visualizations completed for llama3b_steps50
+
+Completed: llama3b_steps50
+
+========== Llama-3.1-8B-Instruct ==========
+
+==================================================
+Running: llama8b_steps5
+Model: /home/jinsk/Models/Llama-3.1-8B-Instruct
+Steps: 5
+==================================================
+2026-01-12 14:45:26.407484: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-01-12 14:45:26.462851: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+======================================================================
+Experiment: llama8b_steps5
+======================================================================
+Model: Llama-3.1-8B-Instruct
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.76s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.80s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:05<00:01,  1.77s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.23s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.43s/it]
+Numerical tokens: 1110/128000
+Sample numerical tokens: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '00', '20', '10', '201', '12', '19', '11', '32', '16', '15']
+Processing samples:   0%|          | 0/50 [00:00<?, ?it/s]Processing samples:   2%|▏         | 1/50 [00:01<00:51,  1.04s/it]Processing samples:   4%|▍         | 2/50 [00:01<00:31,  1.54it/s]Processing samples:   6%|▌         | 3/50 [00:02<00:32,  1.43it/s]Processing samples:   8%|▊         | 4/50 [00:02<00:33,  1.39it/s]Processing samples:  10%|█         | 5/50 [00:03<00:32,  1.37it/s]Processing samples:  12%|█▏        | 6/50 [00:04<00:38,  1.15it/s]Processing samples:  14%|█▍        | 7/50 [00:05<00:40,  1.05it/s]Processing samples:  16%|█▌        | 8/50 [00:07<00:42,  1.01s/it]Processing samples:  18%|█▊        | 9/50 [00:08<00:47,  1.17s/it]Processing samples:  20%|██        | 10/50 [00:10<00:50,  1.27s/it]Processing samples:  22%|██▏       | 11/50 [00:11<00:52,  1.35s/it]Processing samples:  24%|██▍       | 12/50 [00:13<00:53,  1.40s/it]Processing samples:  26%|██▌       | 13/50 [00:15<00:57,  1.55s/it]Processing samples:  28%|██▊       | 14/50 [00:16<00:59,  1.65s/it]Processing samples:  30%|███       | 15/50 [00:18<01:00,  1.72s/it]Processing samples:  32%|███▏      | 16/50 [00:21<01:04,  1.89s/it]Processing samples:  34%|███▍      | 17/50 [00:23<01:06,  2.01s/it]Processing samples:  36%|███▌      | 18/50 [00:26<01:10,  2.20s/it]Processing samples:  38%|███▊      | 19/50 [00:28<01:12,  2.34s/it]Processing samples:  40%|████      | 20/50 [00:31<01:13,  2.43s/it]Processing samples:  42%|████▏     | 21/50 [00:34<01:20,  2.78s/it]Processing samples:  44%|████▍     | 22/50 [00:38<01:21,  2.92s/it]Processing samples:  46%|████▌     | 23/50 [00:41<01:20,  2.97s/it]Processing samples:  48%|████▊     | 24/50 [00:44<01:20,  3.10s/it]Processing samples:  50%|█████     | 25/50 [00:48<01:19,  3.20s/it]Processing samples:  52%|█████▏    | 26/50 [00:51<01:18,  3.27s/it]Processing samples:  54%|█████▍    | 27/50 [00:55<01:20,  3.51s/it]Processing samples:  56%|█████▌    | 28/50 [00:59<01:20,  3.67s/it]Processing samples:  58%|█████▊    | 29/50 [01:03<01:19,  3.79s/it]Processing samples:  60%|██████    | 30/50 [01:07<01:17,  3.89s/it]Processing samples:  62%|██████▏   | 31/50 [01:12<01:17,  4.06s/it]Processing samples:  64%|██████▍   | 32/50 [01:16<01:15,  4.19s/it]Processing samples:  66%|██████▌   | 33/50 [01:21<01:12,  4.27s/it]Processing samples:  68%|██████▊   | 34/50 [01:25<01:09,  4.35s/it]Processing samples:  70%|███████   | 35/50 [01:30<01:06,  4.42s/it]Processing samples:  72%|███████▏  | 36/50 [01:35<01:04,  4.61s/it]Processing samples:  74%|███████▍  | 37/50 [01:40<01:01,  4.72s/it]Processing samples:  76%|███████▌  | 38/50 [01:45<00:57,  4.80s/it]Processing samples:  78%|███████▊  | 39/50 [01:50<00:54,  4.96s/it]Processing samples:  80%|████████  | 40/50 [01:56<00:50,  5.08s/it]Processing samples:  82%|████████▏ | 41/50 [02:01<00:46,  5.16s/it]Processing samples:  84%|████████▍ | 42/50 [02:07<00:42,  5.34s/it]Processing samples:  86%|████████▌ | 43/50 [02:12<00:38,  5.48s/it]Processing samples:  88%|████████▊ | 44/50 [02:19<00:33,  5.65s/it]Processing samples:  90%|█████████ | 45/50 [02:25<00:29,  5.92s/it]Processing samples:  92%|█████████▏| 46/50 [02:32<00:24,  6.13s/it]Processing samples:  94%|█████████▍| 47/50 [02:38<00:18,  6.28s/it]Processing samples:  96%|█████████▌| 48/50 [02:45<00:12,  6.39s/it]Processing samples:  98%|█████████▊| 49/50 [02:52<00:06,  6.64s/it]Processing samples: 100%|██████████| 50/50 [02:59<00:00,  6.70s/it]Processing samples: 100%|██████████| 50/50 [02:59<00:00,  3.59s/it]
+
+======================================================================
+Results Summary
+======================================================================
+Total tokens: 453
+Accuracy Before TTA: 0.2737 (124/453)
+Accuracy After TTA:  0.2759 (125/453)
+Improvement: +0.0022
+======================================================================
+Results saved to: results_nae/llama8b_steps5.json
+
+Generating visualizations...
+
+Generating visualizations for: llama8b_steps5
+  Saved: results_nae/llama8b_steps5_prob_heatmap.png
+  Saved: results_nae/llama8b_steps5_rank_heatmap.png
+  Saved: results_nae/llama8b_steps5_top10_cases.png
+  Saved: results_nae/llama8b_steps5_accuracy.png
+All visualizations completed for llama8b_steps5
+
+Completed: llama8b_steps5
+
+==================================================
+Running: llama8b_steps20
+Model: /home/jinsk/Models/Llama-3.1-8B-Instruct
+Steps: 20
+==================================================
+2026-01-12 14:48:48.643387: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-01-12 14:48:48.700324: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+======================================================================
+Experiment: llama8b_steps20
+======================================================================
+Model: Llama-3.1-8B-Instruct
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.75s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.78s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:05<00:01,  1.75s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.22s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.42s/it]
+Numerical tokens: 1110/128000
+Sample numerical tokens: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '00', '20', '10', '201', '12', '19', '11', '32', '16', '15']
+Processing samples:   0%|          | 0/50 [00:00<?, ?it/s]Processing samples:   2%|▏         | 1/50 [00:02<02:05,  2.57s/it]Processing samples:   4%|▍         | 2/50 [00:03<01:29,  1.86s/it]Processing samples:   6%|▌         | 3/50 [00:06<01:45,  2.25s/it]Processing samples:   8%|▊         | 4/50 [00:09<01:53,  2.48s/it]Processing samples:  10%|█         | 5/50 [00:12<01:55,  2.56s/it]Processing samples:  12%|█▏        | 6/50 [00:16<02:16,  3.10s/it]Processing samples:  14%|█▍        | 7/50 [00:20<02:26,  3.42s/it]Processing samples:  16%|█▌        | 8/50 [00:24<02:32,  3.63s/it]Processing samples:  18%|█▊        | 9/50 [00:29<02:51,  4.18s/it]Processing samples:  20%|██        | 10/50 [00:35<03:07,  4.69s/it]Processing samples:  22%|██▏       | 11/50 [00:41<03:14,  4.98s/it]Processing samples:  24%|██▍       | 12/50 [00:47<03:19,  5.24s/it]Processing samples:  26%|██▌       | 13/50 [00:54<03:42,  6.01s/it]Processing samples:  28%|██▊       | 14/50 [01:02<03:50,  6.41s/it]Processing samples:  30%|███       | 15/50 [01:09<03:54,  6.69s/it]Processing samples:  32%|███▏      | 16/50 [01:18<04:08,  7.31s/it]Processing samples:  34%|███▍      | 17/50 [01:27<04:15,  7.76s/it]Processing samples:  36%|███▌      | 18/50 [01:37<04:32,  8.51s/it]Processing samples:  38%|███▊      | 19/50 [01:47<04:40,  9.05s/it]Processing samples:  40%|████      | 20/50 [01:57<04:38,  9.29s/it]Processing samples:  42%|████▏     | 21/50 [02:09<04:50, 10.01s/it]Processing samples:  44%|████▍     | 22/50 [02:21<04:55, 10.55s/it]Processing samples:  46%|████▌     | 23/50 [02:32<04:55, 10.94s/it]Processing samples:  48%|████▊     | 24/50 [02:45<04:59, 11.53s/it]Processing samples:  50%|█████     | 25/50 [02:59<05:01, 12.04s/it]Processing samples:  52%|█████▏    | 26/50 [03:12<04:56, 12.37s/it]Processing samples:  54%|█████▍    | 27/50 [03:26<04:59, 13.03s/it]Processing samples:  56%|█████▌    | 28/50 [03:41<04:54, 13.40s/it]Processing samples:  58%|█████▊    | 29/50 [03:55<04:50, 13.81s/it]Processing samples:  60%|██████    | 30/50 [04:10<04:39, 14.00s/it]Processing samples:  62%|██████▏   | 31/50 [04:26<04:37, 14.61s/it]Processing samples:  64%|██████▍   | 32/50 [04:42<04:29, 14.97s/it]Processing samples:  66%|██████▌   | 33/50 [04:57<04:18, 15.21s/it]Processing samples:  68%|██████▊   | 34/50 [05:15<04:15, 15.95s/it]Processing samples:  70%|███████   | 35/50 [05:32<04:02, 16.20s/it]Processing samples:  72%|███████▏  | 36/50 [05:50<03:56, 16.89s/it]Processing samples:  74%|███████▍  | 37/50 [06:10<03:48, 17.61s/it]Processing samples:  76%|███████▌  | 38/50 [06:29<03:37, 18.10s/it]Processing samples:  78%|███████▊  | 39/50 [06:50<03:27, 18.86s/it]Processing samples:  80%|████████  | 40/50 [07:09<03:11, 19.16s/it]Processing samples:  82%|████████▏ | 41/50 [07:29<02:54, 19.38s/it]Processing samples:  84%|████████▍ | 42/50 [07:51<02:39, 19.96s/it]Processing samples:  86%|████████▌ | 43/50 [08:12<02:22, 20.29s/it]Processing samples:  88%|████████▊ | 44/50 [08:34<02:05, 20.88s/it]Processing samples:  90%|█████████ | 45/50 [08:58<01:48, 21.72s/it]Processing samples:  92%|█████████▏| 46/50 [09:21<01:28, 22.14s/it]Processing samples:  94%|█████████▍| 47/50 [09:44<01:07, 22.41s/it]Processing samples:  96%|█████████▌| 48/50 [10:08<00:45, 22.89s/it]Processing samples:  98%|█████████▊| 49/50 [10:34<00:23, 23.87s/it]Processing samples: 100%|██████████| 50/50 [11:00<00:00, 24.56s/it]Processing samples: 100%|██████████| 50/50 [11:00<00:00, 13.21s/it]
+
+======================================================================
+Results Summary
+======================================================================
+Total tokens: 453
+Accuracy Before TTA: 0.2737 (124/453)
+Accuracy After TTA:  0.2804 (127/453)
+Improvement: +0.0066
+======================================================================
+Results saved to: results_nae/llama8b_steps20.json
+
+Generating visualizations...
+
+Generating visualizations for: llama8b_steps20
+  Saved: results_nae/llama8b_steps20_subspace_evolution.png
+  Saved: results_nae/llama8b_steps20_prob_heatmap.png
+  Saved: results_nae/llama8b_steps20_rank_heatmap.png
+  Saved: results_nae/llama8b_steps20_top10_cases.png
+  Saved: results_nae/llama8b_steps20_accuracy.png
+All visualizations completed for llama8b_steps20
+
+Completed: llama8b_steps20
+
+==================================================
+Running: llama8b_steps50
+Model: /home/jinsk/Models/Llama-3.1-8B-Instruct
+Steps: 50
+==================================================
+2026-01-12 15:01:01.785265: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-01-12 15:01:01.839228: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+======================================================================
+Experiment: llama8b_steps50
+======================================================================
+Model: Llama-3.1-8B-Instruct
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.74s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.76s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:05<00:01,  1.74s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.21s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.40s/it]
+Numerical tokens: 1110/128000
+Sample numerical tokens: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '00', '20', '10', '201', '12', '19', '11', '32', '16', '15']
+Processing samples:   0%|          | 0/50 [00:00<?, ?it/s]Processing samples:   2%|▏         | 1/50 [00:04<03:51,  4.73s/it]Processing samples:   4%|▍         | 2/50 [00:08<03:14,  4.05s/it]Processing samples:   6%|▌         | 3/50 [00:15<04:16,  5.45s/it]Processing samples:   8%|▊         | 4/50 [00:22<04:41,  6.11s/it]Processing samples:  10%|█         | 5/50 [00:29<04:51,  6.48s/it]Processing samples:  12%|█▏        | 6/50 [00:39<05:40,  7.74s/it]Processing samples:  14%|█▍        | 7/50 [00:50<06:14,  8.71s/it]Processing samples:  16%|█▌        | 8/50 [01:01<06:32,  9.34s/it]Processing samples:  18%|█▊        | 9/50 [01:14<07:17, 10.67s/it]Processing samples:  20%|██        | 10/50 [01:28<07:38, 11.46s/it]Processing samples:  22%|██▏       | 11/50 [01:41<07:50, 12.06s/it]Processing samples:  24%|██▍       | 12/50 [01:55<07:56, 12.53s/it]Processing samples:  26%|██▌       | 13/50 [02:12<08:38, 14.01s/it]Processing samples:  28%|██▊       | 14/50 [02:29<08:57, 14.93s/it]Processing samples:  30%|███       | 15/50 [02:47<09:13, 15.82s/it]Processing samples:  32%|███▏      | 16/50 [03:08<09:48, 17.32s/it]Processing samples:  34%|███▍      | 17/50 [03:28<10:02, 18.26s/it]Processing samples:  36%|███▌      | 18/50 [03:52<10:39, 19.99s/it]Processing samples:  38%|███▊      | 19/50 [04:17<11:04, 21.43s/it]Processing samples:  40%|████      | 20/50 [04:42<11:14, 22.50s/it]Processing samples:  42%|████▏     | 21/50 [05:11<11:45, 24.32s/it]Processing samples:  44%|████▍     | 22/50 [05:39<11:55, 25.57s/it]Processing samples:  46%|████▌     | 23/50 [06:07<11:50, 26.32s/it]Processing samples:  48%|████▊     | 24/50 [06:39<12:09, 28.06s/it]Processing samples:  50%|█████     | 25/50 [07:11<12:05, 29.03s/it]Processing samples:  52%|█████▏    | 26/50 [07:41<11:48, 29.51s/it]Processing samples:  54%|█████▍    | 27/50 [08:16<11:58, 31.25s/it]Processing samples:  56%|█████▌    | 28/50 [08:52<11:54, 32.46s/it]Processing samples:  58%|█████▊    | 29/50 [09:27<11:39, 33.29s/it]Processing samples:  60%|██████    | 30/50 [10:03<11:21, 34.09s/it]Processing samples:  62%|██████▏   | 31/50 [10:42<11:18, 35.71s/it]Processing samples:  64%|██████▍   | 32/50 [11:22<11:02, 36.83s/it]Processing samples:  66%|██████▌   | 33/50 [11:59<10:27, 36.94s/it]Processing samples:  68%|██████▊   | 34/50 [12:41<10:12, 38.31s/it]Processing samples:  70%|███████   | 35/50 [13:23<09:51, 39.46s/it]Processing samples:  72%|███████▏  | 36/50 [14:09<09:41, 41.57s/it]Processing samples:  74%|███████▍  | 37/50 [14:56<09:20, 43.11s/it]Processing samples:  76%|███████▌  | 38/50 [15:41<08:44, 43.75s/it]Processing samples:  78%|███████▊  | 39/50 [16:30<08:17, 45.23s/it]Processing samples:  80%|████████  | 40/50 [17:18<07:41, 46.14s/it]Processing samples:  82%|████████▏ | 41/50 [18:08<07:05, 47.24s/it]Processing samples:  84%|████████▍ | 42/50 [19:01<06:32, 49.10s/it]Processing samples:  86%|████████▌ | 43/50 [19:55<05:52, 50.38s/it]Processing samples:  88%|████████▊ | 44/50 [20:48<05:06, 51.13s/it]Processing samples:  90%|█████████ | 45/50 [21:45<04:25, 53.01s/it]Processing samples:  92%|█████████▏| 46/50 [22:41<03:36, 54.03s/it]Processing samples:  94%|█████████▍| 47/50 [23:39<02:45, 55.09s/it]Processing samples:  96%|█████████▌| 48/50 [24:36<01:51, 55.67s/it]Processing samples:  98%|█████████▊| 49/50 [25:40<00:58, 58.07s/it]Processing samples: 100%|██████████| 50/50 [26:43<00:00, 59.73s/it]Processing samples: 100%|██████████| 50/50 [26:43<00:00, 32.08s/it]
+
+======================================================================
+Results Summary
+======================================================================
+Total tokens: 453
+Accuracy Before TTA: 0.2737 (124/453)
+Accuracy After TTA:  0.2804 (127/453)
+Improvement: +0.0066
+======================================================================
+Results saved to: results_nae/llama8b_steps50.json
+
+Generating visualizations...
+
+Generating visualizations for: llama8b_steps50
+  Saved: results_nae/llama8b_steps50_subspace_evolution.png
+  Saved: results_nae/llama8b_steps50_prob_heatmap.png
+  Saved: results_nae/llama8b_steps50_rank_heatmap.png
+  Saved: results_nae/llama8b_steps50_top10_cases.png
+  Saved: results_nae/llama8b_steps50_accuracy.png
+All visualizations completed for llama8b_steps50
+
+Completed: llama8b_steps50
+
+==================================================
+All experiments completed!
+==================================================
+
+Results summary:
+  llama1b_steps20: Before=2.87%, After=2.87%, Change=+0.00%
+  llama1b_steps5: Before=2.87%, After=2.87%, Change=+0.00%
+  llama1b_steps50: Before=2.87%, After=2.87%, Change=+0.00%
+  llama3b_steps20: Before=11.70%, After=11.48%, Change=-0.22%
+  llama3b_steps5: Before=11.70%, After=11.26%, Change=-0.44%
+  llama3b_steps50: Before=11.70%, After=11.48%, Change=-0.22%
+  llama8b_steps20: Before=27.37%, After=28.04%, Change=+0.66%
+  llama8b_steps5: Before=27.37%, After=27.59%, Change=+0.22%
+  llama8b_steps50: Before=27.37%, After=28.04%, Change=+0.66%
+==================================================

@@ -1,0 +1,2002 @@
+[
+  {
+    "question": "What is the sum of 3 and 6?",
+    "answer": 9
+  },
+  {
+    "question": "What is the sum of 162 and 512?",
+    "answer": 674
+  },
+  {
+    "question": "What is the sum of 760356 and 703634?",
+    "answer": 1463990
+  },
+  {
+    "question": "What is the sum of 1098919 and 6901533?",
+    "answer": 8000452
+  },
+  {
+    "question": "What is the sum of 15817 and 67154?",
+    "answer": 82971
+  },
+  {
+    "question": "What is the sum of 8179 and 9900?",
+    "answer": 18079
+  },
+  {
+    "question": "What is the sum of 64 and 37?",
+    "answer": 101
+  },
+  {
+    "question": "What is the sum of 24 and 97?",
+    "answer": 121
+  },
+  {
+    "question": "What is the sum of 5345 and 3170?",
+    "answer": 8515
+  },
+  {
+    "question": "What is the sum of 8 and 7?",
+    "answer": 15
+  },
+  {
+    "question": "What is the sum of 546863451 and 751028618?",
+    "answer": 1297892069
+  },
+  {
+    "question": "What is the sum of 308432166 and 418092217?",
+    "answer": 726524383
+  },
+  {
+    "question": "What is the sum of 1058 and 6464?",
+    "answer": 7522
+  },
+  {
+    "question": "What is the sum of 3934040683 and 3504640817?",
+    "answer": 7438681500
+  },
+  {
+    "question": "What is the sum of 488 and 102?",
+    "answer": 590
+  },
+  {
+    "question": "What is the sum of 6047405755 and 2194673401?",
+    "answer": 8242079156
+  },
+  {
+    "question": "What is the sum of 8481188 and 3670226?",
+    "answer": 12151414
+  },
+  {
+    "question": "What is the sum of 563246 and 563638?",
+    "answer": 1126884
+  },
+  {
+    "question": "What is the sum of 8007 and 1158?",
+    "answer": 9165
+  },
+  {
+    "question": "What is the sum of 2 and 9?",
+    "answer": 11
+  },
+  {
+    "question": "What is the sum of 6 and 4?",
+    "answer": 10
+  },
+  {
+    "question": "What is the sum of 94080 and 76768?",
+    "answer": 170848
+  },
+  {
+    "question": "What is the sum of 79340535 and 35643159?",
+    "answer": 114983694
+  },
+  {
+    "question": "What is the sum of 292673892 and 424557359?",
+    "answer": 717231251
+  },
+  {
+    "question": "What is the sum of 11 and 97?",
+    "answer": 108
+  },
+  {
+    "question": "What is the sum of 24165187 and 68186525?",
+    "answer": 92351712
+  },
+  {
+    "question": "What is the sum of 9594878379 and 7279140605?",
+    "answer": 16874018984
+  },
+  {
+    "question": "What is the sum of 294 and 196?",
+    "answer": 490
+  },
+  {
+    "question": "What is the sum of 3579 and 1931?",
+    "answer": 5510
+  },
+  {
+    "question": "What is the sum of 75437844 and 38470244?",
+    "answer": 113908088
+  },
+  {
+    "question": "What is the sum of 77908907 and 96911784?",
+    "answer": 174820691
+  },
+  {
+    "question": "What is the sum of 61 and 95?",
+    "answer": 156
+  },
+  {
+    "question": "What is the sum of 34914 and 43386?",
+    "answer": 78300
+  },
+  {
+    "question": "What is the sum of 73 and 21?",
+    "answer": 94
+  },
+  {
+    "question": "What is the sum of 764021648 and 342329714?",
+    "answer": 1106351362
+  },
+  {
+    "question": "What is the sum of 656932 and 686075?",
+    "answer": 1343007
+  },
+  {
+    "question": "What is the sum of 16 and 24?",
+    "answer": 40
+  },
+  {
+    "question": "What is the sum of 296 and 294?",
+    "answer": 590
+  },
+  {
+    "question": "What is the sum of 653 and 956?",
+    "answer": 1609
+  },
+  {
+    "question": "What is the sum of 980 and 438?",
+    "answer": 1418
+  },
+  {
+    "question": "What is the sum of 573 and 355?",
+    "answer": 928
+  },
+  {
+    "question": "What is the sum of 68450095 and 33640702?",
+    "answer": 102090797
+  },
+  {
+    "question": "What is the sum of 553 and 927?",
+    "answer": 1480
+  },
+  {
+    "question": "What is the sum of 724440558 and 496232693?",
+    "answer": 1220673251
+  },
+  {
+    "question": "What is the sum of 1873851 and 6871360?",
+    "answer": 8745211
+  },
+  {
+    "question": "What is the sum of 4048494026 and 9648665968?",
+    "answer": 13697159994
+  },
+  {
+    "question": "What is the sum of 13446499 and 51870192?",
+    "answer": 65316691
+  },
+  {
+    "question": "What is the sum of 6433231472 and 7586857685?",
+    "answer": 14020089157
+  },
+  {
+    "question": "What is the sum of 46585 and 56025?",
+    "answer": 102610
+  },
+  {
+    "question": "What is the sum of 6634586 and 6363836?",
+    "answer": 12998422
+  },
+  {
+    "question": "What is the sum of 9655852024 and 5914110094?",
+    "answer": 15569962118
+  },
+  {
+    "question": "What is the sum of 169 and 132?",
+    "answer": 301
+  },
+  {
+    "question": "What is the sum of 572949775 and 465830215?",
+    "answer": 1038779990
+  },
+  {
+    "question": "What is the sum of 5348512 and 5147994?",
+    "answer": 10496506
+  },
+  {
+    "question": "What is the sum of 608159580 and 694287057?",
+    "answer": 1302446637
+  },
+  {
+    "question": "What is the sum of 7268807553 and 3864059081?",
+    "answer": 11132866634
+  },
+  {
+    "question": "What is the sum of 643118 and 587115?",
+    "answer": 1230233
+  },
+  {
+    "question": "What is the sum of 2200 and 9808?",
+    "answer": 12008
+  },
+  {
+    "question": "What is the sum of 56 and 49?",
+    "answer": 105
+  },
+  {
+    "question": "What is the sum of 4 and 3?",
+    "answer": 7
+  },
+  {
+    "question": "What is the sum of 9 and 5?",
+    "answer": 14
+  },
+  {
+    "question": "What is the sum of 91678 and 51145?",
+    "answer": 142823
+  },
+  {
+    "question": "What is the sum of 5579094 and 8312114?",
+    "answer": 13891208
+  },
+  {
+    "question": "What is the sum of 4 and 9?",
+    "answer": 13
+  },
+  {
+    "question": "What is the sum of 5 and 3?",
+    "answer": 8
+  },
+  {
+    "question": "What is the sum of 943170 and 829716?",
+    "answer": 1772886
+  },
+  {
+    "question": "What is the sum of 8822944679 and 3474961963?",
+    "answer": 12297906642
+  },
+  {
+    "question": "What is the sum of 7 and 7?",
+    "answer": 14
+  },
+  {
+    "question": "What is the sum of 49363 and 76469?",
+    "answer": 125832
+  },
+  {
+    "question": "What is the sum of 636004 and 596171?",
+    "answer": 1232175
+  },
+  {
+    "question": "What is the sum of 107 and 172?",
+    "answer": 279
+  },
+  {
+    "question": "What is the sum of 70505620 and 42730796?",
+    "answer": 113236416
+  },
+  {
+    "question": "What is the sum of 20 and 20?",
+    "answer": 40
+  },
+  {
+    "question": "What is the sum of 72372114 and 86483924?",
+    "answer": 158856038
+  },
+  {
+    "question": "What is the sum of 7136777415 and 9848621776?",
+    "answer": 16985399191
+  },
+  {
+    "question": "What is the sum of 923927 and 708158?",
+    "answer": 1632085
+  },
+  {
+    "question": "What is the sum of 477753674 and 854684750?",
+    "answer": 1332438424
+  },
+  {
+    "question": "What is the sum of 115191689 and 860229059?",
+    "answer": 975420748
+  },
+  {
+    "question": "What is the sum of 8324687182 and 3028168523?",
+    "answer": 11352855705
+  },
+  {
+    "question": "What is the sum of 73900135 and 96691619?",
+    "answer": 170591754
+  },
+  {
+    "question": "What is the sum of 8491 and 6180?",
+    "answer": 14671
+  },
+  {
+    "question": "What is the sum of 2 and 1?",
+    "answer": 3
+  },
+  {
+    "question": "What is the sum of 115 and 195?",
+    "answer": 310
+  },
+  {
+    "question": "What is the sum of 1590 and 7049?",
+    "answer": 8639
+  },
+  {
+    "question": "What is the sum of 413679331 and 848846217?",
+    "answer": 1262525548
+  },
+  {
+    "question": "What is the sum of 7 and 5?",
+    "answer": 12
+  },
+  {
+    "question": "What is the sum of 1 and 1?",
+    "answer": 2
+  },
+  {
+    "question": "What is the sum of 303880 and 853240?",
+    "answer": 1157120
+  },
+  {
+    "question": "What is the sum of 70 and 80?",
+    "answer": 150
+  },
+  {
+    "question": "What is the sum of 297958983 and 155165334?",
+    "answer": 453124317
+  },
+  {
+    "question": "What is the sum of 6928678489 and 9196963901?",
+    "answer": 16125642390
+  },
+  {
+    "question": "What is the sum of 170161976 and 530256336?",
+    "answer": 700418312
+  },
+  {
+    "question": "What is the sum of 66 and 76?",
+    "answer": 142
+  },
+  {
+    "question": "What is the sum of 1610900200 and 1256143439?",
+    "answer": 2867043639
+  },
+  {
+    "question": "What is the sum of 871 and 969?",
+    "answer": 1840
+  },
+  {
+    "question": "What is the sum of 80 and 39?",
+    "answer": 119
+  },
+  {
+    "question": "What is the sum of 740799178 and 403867539?",
+    "answer": 1144666717
+  },
+  {
+    "question": "What is the sum of 8 and 3?",
+    "answer": 11
+  },
+  {
+    "question": "What is the sum of 5 and 3?",
+    "answer": 8
+  },
+  {
+    "question": "What is the sum of 15229 and 56898?",
+    "answer": 72127
+  },
+  {
+    "question": "What is the sum of 1675419 and 1520596?",
+    "answer": 3196015
+  },
+  {
+    "question": "What is the sum of 66531 and 19171?",
+    "answer": 85702
+  },
+  {
+    "question": "What is the sum of 3143 and 5291?",
+    "answer": 8434
+  },
+  {
+    "question": "What is the sum of 29 and 90?",
+    "answer": 119
+  },
+  {
+    "question": "What is the sum of 197923 and 958179?",
+    "answer": 1156102
+  },
+  {
+    "question": "What is the sum of 12 and 24?",
+    "answer": 36
+  },
+  {
+    "question": "What is the sum of 4589533 and 2077581?",
+    "answer": 6667114
+  },
+  {
+    "question": "What is the sum of 46517 and 19099?",
+    "answer": 65616
+  },
+  {
+    "question": "What is the sum of 2697 and 3200?",
+    "answer": 5897
+  },
+  {
+    "question": "What is the sum of 67495923 and 98787891?",
+    "answer": 166283814
+  },
+  {
+    "question": "What is the sum of 4 and 3?",
+    "answer": 7
+  },
+  {
+    "question": "What is the sum of 9565 and 6183?",
+    "answer": 15748
+  },
+  {
+    "question": "What is the sum of 499 and 371?",
+    "answer": 870
+  },
+  {
+    "question": "What is the sum of 578 and 984?",
+    "answer": 1562
+  },
+  {
+    "question": "What is the sum of 649 and 559?",
+    "answer": 1208
+  },
+  {
+    "question": "What is the sum of 982 and 976?",
+    "answer": 1958
+  },
+  {
+    "question": "What is the sum of 82667 and 26683?",
+    "answer": 109350
+  },
+  {
+    "question": "What is the sum of 5299055 and 7189034?",
+    "answer": 12488089
+  },
+  {
+    "question": "What is the sum of 51098277 and 99115205?",
+    "answer": 150213482
+  },
+  {
+    "question": "What is the sum of 810219 and 884475?",
+    "answer": 1694694
+  },
+  {
+    "question": "What is the sum of 4934149 and 5558623?",
+    "answer": 10492772
+  },
+  {
+    "question": "What is the sum of 51 and 72?",
+    "answer": 123
+  },
+  {
+    "question": "What is the sum of 84514489 and 42255732?",
+    "answer": 126770221
+  },
+  {
+    "question": "What is the sum of 9191131 and 4681284?",
+    "answer": 13872415
+  },
+  {
+    "question": "What is the sum of 85 and 38?",
+    "answer": 123
+  },
+  {
+    "question": "What is the sum of 2 and 4?",
+    "answer": 6
+  },
+  {
+    "question": "What is the sum of 93 and 57?",
+    "answer": 150
+  },
+  {
+    "question": "What is the sum of 9238 and 9701?",
+    "answer": 18939
+  },
+  {
+    "question": "What is the sum of 55799273 and 11698142?",
+    "answer": 67497415
+  },
+  {
+    "question": "What is the sum of 7 and 5?",
+    "answer": 12
+  },
+  {
+    "question": "What is the sum of 77 and 87?",
+    "answer": 164
+  },
+  {
+    "question": "What is the sum of 53540 and 63964?",
+    "answer": 117504
+  },
+  {
+    "question": "What is the sum of 785 and 597?",
+    "answer": 1382
+  },
+  {
+    "question": "What is the sum of 18 and 53?",
+    "answer": 71
+  },
+  {
+    "question": "What is the sum of 4734910807 and 2644847276?",
+    "answer": 7379758083
+  },
+  {
+    "question": "What is the sum of 8413332538 and 8129391249?",
+    "answer": 16542723787
+  },
+  {
+    "question": "What is the sum of 3647 and 8239?",
+    "answer": 11886
+  },
+  {
+    "question": "What is the sum of 75876924 and 70152969?",
+    "answer": 146029893
+  },
+  {
+    "question": "What is the sum of 96511 and 35313?",
+    "answer": 131824
+  },
+  {
+    "question": "What is the sum of 62227 and 53025?",
+    "answer": 115252
+  },
+  {
+    "question": "What is the sum of 5165932723 and 5616352188?",
+    "answer": 10782284911
+  },
+  {
+    "question": "What is the sum of 5 and 9?",
+    "answer": 14
+  },
+  {
+    "question": "What is the sum of 533 and 813?",
+    "answer": 1346
+  },
+  {
+    "question": "What is the sum of 5452580287 and 5673181221?",
+    "answer": 11125761508
+  },
+  {
+    "question": "What is the sum of 7615 and 2964?",
+    "answer": 10579
+  },
+  {
+    "question": "What is the sum of 5364698 and 7360307?",
+    "answer": 12725005
+  },
+  {
+    "question": "What is the sum of 426240903 and 191462297?",
+    "answer": 617703200
+  },
+  {
+    "question": "What is the sum of 4761823 and 2151225?",
+    "answer": 6913048
+  },
+  {
+    "question": "What is the sum of 3530518 and 4879923?",
+    "answer": 8410441
+  },
+  {
+    "question": "What is the sum of 355836 and 254739?",
+    "answer": 610575
+  },
+  {
+    "question": "What is the sum of 32 and 74?",
+    "answer": 106
+  },
+  {
+    "question": "What is the sum of 2 and 4?",
+    "answer": 6
+  },
+  {
+    "question": "What is the sum of 2113 and 4853?",
+    "answer": 6966
+  },
+  {
+    "question": "What is the sum of 63238057 and 36619372?",
+    "answer": 99857429
+  },
+  {
+    "question": "What is the sum of 23473 and 56357?",
+    "answer": 79830
+  },
+  {
+    "question": "What is the sum of 2343 and 7868?",
+    "answer": 10211
+  },
+  {
+    "question": "What is the sum of 932894596 and 661107986?",
+    "answer": 1594002582
+  },
+  {
+    "question": "What is the sum of 9895649328 and 6144594354?",
+    "answer": 16040243682
+  },
+  {
+    "question": "What is the sum of 62386 and 99065?",
+    "answer": 161451
+  },
+  {
+    "question": "What is the sum of 67 and 25?",
+    "answer": 92
+  },
+  {
+    "question": "What is the sum of 41029 and 31299?",
+    "answer": 72328
+  },
+  {
+    "question": "What is the sum of 5201928545 and 5726642606?",
+    "answer": 10928571151
+  },
+  {
+    "question": "What is the sum of 4 and 2?",
+    "answer": 6
+  },
+  {
+    "question": "What is the sum of 58 and 86?",
+    "answer": 144
+  },
+  {
+    "question": "What is the sum of 845 and 447?",
+    "answer": 1292
+  },
+  {
+    "question": "What is the sum of 3088 and 1685?",
+    "answer": 4773
+  },
+  {
+    "question": "What is the sum of 3081821325 and 4433026356?",
+    "answer": 7514847681
+  },
+  {
+    "question": "What is the sum of 35144 and 65108?",
+    "answer": 100252
+  },
+  {
+    "question": "What is the sum of 6834555633 and 2849785671?",
+    "answer": 9684341304
+  },
+  {
+    "question": "What is the sum of 740967 and 991014?",
+    "answer": 1731981
+  },
+  {
+    "question": "What is the sum of 5669 and 3584?",
+    "answer": 9253
+  },
+  {
+    "question": "What is the sum of 6492066 and 4551070?",
+    "answer": 11043136
+  },
+  {
+    "question": "What is the sum of 5948254671 and 5143889422?",
+    "answer": 11092144093
+  },
+  {
+    "question": "What is the sum of 57 and 30?",
+    "answer": 87
+  },
+  {
+    "question": "What is the sum of 105814 and 887443?",
+    "answer": 993257
+  },
+  {
+    "question": "What is the sum of 699226355 and 920814900?",
+    "answer": 1620041255
+  },
+  {
+    "question": "What is the sum of 13852048 and 76344695?",
+    "answer": 90196743
+  },
+  {
+    "question": "What is the sum of 35 and 49?",
+    "answer": 84
+  },
+  {
+    "question": "What is the sum of 24168 and 60140?",
+    "answer": 84308
+  },
+  {
+    "question": "What is the sum of 736130 and 786508?",
+    "answer": 1522638
+  },
+  {
+    "question": "What is the sum of 8508 and 2638?",
+    "answer": 11146
+  },
+  {
+    "question": "What is the sum of 347538338 and 229553265?",
+    "answer": 577091603
+  },
+  {
+    "question": "What is the sum of 8628588 and 6483562?",
+    "answer": 15112150
+  },
+  {
+    "question": "What is the sum of 9961107 and 1452421?",
+    "answer": 11413528
+  },
+  {
+    "question": "What is the sum of 8973 and 3536?",
+    "answer": 12509
+  },
+  {
+    "question": "What is the sum of 437902 and 587575?",
+    "answer": 1025477
+  },
+  {
+    "question": "What is the sum of 985 and 510?",
+    "answer": 1495
+  },
+  {
+    "question": "What is the sum of 3 and 9?",
+    "answer": 12
+  },
+  {
+    "question": "What is the sum of 50404 and 57795?",
+    "answer": 108199
+  },
+  {
+    "question": "What is the sum of 2764265618 and 6932342612?",
+    "answer": 9696608230
+  },
+  {
+    "question": "What is the sum of 84597009 and 11362459?",
+    "answer": 95959468
+  },
+  {
+    "question": "What is the sum of 91351 and 30257?",
+    "answer": 121608
+  },
+  {
+    "question": "What is the sum of 70332 and 55830?",
+    "answer": 126162
+  },
+  {
+    "question": "What is the sum of 80027662 and 97302916?",
+    "answer": 177330578
+  },
+  {
+    "question": "What is the sum of 2 and 7?",
+    "answer": 9
+  },
+  {
+    "question": "What is the sum of 32520277 and 91321540?",
+    "answer": 123841817
+  },
+  {
+    "question": "What is the sum of 344258191 and 487493096?",
+    "answer": 831751287
+  },
+  {
+    "question": "What is the sum of 830180 and 502630?",
+    "answer": 1332810
+  },
+  {
+    "question": "What is the sum of 6718 and 2127?",
+    "answer": 8845
+  },
+  {
+    "question": "What is the sum of 1 and 6?",
+    "answer": 7
+  },
+  {
+    "question": "What is the sum of 41 and 38?",
+    "answer": 79
+  },
+  {
+    "question": "What is the sum of 65 and 30?",
+    "answer": 95
+  },
+  {
+    "question": "What is the sum of 5606980 and 8379837?",
+    "answer": 13986817
+  },
+  {
+    "question": "What is the sum of 871711 and 277934?",
+    "answer": 1149645
+  },
+  {
+    "question": "What is the sum of 235 and 840?",
+    "answer": 1075
+  },
+  {
+    "question": "What is the sum of 3651968205 and 5683143581?",
+    "answer": 9335111786
+  },
+  {
+    "question": "What is the sum of 4 and 2?",
+    "answer": 6
+  },
+  {
+    "question": "What is the sum of 207939087 and 994027897?",
+    "answer": 1201966984
+  },
+  {
+    "question": "What is the sum of 46249845 and 92666356?",
+    "answer": 138916201
+  },
+  {
+    "question": "What is the sum of 366493008 and 227186396?",
+    "answer": 593679404
+  },
+  {
+    "question": "What is the sum of 790855 and 188914?",
+    "answer": 979769
+  },
+  {
+    "question": "What is the sum of 97806 and 42527?",
+    "answer": 140333
+  },
+  {
+    "question": "What is the sum of 31 and 43?",
+    "answer": 74
+  },
+  {
+    "question": "What is the sum of 8963715 and 8550917?",
+    "answer": 17514632
+  },
+  {
+    "question": "What is the sum of 335552 and 945742?",
+    "answer": 1281294
+  },
+  {
+    "question": "What is the sum of 21490777 and 42394260?",
+    "answer": 63885037
+  },
+  {
+    "question": "What is the sum of 86099 and 44795?",
+    "answer": 130894
+  },
+  {
+    "question": "What is the sum of 974224 and 100425?",
+    "answer": 1074649
+  },
+  {
+    "question": "What is the sum of 5462 and 5616?",
+    "answer": 11078
+  },
+  {
+    "question": "What is the sum of 361303 and 989545?",
+    "answer": 1350848
+  },
+  {
+    "question": "What is the sum of 5067594934 and 5956268238?",
+    "answer": 11023863172
+  },
+  {
+    "question": "What is the sum of 6147 and 4910?",
+    "answer": 11057
+  },
+  {
+    "question": "What is the sum of 56600900 and 81503856?",
+    "answer": 138104756
+  },
+  {
+    "question": "What is the sum of 690975123 and 455184454?",
+    "answer": 1146159577
+  },
+  {
+    "question": "What is the sum of 8 and 6?",
+    "answer": 14
+  },
+  {
+    "question": "What is the sum of 5956 and 9666?",
+    "answer": 15622
+  },
+  {
+    "question": "What is the sum of 7975534 and 2044645?",
+    "answer": 10020179
+  },
+  {
+    "question": "What is the sum of 2299954 and 5793722?",
+    "answer": 8093676
+  },
+  {
+    "question": "What is the sum of 724377 and 432711?",
+    "answer": 1157088
+  },
+  {
+    "question": "What is the sum of 796101 and 763686?",
+    "answer": 1559787
+  },
+  {
+    "question": "What is the sum of 287 and 385?",
+    "answer": 672
+  },
+  {
+    "question": "What is the sum of 541 and 462?",
+    "answer": 1003
+  },
+  {
+    "question": "What is the sum of 239816 and 940346?",
+    "answer": 1180162
+  },
+  {
+    "question": "What is the sum of 7381734 and 9002392?",
+    "answer": 16384126
+  },
+  {
+    "question": "What is the sum of 4566 and 1958?",
+    "answer": 6524
+  },
+  {
+    "question": "What is the sum of 7960328 and 7838382?",
+    "answer": 15798710
+  },
+  {
+    "question": "What is the sum of 78 and 26?",
+    "answer": 104
+  },
+  {
+    "question": "What is the sum of 696750 and 415568?",
+    "answer": 1112318
+  },
+  {
+    "question": "What is the sum of 1773338452 and 1751917162?",
+    "answer": 3525255614
+  },
+  {
+    "question": "What is the sum of 848 and 902?",
+    "answer": 1750
+  },
+  {
+    "question": "What is the sum of 5033 and 1651?",
+    "answer": 6684
+  },
+  {
+    "question": "What is the sum of 4044 and 2122?",
+    "answer": 6166
+  },
+  {
+    "question": "What is the sum of 210152642 and 113169872?",
+    "answer": 323322514
+  },
+  {
+    "question": "What is the sum of 805477 and 425498?",
+    "answer": 1230975
+  },
+  {
+    "question": "What is the sum of 8841505 and 3141239?",
+    "answer": 11982744
+  },
+  {
+    "question": "What is the sum of 9392965643 and 3323646093?",
+    "answer": 12716611736
+  },
+  {
+    "question": "What is the sum of 8964640525 and 5305985001?",
+    "answer": 14270625526
+  },
+  {
+    "question": "What is the sum of 72 and 18?",
+    "answer": 90
+  },
+  {
+    "question": "What is the sum of 394539550 and 148872110?",
+    "answer": 543411660
+  },
+  {
+    "question": "What is the sum of 88193 and 66959?",
+    "answer": 155152
+  },
+  {
+    "question": "What is the sum of 6 and 6?",
+    "answer": 12
+  },
+  {
+    "question": "What is the sum of 932291 and 934692?",
+    "answer": 1866983
+  },
+  {
+    "question": "What is the sum of 85958181 and 15512205?",
+    "answer": 101470386
+  },
+  {
+    "question": "What is the sum of 5333 and 2891?",
+    "answer": 8224
+  },
+  {
+    "question": "What is the sum of 211 and 354?",
+    "answer": 565
+  },
+  {
+    "question": "What is the sum of 397571 and 640490?",
+    "answer": 1038061
+  },
+  {
+    "question": "What is the sum of 39219 and 13101?",
+    "answer": 52320
+  },
+  {
+    "question": "What is the sum of 83385 and 63264?",
+    "answer": 146649
+  },
+  {
+    "question": "What is the sum of 50538 and 97410?",
+    "answer": 147948
+  },
+  {
+    "question": "What is the sum of 59737181 and 19255216?",
+    "answer": 78992397
+  },
+  {
+    "question": "What is the sum of 4 and 6?",
+    "answer": 10
+  },
+  {
+    "question": "What is the sum of 60488 and 85574?",
+    "answer": 146062
+  },
+  {
+    "question": "What is the sum of 87282128 and 60372847?",
+    "answer": 147654975
+  },
+  {
+    "question": "What is the sum of 2 and 9?",
+    "answer": 11
+  },
+  {
+    "question": "What is the sum of 90585882 and 26247735?",
+    "answer": 116833617
+  },
+  {
+    "question": "What is the sum of 320392 and 550770?",
+    "answer": 871162
+  },
+  {
+    "question": "What is the sum of 55309 and 51114?",
+    "answer": 106423
+  },
+  {
+    "question": "What is the sum of 371096600 and 612957813?",
+    "answer": 984054413
+  },
+  {
+    "question": "What is the sum of 808446 and 324082?",
+    "answer": 1132528
+  },
+  {
+    "question": "What is the sum of 8030010 and 4700025?",
+    "answer": 12730035
+  },
+  {
+    "question": "What is the sum of 15014 and 24208?",
+    "answer": 39222
+  },
+  {
+    "question": "What is the sum of 96951 and 26334?",
+    "answer": 123285
+  },
+  {
+    "question": "What is the sum of 7313646580 and 7048809022?",
+    "answer": 14362455602
+  },
+  {
+    "question": "What is the sum of 12314351 and 22489409?",
+    "answer": 34803760
+  },
+  {
+    "question": "What is the sum of 749342 and 451470?",
+    "answer": 1200812
+  },
+  {
+    "question": "What is the sum of 39154 and 36158?",
+    "answer": 75312
+  },
+  {
+    "question": "What is the sum of 5652512 and 9745959?",
+    "answer": 15398471
+  },
+  {
+    "question": "What is the sum of 5 and 2?",
+    "answer": 7
+  },
+  {
+    "question": "What is the sum of 4275930923 and 3686566602?",
+    "answer": 7962497525
+  },
+  {
+    "question": "What is the sum of 916232 and 545798?",
+    "answer": 1462030
+  },
+  {
+    "question": "What is the sum of 1 and 9?",
+    "answer": 10
+  },
+  {
+    "question": "What is the sum of 5272 and 4346?",
+    "answer": 9618
+  },
+  {
+    "question": "What is the sum of 1221670908 and 6532043071?",
+    "answer": 7753713979
+  },
+  {
+    "question": "What is the sum of 7534336 and 1327691?",
+    "answer": 8862027
+  },
+  {
+    "question": "What is the sum of 1140187131 and 8986950095?",
+    "answer": 10127137226
+  },
+  {
+    "question": "What is the sum of 740086326 and 949051496?",
+    "answer": 1689137822
+  },
+  {
+    "question": "What is the sum of 7 and 6?",
+    "answer": 13
+  },
+  {
+    "question": "What is the sum of 18 and 59?",
+    "answer": 77
+  },
+  {
+    "question": "What is the sum of 6292209057 and 8034746821?",
+    "answer": 14326955878
+  },
+  {
+    "question": "What is the sum of 628008852 and 179545125?",
+    "answer": 807553977
+  },
+  {
+    "question": "What is the sum of 5668371 and 8072684?",
+    "answer": 13741055
+  },
+  {
+    "question": "What is the sum of 68 and 10?",
+    "answer": 78
+  },
+  {
+    "question": "What is the sum of 79 and 77?",
+    "answer": 156
+  },
+  {
+    "question": "What is the sum of 23676961 and 50477742?",
+    "answer": 74154703
+  },
+  {
+    "question": "What is the sum of 5 and 4?",
+    "answer": 9
+  },
+  {
+    "question": "What is the sum of 10 and 86?",
+    "answer": 96
+  },
+  {
+    "question": "What is the sum of 3144 and 5915?",
+    "answer": 9059
+  },
+  {
+    "question": "What is the sum of 66379329 and 75793759?",
+    "answer": 142173088
+  },
+  {
+    "question": "What is the sum of 684 and 690?",
+    "answer": 1374
+  },
+  {
+    "question": "What is the sum of 343 and 385?",
+    "answer": 728
+  },
+  {
+    "question": "What is the sum of 618392 and 519066?",
+    "answer": 1137458
+  },
+  {
+    "question": "What is the sum of 8 and 7?",
+    "answer": 15
+  },
+  {
+    "question": "What is the sum of 172 and 626?",
+    "answer": 798
+  },
+  {
+    "question": "What is the sum of 8699281063 and 9251459094?",
+    "answer": 17950740157
+  },
+  {
+    "question": "What is the sum of 24 and 47?",
+    "answer": 71
+  },
+  {
+    "question": "What is the sum of 919 and 982?",
+    "answer": 1901
+  },
+  {
+    "question": "What is the sum of 2188 and 1152?",
+    "answer": 3340
+  },
+  {
+    "question": "What is the sum of 3370788647 and 1672302490?",
+    "answer": 5043091137
+  },
+  {
+    "question": "What is the sum of 7 and 4?",
+    "answer": 11
+  },
+  {
+    "question": "What is the sum of 9130188 and 5013879?",
+    "answer": 14144067
+  },
+  {
+    "question": "What is the sum of 319 and 652?",
+    "answer": 971
+  },
+  {
+    "question": "What is the sum of 53622663 and 34406132?",
+    "answer": 88028795
+  },
+  {
+    "question": "What is the sum of 8890439 and 1325197?",
+    "answer": 10215636
+  },
+  {
+    "question": "What is the sum of 78 and 44?",
+    "answer": 122
+  },
+  {
+    "question": "What is the sum of 837071174 and 157562304?",
+    "answer": 994633478
+  },
+  {
+    "question": "What is the sum of 592 and 318?",
+    "answer": 910
+  },
+  {
+    "question": "What is the sum of 55679506 and 47535126?",
+    "answer": 103214632
+  },
+  {
+    "question": "What is the sum of 6 and 4?",
+    "answer": 10
+  },
+  {
+    "question": "What is the sum of 6379012098 and 8613035386?",
+    "answer": 14992047484
+  },
+  {
+    "question": "What is the sum of 905819 and 176365?",
+    "answer": 1082184
+  },
+  {
+    "question": "What is the sum of 53258988 and 42949803?",
+    "answer": 96208791
+  },
+  {
+    "question": "What is the sum of 4048907 and 1843636?",
+    "answer": 5892543
+  },
+  {
+    "question": "What is the sum of 4450 and 6617?",
+    "answer": 11067
+  },
+  {
+    "question": "What is the sum of 72394301 and 68461818?",
+    "answer": 140856119
+  },
+  {
+    "question": "What is the sum of 20200074 and 89470029?",
+    "answer": 109670103
+  },
+  {
+    "question": "What is the sum of 44237 and 33405?",
+    "answer": 77642
+  },
+  {
+    "question": "What is the sum of 584 and 348?",
+    "answer": 932
+  },
+  {
+    "question": "What is the sum of 5232413 and 2374158?",
+    "answer": 7606571
+  },
+  {
+    "question": "What is the sum of 2 and 2?",
+    "answer": 4
+  },
+  {
+    "question": "What is the sum of 160 and 268?",
+    "answer": 428
+  },
+  {
+    "question": "What is the sum of 33206 and 64040?",
+    "answer": 97246
+  },
+  {
+    "question": "What is the sum of 6551268 and 8816912?",
+    "answer": 15368180
+  },
+  {
+    "question": "What is the sum of 797229 and 497562?",
+    "answer": 1294791
+  },
+  {
+    "question": "What is the sum of 27 and 75?",
+    "answer": 102
+  },
+  {
+    "question": "What is the sum of 918394863 and 841057474?",
+    "answer": 1759452337
+  },
+  {
+    "question": "What is the sum of 40 and 17?",
+    "answer": 57
+  },
+  {
+    "question": "What is the sum of 8924383984 and 9205284543?",
+    "answer": 18129668527
+  },
+  {
+    "question": "What is the sum of 15075 and 71694?",
+    "answer": 86769
+  },
+  {
+    "question": "What is the sum of 429233929 and 369942642?",
+    "answer": 799176571
+  },
+  {
+    "question": "What is the sum of 2512 and 7939?",
+    "answer": 10451
+  },
+  {
+    "question": "What is the sum of 21631697 and 47437115?",
+    "answer": 69068812
+  },
+  {
+    "question": "What is the sum of 3426 and 8041?",
+    "answer": 11467
+  },
+  {
+    "question": "What is the sum of 23 and 90?",
+    "answer": 113
+  },
+  {
+    "question": "What is the sum of 125611 and 148458?",
+    "answer": 274069
+  },
+  {
+    "question": "What is the sum of 789 and 769?",
+    "answer": 1558
+  },
+  {
+    "question": "What is the sum of 235591568 and 784907325?",
+    "answer": 1020498893
+  },
+  {
+    "question": "What is the sum of 31980274 and 51746937?",
+    "answer": 83727211
+  },
+  {
+    "question": "What is the sum of 282480 and 745414?",
+    "answer": 1027894
+  },
+  {
+    "question": "What is the sum of 1821 and 8811?",
+    "answer": 10632
+  },
+  {
+    "question": "What is the sum of 5 and 1?",
+    "answer": 6
+  },
+  {
+    "question": "What is the sum of 5 and 6?",
+    "answer": 11
+  },
+  {
+    "question": "What is the sum of 74 and 87?",
+    "answer": 161
+  },
+  {
+    "question": "What is the sum of 42 and 80?",
+    "answer": 122
+  },
+  {
+    "question": "What is the sum of 13248 and 33509?",
+    "answer": 46757
+  },
+  {
+    "question": "What is the sum of 3276659 and 8746014?",
+    "answer": 12022673
+  },
+  {
+    "question": "What is the sum of 5916199809 and 5594799319?",
+    "answer": 11510999128
+  },
+  {
+    "question": "What is the sum of 10221 and 78146?",
+    "answer": 88367
+  },
+  {
+    "question": "What is the sum of 262915636 and 260199682?",
+    "answer": 523115318
+  },
+  {
+    "question": "What is the sum of 5 and 2?",
+    "answer": 7
+  },
+  {
+    "question": "What is the sum of 2408404 and 8190929?",
+    "answer": 10599333
+  },
+  {
+    "question": "What is the sum of 926 and 516?",
+    "answer": 1442
+  },
+  {
+    "question": "What is the sum of 7426265 and 3563646?",
+    "answer": 10989911
+  },
+  {
+    "question": "What is the sum of 332341238 and 893070706?",
+    "answer": 1225411944
+  },
+  {
+    "question": "What is the sum of 907451 and 211764?",
+    "answer": 1119215
+  },
+  {
+    "question": "What is the sum of 719571745 and 775862179?",
+    "answer": 1495433924
+  },
+  {
+    "question": "What is the sum of 1 and 3?",
+    "answer": 4
+  },
+  {
+    "question": "What is the sum of 97062 and 53279?",
+    "answer": 150341
+  },
+  {
+    "question": "What is the sum of 846 and 155?",
+    "answer": 1001
+  },
+  {
+    "question": "What is the sum of 90014570 and 47080140?",
+    "answer": 137094710
+  },
+  {
+    "question": "What is the sum of 64 and 86?",
+    "answer": 150
+  },
+  {
+    "question": "What is the sum of 5533 and 1722?",
+    "answer": 7255
+  },
+  {
+    "question": "What is the sum of 7523941 and 6639317?",
+    "answer": 14163258
+  },
+  {
+    "question": "What is the sum of 1232804774 and 7521647547?",
+    "answer": 8754452321
+  },
+  {
+    "question": "What is the sum of 891937 and 564071?",
+    "answer": 1456008
+  },
+  {
+    "question": "What is the sum of 663 and 200?",
+    "answer": 863
+  },
+  {
+    "question": "What is the sum of 89520597 and 46023439?",
+    "answer": 135544036
+  },
+  {
+    "question": "What is the sum of 5148725 and 4344717?",
+    "answer": 9493442
+  },
+  {
+    "question": "What is the sum of 5114 and 1832?",
+    "answer": 6946
+  },
+  {
+    "question": "What is the sum of 67199 and 89457?",
+    "answer": 156656
+  },
+  {
+    "question": "What is the sum of 92 and 53?",
+    "answer": 145
+  },
+  {
+    "question": "What is the sum of 308802 and 254511?",
+    "answer": 563313
+  },
+  {
+    "question": "What is the sum of 151 and 767?",
+    "answer": 918
+  },
+  {
+    "question": "What is the sum of 4 and 9?",
+    "answer": 13
+  },
+  {
+    "question": "What is the sum of 9115009532 and 8449766493?",
+    "answer": 17564776025
+  },
+  {
+    "question": "What is the sum of 878017216 and 733064117?",
+    "answer": 1611081333
+  },
+  {
+    "question": "What is the sum of 587205269 and 390894296?",
+    "answer": 978099565
+  },
+  {
+    "question": "What is the sum of 787926 and 821024?",
+    "answer": 1608950
+  },
+  {
+    "question": "What is the sum of 42706 and 97416?",
+    "answer": 140122
+  },
+  {
+    "question": "What is the sum of 1341919 and 3556551?",
+    "answer": 4898470
+  },
+  {
+    "question": "What is the sum of 71705170 and 30534124?",
+    "answer": 102239294
+  },
+  {
+    "question": "What is the sum of 1124327519 and 5535997538?",
+    "answer": 6660325057
+  },
+  {
+    "question": "What is the sum of 199 and 774?",
+    "answer": 973
+  },
+  {
+    "question": "What is the sum of 2752306681 and 5782279101?",
+    "answer": 8534585782
+  },
+  {
+    "question": "What is the sum of 35 and 29?",
+    "answer": 64
+  },
+  {
+    "question": "What is the sum of 1 and 4?",
+    "answer": 5
+  },
+  {
+    "question": "What is the sum of 35825 and 57739?",
+    "answer": 93564
+  },
+  {
+    "question": "What is the sum of 69 and 77?",
+    "answer": 146
+  },
+  {
+    "question": "What is the sum of 4492 and 9288?",
+    "answer": 13780
+  },
+  {
+    "question": "What is the sum of 298803134 and 305665554?",
+    "answer": 604468688
+  },
+  {
+    "question": "What is the sum of 619904272 and 396889215?",
+    "answer": 1016793487
+  },
+  {
+    "question": "What is the sum of 63528 and 52753?",
+    "answer": 116281
+  },
+  {
+    "question": "What is the sum of 995 and 177?",
+    "answer": 1172
+  },
+  {
+    "question": "What is the sum of 26 and 94?",
+    "answer": 120
+  },
+  {
+    "question": "What is the sum of 342 and 270?",
+    "answer": 612
+  },
+  {
+    "question": "What is the sum of 418635 and 400850?",
+    "answer": 819485
+  },
+  {
+    "question": "What is the sum of 887625 and 346277?",
+    "answer": 1233902
+  },
+  {
+    "question": "What is the sum of 9280 and 9004?",
+    "answer": 18284
+  },
+  {
+    "question": "What is the sum of 356736 and 598216?",
+    "answer": 954952
+  },
+  {
+    "question": "What is the sum of 670073085 and 469106688?",
+    "answer": 1139179773
+  },
+  {
+    "question": "What is the sum of 916267011 and 663324548?",
+    "answer": 1579591559
+  },
+  {
+    "question": "What is the sum of 160 and 334?",
+    "answer": 494
+  },
+  {
+    "question": "What is the sum of 79 and 98?",
+    "answer": 177
+  },
+  {
+    "question": "What is the sum of 44970 and 30866?",
+    "answer": 75836
+  },
+  {
+    "question": "What is the sum of 60867083 and 55150390?",
+    "answer": 116017473
+  },
+  {
+    "question": "What is the sum of 5351 and 7484?",
+    "answer": 12835
+  },
+  {
+    "question": "What is the sum of 8792122716 and 5162060546?",
+    "answer": 13954183262
+  },
+  {
+    "question": "What is the sum of 4 and 9?",
+    "answer": 13
+  },
+  {
+    "question": "What is the sum of 43 and 74?",
+    "answer": 117
+  },
+  {
+    "question": "What is the sum of 82232344 and 74893936?",
+    "answer": 157126280
+  },
+  {
+    "question": "What is the sum of 4335 and 5325?",
+    "answer": 9660
+  },
+  {
+    "question": "What is the sum of 587213 and 800005?",
+    "answer": 1387218
+  },
+  {
+    "question": "What is the sum of 7 and 2?",
+    "answer": 9
+  },
+  {
+    "question": "What is the sum of 80282 and 53404?",
+    "answer": 133686
+  },
+  {
+    "question": "What is the sum of 556881239 and 900942073?",
+    "answer": 1457823312
+  },
+  {
+    "question": "What is the sum of 9320 and 2312?",
+    "answer": 11632
+  },
+  {
+    "question": "What is the sum of 8 and 9?",
+    "answer": 17
+  },
+  {
+    "question": "What is the sum of 7610562 and 1454696?",
+    "answer": 9065258
+  },
+  {
+    "question": "What is the sum of 716396766 and 405307028?",
+    "answer": 1121703794
+  },
+  {
+    "question": "What is the sum of 6 and 4?",
+    "answer": 10
+  },
+  {
+    "question": "What is the sum of 6009888 and 7542890?",
+    "answer": 13552778
+  },
+  {
+    "question": "What is the sum of 48 and 91?",
+    "answer": 139
+  },
+  {
+    "question": "What is the sum of 908304440 and 627076988?",
+    "answer": 1535381428
+  },
+  {
+    "question": "What is the sum of 4656838 and 8801975?",
+    "answer": 13458813
+  },
+  {
+    "question": "What is the sum of 7887897660 and 1111088881?",
+    "answer": 8998986541
+  },
+  {
+    "question": "What is the sum of 64549859 and 75575808?",
+    "answer": 140125667
+  },
+  {
+    "question": "What is the sum of 58612055 and 95306788?",
+    "answer": 153918843
+  },
+  {
+    "question": "What is the sum of 57623800 and 44675473?",
+    "answer": 102299273
+  },
+  {
+    "question": "What is the sum of 8945036 and 2919136?",
+    "answer": 11864172
+  },
+  {
+    "question": "What is the sum of 4716265973 and 7375197714?",
+    "answer": 12091463687
+  },
+  {
+    "question": "What is the sum of 4470105 and 8048838?",
+    "answer": 12518943
+  },
+  {
+    "question": "What is the sum of 12 and 85?",
+    "answer": 97
+  },
+  {
+    "question": "What is the sum of 9147720 and 1486955?",
+    "answer": 10634675
+  },
+  {
+    "question": "What is the sum of 903 and 584?",
+    "answer": 1487
+  },
+  {
+    "question": "What is the sum of 1128 and 5905?",
+    "answer": 7033
+  },
+  {
+    "question": "What is the sum of 438817025 and 228370927?",
+    "answer": 667187952
+  },
+  {
+    "question": "What is the sum of 1348697524 and 2030213097?",
+    "answer": 3378910621
+  },
+  {
+    "question": "What is the sum of 533 and 520?",
+    "answer": 1053
+  },
+  {
+    "question": "What is the sum of 874473159 and 306785808?",
+    "answer": 1181258967
+  },
+  {
+    "question": "What is the sum of 49491631 and 39742165?",
+    "answer": 89233796
+  },
+  {
+    "question": "What is the sum of 902 and 903?",
+    "answer": 1805
+  },
+  {
+    "question": "What is the sum of 158546865 and 694164665?",
+    "answer": 852711530
+  },
+  {
+    "question": "What is the sum of 525800 and 674553?",
+    "answer": 1200353
+  },
+  {
+    "question": "What is the sum of 7049536909 and 7313226025?",
+    "answer": 14362762934
+  },
+  {
+    "question": "What is the sum of 2351868 and 3321531?",
+    "answer": 5673399
+  },
+  {
+    "question": "What is the sum of 1 and 4?",
+    "answer": 5
+  },
+  {
+    "question": "What is the sum of 91917334 and 99682738?",
+    "answer": 191600072
+  },
+  {
+    "question": "What is the sum of 64277800 and 42655866?",
+    "answer": 106933666
+  },
+  {
+    "question": "What is the sum of 91503378 and 25372341?",
+    "answer": 116875719
+  },
+  {
+    "question": "What is the sum of 970957171 and 704344408?",
+    "answer": 1675301579
+  },
+  {
+    "question": "What is the sum of 329471 and 284430?",
+    "answer": 613901
+  },
+  {
+    "question": "What is the sum of 2 and 7?",
+    "answer": 9
+  },
+  {
+    "question": "What is the sum of 516 and 597?",
+    "answer": 1113
+  },
+  {
+    "question": "What is the sum of 37535 and 99399?",
+    "answer": 136934
+  },
+  {
+    "question": "What is the sum of 6662319 and 7360682?",
+    "answer": 14023001
+  },
+  {
+    "question": "What is the sum of 673523188 and 235917419?",
+    "answer": 909440607
+  },
+  {
+    "question": "What is the sum of 8 and 5?",
+    "answer": 13
+  },
+  {
+    "question": "What is the sum of 5985704790 and 7422990551?",
+    "answer": 13408695341
+  },
+  {
+    "question": "What is the sum of 94187049 and 42594692?",
+    "answer": 136781741
+  },
+  {
+    "question": "What is the sum of 4111 and 5861?",
+    "answer": 9972
+  },
+  {
+    "question": "What is the sum of 227253 and 578634?",
+    "answer": 805887
+  },
+  {
+    "question": "What is the sum of 2753 and 3546?",
+    "answer": 6299
+  },
+  {
+    "question": "What is the sum of 152657 and 684482?",
+    "answer": 837139
+  },
+  {
+    "question": "What is the sum of 2832 and 2232?",
+    "answer": 5064
+  },
+  {
+    "question": "What is the sum of 761 and 200?",
+    "answer": 961
+  },
+  {
+    "question": "What is the sum of 30 and 97?",
+    "answer": 127
+  },
+  {
+    "question": "What is the sum of 62743 and 48752?",
+    "answer": 111495
+  },
+  {
+    "question": "What is the sum of 222500131 and 982739959?",
+    "answer": 1205240090
+  },
+  {
+    "question": "What is the sum of 3442 and 9938?",
+    "answer": 13380
+  },
+  {
+    "question": "What is the sum of 824 and 746?",
+    "answer": 1570
+  },
+  {
+    "question": "What is the sum of 6138 and 1936?",
+    "answer": 8074
+  },
+  {
+    "question": "What is the sum of 604011128 and 614015466?",
+    "answer": 1218026594
+  },
+  {
+    "question": "What is the sum of 77033 and 25157?",
+    "answer": 102190
+  },
+  {
+    "question": "What is the sum of 243 and 532?",
+    "answer": 775
+  },
+  {
+    "question": "What is the sum of 24508768 and 87669750?",
+    "answer": 112178518
+  },
+  {
+    "question": "What is the sum of 50001 and 39831?",
+    "answer": 89832
+  },
+  {
+    "question": "What is the sum of 7783308 and 3768991?",
+    "answer": 11552299
+  },
+  {
+    "question": "What is the sum of 9883 and 1998?",
+    "answer": 11881
+  },
+  {
+    "question": "What is the sum of 9468772 and 8159521?",
+    "answer": 17628293
+  },
+  {
+    "question": "What is the sum of 5002 and 7054?",
+    "answer": 12056
+  },
+  {
+    "question": "What is the sum of 6915072151 and 9301537234?",
+    "answer": 16216609385
+  },
+  {
+    "question": "What is the sum of 13617 and 25118?",
+    "answer": 38735
+  },
+  {
+    "question": "What is the sum of 4 and 6?",
+    "answer": 10
+  },
+  {
+    "question": "What is the sum of 40 and 82?",
+    "answer": 122
+  },
+  {
+    "question": "What is the sum of 577538 and 534572?",
+    "answer": 1112110
+  },
+  {
+    "question": "What is the sum of 5002120 and 3117636?",
+    "answer": 8119756
+  },
+  {
+    "question": "What is the sum of 565 and 392?",
+    "answer": 957
+  },
+  {
+    "question": "What is the sum of 2880160025 and 3568547910?",
+    "answer": 6448707935
+  },
+  {
+    "question": "What is the sum of 80575 and 97900?",
+    "answer": 178475
+  },
+  {
+    "question": "What is the sum of 897662466 and 675379544?",
+    "answer": 1573042010
+  },
+  {
+    "question": "What is the sum of 2886149718 and 7614170462?",
+    "answer": 10500320180
+  }
+]

@@ -1,0 +1,8 @@
+exp,task,method,model,steps,lr,update_target,num_layers,eval_mode,tta_reset,token_total,token_correct_before,token_correct_after,token_acc_before,token_acc_after,token_acc@5_before,token_acc@5_after,seq_total,seq_correct_before,seq_correct_after,seq_acc_before,seq_acc_after,str_total,str_correct_before,str_correct_after,str_acc_before,str_acc_after,flipped,minutes,trainable_params,trainable_pct,trainable_layer_count,total_layers
+sanity_1b_ln,gsm8k,sanity_1b_ln,Llama-3.2-1B-Instruct,1,0.01,ln,all,ar,sample,2,0,0,0.0,0.0,0.0,0.0,2,0,0,0.0,0.0,2,0,0,0.0,0.0,0,0.02357098658879598,65536,0.00530306168952231,16,16
+sanity_1b_mlp,gsm8k,sanity_1b_mlp,Llama-3.2-1B-Instruct,1,0.001,mlp,all,ar,sample,2,0,0,0.0,0.0,0.0,0.0,2,0,0,0.0,0.0,2,0,0,0.0,0.0,0,0.059299953778584796,805306368,65.16402204085014,16,16
+sanity_8b_ln,gsm8k,sanity_8b_ln,Llama-3.1-8B-Instruct,1,0.001,ln,all,ar,sample,1,0,0,0.0,0.0,0.0,0.0,1,0,0,0.0,0.0,1,0,0,0.0,0.0,0,0.01727193593978882,262144,0.003264451702182031,32,32
+sanity_8b_mlp,gsm8k,sanity_8b_mlp,Llama-3.1-8B-Instruct,1,0.0003,mlp,all,ar,sample,1,0,0,0.0,0.0,0.0,0.0,1,0,0,0.0,0.0,1,0,0,0.0,0.0,0,0.25692243576049806,5637144576,70.1987694037224,32,32
+steps0_mlp_last,gsm8k,steps0_mlp_last,Llama-3.2-3B-Instruct,0,0.001,mlp,1,ar,sample,3,0,0,0.0,0.0,0.0,0.0,3,0,0,0.0,0.0,3,0,0,0.0,0.0,0,0.02645008166631063,75497472,2.349933114493262,1,28
+steps1_mlp_last,gsm8k,steps1_mlp_last,Llama-3.2-3B-Instruct,1,0.001,mlp,1,ar,sample,2,0,0,0.0,0.0,0.0,0.0,2,0,0,0.0,0.0,2,0,0,0.0,0.0,0,0.020769691467285155,75497472,2.349933114493262,1,28
+viz_check_ln_steps2,gsm8k,viz_check_ln_steps2,Llama-3.2-3B-Instruct,2,0.001,ln,all,ar,sample,2,0,0,0.0,0.0,0.0,0.0,2,0,0,0.0,0.0,2,0,0,0.0,0.0,0,0.02673787275950114,172032,0.005354665299952095,28,28

@@ -1,0 +1,36 @@
+# Python
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+.env/
+
+# Jupyter
+**/.ipynb_checkpoints/
+
+# Local datasets (downloaded/preprocessed)
+data/*
+!data/*.json
+!data/scripts/
+data/nupa_test_all.json
+data/nupa_test_ori.json
+# Experiment artifacts
+logs/
+runs/
+wandb/
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+**/offload/
+
+# Local tooling
+.claude/
+
+# OS
+.DS_Store
