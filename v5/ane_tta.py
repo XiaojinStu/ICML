@@ -11,7 +11,7 @@ from experiment import run_experiment, set_seed
 def parse_args():
     parser = argparse.ArgumentParser(description="ANE-TTA v5")
 
-    parser.add_argument("--model", default="/home/zhangsy/.cache/modelscope/hub/models/LLM-Research/Llama-3.2-3B-Instruct") 
+    parser.add_argument("--model", default="/home/jinsk/Models/Llama-3.2-3B-Instruct")
     parser.add_argument("--data_path", default="../data/addition_problems_dataset(1-50)(1).json")
     parser.add_argument("--num_samples", type=int, default=50)
     parser.add_argument("--exp_name", required=True)
@@ -62,7 +62,7 @@ def parse_args():
     parser.add_argument("--topk_list", default="1,5,10")
 
     parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--device_map", default="cuda:0")
+    parser.add_argument("--device_map", default="auto")
     parser.add_argument("--dtype", default="bf16", choices=["bf16", "fp16", "fp32"])
 
     parser.add_argument("--backup_on_cpu", action="store_true", default=None)

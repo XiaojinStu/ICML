@@ -390,7 +390,7 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--no_viz", action="store_true")
 
     p.add_argument("--dtype", default="bf16", choices=["bf16", "fp16", "fp32"])
-    p.add_argument("--device_map", default="0")
+    p.add_argument("--device_map", default="auto")
     p.add_argument("--seed", type=int, default=42)
 
     p.add_argument("--backup_on_cpu", action="store_true")
