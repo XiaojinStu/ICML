@@ -24,6 +24,7 @@ checkpoints/
 *.ckpt
 *.pth
 *.pt
+**/offload/
 
 # Local tooling
 .claude/
