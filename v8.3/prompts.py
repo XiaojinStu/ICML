@@ -42,6 +42,19 @@ What is 1200000 + 34567?<|eot_id|><|start_header_id|>assistant<|end_header_id|>
 
 """
 
+# Generic prompt for integer-only answer formatting (dataset-agnostic).
+PROMPT_GENERIC_INT = """<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a careful solver. Output ONLY the final answer as an integer (possibly negative), with no extra text.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Please output the integer 123. Output only the integer.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+123<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+{question}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+"""
+
 
 PROMPT_BIGBENCH_CRT = """<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
@@ -68,6 +81,8 @@ def build_prompt_text(dataset: str, question: str) -> str:
         return PROMPT_GSM8K.format(question=question)
     if dataset in {"bigbench_crt", "bb_crt", "bigbench-chinese-remainder-theorem", "chinese_remainder_theorem", "crt"}:
         return PROMPT_BIGBENCH_CRT.format(question=question)
+    if dataset in {"generic_int", "generic", "json_int"}:
+        return PROMPT_GENERIC_INT.format(question=question)
     raise ValueError(f"Unknown dataset for prompts: {dataset}")
 
 
@@ -126,6 +141,18 @@ def _fewshot_messages_bigbench_crt(question: str) -> List[Dict[str, Any]]:
     ]
 
 
+def _fewshot_messages_generic_int(question: str) -> List[Dict[str, Any]]:
+    return [
+        {
+            "role": "system",
+            "content": "You are a careful solver. Output ONLY the final answer as an integer (possibly negative), with no extra text.",
+        },
+        {"role": "user", "content": "Please output the integer 123. Output only the integer."},
+        {"role": "assistant", "content": "123"},
+        {"role": "user", "content": question},
+    ]
+
+
 def build_prompt_ids(tokenizer, dataset: str, question: str):
     """Return prompt input_ids (1, L).
 
@@ -142,6 +169,8 @@ def build_prompt_ids(tokenizer, dataset: str, question: str):
             messages = _fewshot_messages_gsm8k(question)
         elif dataset_key in {"bigbench_crt", "bb_crt", "bigbench-chinese-remainder-theorem", "chinese_remainder_theorem", "crt"}:
             messages = _fewshot_messages_bigbench_crt(question)
+        elif dataset_key in {"generic_int", "generic", "json_int"}:
+            messages = _fewshot_messages_generic_int(question)
         else:
             raise ValueError(f"Unknown dataset for prompts: {dataset}")
 

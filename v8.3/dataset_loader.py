@@ -7,6 +7,7 @@ Current supported datasets:
 - addition_50 (local)
 - gsm8k (local JSON produced by v6.x scripts)
 - bigbench_crt (BIG-bench chinese_remainder_theorem; either original dict or converted list)
+- generic_int (any JSON list in our standard schema)
 
 Other datasets can be plugged in by converting to the same JSON schema.
 """
@@ -109,6 +110,36 @@ def load_bigbench_crt(*, data_path: str | None, num_samples: int, seed: int, shu
     raise ValueError(f"Unsupported JSON schema in {path}: expected dict(examples=...) or list")
 
 
+def load_generic_int(*, data_path: str | None, num_samples: int, seed: int, shuffle: bool) -> List[Dict[str, Any]]:
+    """Load any JSON list of {id, question, answer} (answer is integer-ish)."""
+    if not data_path:
+        raise ValueError("generic_int requires --data_path")
+    data = load_json_list(data_path)
+    out: List[Dict[str, Any]] = []
+    for i, ex in enumerate(data):
+        if not isinstance(ex, dict):
+            continue
+        q = ex.get("question")
+        a = ex.get("answer")
+        if q is None or a is None:
+            continue
+        out.append({"id": ex.get("id", f"generic-int-{i}"), "question": str(q), "answer": normalize_int_answer(a)})
+    return _slice_shuffle(out, num_samples=num_samples, seed=seed, shuffle=shuffle)
+
+
+def _final_dataset_path(name: str) -> str | None:
+    mapping = {
+        "addition50_v1": "datasets_final/int/addition50_v1.json",
+        "gsm8k_test500_v1": "datasets_final/int/gsm8k_test500_v1.json",
+        "bigbench_crt_test500_v1": "datasets_final/int/bigbench_crt_test500_v1.json",
+        "bigbench_arithmetic200_v1": "datasets_final/int/bigbench_arithmetic200_v1.json",
+        "bigbench_mixed_number_string300_v1": "datasets_final/int/bigbench_mixed_number_string300_v1_seed42.json",
+        "math401_int241_v1": "datasets_final/int/math401_int241_v1.json",
+        "nupa_test440_int160_v1": "datasets_final/int/nupa_test440_int160_v1.json",
+    }
+    return mapping.get(name)
+
+
 def load_dataset(
     *,
     name: str,
@@ -124,4 +155,10 @@ def load_dataset(
         return load_gsm8k_local(data_path=data_path, num_samples=num_samples, seed=seed, shuffle=shuffle)
     if name in {"bigbench_crt", "bb_crt", "bigbench-chinese-remainder-theorem", "chinese_remainder_theorem", "crt"}:
         return load_bigbench_crt(data_path=data_path, num_samples=num_samples, seed=seed, shuffle=shuffle)
+    if name in {"generic_int", "generic", "json_int"}:
+        return load_generic_int(data_path=data_path, num_samples=num_samples, seed=seed, shuffle=shuffle)
+
+    final_path = _final_dataset_path(name)
+    if final_path:
+        return load_generic_int(data_path=final_path, num_samples=num_samples, seed=seed, shuffle=shuffle)
     raise ValueError(f"Unknown dataset: {name}")
