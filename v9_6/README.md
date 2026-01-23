@@ -7,8 +7,7 @@
 - 默认超参说明：`v9_6/README_experiments.md`
 
 默认输出路径：
-- 结果：`runs/v9.6_main_final_curated/results/**`
-- 日志：`runs/v9.6_main_final_curated/logs/**`
-- 表格/图：`runs/v9.6_main_final_curated/summary/**`
-
-数据集路径默认使用 `datasets_final_v3`，其中 curated JSON 在 `datasets_final_v3/curated/main`。
+- 结果：`runs/v9.6_main_final/results/**`
+- 日志：`runs/v9.6_main_final/logs/**`
+- 表格/图：`runs/v9.6_main_final/summary/**`
+数据集路径：`datasets_final_v3`

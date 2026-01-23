@@ -1,6 +1,6 @@
 """Aggregate v9.6 main experiment outputs into a paper-ready table + simple plots.
 
-Reads v9 JSON outputs under a root folder (typically `runs/v9.6_main_final_curated/results`).
+Reads v9 JSON outputs under a root folder (typically `runs/v9.6_main_final/results`).
 Writes:
 - `table_main_v9_6.csv`
 - `plots/token_acc_curves_llama.png`, `plots/token_acc_curves_qwen.png`
@@ -232,4 +232,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
