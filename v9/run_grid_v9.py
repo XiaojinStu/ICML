@@ -32,6 +32,10 @@ class GridSpec:
     lr_list: List[float]
     lr_schedule: str
     lr_min: float
+    lr_norm: str
+    lr_norm_eps: float
+    lr_norm_min: float
+    lr_norm_max: float
     update_target: str
     num_layers: str
     layer_stride: int
@@ -76,6 +80,10 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--lr_list", default="0.001,0.0005")
     p.add_argument("--lr_schedule", choices=["constant", "cosine"], default="constant")
     p.add_argument("--lr_min", type=float, default=1e-4)
+    p.add_argument("--lr_norm", choices=["none", "grad_norm"], default="none", help="Optional token-level LR normalization.")
+    p.add_argument("--lr_norm_eps", type=float, default=1e-6)
+    p.add_argument("--lr_norm_min", type=float, default=1e-5)
+    p.add_argument("--lr_norm_max", type=float, default=0.05)
     p.add_argument("--update_target", default="mlp+ln")
     p.add_argument("--num_layers", default="all")
     p.add_argument("--layer_stride", type=int, default=1)
@@ -92,6 +100,7 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--snapshot_stride", type=int, default=1)
     p.add_argument("--anchor_log", choices=["none", "flipped", "all"], default="flipped")
     p.add_argument("--anchor_trace_max", type=int, default=20)
+    p.add_argument("--ane_metric", choices=["angle", "cosine"], default="angle")
 
     p.add_argument("--dtype", default="bf16", choices=["bf16", "fp16", "fp32"])
     p.add_argument("--trust_remote_code", action="store_true")
@@ -178,9 +187,13 @@ def _config_name(dataset: str, model_base: str, eval_mode: str, steps: int, lr: 
         sched_suffix = f"_{sched}"
         if sched == "cosine":
             sched_suffix += f"_lrmin{args.lr_min:g}"
+    lrnorm = str(getattr(args, "lr_norm", "none"))
+    lrnorm_suffix = "" if lrnorm == "none" else f"_{lrnorm}"
+    anem = str(getattr(args, "ane_metric", "angle"))
+    anem_suffix = "" if anem == "angle" else f"_ane{anem}"
     stride = f"_stride{int(args.layer_stride)}" if int(args.layer_stride) != 1 else ""
     return (
-        f"{dataset}_{model_base}_{eval_mode}_steps{steps}_lr{lr:g}{sched_suffix}"
+        f"{dataset}_{model_base}_{eval_mode}_steps{steps}_lr{lr:g}{sched_suffix}{lrnorm_suffix}{anem_suffix}"
         f"_{args.optimizer}_{args.tta_reset}{stride}_{args.update_target}_{args.num_layers}"
     )
 
@@ -255,6 +268,10 @@ def run_one_model(args, model_path: str, datasets: Dict[str, List[Dict[str, Any]
                         lr=lr,
                         lr_schedule=spec.lr_schedule,
                         lr_min=spec.lr_min,
+                        lr_norm=spec.lr_norm,
+                        lr_norm_eps=spec.lr_norm_eps,
+                        lr_norm_min=spec.lr_norm_min,
+                        lr_norm_max=spec.lr_norm_max,
                         optimizer=args.optimizer,
                         momentum=args.momentum,
                         grad_clip=args.grad_clip,
@@ -272,6 +289,7 @@ def run_one_model(args, model_path: str, datasets: Dict[str, List[Dict[str, Any]
                         save_rendered_prompt=bool(getattr(args, "save_rendered_prompt", False)),
                         anchor_log=str(args.anchor_log),
                         anchor_trace_max=int(args.anchor_trace_max),
+                        ane_metric=str(args.ane_metric),
                         save_mode="compact",
                         keep_full_metrics_tokens=50,
                     )
@@ -303,6 +321,10 @@ def main() -> None:
         lr_list=_parse_float_list(args.lr_list),
         lr_schedule=str(args.lr_schedule),
         lr_min=float(args.lr_min),
+        lr_norm=str(args.lr_norm),
+        lr_norm_eps=float(args.lr_norm_eps),
+        lr_norm_min=float(args.lr_norm_min),
+        lr_norm_max=float(args.lr_norm_max),
         update_target=args.update_target,
         num_layers=args.num_layers,
         layer_stride=int(args.layer_stride),

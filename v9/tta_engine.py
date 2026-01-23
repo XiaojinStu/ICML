@@ -15,7 +15,7 @@ from typing import Any, Dict, List, Optional, Tuple
 
 import torch
 
-from ane_core import check_numerical_health
+from ane_core import check_numerical_health, compute_gradient_stats
 from numerical_utils import compute_num_prob_rank, mask_logits_to_num, numerical_softmax
 
 
@@ -168,6 +168,10 @@ class TTAEngine:
         lr: float,
         lr_schedule: str = "constant",
         lr_min: float = 1e-4,
+        lr_norm: str = "none",
+        lr_norm_eps: float = 1e-6,
+        lr_norm_min: float = 1e-5,
+        lr_norm_max: float = 0.05,
         optimizer: str = "sgd",
         momentum: float = 0.0,
         grad_clip: float = 1.0,
@@ -189,6 +193,10 @@ class TTAEngine:
         self.lr = float(lr)
         self.lr_schedule = str(lr_schedule)
         self.lr_min = float(lr_min)
+        self.lr_norm = str(lr_norm)
+        self.lr_norm_eps = float(lr_norm_eps)
+        self.lr_norm_min = float(lr_norm_min)
+        self.lr_norm_max = float(lr_norm_max)
         self.optimizer = optimizer
         self.momentum = float(momentum)
         self.grad_clip = float(grad_clip)
@@ -224,6 +232,7 @@ class TTAEngine:
             "anchor_angle_target": [],
             "anchor_nearest_token": [],
             "num_topk_probs": [],
+            "step_lr": [],
             "step_status": [],
             "tracked_topk": {"ids": [], "tokens": [], "probs": []},
             "num_topk_snapshots": [],
@@ -285,6 +294,7 @@ class TTAEngine:
         metrics["target_prob"].append(float(prob0))
         metrics["target_rank"].append(int(rank0))
         metrics["num_topk_probs"].append([t["prob"] for t in topk0])
+        metrics["step_lr"].append(float(self.lr))
         metrics["step_status"].append("baseline")
         metrics["tracked_topk"]["probs"].append(_tracked_probs(num_probs0))
 
@@ -317,7 +327,7 @@ class TTAEngine:
             self.model.train()
             optimizer.zero_grad(set_to_none=True)
             # Optional LR schedule.
-            lr_step = self._lr_for_step(step)
+            lr_step = float(self._lr_for_step(step))
             for group in optimizer.param_groups:
                 group["lr"] = lr_step
 
@@ -331,6 +341,7 @@ class TTAEngine:
                 metrics["anchor_angle_target"].append(metrics["anchor_angle_target"][-1])
                 metrics["anchor_nearest_token"].append(metrics["anchor_nearest_token"][-1])
                 metrics["num_topk_probs"].append(metrics["num_topk_probs"][-1])
+                metrics["step_lr"].append(metrics["step_lr"][-1])
                 metrics["tracked_topk"]["probs"].append(metrics["tracked_topk"]["probs"][-1])
                 metrics["step_status"].append("loss_nan")
                 anchor_dirs_tmp.append(anchor_dirs_tmp[-1])
@@ -349,12 +360,25 @@ class TTAEngine:
                 metrics["anchor_angle_target"].append(metrics["anchor_angle_target"][-1])
                 metrics["anchor_nearest_token"].append(metrics["anchor_nearest_token"][-1])
                 metrics["num_topk_probs"].append(metrics["num_topk_probs"][-1])
+                metrics["step_lr"].append(metrics["step_lr"][-1])
                 metrics["tracked_topk"]["probs"].append(metrics["tracked_topk"]["probs"][-1])
                 metrics["step_status"].append(status)
                 anchor_dirs_tmp.append(anchor_dirs_tmp[-1])
                 if step in snapshot_steps:
                     metrics["num_topk_snapshots"].append({"step": int(step), "tokens": last_topk})
                 continue
+
+            # Optional: gradient-norm LR normalization (token-level adaptive step size).
+            lr_eff = lr_step
+            if self.lr_norm != "none":
+                if self.lr_norm == "grad_norm":
+                    grad_norm, _, _ = compute_gradient_stats(self.params)
+                    lr_eff = lr_step / (float(grad_norm) + float(self.lr_norm_eps))
+                else:
+                    raise ValueError(f"Unknown lr_norm: {self.lr_norm}")
+                lr_eff = float(max(self.lr_norm_min, min(self.lr_norm_max, lr_eff)))
+                for group in optimizer.param_groups:
+                    group["lr"] = lr_eff
 
             torch.nn.utils.clip_grad_norm_(self.params, self.grad_clip)
             optimizer.step()
@@ -394,6 +418,7 @@ class TTAEngine:
             metrics["target_prob"].append(float(prob))
             metrics["target_rank"].append(int(rank))
             metrics["num_topk_probs"].append([t["prob"] for t in topk])
+            metrics["step_lr"].append(float(lr_eff))
             metrics["tracked_topk"]["probs"].append(_tracked_probs(num_probs))
             metrics["step_status"].append("ok")
 
@@ -409,6 +434,7 @@ class TTAEngine:
             "anchor_angle_target",
             "anchor_nearest_token",
             "num_topk_probs",
+            "step_lr",
             "step_status",
         ]:
             _pad_list(metrics[k], total_len)

@@ -72,6 +72,10 @@ def evaluate(
     lr: float,
     lr_schedule: str,
     lr_min: float,
+    lr_norm: str,
+    lr_norm_eps: float,
+    lr_norm_min: float,
+    lr_norm_max: float,
     optimizer: str,
     momentum: float,
     grad_clip: float,
@@ -89,12 +93,20 @@ def evaluate(
     save_rendered_prompt: bool,
     anchor_log: str,
     anchor_trace_max: int,
+    ane_metric: str,
     save_mode: str = "compact",
     keep_full_metrics_tokens: int = 50,
 ) -> Dict:
     start = time.time()
 
-    loss_fn = AngularEntropyLoss(num_idx, model.get_input_embeddings(), use_float32=True, eps=1e-4, cache_embeddings=True).to(model.device)
+    loss_fn = AngularEntropyLoss(
+        num_idx,
+        model.get_input_embeddings(),
+        use_float32=True,
+        eps=1e-4,
+        cache_embeddings=True,
+        distance_mode=str(ane_metric),
+    ).to(model.device)
 
     params, train_stats = configure_trainable_params(model, update_target, num_layers, layer_stride)
     base_backup = backup_params(params, to_cpu=backup_on_cpu) if params else []
@@ -112,6 +124,10 @@ def evaluate(
         lr=lr,
         lr_schedule=lr_schedule,
         lr_min=lr_min,
+        lr_norm=lr_norm,
+        lr_norm_eps=lr_norm_eps,
+        lr_norm_min=lr_norm_min,
+        lr_norm_max=lr_norm_max,
         optimizer=optimizer,
         momentum=momentum,
         grad_clip=grad_clip,
@@ -364,8 +380,13 @@ def evaluate(
         "lr": float(lr),
         "lr_schedule": str(lr_schedule),
         "lr_min": float(lr_min),
+        "lr_norm": str(lr_norm),
+        "lr_norm_eps": float(lr_norm_eps),
+        "lr_norm_min": float(lr_norm_min),
+        "lr_norm_max": float(lr_norm_max),
         "optimizer": optimizer,
         "momentum": float(momentum),
+        "ane_metric": str(ane_metric),
         "update_target": update_target,
         "num_layers": num_layers,
         "layer_stride": int(layer_stride),
@@ -445,6 +466,10 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--lr", type=float, default=5e-3)
     p.add_argument("--lr_schedule", choices=["constant", "cosine"], default="constant")
     p.add_argument("--lr_min", type=float, default=1e-4, help="For cosine schedule: minimum LR at final step.")
+    p.add_argument("--lr_norm", choices=["none", "grad_norm"], default="none", help="Optional token-level LR normalization.")
+    p.add_argument("--lr_norm_eps", type=float, default=1e-6)
+    p.add_argument("--lr_norm_min", type=float, default=1e-5)
+    p.add_argument("--lr_norm_max", type=float, default=0.05)
     p.add_argument("--optimizer", choices=["sgd", "adamw"], default="sgd")
     p.add_argument("--momentum", type=float, default=0.0)
     p.add_argument("--grad_clip", type=float, default=1.0)
@@ -461,6 +486,7 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--snapshot_stride", type=int, default=1, help="Record subspace snapshots every N steps.")
     p.add_argument("--anchor_log", choices=["none", "flipped", "all"], default="flipped", help="Store anchor vectors for visualization.")
     p.add_argument("--anchor_trace_max", type=int, default=20, help="Keep at most N token-level anchor traces in JSON.")
+    p.add_argument("--ane_metric", choices=["angle", "cosine"], default="angle", help="ANE distance: geodesic angle (default) or cosine distance (1-cos).")
 
     p.add_argument("--allow_prefix_space", action="store_true")
     p.add_argument("--gradient_checkpointing", action="store_true")
@@ -534,6 +560,10 @@ def main() -> None:
         lr=args.lr,
         lr_schedule=args.lr_schedule,
         lr_min=args.lr_min,
+        lr_norm=args.lr_norm,
+        lr_norm_eps=args.lr_norm_eps,
+        lr_norm_min=args.lr_norm_min,
+        lr_norm_max=args.lr_norm_max,
         optimizer=args.optimizer,
         momentum=args.momentum,
         grad_clip=args.grad_clip,
@@ -551,6 +581,7 @@ def main() -> None:
         save_rendered_prompt=args.save_rendered_prompt,
         anchor_log=args.anchor_log,
         anchor_trace_max=args.anchor_trace_max,
+        ane_metric=args.ane_metric,
         save_mode=args.save_mode,
         keep_full_metrics_tokens=args.keep_full_metrics_tokens,
     )

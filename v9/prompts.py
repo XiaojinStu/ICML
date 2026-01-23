@@ -14,9 +14,18 @@ from __future__ import annotations
 from typing import Any, Dict, List
 
 
+STRICT_OUTPUT_RULES = (
+    "Output ONLY the final answer as a single number string, and nothing else. "
+    "Do NOT output any words, reasoning, units, commas, extra spaces, or extra lines. "
+    "Do NOT output equations (e.g., '3+4=7'). "
+    "The output must match the gold answer format: only digits 0-9, and optionally a leading '-' "
+    "and separators '.', '/', or 'e' when they are part of the number string."
+)
+
+
 PROMPT_ADDITION = """<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
-You are a precise calculator. For the question, output ONLY the final answer, with no extra text.<|eot_id|><|start_header_id|>user<|end_header_id|>
+You are a precise calculator. {strict}<|eot_id|><|start_header_id|>user<|end_header_id|>
 
 What is the sum of 12 and 34?<|eot_id|><|start_header_id|>assistant<|end_header_id|>
 
@@ -33,7 +42,7 @@ What is the sum of 567 and 890?<|eot_id|><|start_header_id|>assistant<|end_heade
 
 PROMPT_GSM8K = """<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
-You are a careful math solver. Output ONLY the final answer as a number, with no extra text. The answer may be an integer (possibly negative).<|eot_id|><|start_header_id|>user<|end_header_id|>
+You are a careful math solver. {strict}<|eot_id|><|start_header_id|>user<|end_header_id|>
 
 If you have 5 apples and buy 7 more, how many apples do you have?<|eot_id|><|start_header_id|>assistant<|end_header_id|>
 
@@ -50,7 +59,7 @@ What is 1200000 + 34567?<|eot_id|><|start_header_id|>assistant<|end_header_id|>
 
 PROMPT_GENERIC_NUMSTR = """<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
-You are a careful solver. Output ONLY the final answer as a number string, with no extra text and no spaces. The answer may be an integer, decimal, fraction (like 3/7), or scientific notation (like 1.23e5).<|eot_id|><|start_header_id|>user<|end_header_id|>
+You are a careful solver. {strict}<|eot_id|><|start_header_id|>user<|end_header_id|>
 
 Output only the number string for: 3 divided by 7.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
 
@@ -84,15 +93,15 @@ def _dataset_family(dataset: str) -> str:
 def build_prompt_text(dataset: str, question: str) -> str:
     fam = _dataset_family(dataset)
     if fam == "addition":
-        return PROMPT_ADDITION.format(question=question)
+        return PROMPT_ADDITION.format(question=question, strict=STRICT_OUTPUT_RULES)
     if fam == "gsm8k":
-        return PROMPT_GSM8K.format(question=question)
-    return PROMPT_GENERIC_NUMSTR.format(question=question)
+        return PROMPT_GSM8K.format(question=question, strict=STRICT_OUTPUT_RULES)
+    return PROMPT_GENERIC_NUMSTR.format(question=question, strict=STRICT_OUTPUT_RULES)
 
 
 def _fewshot_messages_addition(question: str) -> List[Dict[str, Any]]:
     return [
-        {"role": "system", "content": "You are a precise calculator. Output ONLY the final answer, with no extra text."},
+        {"role": "system", "content": f"You are a precise calculator. {STRICT_OUTPUT_RULES}"},
         {"role": "user", "content": "What is the sum of 12 and 34?"},
         {"role": "assistant", "content": "46"},
         {"role": "user", "content": "What is the sum of 567 and 890?"},
@@ -105,7 +114,7 @@ def _fewshot_messages_gsm8k(question: str) -> List[Dict[str, Any]]:
     return [
         {
             "role": "system",
-            "content": "You are a careful math solver. Output ONLY the final answer as a number, with no extra text.",
+            "content": f"You are a careful math solver. {STRICT_OUTPUT_RULES}",
         },
         {"role": "user", "content": "If you have 5 apples and buy 7 more, how many apples do you have?"},
         {"role": "assistant", "content": "12"},
@@ -119,7 +128,7 @@ def _fewshot_messages_generic(question: str) -> List[Dict[str, Any]]:
     return [
         {
             "role": "system",
-            "content": "You are a careful solver. Output ONLY the final answer as a number string, with no extra text and no spaces. The answer may be an integer, decimal, fraction (like 3/7), or scientific notation (like 1.23e5).",
+            "content": f"You are a careful solver. {STRICT_OUTPUT_RULES}",
         },
         {"role": "user", "content": "Output only the number string for: 3 divided by 7."},
         {"role": "assistant", "content": "3/7"},
@@ -143,4 +152,3 @@ def build_prompt_ids(tokenizer, dataset: str, question: str):
         return tokenizer.apply_chat_template(messages, add_generation_prompt=True, return_tensors="pt")
 
     return tokenizer(build_prompt_text(dataset, question), return_tensors="pt")["input_ids"]
-

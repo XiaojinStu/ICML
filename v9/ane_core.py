@@ -35,12 +35,16 @@ class AngularEntropy:
         use_float32: bool = True,
         eps: float = 1e-4,
         cache_embeddings: bool = True,
+        distance_mode: str = "angle",
     ) -> None:
         self.num_idx = num_idx
         self.embed_layer = embed_layer
         self.use_float32 = use_float32
         self.eps = eps
         self.cache_embeddings = cache_embeddings
+        if distance_mode not in {"angle", "cosine"}:
+            raise ValueError(f"Unknown distance_mode: {distance_mode}")
+        self.distance_mode = distance_mode
         self.num_idx_tensor = torch.tensor(num_idx, dtype=torch.long)
         self._cached = False
         if cache_embeddings:
@@ -91,9 +95,13 @@ class AngularEntropy:
 
         dot = torch.matmul(num_embeds, anchor)
         cos_sim = dot / (num_norms * anchor_norm)
-        angles = stable_arccos(cos_sim, eps=self.eps)
+        if self.distance_mode == "angle":
+            dist = stable_arccos(cos_sim, eps=self.eps)
+        else:
+            # Cosine distance on the unit sphere (non-negative): 1 - cos(·)
+            dist = 1.0 - torch.clamp(cos_sim, -1.0, 1.0)
 
-        loss = torch.dot(probs, angles)
+        loss = torch.dot(probs, dist)
         if torch.isnan(loss) or torch.isinf(loss):
             loss = torch.tensor(
                 self.eps,
@@ -115,8 +123,8 @@ class AngularEntropy:
                 anchor_norm=float(anchor_norm.item()),
                 cos_min=float(cos_sim.min().item()),
                 cos_max=float(cos_sim.max().item()),
-                angle_min=float(angles.min().item()),
-                angle_max=float(angles.max().item()),
+                angle_min=float(dist.min().item()),
+                angle_max=float(dist.max().item()),
                 anchor_argmax_pos=int(torch.argmax(cos_sim).item()),
             )
             out.append(diag)

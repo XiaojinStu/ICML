@@ -25,6 +25,7 @@ class AngularEntropyLoss(LossPack):
         use_float32: bool = True,
         eps: float = 1e-4,
         cache_embeddings: bool = True,
+        distance_mode: str = "angle",
     ) -> None:
         super().__init__(name="ane")
         self.core = AngularEntropy(
@@ -33,6 +34,7 @@ class AngularEntropyLoss(LossPack):
             use_float32=use_float32,
             eps=eps,
             cache_embeddings=cache_embeddings,
+            distance_mode=distance_mode,
         )
 
     def to(self, device: torch.device) -> "AngularEntropyLoss":

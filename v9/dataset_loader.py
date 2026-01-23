@@ -108,5 +108,9 @@ def load_dataset(
     if final_path:
         return load_standard_json(data_path=data_path or final_path, num_samples=num_samples, seed=seed, shuffle=shuffle)
 
-    raise ValueError(f"Unknown dataset: {name}")
+    # Fallback: allow arbitrary dataset keys as long as a local JSON path is provided.
+    # This is used for curated datasets or user-provided datasets with the unified v9 format.
+    if data_path:
+        return load_standard_json(data_path=data_path, num_samples=num_samples, seed=seed, shuffle=shuffle)
 
+    raise ValueError(f"Unknown dataset: {name}")
