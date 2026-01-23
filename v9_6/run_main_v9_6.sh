@@ -12,7 +12,7 @@ set -euo pipefail
 # - Tables + plots under $RUNROOT/summary/**
 
 RUNROOT="${RUNROOT:-runs/v9.6_main_final_curated}"
-CURATED_DIR="${CURATED_DIR:-datasets_final_v3/curated/main}"
+CURATED_DIR="${CURATED_DIR:-datasets_final_v3}"
 
 OUTROOT="$RUNROOT/results"
 LOGDIR="$RUNROOT/logs"
@@ -23,8 +23,9 @@ mkdir -p "$OUTROOT" "$LOGDIR" "$SUMMARYDIR"
 LLAMA_MODELS="/home/jinsk/Models/Llama-3.2-1B-Instruct,/home/jinsk/Models/Llama-3.2-3B-Instruct,/home/jinsk/Models/Llama-3.1-8B-Instruct"
 QWEN_MODELS="/home/jinsk/Models/Qwen2.5-Math-7B,/home/jinsk/Models/Qwen3-4B-Instruct-2507"
 
-if [[ ! -d "$CURATED_DIR" ]]; then
-  echo "[v9.6] missing curated dir: $CURATED_DIR" >&2
+CURATED_MAIN="$CURATED_DIR/curated/main"
+if [[ ! -d "$CURATED_MAIN" ]]; then
+  echo "[v9.6] missing curated dir: $CURATED_MAIN" >&2
   exit 1
 fi
 
@@ -105,19 +106,19 @@ run_phase() {
 # (A) non-GSM default (strong)
 run_phase "non_gsm_default" \
   "addition50_v1,bigbench_arithmetic600_seed42_v1,math401_all401_v1,nupa_test440_v1,numericbench_test500_seed2_v1" \
-  "addition50_v1=${CURATED_DIR}/addition50_v1.json,bigbench_arithmetic600_seed42_v1=${CURATED_DIR}/bigbench_arithmetic600_seed42_v1.json,math401_all401_v1=${CURATED_DIR}/math401_all401_v1.json,nupa_test440_v1=${CURATED_DIR}/nupa_test440_v1.json,numericbench_test500_seed2_v1=${CURATED_DIR}/numericbench_test500_seed2_v1.json" \
+  "addition50_v1=${CURATED_MAIN}/addition50_v1.json,bigbench_arithmetic600_seed42_v1=${CURATED_MAIN}/bigbench_arithmetic600_seed42_v1.json,math401_all401_v1=${CURATED_MAIN}/math401_all401_v1.json,nupa_test440_v1=${CURATED_MAIN}/nupa_test440_v1.json,numericbench_test500_seed2_v1=${CURATED_MAIN}/numericbench_test500_seed2_v1.json" \
   "0.01" "0.002" "constant" "none" "mlp+ln" "ln"
 
 # (B) mixed-number-string robust
 run_phase "mixed_robust" \
   "bigbench_mixed_number_string300_seed42_v1" \
-  "bigbench_mixed_number_string300_seed42_v1=${CURATED_DIR}/bigbench_mixed_number_string300_seed42_v1.json" \
+  "bigbench_mixed_number_string300_seed42_v1=${CURATED_MAIN}/bigbench_mixed_number_string300_seed42_v1.json" \
   "0.01" "0.002" "cosine" "grad_norm" "mlp+ln" "ln"
 
 # (C) GSM8K (small LR)
 run_phase "gsm8k_smalllr" \
   "gsm8k_test500_v1" \
-  "gsm8k_test500_v1=${CURATED_DIR}/gsm8k_test500_v1.json" \
+  "gsm8k_test500_v1=${CURATED_MAIN}/gsm8k_test500_v1.json" \
   "0.0001" "0.0001" "constant" "none" "mlp+ln" "ln"
 
 echo "[v9.6] aggregating..."

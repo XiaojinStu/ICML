@@ -10,3 +10,5 @@
 - 结果：`runs/v9.6_main_final_curated/results/**`
 - 日志：`runs/v9.6_main_final_curated/logs/**`
 - 表格/图：`runs/v9.6_main_final_curated/summary/**`
+
+数据集路径默认使用 `datasets_final_v3`，其中 curated JSON 在 `datasets_final_v3/curated/main`。
