@@ -1,0 +1,738 @@
+[
+  {
+    "id": "bb-mns-807",
+    "question": "String: ta1CY68Fz9T6t99W61ypbU3759g6BsN3t6MD8LJklpx3p9B27s4I2h7FzG4A23NM2Q28fUMid83c93T1968987sb1NO5hR57hNg8\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "28",
+    "ability": "count in 100 length",
+    "question_index": 0,
+    "struct_data": "ta1CY68Fz9T6t99W61ypbU3759g6BsN3t6MD8LJklpx3p9B27s4I2h7FzG4A23NM2Q28fUMid83c93T1968987sb1NO5hR57hNg8"
+  },
+  {
+    "id": "bb-mns-1326",
+    "question": "String: MIK23321D8WLX8775j93v4zV2Kg9GXeh24jpb1S6287A5o33HQcB3ut7P2918cKmgo1bZtZzUc2BF3X2gq3v2BNJM7u1LVzm8c7n8TrDWbB5MoBwg5slhoX6VK7Dd3Rms9UIlM36f4vRhH674n1gwv\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "36",
+    "ability": "count in 150 length",
+    "question_index": 0,
+    "struct_data": "MIK23321D8WLX8775j93v4zV2Kg9GXeh24jpb1S6287A5o33HQcB3ut7P2918cKmgo1bZtZzUc2BF3X2gq3v2BNJM7u1LVzm8c7n8TrDWbB5MoBwg5slhoX6VK7Dd3Rms9UIlM36f4vRhH674n1gwv"
+  },
+  {
+    "id": "bb-mns-1023",
+    "question": "String: xKg5LYCsA9RC771psH584LkWtg11DM3AD44b63fs9vS5SVl293zR1I7pQGqVmHt1agiR6t2KUyqE8zVb6jEbm76AG9Mj5N6393gKMfo84Y989w2lEaT6RFlsioVh9OgmHM7896C1hz9b2Q7xE489A5\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "34",
+    "ability": "count in 150 length",
+    "question_index": 0,
+    "struct_data": "xKg5LYCsA9RC771psH584LkWtg11DM3AD44b63fs9vS5SVl293zR1I7pQGqVmHt1agiR6t2KUyqE8zVb6jEbm76AG9Mj5N6393gKMfo84Y989w2lEaT6RFlsioVh9OgmHM7896C1hz9b2Q7xE489A5"
+  },
+  {
+    "id": "bb-mns-896",
+    "question": "String: 2ZRs166I8311mgY5i4t6gat98igs2z6C9795H9d545227ZE6I5R64MxqYZ4K2Ah574MeE761s29P42998x838t8Nh79p7434f31c\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "26",
+    "ability": "count in 100 length",
+    "question_index": 0,
+    "struct_data": "2ZRs166I8311mgY5i4t6gat98igs2z6C9795H9d545227ZE6I5R64MxqYZ4K2Ah574MeE761s29P42998x838t8Nh79p7434f31c"
+  },
+  {
+    "id": "bb-mns-1147",
+    "question": "String: w18Lj193MV38R73RY61HL2vK2Mn46hG882ZEhX1Py7BH4n2LMqW3T55MWnTQp45X32iLQ1UxzXhdjZ788FCZr5942yXgSj4639xW5ofR9Qz49D2y1zz9472dtj1848ef6ToStCf375YIrKs5MLrpz4\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "32",
+    "ability": "count in 150 length",
+    "question_index": 0,
+    "struct_data": "w18Lj193MV38R73RY61HL2vK2Mn46hG882ZEhX1Py7BH4n2LMqW3T55MWnTQp45X32iLQ1UxzXhdjZ788FCZr5942yXgSj4639xW5ofR9Qz49D2y1zz9472dtj1848ef6ToStCf375YIrKs5MLrpz4"
+  },
+  {
+    "id": "bb-mns-1834",
+    "question": "String: 1767865Cb8oQ23G5RT5NTAxTW1839828H4587Xq83B11szY1hL5pQ9g14gT17R56neK99lH483E6PN7R3D253MdO71LPz9Pml385cMPcW12b7633TfD35n9kl2433V23I769B9256KAX74W7319G62B498T6JBS9SD9f7Mx8S9qD99j51LrnihEX4k6cvB5l4qS631HS\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "49",
+    "ability": "count in 200 length",
+    "question_index": 0,
+    "struct_data": "1767865Cb8oQ23G5RT5NTAxTW1839828H4587Xq83B11szY1hL5pQ9g14gT17R56neK99lH483E6PN7R3D253MdO71LPz9Pml385cMPcW12b7633TfD35n9kl2433V23I769B9256KAX74W7319G62B498T6JBS9SD9f7Mx8S9qD99j51LrnihEX4k6cvB5l4qS631HS"
+  },
+  {
+    "id": "bb-mns-1905",
+    "question": "String: PE4K5q1kqL2ws2C4lx29MY1528G1S9428HWI747652611y9dhgC98v8d12qdNN419v1H3i11SZ7448NPl89H8P9112X2G4t1s2Y8764L9Av1329w3mC32a6595eQJSiYN7irXP3R743ME922gS14h1Ld93i2vdZ76b47o321LAV85eMj9P7s7778867S7s622FAS37bT\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "51",
+    "ability": "count in 200 length",
+    "question_index": 0,
+    "struct_data": "PE4K5q1kqL2ws2C4lx29MY1528G1S9428HWI747652611y9dhgC98v8d12qdNN419v1H3i11SZ7448NPl89H8P9112X2G4t1s2Y8764L9Av1329w3mC32a6595eQJSiYN7irXP3R743ME922gS14h1Ld93i2vdZ76b47o321LAV85eMj9P7s7778867S7s622FAS37bT"
+  },
+  {
+    "id": "bb-mns-1065",
+    "question": "String: s5Y1db836zUnAr59wm71k664qvYVsI4y9fj421muHZ66jJv7YGXQ27Aj2tR3Xas1Uh2785O1S2b26J743EwFwFP9V5uS6y1ev994DAuznL318OR17x181rn13tS1E3v8m7j56192aQqyQ2o2Ku2DOy\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "37",
+    "ability": "count in 150 length",
+    "question_index": 0,
+    "struct_data": "s5Y1db836zUnAr59wm71k664qvYVsI4y9fj421muHZ66jJv7YGXQ27Aj2tR3Xas1Uh2785O1S2b26J743EwFwFP9V5uS6y1ev994DAuznL318OR17x181rn13tS1E3v8m7j56192aQqyQ2o2Ku2DOy"
+  },
+  {
+    "id": "bb-mns-997",
+    "question": "String: 69Lm444q782TZ847Pn1845TGijU92wc724v8oM7Htg6lO8QkP646426hQ1nS7931SWI37Z5pMy4w966as55O2T51SZ65R6z53kMm\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "24",
+    "ability": "count in 100 length",
+    "question_index": 0,
+    "struct_data": "69Lm444q782TZ847Pn1845TGijU92wc724v8oM7Htg6lO8QkP646426hQ1nS7931SWI37Z5pMy4w966as55O2T51SZ65R6z53kMm"
+  },
+  {
+    "id": "bb-mns-769",
+    "question": "String: 8Cj556wF7234C9936E97398GMDh5x565587422423z4D232Fa639K3i3ED9mfXuk151191C1h6g828954mm98T7423K65Q915VAZ\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "21",
+    "ability": "count in 100 length",
+    "question_index": 0,
+    "struct_data": "8Cj556wF7234C9936E97398GMDh5x565587422423z4D232Fa639K3i3ED9mfXuk151191C1h6g828954mm98T7423K65Q915VAZ"
+  },
+  {
+    "id": "bb-mns-266",
+    "question": "String: TlKO3r43d1295f1258911n3BLAb13uy397143B682H163558J8\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "10",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "TlKO3r43d1295f1258911n3BLAb13uy397143B682H163558J8"
+  },
+  {
+    "id": "bb-mns-1796",
+    "question": "String: 58S61S553Aam359k48r2569316Q11x734E1y52754u6z8n767HOX61Pv91y9wd8672P1113g4oN3b96358816586q319835285867274x8DX189N5L32i7452JKQ7h285xd174333427de4Oc8116Fkf6551995816315p82ik6j3Dh4291AEzX392i9iK544I639g7f\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "42",
+    "ability": "count in 200 length",
+    "question_index": 0,
+    "struct_data": "58S61S553Aam359k48r2569316Q11x734E1y52754u6z8n767HOX61Pv91y9wd8672P1113g4oN3b96358816586q319835285867274x8DX189N5L32i7452JKQ7h285xd174333427de4Oc8116Fkf6551995816315p82ik6j3Dh4291AEzX392i9iK544I639g7f"
+  },
+  {
+    "id": "bb-mns-827",
+    "question": "String: 938S8Ey153ko7nL6At32hv691U31SK2G3897986t85t7CbFD8JI5849X5VuuCNV642685Kcf8mI755bQr9724f3R5l1384OMx56C\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "23",
+    "ability": "count in 100 length",
+    "question_index": 0,
+    "struct_data": "938S8Ey153ko7nL6At32hv691U31SK2G3897986t85t7CbFD8JI5849X5VuuCNV642685Kcf8mI755bQr9724f3R5l1384OMx56C"
+  },
+  {
+    "id": "bb-mns-1293",
+    "question": "String: y7k2onR611LUeOXX3rXIcs9qy8q4Z5A11oeW7d2hFahclP84956gqIXrA6v39NWJs4LrpG7r6s35UA1LLzu45X644Q947Lhh93N6j4DLcgX8dr3893D3UPl58kcKw8483YGMVw468z9ETE8979sh8W\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "34",
+    "ability": "count in 150 length",
+    "question_index": 0,
+    "struct_data": "y7k2onR611LUeOXX3rXIcs9qy8q4Z5A11oeW7d2hFahclP84956gqIXrA6v39NWJs4LrpG7r6s35UA1LLzu45X644Q947Lhh93N6j4DLcgX8dr3893D3UPl58kcKw8483YGMVw468z9ETE8979sh8W"
+  },
+  {
+    "id": "bb-mns-1715",
+    "question": "String: xQe89j5V33651SsE57C131G2896844n7f3b834B626K28c8ezIYH91oXD84BS9657963YG943J682513kC6EF7Z8Ll38435939Mm67D67F771B3364ZRGxU6844865gJ9Q2t279q91O2V567h8O9526vO34P1429g8m535l8E93a56E69O9vV31875WF9499G1I9I5b5\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "49",
+    "ability": "count in 200 length",
+    "question_index": 0,
+    "struct_data": "xQe89j5V33651SsE57C131G2896844n7f3b834B626K28c8ezIYH91oXD84BS9657963YG943J682513kC6EF7Z8Ll38435939Mm67D67F771B3364ZRGxU6844865gJ9Q2t279q91O2V567h8O9526vO34P1429g8m535l8E93a56E69O9vV31875WF9499G1I9I5b5"
+  },
+  {
+    "id": "bb-mns-1892",
+    "question": "String: rvB272b3r96284598s47839831R648894ft5t6OgeH65845h7HAO9Rh4ouXuUT9CTuE3iMol78Up13p59988Rw1UYQ2424kawt12il3eqvQZ2347cW58z86s3C512Mv4k5Yk63fmnUrEK9nwLF95u8Mox287Qm759l77JVrOM918F5V8e9VkkPxN65Uv6HC2hMctpn74\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "42",
+    "ability": "count in 200 length",
+    "question_index": 0,
+    "struct_data": "rvB272b3r96284598s47839831R648894ft5t6OgeH65845h7HAO9Rh4ouXuUT9CTuE3iMol78Up13p59988Rw1UYQ2424kawt12il3eqvQZ2347cW58z86s3C512Mv4k5Yk63fmnUrEK9nwLF95u8Mox287Qm759l77JVrOM918F5V8e9VkkPxN65Uv6HC2hMctpn74"
+  },
+  {
+    "id": "bb-mns-1160",
+    "question": "String: 8I25qy681Y5wC4WX59MM9p79944BWJ9Jd9J54nopMYL774821Ioj63z8LZF4227WNNZQ6p3K4fy4GE78IS91789k93X59767hVn7928l2154466K2PM472KF83as654rJ8369NIbi9k7s77m9lUY24\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "35",
+    "ability": "count in 150 length",
+    "question_index": 0,
+    "struct_data": "8I25qy681Y5wC4WX59MM9p79944BWJ9Jd9J54nopMYL774821Ioj63z8LZF4227WNNZQ6p3K4fy4GE78IS91789k93X59767hVn7928l2154466K2PM472KF83as654rJ8369NIbi9k7s77m9lUY24"
+  },
+  {
+    "id": "bb-mns-27",
+    "question": "String: 72xo953IEM645tYBP8uk76jlw9f5fIT3222s463uPa9Gqu42zK\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "11",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "72xo953IEM645tYBP8uk76jlw9f5fIT3222s463uPa9Gqu42zK"
+  },
+  {
+    "id": "bb-mns-1987",
+    "question": "String: 59198AU4A4RD7U745S2b5Vm3t125555s57PO7ib1384u5V6428K3965v8PwY82u2Fw522SGF2263CS616r835D7r7Ra24tq8z7t6556IH256787Mm44H1ZCS76X77BhST66584H91N1576Q31n1hHI242Xjpn344L5K8178M91248873272qx3P7482iWc4B7423XS4X\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "48",
+    "ability": "count in 200 length",
+    "question_index": 0,
+    "struct_data": "59198AU4A4RD7U745S2b5Vm3t125555s57PO7ib1384u5V6428K3965v8PwY82u2Fw522SGF2263CS616r835D7r7Ra24tq8z7t6556IH256787Mm44H1ZCS76X77BhST66584H91N1576Q31n1hHI242Xjpn344L5K8178M91248873272qx3P7482iWc4B7423XS4X"
+  },
+  {
+    "id": "bb-mns-1389",
+    "question": "String: 5WK7JpBacBwngY2U5We5m95v7bhlj3H7jMzjGSZOj6P2s7bgn624V2i1k1dP67Z851N4iDl6T8n6B6ZO4Qj4C23J17FQy2X8KJrH7R1ae1cTOFz9jV47N3n9ZfQfncOa1c7pYG3mi4ZaaSAi31Eyzp\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "41",
+    "ability": "count in 150 length",
+    "question_index": 0,
+    "struct_data": "5WK7JpBacBwngY2U5We5m95v7bhlj3H7jMzjGSZOj6P2s7bgn624V2i1k1dP67Z851N4iDl6T8n6B6ZO4Qj4C23J17FQy2X8KJrH7R1ae1cTOFz9jV47N3n9ZfQfncOa1c7pYG3mi4ZaaSAi31Eyzp"
+  },
+  {
+    "id": "bb-mns-422",
+    "question": "String: 7B34447Clxf1q419972514843p83XT1959jr7244DS2R2i7988\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "10",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "7B34447Clxf1q419972514843p83XT1959jr7244DS2R2i7988"
+  },
+  {
+    "id": "bb-mns-315",
+    "question": "String: 4I23159vL1356363K5Yi2aD2k1g9m87A79r7iE74i3Qrp2f545\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "15",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "4I23159vL1356363K5Yi2aD2k1g9m87A79r7iE74i3Qrp2f545"
+  },
+  {
+    "id": "bb-mns-731",
+    "question": "String: 465w74R8b5E475lMs7Nm37xf4924MZJ3135c2r771H7ctE4i4851B97146c9em9144gll1c658489e362R88339O5V28x325M271\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "25",
+    "ability": "count in 100 length",
+    "question_index": 0,
+    "struct_data": "465w74R8b5E475lMs7Nm37xf4924MZJ3135c2r771H7ctE4i4851B97146c9em9144gll1c658489e362R88339O5V28x325M271"
+  },
+  {
+    "id": "bb-mns-399",
+    "question": "String: 129Y2oN627c6U6oDFkc8A8LCE51yV3u5633GbKM31261mqdR59\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "12",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "129Y2oN627c6U6oDFkc8A8LCE51yV3u5633GbKM31261mqdR59"
+  },
+  {
+    "id": "bb-mns-251",
+    "question": "String: k4b9385uwr4OVbKwh43ymF63f3MWQAND9ERL4742KpF3ghwzxN\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "9",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "k4b9385uwr4OVbKwh43ymF63f3MWQAND9ERL4742KpF3ghwzxN"
+  },
+  {
+    "id": "bb-mns-354",
+    "question": "String: 7n5M8jx441C9S8mT5T8yO285NfN13K6337862XwpP4h226Qwjp\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "13",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "7n5M8jx441C9S8mT5T8yO285NfN13K6337862XwpP4h226Qwjp"
+  },
+  {
+    "id": "bb-mns-874",
+    "question": "String: RJZ2zLmtVySDG3bQCANKN9u63rmgHNfF2KO4h9g74JAMbJCRBUkuB6Mcga9RNO743S2OrOLGJ71cI235I6K85B8uu3b4YI49SU6A\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "21",
+    "ability": "count in 100 length",
+    "question_index": 0,
+    "struct_data": "RJZ2zLmtVySDG3bQCANKN9u63rmgHNfF2KO4h9g74JAMbJCRBUkuB6Mcga9RNO743S2OrOLGJ71cI235I6K85B8uu3b4YI49SU6A"
+  },
+  {
+    "id": "bb-mns-1353",
+    "question": "String: 25T8Thw2v639132532pM7865C297T97pgvt7664y381Ejj59b9887784r48p4H39l195C2Z1xgsMCgD7Y19X61xj3197k752m9LbQF722aQ56AwA3mDqy86x71bb2k334dk5hR4LyE1aL65tVh8u83\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "36",
+    "ability": "count in 150 length",
+    "question_index": 0,
+    "struct_data": "25T8Thw2v639132532pM7865C297T97pgvt7664y381Ejj59b9887784r48p4H39l195C2Z1xgsMCgD7Y19X61xj3197k752m9LbQF722aQ56AwA3mDqy86x71bb2k334dk5hR4LyE1aL65tVh8u83"
+  },
+  {
+    "id": "bb-mns-1246",
+    "question": "String: u3F382faF9To16c17S9P125v55394tS837199jnL8341cL7z47H8457643wJ2a2935496j3818886m82oP66j1l93827527195T7Gv42X914cGsW5I7g4s325q31369O51E6L456u1v22Hi2278z3h\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "35",
+    "ability": "count in 150 length",
+    "question_index": 0,
+    "struct_data": "u3F382faF9To16c17S9P125v55394tS837199jnL8341cL7z47H8457643wJ2a2935496j3818886m82oP66j1l93827527195T7Gv42X914cGsW5I7g4s325q31369O51E6L456u1v22Hi2278z3h"
+  },
+  {
+    "id": "bb-mns-183",
+    "question": "String: FR3QH1U8ceP417hyweceJ9cS7yt4eRiIUi38L6X4n9EEu6324I\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "12",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "FR3QH1U8ceP417hyweceJ9cS7yt4eRiIUi38L6X4n9EEu6324I"
+  },
+  {
+    "id": "bb-mns-573",
+    "question": "String: TQzVI934Ht498Qq7jaq7NBGXmG1Bw6g928XuxzldM3aZQzw6R6g52618UenLHMqjFkO8B9nx95dLnAJ19oEZoh1gGB5Vr7Jt6PI8\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "20",
+    "ability": "count in 100 length",
+    "question_index": 0,
+    "struct_data": "TQzVI934Ht498Qq7jaq7NBGXmG1Bw6g928XuxzldM3aZQzw6R6g52618UenLHMqjFkO8B9nx95dLnAJ19oEZoh1gGB5Vr7Jt6PI8"
+  },
+  {
+    "id": "bb-mns-1224",
+    "question": "String: o17875XBd56r7pRpwz1aoy5mpd12IyWqNC85LZGRnMz8Jt558nCCL535wCY258Je8cyWf25t6r4pUtP963d3nAMBb47L591mQf7h11lY8w1lU6q8n2vO3sxx2wSNz89Ki2CHp5bsbJNf7oucmpEV3S\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "33",
+    "ability": "count in 150 length",
+    "question_index": 0,
+    "struct_data": "o17875XBd56r7pRpwz1aoy5mpd12IyWqNC85LZGRnMz8Jt558nCCL535wCY258Je8cyWf25t6r4pUtP963d3nAMBb47L591mQf7h11lY8w1lU6q8n2vO3sxx2wSNz89Ki2CHp5bsbJNf7oucmpEV3S"
+  },
+  {
+    "id": "bb-mns-132",
+    "question": "String: D46D6a734B5z945683A1bu58c1v98MgVA9P14w781P877816zG\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "13",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "D46D6a734B5z945683A1bu58c1v98MgVA9P14w781P877816zG"
+  },
+  {
+    "id": "bb-mns-1032",
+    "question": "String: 2y7p1MHp5Z9yh1C838581L234x215265Hu48696534Dd6p29B785r75128225d68t32x5ya34wC427X8481rl4131q82821Z3491928yyh9E2oR59SD7nr9G9433G9kv6I25J32N614A337m12Q84n\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "37",
+    "ability": "count in 150 length",
+    "question_index": 0,
+    "struct_data": "2y7p1MHp5Z9yh1C838581L234x215265Hu48696534Dd6p29B785r75128225d68t32x5ya34wC427X8481rl4131q82821Z3491928yyh9E2oR59SD7nr9G9433G9kv6I25J32N614A337m12Q84n"
+  },
+  {
+    "id": "bb-mns-926",
+    "question": "String: H816gR814591h3qnNN6b56BQjc457i8729p48x4s5q2vR62gl762Cp56CH981we1n3o1r5ibG7D1A541c2h51126W43kr579z3Ab\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "27",
+    "ability": "count in 100 length",
+    "question_index": 0,
+    "struct_data": "H816gR814591h3qnNN6b56BQjc457i8729p48x4s5q2vR62gl762Cp56CH981we1n3o1r5ibG7D1A541c2h51126W43kr579z3Ab"
+  },
+  {
+    "id": "bb-mns-1171",
+    "question": "String: l9nFFs4278D98L6692765p9t4Wi7195R48h63J7297751789HiiHI6387693E236854OS26e3e893pZw4E237Xw234394BB377777539U71h551rg6817i95759KOj4q4Q4176nI632r947BIp7758\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "29",
+    "ability": "count in 150 length",
+    "question_index": 0,
+    "struct_data": "l9nFFs4278D98L6692765p9t4Wi7195R48h63J7297751789HiiHI6387693E236854OS26e3e893pZw4E237Xw234394BB377777539U71h551rg6817i95759KOj4q4Q4176nI632r947BIp7758"
+  },
+  {
+    "id": "bb-mns-1750",
+    "question": "String: 7bXSfBI9K1C6xymb9rs2whMs336sSfA96Ddn4ach2Ac3MHv7dbsa5LE64ndge7rpHCq7kfb43nz2ltcn4htFXtpu3l2919mLED96YIOqMd4m7m2H4Jr6e3LV11v24758GA258jWjlCJ4qm5QwxgI248eL3KCP2IbbXjR59882232A5oIOV478DNJ7idFedElC8TA3Lg8\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "43",
+    "ability": "count in 200 length",
+    "question_index": 0,
+    "struct_data": "7bXSfBI9K1C6xymb9rs2whMs336sSfA96Ddn4ach2Ac3MHv7dbsa5LE64ndge7rpHCq7kfb43nz2ltcn4htFXtpu3l2919mLED96YIOqMd4m7m2H4Jr6e3LV11v24758GA258jWjlCJ4qm5QwxgI248eL3KCP2IbbXjR59882232A5oIOV478DNJ7idFedElC8TA3Lg8"
+  },
+  {
+    "id": "bb-mns-1001",
+    "question": "String: 52xs7GxaAx29wa16K2572zp7vLb3tn37751912n4737831w5gPE8rI7S57p2283VCGQ98a64fjqN669148G7to594yw5t6C51r265E44J9y9XPn9BFqFy8j1943r162y11dlzpXH5TG21r48457nv7\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "35",
+    "ability": "count in 150 length",
+    "question_index": 0,
+    "struct_data": "52xs7GxaAx29wa16K2572zp7vLb3tn37751912n4737831w5gPE8rI7S57p2283VCGQ98a64fjqN669148G7to594yw5t6C51r265E44J9y9XPn9BFqFy8j1943r162y11dlzpXH5TG21r48457nv7"
+  },
+  {
+    "id": "bb-mns-67",
+    "question": "String: M92M72rD46X51U51p5Jh64945aYV183K8139D83Y42hC4693wy\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "12",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "M92M72rD46X51U51p5Jh64945aYV183K8139D83Y42hC4693wy"
+  },
+  {
+    "id": "bb-mns-1677",
+    "question": "String: 8776X2b36958C2f8xT56Y157z85F89e2262116v52I4Wo3n8y8917824699YF5O71B848p2192356gY34k73N273H815r2mP3838QF27U4973937m1O1s7354ls797V1YC6ZuC582F62U5I4226U8924388691V73B43iL173r978o857o56eCf2228r35668663In3u\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "47",
+    "ability": "count in 200 length",
+    "question_index": 0,
+    "struct_data": "8776X2b36958C2f8xT56Y157z85F89e2262116v52I4Wo3n8y8917824699YF5O71B848p2192356gY34k73N273H815r2mP3838QF27U4973937m1O1s7354ls797V1YC6ZuC582F62U5I4226U8924388691V73B43iL173r978o857o56eCf2228r35668663In3u"
+  },
+  {
+    "id": "bb-mns-69",
+    "question": "String: p77M9w517z8386756fgg6N1851J614K1Z6k9w2217k7a691223\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "13",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "p77M9w517z8386756fgg6N1851J614K1Z6k9w2217k7a691223"
+  },
+  {
+    "id": "bb-mns-1163",
+    "question": "String: z672jisol4ok292UXd93N9w28654FpEf53VO7kJ2d591792z7o5m6XZd73V294645YSYO3558756Q3284PlFpZ4a18bMC1Fw1344p72V9k17kW421Q2459129k654987P421Ycd333gO29Sn417t41\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "32",
+    "ability": "count in 150 length",
+    "question_index": 0,
+    "struct_data": "z672jisol4ok292UXd93N9w28654FpEf53VO7kJ2d591792z7o5m6XZd73V294645YSYO3558756Q3284PlFpZ4a18bMC1Fw1344p72V9k17kW421Q2459129k654987P421Ycd333gO29Sn417t41"
+  },
+  {
+    "id": "bb-mns-1580",
+    "question": "String: nSGvWG5AM2MJiZy3324K4a5B6oaR7E95569LHe4W3ItL1S32C966U99PPI56Q3Uimr2AQ836wgu8IN7G665Vi12v874xPO7Ox5KL9bSXCX46ZtfdocW87jG83EZ951FmyTUr9W7DI5yMGGj5343rFp3kC99I3h4OkzC6OMI1g87B7NxD168wbwXt3M7QT4bv39eCd619\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "48",
+    "ability": "count in 200 length",
+    "question_index": 0,
+    "struct_data": "nSGvWG5AM2MJiZy3324K4a5B6oaR7E95569LHe4W3ItL1S32C966U99PPI56Q3Uimr2AQ836wgu8IN7G665Vi12v874xPO7Ox5KL9bSXCX46ZtfdocW87jG83EZ951FmyTUr9W7DI5yMGGj5343rFp3kC99I3h4OkzC6OMI1g87B7NxD168wbwXt3M7QT4bv39eCd619"
+  },
+  {
+    "id": "bb-mns-591",
+    "question": "String: 1G77386D4CW76712E695pK6418811J9I9FmLT22I6Y1z6263954FO7986S464pjS72W87I983S89SNa399RHAG6P25277425rX96\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "22",
+    "ability": "count in 100 length",
+    "question_index": 0,
+    "struct_data": "1G77386D4CW76712E695pK6418811J9I9FmLT22I6Y1z6263954FO7986S464pjS72W87I983S89SNa399RHAG6P25277425rX96"
+  },
+  {
+    "id": "bb-mns-1904",
+    "question": "String: 815RI293wa16ba75626752G9Q3892n94N5g47R1zs25KW3359hu1K3k8dF91A2699872N427C1E8942v64292E5167A127Yq527y84146422197m23584j2759256cb679uW1ZJV5a7i612729827Kog9116Wy467g33814C3Zvvm14e9ccq81QOO3pYW3hQc8pcPi7U\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "43",
+    "ability": "count in 200 length",
+    "question_index": 0,
+    "struct_data": "815RI293wa16ba75626752G9Q3892n94N5g47R1zs25KW3359hu1K3k8dF91A2699872N427C1E8942v64292E5167A127Yq527y84146422197m23584j2759256cb679uW1ZJV5a7i612729827Kog9116Wy467g33814C3Zvvm14e9ccq81QOO3pYW3hQc8pcPi7U"
+  },
+  {
+    "id": "bb-mns-1545",
+    "question": "String: iAW872Oha2m93841cU3276154To8GG4jd5u5Glf22L68D97t5U666V2o3914sLS8w5BN52dzJZ6d1NTqvs222FS8DQP7QN4YK9t69fDFC759a5m6a2Kc55y996UsTm298Sxu3AMX77A7Sq6553F4857dSCVf371dR54Mben49Dup1iB6k63U6A5HB7hKz832a6Pt91io\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "50",
+    "ability": "count in 200 length",
+    "question_index": 0,
+    "struct_data": "iAW872Oha2m93841cU3276154To8GG4jd5u5Glf22L68D97t5U666V2o3914sLS8w5BN52dzJZ6d1NTqvs222FS8DQP7QN4YK9t69fDFC759a5m6a2Kc55y996UsTm298Sxu3AMX77A7Sq6553F4857dSCVf371dR54Mben49Dup1iB6k63U6A5HB7hKz832a6Pt91io"
+  },
+  {
+    "id": "bb-mns-1949",
+    "question": "String: 9x96B6H1LS8Z8qIdu9JH31o73CY2snAJ5aSWfMdHiBGuK54X5Hf7i3H6rAWCta2xT3973b5TcT4pWP2E8wc3L4ai1UbRZ3v3TP4935y9M289468oJH843J9rN13k586D6J845q2KD38c17lJvk8L9DI1W59Lfp6Rey4pb278g42wS7AG3FCTk1677tTsU13NoKe63UdX\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "52",
+    "ability": "count in 200 length",
+    "question_index": 0,
+    "struct_data": "9x96B6H1LS8Z8qIdu9JH31o73CY2snAJ5aSWfMdHiBGuK54X5Hf7i3H6rAWCta2xT3973b5TcT4pWP2E8wc3L4ai1UbRZ3v3TP4935y9M289468oJH843J9rN13k586D6J845q2KD38c17lJvk8L9DI1W59Lfp6Rey4pb278g42wS7AG3FCTk1677tTsU13NoKe63UdX"
+  },
+  {
+    "id": "bb-mns-1832",
+    "question": "String: 4575q6y1SYO5vqG353t27w1n25K4314853Fm43994245kIJ532D57A748W6iItWE7T4m8v8398534L8M8A9T33823WZFd95NR68T3Rh5M92YSM39A19f8625827I7329y7E6m48Ip17kmt11kM8933448d82i41527656Ng44649978327qI88ZfGj4292j8IWn548G3\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "45",
+    "ability": "count in 200 length",
+    "question_index": 0,
+    "struct_data": "4575q6y1SYO5vqG353t27w1n25K4314853Fm43994245kIJ532D57A748W6iItWE7T4m8v8398534L8M8A9T33823WZFd95NR68T3Rh5M92YSM39A19f8625827I7329y7E6m48Ip17kmt11kM8933448d82i41527656Ng44649978327qI88ZfGj4292j8IWn548G3"
+  },
+  {
+    "id": "bb-mns-1930",
+    "question": "String: 5XW51846IQCZJbn349174256v11F3K8F313d61aT5PYsR1aTs1vFr874l72rf7n81C5o19681Dm47Cznt2Wu92Gzk39iI5G22385W445wbu14413nAg83LBh9wU43s79iq1n1P54v5iJy8BD59w44678xXGg7593991164196dsw15VhdBa6u885421i3ZR3185Mt337\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "43",
+    "ability": "count in 200 length",
+    "question_index": 0,
+    "struct_data": "5XW51846IQCZJbn349174256v11F3K8F313d61aT5PYsR1aTs1vFr874l72rf7n81C5o19681Dm47Cznt2Wu92Gzk39iI5G22385W445wbu14413nAg83LBh9wU43s79iq1n1P54v5iJy8BD59w44678xXGg7593991164196dsw15VhdBa6u885421i3ZR3185Mt337"
+  },
+  {
+    "id": "bb-mns-291",
+    "question": "String: FT2r3v161p4w8R2NK97Y93ca95P4MO9kol6GPyT68635t94X77\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "15",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "FT2r3v161p4w8R2NK97Y93ca95P4MO9kol6GPyT68635t94X77"
+  },
+  {
+    "id": "bb-mns-1332",
+    "question": "String: 2g1F1255v2821592P35m49R5cy65598f5J8H23y5Am448959j1179p8D27k11W273aY83xe9zIrc7a1692r4vtI4g7s33yw3523nFf44E1ps75A437y5h46346Z16m764q48694I24833n46DQ35FZ\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "39",
+    "ability": "count in 150 length",
+    "question_index": 0,
+    "struct_data": "2g1F1255v2821592P35m49R5cy65598f5J8H23y5Am448959j1179p8D27k11W273aY83xe9zIrc7a1692r4vtI4g7s33yw3523nFf44E1ps75A437y5h46346Z16m764q48694I24833n46DQ35FZ"
+  },
+  {
+    "id": "bb-mns-1233",
+    "question": "String: 691137d9uE9LPo16bHWf5hlm18OGt2RWoV54B1EzUr97dk92u29N84A4E8ZS4522G72RJTxk622ur143X2vRF567W462633DpY31ees865bm4uU882u7wzS53V7f559y5826FE86sc67Pk9776671l\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "34",
+    "ability": "count in 150 length",
+    "question_index": 0,
+    "struct_data": "691137d9uE9LPo16bHWf5hlm18OGt2RWoV54B1EzUr97dk92u29N84A4E8ZS4522G72RJTxk622ur143X2vRF567W462633DpY31ees865bm4uU882u7wzS53V7f559y5826FE86sc67Pk9776671l"
+  },
+  {
+    "id": "bb-mns-24",
+    "question": "String: 11343K5v5I448858z628G4AG3a921811R7z7591a2948Cam6t7\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "13",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "11343K5v5I448858z628G4AG3a921811R7z7591a2948Cam6t7"
+  },
+  {
+    "id": "bb-mns-535",
+    "question": "String: Pj7NdRM6Z225S464lVa7N5Y2G4RCrYqxV6uPqcK2D434J29L7y7dg5x9wg592Nw51zUv43g93258cip95bsjlKl9175b49xVN92B\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "24",
+    "ability": "count in 100 length",
+    "question_index": 0,
+    "struct_data": "Pj7NdRM6Z225S464lVa7N5Y2G4RCrYqxV6uPqcK2D434J29L7y7dg5x9wg592Nw51zUv43g93258cip95bsjlKl9175b49xVN92B"
+  },
+  {
+    "id": "bb-mns-1802",
+    "question": "String: 7X469gmX3266854773PJR16l64U6h8J89PJ13YUs72854i398X298r13G3n9zo1l753Z7k1G5211v85Uv27R98L831863sV183FYR5695L1zNE23d966l234jVEE8nRR66296r774361913gz86398AzN8722S28fQ8E133662N35N4m45D1tWf79HV82z8k2EmCiy45\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "47",
+    "ability": "count in 200 length",
+    "question_index": 0,
+    "struct_data": "7X469gmX3266854773PJR16l64U6h8J89PJ13YUs72854i398X298r13G3n9zo1l753Z7k1G5211v85Uv27R98L831863sV183FYR5695L1zNE23d966l234jVEE8nRR66296r774361913gz86398AzN8722S28fQ8E133662N35N4m45D1tWf79HV82z8k2EmCiy45"
+  },
+  {
+    "id": "bb-mns-1109",
+    "question": "String: 31W2m655I9818191k53a36z7C175QmzEA5769R882YP5or36arM5k843N52H314591ecj137Kf53x8W6639MSP3O45g1972a488Sx99d53975d295367VU9ehL471G39F572P4496178XM4h63164G\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "34",
+    "ability": "count in 150 length",
+    "question_index": 0,
+    "struct_data": "31W2m655I9818191k53a36z7C175QmzEA5769R882YP5or36arM5k843N52H314591ecj137Kf53x8W6639MSP3O45g1972a488Sx99d53975d295367VU9ehL471G39F572P4496178XM4h63164G"
+  },
+  {
+    "id": "bb-mns-1627",
+    "question": "String: 9PPKePuy7Rt81zvso4Fu49e52DBI624q8Y5NW7YHc3olwBiIhYi85D3p65782F8Mz6t8BA5uWoQ1w7FIQ6bLxaw1p75tC5y62Ccumt1D61dvLhb6Kqq6s8aZS15g29928Yt997D2Y241n5i2Gg7e737NS248xwv68q1YBj764A869Vh4wPv4ux36X57lj7r1l386l7Gi\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "52",
+    "ability": "count in 200 length",
+    "question_index": 0,
+    "struct_data": "9PPKePuy7Rt81zvso4Fu49e52DBI624q8Y5NW7YHc3olwBiIhYi85D3p65782F8Mz6t8BA5uWoQ1w7FIQ6bLxaw1p75tC5y62Ccumt1D61dvLhb6Kqq6s8aZS15g29928Yt997D2Y241n5i2Gg7e737NS248xwv68q1YBj764A869Vh4wPv4ux36X57lj7r1l386l7Gi"
+  },
+  {
+    "id": "bb-mns-1579",
+    "question": "String: fA16c4W5271iV358mogdXVcC9ct34j199k7h2HoV69iboB96QQ9j58zAdY4HvJ1t4I2qq8p62T524E8a5l94GD2Ag98Q58A9U3DNN2a9tO4U8361eYIS6cU62n58XM2x99424I4dd7wu5446COVTe16JS2D2c23pNz12ZGxW4NV389jhppzWa2BWa1EFe32DM49I4CPP\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "52",
+    "ability": "count in 200 length",
+    "question_index": 0,
+    "struct_data": "fA16c4W5271iV358mogdXVcC9ct34j199k7h2HoV69iboB96QQ9j58zAdY4HvJ1t4I2qq8p62T524E8a5l94GD2Ag98Q58A9U3DNN2a9tO4U8361eYIS6cU62n58XM2x99424I4dd7wu5446COVTe16JS2D2c23pNz12ZGxW4NV389jhppzWa2BWa1EFe32DM49I4CPP"
+  },
+  {
+    "id": "bb-mns-156",
+    "question": "String: Ph9kA9t15454p55a49w83153t86164k33q4vzH9FFBv5StMHP5\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "12",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "Ph9kA9t15454p55a49w83153t86164k33q4vzH9FFBv5StMHP5"
+  },
+  {
+    "id": "bb-mns-1515",
+    "question": "String: 4k31B56Y3cPzHmj893VG16264k526VNe9P8275M813194of32678f19P9vXO2lC322461PJ7ki282P8W14274e564533dKd5m552V54SkR4gRLjFx8s3h75vysY473ma268868S1f381CHD46124Hd24895S9o4ScR8XbE9434q1954UL76HhO7842ZS97v2Bc28cf69\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "44",
+    "ability": "count in 200 length",
+    "question_index": 0,
+    "struct_data": "4k31B56Y3cPzHmj893VG16264k526VNe9P8275M813194of32678f19P9vXO2lC322461PJ7ki282P8W14274e564533dKd5m552V54SkR4gRLjFx8s3h75vysY473ma268868S1f381CHD46124Hd24895S9o4ScR8XbE9434q1954UL76HhO7842ZS97v2Bc28cf69"
+  },
+  {
+    "id": "bb-mns-1883",
+    "question": "String: 5I6yH98q8k6Q9RQ2W8357i6qTZo39BIYJMY4RN6p8xi6418k6O11oXFL13T3h2tDBS68ljZ48Y3sDrt7Z2oOyn9M1A4x7g1EIe16x9CE6y6a52lLS1tkT5Q4o69igoI1m4X88XE47jci265pR71466Gms9eDdPjE9bmlq5CcF9y76n66RL81V3kInz51xVI37PnT8Y6g\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "56",
+    "ability": "count in 200 length",
+    "question_index": 0,
+    "struct_data": "5I6yH98q8k6Q9RQ2W8357i6qTZo39BIYJMY4RN6p8xi6418k6O11oXFL13T3h2tDBS68ljZ48Y3sDrt7Z2oOyn9M1A4x7g1EIe16x9CE6y6a52lLS1tkT5Q4o69igoI1m4X88XE47jci265pR71466Gms9eDdPjE9bmlq5CcF9y76n66RL81V3kInz51xVI37PnT8Y6g"
+  },
+  {
+    "id": "bb-mns-955",
+    "question": "String: C7q34774h7f5W647DR6q5R993C961358EW8G87Z132218lAJ3cmKp2OV81J43P74X89762668263L19765DdZn8Z574318291J4G\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "22",
+    "ability": "count in 100 length",
+    "question_index": 0,
+    "struct_data": "C7q34774h7f5W647DR6q5R993C961358EW8G87Z132218lAJ3cmKp2OV81J43P74X89762668263L19765DdZn8Z574318291J4G"
+  },
+  {
+    "id": "bb-mns-1368",
+    "question": "String: 759SU57cL4Q8541RqLOX9Bw94Zv7I8891ET5jT5163IBqeq395O1671tZ967M249ct2e5vwK14ER211sSC4r5L9859jDE5qc544278489G783a39e9q7M534798sh1lw7fI6k5651c1136xW93F143\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "35",
+    "ability": "count in 150 length",
+    "question_index": 0,
+    "struct_data": "759SU57cL4Q8541RqLOX9Bw94Zv7I8891ET5jT5163IBqeq395O1671tZ967M249ct2e5vwK14ER211sSC4r5L9859jDE5qc544278489G783a39e9q7M534798sh1lw7fI6k5651c1136xW93F143"
+  },
+  {
+    "id": "bb-mns-182",
+    "question": "String: Co1Q5yIu2E8Mn9FktqEZj4lc6fj7RpWHEY1VmvZxHt559Q211J\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "11",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "Co1Q5yIu2E8Mn9FktqEZj4lc6fj7RpWHEY1VmvZxHt559Q211J"
+  },
+  {
+    "id": "bb-mns-199",
+    "question": "String: hJ8vyA44b7L4923qkdVd476gaj2WoZ4BS7GW1w5JRzb652s28w\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "12",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "hJ8vyA44b7L4923qkdVd476gaj2WoZ4BS7GW1w5JRzb652s28w"
+  },
+  {
+    "id": "bb-mns-1965",
+    "question": "String: 58122638Q1863E7363294xM38317P598n81j13z9999994f7BX433764389U4Cx6B3rOr93JHQH5d94xn27H22uk4u89Qb427H598U474994W1d3B19473Ob5d7fT538A1HT2p59G165886JcG4z39c123p3C47h2F89p7xZk23yRMF8J6933D45239hI746k4U15359\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "48",
+    "ability": "count in 200 length",
+    "question_index": 0,
+    "struct_data": "58122638Q1863E7363294xM38317P598n81j13z9999994f7BX433764389U4Cx6B3rOr93JHQH5d94xn27H22uk4u89Qb427H598U474994W1d3B19473Ob5d7fT538A1HT2p59G165886JcG4z39c123p3C47h2F89p7xZk23yRMF8J6933D45239hI746k4U15359"
+  },
+  {
+    "id": "bb-mns-578",
+    "question": "String: v1dD58H49622468t899oSr567768WRZX3X6r8p7Nt16Y3t186176XZ182O8j5x1o455w4491k21BAR853975619533w8945o13w6\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "23",
+    "ability": "count in 100 length",
+    "question_index": 0,
+    "struct_data": "v1dD58H49622468t899oSr567768WRZX3X6r8p7Nt16Y3t186176XZ182O8j5x1o455w4491k21BAR853975619533w8945o13w6"
+  },
+  {
+    "id": "bb-mns-361",
+    "question": "String: 4s22sY4v399783sMAE7SA81G5dK18x8T5n55S1ijh7691263r9\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "14",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "4s22sY4v399783sMAE7SA81G5dK18x8T5n55S1ijh7691263r9"
+  },
+  {
+    "id": "bb-mns-1881",
+    "question": "String: Nj8XQ311TMA6xh8W94l128k8X8xrv6l59v254y114AB64492s415724YB216ah47p62C561jh2161l991f6k52I9qS3r9p38547wcg5eg758888i56OB5AV84RX2nGG4cicWemxLb864U1Y292xN2NG36511yq63GH569Kn357l115FJ1c2GR8VG21qZ8U96tH76Qkl9\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "50",
+    "ability": "count in 200 length",
+    "question_index": 0,
+    "struct_data": "Nj8XQ311TMA6xh8W94l128k8X8xrv6l59v254y114AB64492s415724YB216ah47p62C561jh2161l991f6k52I9qS3r9p38547wcg5eg758888i56OB5AV84RX2nGG4cicWemxLb864U1Y292xN2NG36511yq63GH569Kn357l115FJ1c2GR8VG21qZ8U96tH76Qkl9"
+  },
+  {
+    "id": "bb-mns-718",
+    "question": "String: q4O23hRi3784t38KX3Wd9HtcmX58b6zhFSk4a9LMT4WMy3IqWDrKMSGg551KyhrBdx3uAiloBq3mO6Y4c23F9Um23jg1D3W9CTIs\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "23",
+    "ability": "count in 100 length",
+    "question_index": 0,
+    "struct_data": "q4O23hRi3784t38KX3Wd9HtcmX58b6zhFSk4a9LMT4WMy3IqWDrKMSGg551KyhrBdx3uAiloBq3mO6Y4c23F9Um23jg1D3W9CTIs"
+  },
+  {
+    "id": "bb-mns-1401",
+    "question": "String: omUqSy7gQ6t17PGkSYrJ6M9rx5F6DQMW4D716n9k35r52839g3rNY1KtNd292NT588ZJ73Rns4k8t6o11XWclyQbH1it8O5Ai65r5iqxR5p8MJ2u59qnb735Sq33141m2nE6TGo12aF9935oztIxmu\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "36",
+    "ability": "count in 150 length",
+    "question_index": 0,
+    "struct_data": "omUqSy7gQ6t17PGkSYrJ6M9rx5F6DQMW4D716n9k35r52839g3rNY1KtNd292NT588ZJ73Rns4k8t6o11XWclyQbH1it8O5Ai65r5iqxR5p8MJ2u59qnb735Sq33141m2nE6TGo12aF9935oztIxmu"
+  },
+  {
+    "id": "bb-mns-357",
+    "question": "String: 881611W58a8OU23Ych27X29E8q83237R3233479X5fCL8V5762\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "12",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "881611W58a8OU23Ych27X29E8q83237R3233479X5fCL8V5762"
+  },
+  {
+    "id": "bb-mns-18",
+    "question": "String: yp3o4369EgE1l7N1A962G96Wg15AXAFA8o8kTXi36HERR9C2ee\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "13",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "yp3o4369EgE1l7N1A962G96Wg15AXAFA8o8kTXi36HERR9C2ee"
+  },
+  {
+    "id": "bb-mns-1392",
+    "question": "String: 1171WLvp23L31375493451441KHDxm2656758l7i952873HA5628886r152z159O651y37c2562q1XS7u1y5nW7pt66e19d9p4Mp44Yh4834H88C8M114v6AQd2486k49QA121N5652Z69mRD1R484\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "34",
+    "ability": "count in 150 length",
+    "question_index": 0,
+    "struct_data": "1171WLvp23L31375493451441KHDxm2656758l7i952873HA5628886r152z159O651y37c2562q1XS7u1y5nW7pt66e19d9p4Mp44Yh4834H88C8M114v6AQd2486k49QA121N5652Z69mRD1R484"
+  },
+  {
+    "id": "bb-mns-671",
+    "question": "String: 5ecEFi7kv314H5C8K7123I2469t5Z89G242m8L3O2l25W4QpM9Hx4878X9i976p8B6fFo8JsAt6y611sQa5O9x5538E1R91Pwq35\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "30",
+    "ability": "count in 100 length",
+    "question_index": 0,
+    "struct_data": "5ecEFi7kv314H5C8K7123I2469t5Z89G242m8L3O2l25W4QpM9Hx4878X9i976p8B6fFo8JsAt6y611sQa5O9x5538E1R91Pwq35"
+  },
+  {
+    "id": "bb-mns-1303",
+    "question": "String: zeN8IbrhzHl66X243kp8l39P45j4a56kM2M4F41lqET5941525E3wYM57MIW88ArM64bBGwWNw51Gq89NZ4Kp188R4I457x76EsnFM9RNhMNIB2iAQ4W26I8riOOr7BQo44w1iD6h7jWA5PP7TE169\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "36",
+    "ability": "count in 150 length",
+    "question_index": 0,
+    "struct_data": "zeN8IbrhzHl66X243kp8l39P45j4a56kM2M4F41lqET5941525E3wYM57MIW88ArM64bBGwWNw51Gq89NZ4Kp188R4I457x76EsnFM9RNhMNIB2iAQ4W26I8riOOr7BQo44w1iD6h7jWA5PP7TE169"
+  },
+  {
+    "id": "bb-mns-274",
+    "question": "String: x59tey4R41WmRi8JR6LpT83j4e6Amw64nCvqfwTJK5299yIRUw\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "10",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "x59tey4R41WmRi8JR6LpT83j4e6Amw64nCvqfwTJK5299yIRUw"
+  },
+  {
+    "id": "bb-mns-636",
+    "question": "String: 37415482o5846x5696x63224j1R6h97Z795Hn181YFsz945jd17gp6I6628Rm41c8421Ou467768O6vE9O3Yu51R7h39Z78h45H7\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "25",
+    "ability": "count in 100 length",
+    "question_index": 0,
+    "struct_data": "37415482o5846x5696x63224j1R6h97Z795Hn181YFsz945jd17gp6I6628Rm41c8421Ou467768O6vE9O3Yu51R7h39Z78h45H7"
+  },
+  {
+    "id": "bb-mns-1559",
+    "question": "String: 567b352cz44MO7xx325Zhu21Y87K57z61VM772Q4c4ElR115H83c1Y6zJ9o2Op72V35EU7t21x8aOVCf259Z29Y92o6ZQe49IR6682c38N4q5B7hC271642c5H1H4757J544j2816761lS6215l8187h953294f4617c8d9AvO5g2u9aBoSB3z77t28m558864J8842t\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "53",
+    "ability": "count in 200 length",
+    "question_index": 0,
+    "struct_data": "567b352cz44MO7xx325Zhu21Y87K57z61VM772Q4c4ElR115H83c1Y6zJ9o2Op72V35EU7t21x8aOVCf259Z29Y92o6ZQe49IR6682c38N4q5B7hC271642c5H1H4757J544j2816761lS6215l8187h953294f4617c8d9AvO5g2u9aBoSB3z77t28m558864J8842t"
+  },
+  {
+    "id": "bb-mns-486",
+    "question": "String: 89jKg4766653o7831k987Vz993717449h2545236boZ1DG7f3S\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "9",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "89jKg4766653o7831k987Vz993717449h2545236boZ1DG7f3S"
+  },
+  {
+    "id": "bb-mns-252",
+    "question": "String: oDB5983b2711W1mQ452tStw6sgQvx99W7E8HFLKkjS9w2pM2j3\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "12",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "oDB5983b2711W1mQ452tStw6sgQvx99W7E8HFLKkjS9w2pM2j3"
+  },
+  {
+    "id": "bb-mns-872",
+    "question": "String: 1fB3P831z6195mIoA94t63i93281c332933iN333Lyg622598Frk4783599q3I6586539c4O27s178876JLQO6Ac5q3h79445u2M\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "21",
+    "ability": "count in 100 length",
+    "question_index": 0,
+    "struct_data": "1fB3P831z6195mIoA94t63i93281c332933iN333Lyg622598Frk4783599q3I6586539c4O27s178876JLQO6Ac5q3h79445u2M"
+  },
+  {
+    "id": "bb-mns-1939",
+    "question": "String: aDtAD14z4621119uv96TBl7okIidu23529l93zrt44I3DMNLJ73274sl44dNAXP44Og7943175j6UFl9Q1NuYur1K2928nTj4953O95SyQTumJ1qw8J3sG56A775Vv9I5Ve897Mf8ei9N9T55J856597tg7KEbZU7EfG99W6nArqi2p4632g7V878l41LVH58ww122qg\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "43",
+    "ability": "count in 200 length",
+    "question_index": 0,
+    "struct_data": "aDtAD14z4621119uv96TBl7okIidu23529l93zrt44I3DMNLJ73274sl44dNAXP44Og7943175j6UFl9Q1NuYur1K2928nTj4953O95SyQTumJ1qw8J3sG56A775Vv9I5Ve897Mf8ei9N9T55J856597tg7KEbZU7EfG99W6nArqi2p4632g7V878l41LVH58ww122qg"
+  },
+  {
+    "id": "bb-mns-888",
+    "question": "String: 85626S71KR3okEB1l2i59321Xkj72599129593i92288Ss6P3q6M8v93d772pI4X85841542972o9988Q75P7M33293549MV746n\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "21",
+    "ability": "count in 100 length",
+    "question_index": 0,
+    "struct_data": "85626S71KR3okEB1l2i59321Xkj72599129593i92288Ss6P3q6M8v93d772pI4X85841542972o9988Q75P7M33293549MV746n"
+  },
+  {
+    "id": "bb-mns-1425",
+    "question": "String: n97483q7n99oHlurHky3dg5Q5z41Y8w9J34RIjvC8K1A9s8TXO3eIhwUL674M3i9Z3a4z8M6r19cv1d91yaP3a3Uz8BMkOtXVzspvNLdVXVP4Enu46vCNP2767CYMRZ1ia1rWaxFM1bmD2FGVivWgG\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "35",
+    "ability": "count in 150 length",
+    "question_index": 0,
+    "struct_data": "n97483q7n99oHlurHky3dg5Q5z41Y8w9J34RIjvC8K1A9s8TXO3eIhwUL674M3i9Z3a4z8M6r19cv1d91yaP3a3Uz8BMkOtXVzspvNLdVXVP4Enu46vCNP2767CYMRZ1ia1rWaxFM1bmD2FGVivWgG"
+  },
+  {
+    "id": "bb-mns-113",
+    "question": "String: Cg18f487892w64bj1z26b1x7226w41k89l88HG91M55M155tJ7\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "14",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "Cg18f487892w64bj1z26b1x7226w41k89l88HG91M55M155tJ7"
+  },
+  {
+    "id": "bb-mns-656",
+    "question": "String: k5I1o1sM9WYRF5f72nFb26lEcIG28Xq2uA82s3t8I54YZpCAOcUOwC3ywSAg4KSIP6N7VTpzF5Q97I6185V4IpkmI17X5m35j4zM\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "25",
+    "ability": "count in 100 length",
+    "question_index": 0,
+    "struct_data": "k5I1o1sM9WYRF5f72nFb26lEcIG28Xq2uA82s3t8I54YZpCAOcUOwC3ywSAg4KSIP6N7VTpzF5Q97I6185V4IpkmI17X5m35j4zM"
+  },
+  {
+    "id": "bb-mns-1975",
+    "question": "String: Y76iSHD7rDmdb2al89u2GLCYo6WVtm5y9739jY1ptzlg6rRy2zv4a882eWLnt39LV3Bef8h27oZ72wh5dfS42SEz41VQ71iGaL82Hp146kgAMCe75LwMoyP1h6fN6r1NHuD57ZNUBIM94X928hd79N1EvbF3d29787C6II5GEL8y3g35e5mJ77q8U1k9iqyebKe2u79Z\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "48",
+    "ability": "count in 200 length",
+    "question_index": 0,
+    "struct_data": "Y76iSHD7rDmdb2al89u2GLCYo6WVtm5y9739jY1ptzlg6rRy2zv4a882eWLnt39LV3Bef8h27oZ72wh5dfS42SEz41VQ71iGaL82Hp146kgAMCe75LwMoyP1h6fN6r1NHuD57ZNUBIM94X928hd79N1EvbF3d29787C6II5GEL8y3g35e5mJ77q8U1k9iqyebKe2u79Z"
+  },
+  {
+    "id": "bb-mns-1343",
+    "question": "String: 1WtQ812o2662jOoWo42c29P14Y4146417k5oeNj4VGf1511135643497L214l2172L2839Aw2G5T39cKpw6418Vshc5588273ro69O3U313f95o11lY11vtB111yX86f2B41B39F5q12R991F3c37M\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "34",
+    "ability": "count in 150 length",
+    "question_index": 0,
+    "struct_data": "1WtQ812o2662jOoWo42c29P14Y4146417k5oeNj4VGf1511135643497L214l2172L2839Aw2G5T39cKpw6418Vshc5588273ro69O3U313f95o11lY11vtB111yX86f2B41B39F5q12R991F3c37M"
+  },
+  {
+    "id": "bb-mns-10",
+    "question": "String: pDzuwI8D866TnHG75nh7rVUMPDEo693wJ616iJZknxam96YRm4\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "8",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "pDzuwI8D866TnHG75nh7rVUMPDEo693wJ616iJZknxam96YRm4"
+  },
+  {
+    "id": "bb-mns-1306",
+    "question": "String: JMTKCT35Ngz7Eni1146V7Lxm4ob8spT2mnmf9z92Jq7yx6752Bh7f33q8N9123EPju9TpO4U1Tqj719b82G5N5VP91ud3Hl8SfEJ8189itI8LF9N7N7es4WsIBStVu38xIAUlPxO4DGqYJxsiAod9G\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "34",
+    "ability": "count in 150 length",
+    "question_index": 0,
+    "struct_data": "JMTKCT35Ngz7Eni1146V7Lxm4ob8spT2mnmf9z92Jq7yx6752Bh7f33q8N9123EPju9TpO4U1Tqj719b82G5N5VP91ud3Hl8SfEJ8189itI8LF9N7N7es4WsIBStVu38xIAUlPxO4DGqYJxsiAod9G"
+  },
+  {
+    "id": "bb-mns-213",
+    "question": "String: k7Qk415Qbb3288TBj57Ajm3sS842A8FC251W37v2BFUA323d54\n\nHow many numbers are there in the string? Note that a sequence like 'a243b' counts as a single number.",
+    "answer": "12",
+    "ability": "count in 50 length",
+    "question_index": 0,
+    "struct_data": "k7Qk415Qbb3288TBj57Ajm3sS842A8FC251W37v2BFUA323d54"
+  }
+]

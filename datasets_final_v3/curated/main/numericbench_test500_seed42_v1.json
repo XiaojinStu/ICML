@@ -1,0 +1,1837 @@
+[
+  {
+    "id": "arithmetic_operation-27998",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: -39478.576, B: 75496.951",
+    "answer": "-2980512117.82"
+  },
+  {
+    "id": "arithmetic_operation-21727",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -57.147, B: 33.665",
+    "answer": "-1.7"
+  },
+  {
+    "id": "arithmetic_operation-23941",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: 635.673, B: 878.134",
+    "answer": "-242.46"
+  },
+  {
+    "id": "arithmetic_operation-1918",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: 449.577, B: -329496.081",
+    "answer": "-148133859.61"
+  },
+  {
+    "id": "arithmetic_operation-24914",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: 266.304, B: 181.701",
+    "answer": "48387.7"
+  },
+  {
+    "id": "arithmetic_operation-14306",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: 7350.784, B: -9981.961",
+    "answer": "-73375239.21"
+  },
+  {
+    "id": "arithmetic_operation-747",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -515.303, B: 2057.195",
+    "answer": "-0.25"
+  },
+  {
+    "id": "arithmetic_operation-17187",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -50704.332, B: 62009.154",
+    "answer": "-0.82"
+  },
+  {
+    "id": "arithmetic_operation-16804",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -13330.339, B: 42285.129",
+    "answer": "28954.79"
+  },
+  {
+    "id": "arithmetic_operation-6256",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -35585.313, B: 98320102.776",
+    "answer": "98284517.46"
+  },
+  {
+    "id": "arithmetic_operation-675",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -843.968, B: 1642.689",
+    "answer": "-0.51"
+  },
+  {
+    "id": "arithmetic_operation-352",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -492.754, B: 9858.123",
+    "answer": "9365.37"
+  },
+  {
+    "id": "arithmetic_operation-30675",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -603962.857, B: 254207.063",
+    "answer": "-2.38"
+  },
+  {
+    "id": "arithmetic_operation-28083",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -99123.374, B: 47911.352",
+    "answer": "-2.07"
+  },
+  {
+    "id": "arithmetic_operation-5945",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: 81608.657, B: 37166231.315",
+    "answer": "-37084622.66"
+  },
+  {
+    "id": "arithmetic_operation-1576",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 970.018, B: -29362.998",
+    "answer": "-28392.98"
+  },
+  {
+    "id": "arithmetic_operation-10213",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: 48.143, B: 43.883",
+    "answer": "4.26"
+  },
+  {
+    "id": "arithmetic_operation-6495",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 792436.511, B: -793085403.665",
+    "answer": "-0.0"
+  },
+  {
+    "id": "arithmetic_operation-3933",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -652.444, B: 78781979.137",
+    "answer": "-78782631.58"
+  },
+  {
+    "id": "arithmetic_operation-16982",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: 41261.105, B: 24903.328",
+    "answer": "1027538831.46"
+  },
+  {
+    "id": "arithmetic_operation-13944",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 4421.382, B: -8555.389",
+    "answer": "-4134.01"
+  },
+  {
+    "id": "arithmetic_operation-27229",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: -81344.166, B: -96191.074",
+    "answer": "14846.91"
+  },
+  {
+    "id": "arithmetic_operation-12827",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 622.959, B: 609.017",
+    "answer": "1.02"
+  },
+  {
+    "id": "arithmetic_operation-19476",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: 7.187, B: 8.676",
+    "answer": "15.86"
+  },
+  {
+    "id": "arithmetic_operation-2724",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 152.732, B: -9923781.911",
+    "answer": "-9923629.18"
+  },
+  {
+    "id": "arithmetic_operation-26529",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: 1605.981, B: 2967.048",
+    "answer": "-1361.07"
+  },
+  {
+    "id": "arithmetic_operation-25735",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 1835.376, B: -5966.073",
+    "answer": "-0.31"
+  },
+  {
+    "id": "arithmetic_operation-27238",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: 97879.467, B: 49089.566",
+    "answer": "4804860555.34"
+  },
+  {
+    "id": "arithmetic_operation-7451",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -5.125, B: -9.986",
+    "answer": "0.51"
+  },
+  {
+    "id": "arithmetic_operation-20440",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: -9.529, B: -5.376",
+    "answer": "-14.91"
+  },
+  {
+    "id": "arithmetic_operation-20962",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: -3.354, B: -4.236",
+    "answer": "14.21"
+  },
+  {
+    "id": "arithmetic_operation-29995",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -638464.393, B: 369964.864",
+    "answer": "-1.73"
+  },
+  {
+    "id": "arithmetic_operation-14996",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -6062.466, B: -8663.051",
+    "answer": "-14725.52"
+  },
+  {
+    "id": "arithmetic_operation-18857",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -988376.945, B: -140281.108",
+    "answer": "-848095.84"
+  },
+  {
+    "id": "arithmetic_operation-4366",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: -53.945, B: 90912.169",
+    "answer": "-4904256.96"
+  },
+  {
+    "id": "arithmetic_operation-22119",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -20.127, B: -23.468",
+    "answer": "0.86"
+  },
+  {
+    "id": "arithmetic_operation-8725",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -5.082, B: 7.198",
+    "answer": "-12.28"
+  },
+  {
+    "id": "arithmetic_operation-23469",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: 707.043, B: -732.295",
+    "answer": "1439.34"
+  },
+  {
+    "id": "arithmetic_operation-29925",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: -878867.819, B: 536721.206",
+    "answer": "-1415589.02"
+  },
+  {
+    "id": "arithmetic_operation-15450",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: -58813.315, B: -83642.982",
+    "answer": "4919321047.91"
+  },
+  {
+    "id": "arithmetic_operation-15309",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -89847.442, B: -21743.686",
+    "answer": "-68103.76"
+  },
+  {
+    "id": "arithmetic_operation-21198",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: -1.963, B: -1.867",
+    "answer": "3.66"
+  },
+  {
+    "id": "arithmetic_operation-27756",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: 73206.175, B: 52859.752",
+    "answer": "126065.93"
+  },
+  {
+    "id": "arithmetic_operation-24224",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: 853.853, B: 839.551",
+    "answer": "1693.4"
+  },
+  {
+    "id": "arithmetic_operation-27203",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 58278.465, B: 34253.351",
+    "answer": "1.7"
+  },
+  {
+    "id": "arithmetic_operation-4061",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -19.354, B: 65629.195",
+    "answer": "-65648.55"
+  },
+  {
+    "id": "arithmetic_operation-22771",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -68.021, B: 16.583",
+    "answer": "-4.1"
+  },
+  {
+    "id": "arithmetic_operation-3597",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -680.207, B: 16583011.494",
+    "answer": "-16583691.7"
+  },
+  {
+    "id": "arithmetic_operation-31074",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: 404758.695, B: -257696.196",
+    "answer": "-104304775999.42"
+  },
+  {
+    "id": "arithmetic_operation-8116",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -6.843, B: 1.408",
+    "answer": "-5.44"
+  },
+  {
+    "id": "arithmetic_operation-2132",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -348.366, B: 369777.029",
+    "answer": "369428.66"
+  },
+  {
+    "id": "arithmetic_operation-24555",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -810.592, B: -674.199",
+    "answer": "1.2"
+  },
+  {
+    "id": "arithmetic_operation-492",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 776.809, B: -8487.319",
+    "answer": "-7710.51"
+  },
+  {
+    "id": "arithmetic_operation-22413",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: -14.507, B: 83.186",
+    "answer": "-97.69"
+  },
+  {
+    "id": "arithmetic_operation-31059",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -808266.031, B: -177175.053",
+    "answer": "4.56"
+  },
+  {
+    "id": "arithmetic_operation-22898",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: -63.942, B: 60.724",
+    "answer": "-3882.81"
+  },
+  {
+    "id": "arithmetic_operation-16807",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -13330.339, B: 42285.129",
+    "answer": "-0.32"
+  },
+  {
+    "id": "arithmetic_operation-764",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -940.824, B: 5569.639",
+    "answer": "4628.82"
+  },
+  {
+    "id": "arithmetic_operation-5241",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: 8263.933, B: -7005847.765",
+    "answer": "7014111.7"
+  },
+  {
+    "id": "arithmetic_operation-19377",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: -4.624, B: -4.054",
+    "answer": "-0.57"
+  },
+  {
+    "id": "arithmetic_operation-3348",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 407.221, B: 84689549.707",
+    "answer": "84689956.93"
+  },
+  {
+    "id": "arithmetic_operation-18884",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 911995.427, B: -203750.561",
+    "answer": "708244.87"
+  },
+  {
+    "id": "arithmetic_operation-18635",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -111176.519, B: 319312.181",
+    "answer": "-0.35"
+  },
+  {
+    "id": "arithmetic_operation-30279",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -226198.328, B: -522831.434",
+    "answer": "0.43"
+  },
+  {
+    "id": "arithmetic_operation-9631",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -41.607, B: 29.175",
+    "answer": "-1.43"
+  },
+  {
+    "id": "arithmetic_operation-5845",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -55431.528, B: -58819430.328",
+    "answer": "58763998.8"
+  },
+  {
+    "id": "arithmetic_operation-27700",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: 16134.566, B: -61886.046",
+    "answer": "-45751.48"
+  },
+  {
+    "id": "arithmetic_operation-23247",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 667.943, B: 672.266",
+    "answer": "0.99"
+  },
+  {
+    "id": "arithmetic_operation-5203",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -7136.522, B: 4605533.186",
+    "answer": "-0.0"
+  },
+  {
+    "id": "arithmetic_operation-28460",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: 15008.785, B: 20963.027",
+    "answer": "35971.81"
+  },
+  {
+    "id": "arithmetic_operation-20395",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -5.541, B: 2.553",
+    "answer": "-2.17"
+  },
+  {
+    "id": "arithmetic_operation-18104",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 191295.924, B: 348441.598",
+    "answer": "539737.52"
+  },
+  {
+    "id": "arithmetic_operation-15834",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: 43323.077, B: 42741.501",
+    "answer": "1851693338.92"
+  },
+  {
+    "id": "arithmetic_operation-17379",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -432580.473, B: -651628.443",
+    "answer": "0.66"
+  },
+  {
+    "id": "arithmetic_operation-22315",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -13.395, B: 44.498",
+    "answer": "-0.3"
+  },
+  {
+    "id": "arithmetic_operation-10353",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -42.993, B: 68.549",
+    "answer": "-111.54"
+  },
+  {
+    "id": "arithmetic_operation-8344",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -9.153, B: -4.144",
+    "answer": "-13.3"
+  },
+  {
+    "id": "arithmetic_operation-24879",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 931.069, B: 531.566",
+    "answer": "1.75"
+  },
+  {
+    "id": "arithmetic_operation-25263",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 8119.174, B: 4605.957",
+    "answer": "1.76"
+  },
+  {
+    "id": "arithmetic_operation-25389",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: 1367.125, B: 4208.681",
+    "answer": "-2841.56"
+  },
+  {
+    "id": "arithmetic_operation-15620",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 84452.831, B: 24834.192",
+    "answer": "109287.02"
+  },
+  {
+    "id": "arithmetic_operation-11548",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -552.161, B: 298.717",
+    "answer": "-253.44"
+  },
+  {
+    "id": "arithmetic_operation-23430",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: -851.674, B: -216.797",
+    "answer": "184640.37"
+  },
+  {
+    "id": "arithmetic_operation-1013",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: 741.161, B: -90934.009",
+    "answer": "91675.17"
+  },
+  {
+    "id": "arithmetic_operation-26867",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -2302.307, B: 9486.009",
+    "answer": "-0.24"
+  },
+  {
+    "id": "arithmetic_operation-28447",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -66541.552, B: 74722.784",
+    "answer": "-0.89"
+  },
+  {
+    "id": "arithmetic_operation-18705",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -652465.414, B: -576794.781",
+    "answer": "-75670.63"
+  },
+  {
+    "id": "arithmetic_operation-15619",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 83490.295, B: 52159.249",
+    "answer": "1.6"
+  },
+  {
+    "id": "arithmetic_operation-12035",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 452.869, B: 729.653",
+    "answer": "0.62"
+  },
+  {
+    "id": "arithmetic_operation-7863",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -7.186, B: 9.315",
+    "answer": "-0.77"
+  },
+  {
+    "id": "arithmetic_operation-10040",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -69.454, B: -36.766",
+    "answer": "-106.22"
+  },
+  {
+    "id": "arithmetic_operation-24948",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: -734.258, B: -601.419",
+    "answer": "-1335.68"
+  },
+  {
+    "id": "arithmetic_operation-1914",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: 923.267, B: -606147.355",
+    "answer": "-559635850.01"
+  },
+  {
+    "id": "arithmetic_operation-15938",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: -26789.965, B: 68727.045",
+    "answer": "-1841195130.1"
+  },
+  {
+    "id": "arithmetic_operation-8745",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: 2.268, B: 1.455",
+    "answer": "0.81"
+  },
+  {
+    "id": "arithmetic_operation-3327",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 206.836, B: -50236130.792",
+    "answer": "-0.0"
+  },
+  {
+    "id": "arithmetic_operation-26180",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: -8434.759, B: -1060.528",
+    "answer": "-9495.29"
+  },
+  {
+    "id": "arithmetic_operation-107",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 713.539, B: 5832.733",
+    "answer": "0.12"
+  },
+  {
+    "id": "arithmetic_operation-8405",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: 6.678, B: -1.471",
+    "answer": "8.15"
+  },
+  {
+    "id": "arithmetic_operation-12806",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: -603.353, B: -517.107",
+    "answer": "311998.06"
+  },
+  {
+    "id": "arithmetic_operation-23363",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -669.618, B: 392.062",
+    "answer": "-1.71"
+  },
+  {
+    "id": "arithmetic_operation-1912",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 923.267, B: -606147.355",
+    "answer": "-605224.09"
+  },
+  {
+    "id": "arithmetic_operation-16734",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: -95774.047, B: 11916.069",
+    "answer": "-1141250152.46"
+  },
+  {
+    "id": "arithmetic_operation-21723",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 79.429, B: 12.642",
+    "answer": "6.28"
+  },
+  {
+    "id": "arithmetic_operation-1173",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: 161.458, B: 49798.726",
+    "answer": "-49637.27"
+  },
+  {
+    "id": "arithmetic_operation-30104",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: 191295.924, B: 348441.598",
+    "answer": "539737.52"
+  },
+  {
+    "id": "arithmetic_operation-14554",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: -2116.505, B: 7830.469",
+    "answer": "-16573226.79"
+  },
+  {
+    "id": "arithmetic_operation-9254",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: 64.465, B: 65.248",
+    "answer": "4206.21"
+  },
+  {
+    "id": "arithmetic_operation-25044",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: -789.824, B: -355.994",
+    "answer": "-1145.82"
+  },
+  {
+    "id": "arithmetic_operation-20045",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: 5.112, B: 3.719",
+    "answer": "1.39"
+  },
+  {
+    "id": "arithmetic_operation-5831",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -12675.117, B: 76401852.032",
+    "answer": "-0.0"
+  },
+  {
+    "id": "arithmetic_operation-11041",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -46.642, B: 19.582",
+    "answer": "-66.22"
+  },
+  {
+    "id": "arithmetic_operation-17414",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: -671769.739, B: 857911.626",
+    "answer": "-576319069083.09"
+  },
+  {
+    "id": "arithmetic_operation-21280",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: -42.393, B: -34.279",
+    "answer": "-76.67"
+  },
+  {
+    "id": "arithmetic_operation-17603",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 411658.181, B: -759403.592",
+    "answer": "-0.54"
+  },
+  {
+    "id": "arithmetic_operation-10316",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -95.506, B: -90.281",
+    "answer": "-185.79"
+  },
+  {
+    "id": "arithmetic_operation-715",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 724.306, B: 3968.233",
+    "answer": "0.18"
+  },
+  {
+    "id": "arithmetic_operation-27762",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: -52297.079, B: 24016.701",
+    "answer": "-1256003309.52"
+  },
+  {
+    "id": "arithmetic_operation-4295",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -57.612, B: -85101.085",
+    "answer": "0.0"
+  },
+  {
+    "id": "arithmetic_operation-22901",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: 95.253, B: 29.493",
+    "answer": "65.76"
+  },
+  {
+    "id": "arithmetic_operation-17773",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: 416822.158, B: 295977.341",
+    "answer": "120844.82"
+  },
+  {
+    "id": "arithmetic_operation-22090",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: -45.532, B: -86.855",
+    "answer": "3954.68"
+  },
+  {
+    "id": "arithmetic_operation-20587",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 9.764, B: 9.052",
+    "answer": "1.08"
+  },
+  {
+    "id": "arithmetic_operation-22444",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: 47.442, B: -63.168",
+    "answer": "-15.73"
+  },
+  {
+    "id": "arithmetic_operation-31025",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: -679600.043, B: 292162.314",
+    "answer": "-971762.36"
+  },
+  {
+    "id": "arithmetic_operation-2980",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -783.544, B: -8804700.735",
+    "answer": "-8805484.28"
+  },
+  {
+    "id": "arithmetic_operation-11662",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: 303.024, B: -407.608",
+    "answer": "-123515.01"
+  },
+  {
+    "id": "arithmetic_operation-22795",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 32.156, B: 29.937",
+    "answer": "1.07"
+  },
+  {
+    "id": "arithmetic_operation-2766",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: -398.561, B: 6527212.909",
+    "answer": "-2601492504.22"
+  },
+  {
+    "id": "arithmetic_operation-5774",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: 51931.153, B: 56775482.314",
+    "answer": "2948416258697.13"
+  },
+  {
+    "id": "arithmetic_operation-17432",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -377004.089, B: -712801.535",
+    "answer": "-1089805.62"
+  },
+  {
+    "id": "arithmetic_operation-26244",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: 5577.524, B: 7761.772",
+    "answer": "13339.3"
+  },
+  {
+    "id": "arithmetic_operation-18915",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -653788.744, B: 494297.705",
+    "answer": "-1.32"
+  },
+  {
+    "id": "arithmetic_operation-27200",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: 58278.465, B: 34253.351",
+    "answer": "92531.82"
+  },
+  {
+    "id": "arithmetic_operation-18614",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: 193263.424, B: -960467.463",
+    "answer": "-185623230539.97"
+  },
+  {
+    "id": "arithmetic_operation-18708",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -323919.579, B: -641372.922",
+    "answer": "-965292.5"
+  },
+  {
+    "id": "arithmetic_operation-21877",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: 13.843, B: 25.119",
+    "answer": "-11.28"
+  },
+  {
+    "id": "arithmetic_operation-23083",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -26.451, B: 77.154",
+    "answer": "-0.34"
+  },
+  {
+    "id": "arithmetic_operation-18088",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -870763.098, B: -196151.118",
+    "answer": "-1066914.22"
+  },
+  {
+    "id": "arithmetic_operation-21979",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -86.568, B: -79.375",
+    "answer": "1.09"
+  },
+  {
+    "id": "arithmetic_operation-11282",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: -336.682, B: 480.015",
+    "answer": "-161612.41"
+  },
+  {
+    "id": "arithmetic_operation-20012",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: -4.993, B: -7.246",
+    "answer": "-12.24"
+  },
+  {
+    "id": "arithmetic_operation-27363",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 86722.757, B: -36672.732",
+    "answer": "-2.36"
+  },
+  {
+    "id": "arithmetic_operation-23271",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -817.091, B: 593.391",
+    "answer": "-1.38"
+  },
+  {
+    "id": "arithmetic_operation-14789",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -3102.028, B: 5360.825",
+    "answer": "-8462.85"
+  },
+  {
+    "id": "arithmetic_operation-8558",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: -1.399, B: 5.914",
+    "answer": "-8.27"
+  },
+  {
+    "id": "arithmetic_operation-3157",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: 841.459, B: 3683820.281",
+    "answer": "-3682978.82"
+  },
+  {
+    "id": "arithmetic_operation-1299",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 951.772, B: 29983.421",
+    "answer": "0.03"
+  },
+  {
+    "id": "arithmetic_operation-30707",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -652465.414, B: -576794.781",
+    "answer": "1.13"
+  },
+  {
+    "id": "arithmetic_operation-23423",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -571.663, B: 547.794",
+    "answer": "-1.04"
+  },
+  {
+    "id": "arithmetic_operation-7613",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -5.449, B: -3.196",
+    "answer": "-2.25"
+  },
+  {
+    "id": "arithmetic_operation-10583",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 96.249, B: -68.508",
+    "answer": "-1.4"
+  },
+  {
+    "id": "arithmetic_operation-22987",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -77.303, B: -50.194",
+    "answer": "1.54"
+  },
+  {
+    "id": "arithmetic_operation-24764",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: -979.771, B: -886.872",
+    "answer": "-1866.64"
+  },
+  {
+    "id": "arithmetic_operation-10943",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -63.014, B: 76.725",
+    "answer": "-0.82"
+  },
+  {
+    "id": "arithmetic_operation-21370",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: 58.928, B: -81.165",
+    "answer": "-4782.89"
+  },
+  {
+    "id": "arithmetic_operation-24586",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: 954.941, B: -219.441",
+    "answer": "-209553.21"
+  },
+  {
+    "id": "arithmetic_operation-30576",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: -870981.724, B: 654762.454",
+    "answer": "-216219.27"
+  },
+  {
+    "id": "arithmetic_operation-27293",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: 42722.312, B: -95349.537",
+    "answer": "138071.85"
+  },
+  {
+    "id": "arithmetic_operation-770",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: 753.446, B: -8537.283",
+    "answer": "-6432381.73"
+  },
+  {
+    "id": "arithmetic_operation-1698",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: 690.375, B: 292588.127",
+    "answer": "201995528.18"
+  },
+  {
+    "id": "arithmetic_operation-23477",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: 691.779, B: 639.924",
+    "answer": "51.86"
+  },
+  {
+    "id": "arithmetic_operation-21510",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: 88.733, B: 12.901",
+    "answer": "1144.74"
+  },
+  {
+    "id": "arithmetic_operation-26531",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 1605.981, B: 2967.048",
+    "answer": "0.54"
+  },
+  {
+    "id": "arithmetic_operation-30223",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 795110.803, B: -124566.796",
+    "answer": "-6.38"
+  },
+  {
+    "id": "arithmetic_operation-22676",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: -96.301, B: 38.884",
+    "answer": "-57.42"
+  },
+  {
+    "id": "arithmetic_operation-12849",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -789.798, B: -264.923",
+    "answer": "-524.88"
+  },
+  {
+    "id": "arithmetic_operation-16167",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 72546.856, B: -16762.996",
+    "answer": "-4.33"
+  },
+  {
+    "id": "arithmetic_operation-19680",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: -1.453, B: 4.412",
+    "answer": "2.96"
+  },
+  {
+    "id": "arithmetic_operation-19292",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: 4.463, B: 6.363",
+    "answer": "10.83"
+  },
+  {
+    "id": "arithmetic_operation-2541",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: 794.287, B: 1264206.261",
+    "answer": "-1263411.97"
+  },
+  {
+    "id": "arithmetic_operation-4264",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 88.614, B: -28187.113",
+    "answer": "-28098.5"
+  },
+  {
+    "id": "arithmetic_operation-12695",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 792.775, B: 142.587",
+    "answer": "5.56"
+  },
+  {
+    "id": "arithmetic_operation-22149",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: 22.095, B: 84.324",
+    "answer": "-62.23"
+  },
+  {
+    "id": "arithmetic_operation-12864",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -800.927, B: -470.795",
+    "answer": "-1271.72"
+  },
+  {
+    "id": "arithmetic_operation-13039",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 541.498, B: 598.406",
+    "answer": "0.9"
+  },
+  {
+    "id": "arithmetic_operation-19492",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: -6.048, B: -2.007",
+    "answer": "-8.05"
+  },
+  {
+    "id": "arithmetic_operation-20411",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 3.967, B: 6.022",
+    "answer": "0.66"
+  },
+  {
+    "id": "arithmetic_operation-26696",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: -6274.718, B: -7605.401",
+    "answer": "-13880.12"
+  },
+  {
+    "id": "arithmetic_operation-30295",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 246136.343, B: -198452.418",
+    "answer": "-1.24"
+  },
+  {
+    "id": "arithmetic_operation-5620",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 25740.371, B: -34599597.285",
+    "answer": "-34573856.91"
+  },
+  {
+    "id": "arithmetic_operation-7604",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 2.326, B: -1.416",
+    "answer": "0.91"
+  },
+  {
+    "id": "arithmetic_operation-4043",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 77.311, B: 56884.212",
+    "answer": "0.0"
+  },
+  {
+    "id": "arithmetic_operation-21312",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: 32.653, B: -32.193",
+    "answer": "0.46"
+  },
+  {
+    "id": "arithmetic_operation-3195",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 499.883, B: 2112355.567",
+    "answer": "0.0"
+  },
+  {
+    "id": "arithmetic_operation-29169",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: 34664.477, B: 28240.002",
+    "answer": "6424.47"
+  },
+  {
+    "id": "arithmetic_operation-30029",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: 185111.179, B: -875826.902",
+    "answer": "1060938.08"
+  },
+  {
+    "id": "arithmetic_operation-16176",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 78443.916, B: -38064.289",
+    "answer": "40379.63"
+  },
+  {
+    "id": "arithmetic_operation-9568",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 34.168, B: -84.551",
+    "answer": "-50.38"
+  },
+  {
+    "id": "arithmetic_operation-12289",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -737.268, B: 207.979",
+    "answer": "-945.25"
+  },
+  {
+    "id": "arithmetic_operation-30566",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: 392061.163, B: -729193.985",
+    "answer": "-285888641811.7"
+  },
+  {
+    "id": "arithmetic_operation-8852",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 6.491, B: -3.219",
+    "answer": "3.27"
+  },
+  {
+    "id": "arithmetic_operation-27387",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 46750.859, B: -65033.383",
+    "answer": "-0.72"
+  },
+  {
+    "id": "arithmetic_operation-6235",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 49736.772, B: 98993672.533",
+    "answer": "0.0"
+  },
+  {
+    "id": "arithmetic_operation-18099",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 803105.149, B: -451056.714",
+    "answer": "-1.78"
+  },
+  {
+    "id": "arithmetic_operation-11677",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -876.329, B: 378.099",
+    "answer": "-1254.43"
+  },
+  {
+    "id": "arithmetic_operation-10857",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -85.139, B: 33.698",
+    "answer": "-118.84"
+  },
+  {
+    "id": "arithmetic_operation-1805",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -575.356, B: -425606.382",
+    "answer": "425031.03"
+  },
+  {
+    "id": "arithmetic_operation-984",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -818.662, B: -19893.371",
+    "answer": "-20712.03"
+  },
+  {
+    "id": "arithmetic_operation-7719",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -9.682, B: 1.973",
+    "answer": "-4.91"
+  },
+  {
+    "id": "arithmetic_operation-283",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 846.413, B: -1396.781",
+    "answer": "-0.61"
+  },
+  {
+    "id": "arithmetic_operation-14197",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -2970.505, B: -2568.561",
+    "answer": "-401.94"
+  },
+  {
+    "id": "arithmetic_operation-7127",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 776460.477, B: -365543214.977",
+    "answer": "-0.0"
+  },
+  {
+    "id": "arithmetic_operation-21100",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: 4.496, B: -3.295",
+    "answer": "1.2"
+  },
+  {
+    "id": "arithmetic_operation-24904",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: -159.623, B: -327.711",
+    "answer": "-487.33"
+  },
+  {
+    "id": "arithmetic_operation-13290",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: -9532.983, B: -9308.011",
+    "answer": "88733110.63"
+  },
+  {
+    "id": "arithmetic_operation-2616",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -512.612, B: 6226935.646",
+    "answer": "6226423.03"
+  },
+  {
+    "id": "arithmetic_operation-4039",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 64.485, B: 45590.979",
+    "answer": "0.0"
+  },
+  {
+    "id": "arithmetic_operation-28651",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 13204.008, B: 55684.384",
+    "answer": "0.24"
+  },
+  {
+    "id": "arithmetic_operation-18213",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -935618.952, B: 692350.339",
+    "answer": "-1627969.29"
+  },
+  {
+    "id": "arithmetic_operation-9397",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -92.849, B: 17.727",
+    "answer": "-110.58"
+  },
+  {
+    "id": "arithmetic_operation-16622",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: -65678.042, B: 59134.746",
+    "answer": "-3883854331.45"
+  },
+  {
+    "id": "arithmetic_operation-8258",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: -6.481, B: -7.241",
+    "answer": "46.93"
+  },
+  {
+    "id": "arithmetic_operation-1660",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 382.377, B: 255864.181",
+    "answer": "256246.56"
+  },
+  {
+    "id": "arithmetic_operation-27407",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 29857.513, B: -34191.415",
+    "answer": "-0.87"
+  },
+  {
+    "id": "arithmetic_operation-9741",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -14.138, B: -42.758",
+    "answer": "28.62"
+  },
+  {
+    "id": "arithmetic_operation-5066",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: -2627.283, B: 5746499.693",
+    "answer": "-15097680952.92"
+  },
+  {
+    "id": "arithmetic_operation-14752",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 6426.864, B: 9882.072",
+    "answer": "16308.94"
+  },
+  {
+    "id": "arithmetic_operation-9442",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: -81.955, B: 42.921",
+    "answer": "-3517.59"
+  },
+  {
+    "id": "arithmetic_operation-3719",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -707.706, B: 53111904.703",
+    "answer": "-0.0"
+  },
+  {
+    "id": "arithmetic_operation-16787",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 99892.548, B: 79420.528",
+    "answer": "1.26"
+  },
+  {
+    "id": "arithmetic_operation-9727",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -57.147, B: 33.665",
+    "answer": "-1.7"
+  },
+  {
+    "id": "arithmetic_operation-29655",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 392169.295, B: -636201.015",
+    "answer": "-0.62"
+  },
+  {
+    "id": "arithmetic_operation-28718",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: 41197.191, B: 46975.047",
+    "answer": "1935239983.49"
+  },
+  {
+    "id": "arithmetic_operation-2209",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: 997.932, B: 534493.976",
+    "answer": "-533496.04"
+  },
+  {
+    "id": "arithmetic_operation-15595",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -67820.885, B: -15400.072",
+    "answer": "4.4"
+  },
+  {
+    "id": "arithmetic_operation-9593",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -32.535, B: -43.466",
+    "answer": "10.93"
+  },
+  {
+    "id": "arithmetic_operation-4392",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 70.627, B: -99763.057",
+    "answer": "-99692.43"
+  },
+  {
+    "id": "arithmetic_operation-15724",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 17514.149, B: 47187.481",
+    "answer": "64701.63"
+  },
+  {
+    "id": "arithmetic_operation-17452",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 183170.852, B: 419637.793",
+    "answer": "602808.65"
+  },
+  {
+    "id": "arithmetic_operation-15295",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 42722.312, B: -95349.537",
+    "answer": "-0.45"
+  },
+  {
+    "id": "arithmetic_operation-25381",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: 2648.272, B: 1491.105",
+    "answer": "1157.17"
+  },
+  {
+    "id": "arithmetic_operation-29565",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: -580703.656, B: -412180.466",
+    "answer": "-168523.19"
+  },
+  {
+    "id": "arithmetic_operation-14145",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -6919.091, B: -5659.125",
+    "answer": "-1259.97"
+  },
+  {
+    "id": "arithmetic_operation-17919",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 529276.902, B: -910003.607",
+    "answer": "-0.58"
+  },
+  {
+    "id": "arithmetic_operation-28102",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: 18560.784, B: 82226.195",
+    "answer": "1526182644.54"
+  },
+  {
+    "id": "arithmetic_operation-21617",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: 19.288, B: 82.536",
+    "answer": "-63.25"
+  },
+  {
+    "id": "arithmetic_operation-12384",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 449.891, B: 813.465",
+    "answer": "1263.36"
+  },
+  {
+    "id": "arithmetic_operation-22773",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: 18.838, B: 75.303",
+    "answer": "-56.46"
+  },
+  {
+    "id": "arithmetic_operation-12768",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 755.068, B: 499.798",
+    "answer": "1254.87"
+  },
+  {
+    "id": "arithmetic_operation-1885",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: 553.506, B: 360337.106",
+    "answer": "-359783.6"
+  },
+  {
+    "id": "arithmetic_operation-15362",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: 86722.757, B: -36672.732",
+    "answer": "-3180360425.76"
+  },
+  {
+    "id": "arithmetic_operation-11079",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -38.249, B: 26.064",
+    "answer": "-1.47"
+  },
+  {
+    "id": "arithmetic_operation-30249",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: 986636.893, B: 819812.092",
+    "answer": "166824.8"
+  },
+  {
+    "id": "arithmetic_operation-3596",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -680.207, B: 16583011.494",
+    "answer": "16582331.29"
+  },
+  {
+    "id": "arithmetic_operation-19071",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 426646.056, B: 918321.045",
+    "answer": "0.46"
+  },
+  {
+    "id": "arithmetic_operation-1027",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -189.261, B: 73160.148",
+    "answer": "-0.0"
+  },
+  {
+    "id": "arithmetic_operation-18193",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: 870017.169, B: 625938.834",
+    "answer": "244078.33"
+  },
+  {
+    "id": "arithmetic_operation-17271",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -731318.169, B: 279340.875",
+    "answer": "-2.62"
+  },
+  {
+    "id": "arithmetic_operation-4429",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: 25.233, B: -41474.476",
+    "answer": "41499.71"
+  },
+  {
+    "id": "arithmetic_operation-28946",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: 99472.069, B: 14071.393",
+    "answer": "1399710575.42"
+  },
+  {
+    "id": "arithmetic_operation-17053",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: 13493.146, B: -71918.349",
+    "answer": "85411.49"
+  },
+  {
+    "id": "arithmetic_operation-6427",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 538746.862, B: -631935348.005",
+    "answer": "-0.0"
+  },
+  {
+    "id": "arithmetic_operation-14946",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: -3724.206, B: 6365.399",
+    "answer": "-23706057.15"
+  },
+  {
+    "id": "arithmetic_operation-20339",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 4.562, B: -3.792",
+    "answer": "-1.2"
+  },
+  {
+    "id": "arithmetic_operation-16966",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: -30903.719, B: 54396.412",
+    "answer": "-1681051431.06"
+  },
+  {
+    "id": "arithmetic_operation-14144",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -6919.091, B: -5659.125",
+    "answer": "-12578.22"
+  },
+  {
+    "id": "arithmetic_operation-14599",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -2130.049, B: -2563.082",
+    "answer": "0.83"
+  },
+  {
+    "id": "arithmetic_operation-28211",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 20649.357, B: 59527.384",
+    "answer": "0.35"
+  },
+  {
+    "id": "arithmetic_operation-20549",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: -7.726, B: 4.214",
+    "answer": "-11.94"
+  },
+  {
+    "id": "arithmetic_operation-25411",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 7914.281, B: -7092.177",
+    "answer": "-1.12"
+  },
+  {
+    "id": "arithmetic_operation-25249",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: -8890.851, B: 8382.172",
+    "answer": "-17273.02"
+  },
+  {
+    "id": "arithmetic_operation-25755",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -5078.324, B: -7631.728",
+    "answer": "0.67"
+  },
+  {
+    "id": "arithmetic_operation-6285",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: 81833.227, B: -76941999.319",
+    "answer": "77023832.55"
+  },
+  {
+    "id": "arithmetic_operation-17246",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: 491931.462, B: 364801.291",
+    "answer": "179457232421.12"
+  },
+  {
+    "id": "arithmetic_operation-5131",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -1213.304, B: -1827471.543",
+    "answer": "0.0"
+  },
+  {
+    "id": "arithmetic_operation-8006",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: 6.557, B: -3.113",
+    "answer": "-20.41"
+  },
+  {
+    "id": "arithmetic_operation-2597",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: 121.519, B: -9391577.793",
+    "answer": "9391699.31"
+  },
+  {
+    "id": "arithmetic_operation-6785",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -586395.779, B: 251369498.699",
+    "answer": "-251955894.48"
+  },
+  {
+    "id": "arithmetic_operation-24715",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 977.919, B: -503.586",
+    "answer": "-1.94"
+  },
+  {
+    "id": "arithmetic_operation-6866",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: 310832.149, B: 426699260.869",
+    "answer": "132631848232622.88"
+  },
+  {
+    "id": "arithmetic_operation-10049",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: 10.343, B: -17.887",
+    "answer": "28.23"
+  },
+  {
+    "id": "arithmetic_operation-28269",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: 10876.049, B: 78423.468",
+    "answer": "-67547.42"
+  },
+  {
+    "id": "arithmetic_operation-21287",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 26.865, B: -50.396",
+    "answer": "-0.53"
+  },
+  {
+    "id": "arithmetic_operation-4650",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: -10.318, B: 78885.623",
+    "answer": "-813941.86"
+  },
+  {
+    "id": "arithmetic_operation-4609",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -80.086, B: 94405.821",
+    "answer": "-94485.91"
+  },
+  {
+    "id": "arithmetic_operation-21881",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: 54.651, B: -44.446",
+    "answer": "99.1"
+  },
+  {
+    "id": "arithmetic_operation-9620",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -22.342, B: -79.611",
+    "answer": "-101.95"
+  },
+  {
+    "id": "arithmetic_operation-1017",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: 159.114, B: 66976.905",
+    "answer": "-66817.79"
+  },
+  {
+    "id": "arithmetic_operation-1613",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: 140.773, B: 223332.736",
+    "answer": "-223191.96"
+  },
+  {
+    "id": "arithmetic_operation-17215",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 341330.406, B: 606168.547",
+    "answer": "0.56"
+  },
+  {
+    "id": "arithmetic_operation-27744",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: 41404.417, B: -52163.983",
+    "answer": "-10759.57"
+  },
+  {
+    "id": "arithmetic_operation-2506",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: -676.484, B: 5838898.223",
+    "answer": "-3949921225.49"
+  },
+  {
+    "id": "arithmetic_operation-16584",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 71412.509, B: -96196.925",
+    "answer": "-24784.42"
+  },
+  {
+    "id": "arithmetic_operation-29645",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: -483132.283, B: 707496.653",
+    "answer": "-1190628.94"
+  },
+  {
+    "id": "arithmetic_operation-27836",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: 55187.668, B: 88098.233",
+    "answer": "143285.9"
+  },
+  {
+    "id": "arithmetic_operation-4267",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 88.614, B: -28187.113",
+    "answer": "-0.0"
+  },
+  {
+    "id": "arithmetic_operation-8633",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -9.645, B: 1.233",
+    "answer": "-10.88"
+  },
+  {
+    "id": "arithmetic_operation-10321",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -70.907, B: -66.402",
+    "answer": "-4.5"
+  },
+  {
+    "id": "arithmetic_operation-23023",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 17.816, B: 34.834",
+    "answer": "0.51"
+  },
+  {
+    "id": "arithmetic_operation-2719",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 590.066, B: 5362115.369",
+    "answer": "0.0"
+  },
+  {
+    "id": "arithmetic_operation-8923",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 8.092, B: -2.677",
+    "answer": "-3.02"
+  },
+  {
+    "id": "arithmetic_operation-2764",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -398.561, B: 6527212.909",
+    "answer": "6526814.35"
+  },
+  {
+    "id": "arithmetic_operation-16621",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -65678.042, B: 59134.746",
+    "answer": "-124812.79"
+  },
+  {
+    "id": "arithmetic_operation-24134",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: -238.841, B: -703.059",
+    "answer": "167919.31"
+  },
+  {
+    "id": "arithmetic_operation-21060",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: 1.438, B: 7.665",
+    "answer": "9.1"
+  },
+  {
+    "id": "arithmetic_operation-22147",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -85.856, B: -87.241",
+    "answer": "0.98"
+  },
+  {
+    "id": "arithmetic_operation-29871",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -808681.177, B: -862363.345",
+    "answer": "0.94"
+  },
+  {
+    "id": "arithmetic_operation-1360",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 220.069, B: -41706.914",
+    "answer": "-41486.84"
+  },
+  {
+    "id": "arithmetic_operation-8090",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: -8.238, B: -5.215",
+    "answer": "42.96"
+  },
+  {
+    "id": "arithmetic_operation-23300",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: -236.934, B: -972.745",
+    "answer": "-1209.68"
+  },
+  {
+    "id": "arithmetic_operation-23008",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: -67.626, B: 49.507",
+    "answer": "-18.12"
+  },
+  {
+    "id": "arithmetic_operation-19491",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 6.734, B: 3.358",
+    "answer": "2.01"
+  },
+  {
+    "id": "arithmetic_operation-22519",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -74.432, B: -20.262",
+    "answer": "3.67"
+  },
+  {
+    "id": "arithmetic_operation-23387",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 539.059, B: 385.066",
+    "answer": "1.4"
+  },
+  {
+    "id": "arithmetic_operation-5808",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -63546.475, B: -99159518.677",
+    "answer": "-99223065.15"
+  },
+  {
+    "id": "arithmetic_operation-24399",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 206.368, B: -826.393",
+    "answer": "-0.25"
+  },
+  {
+    "id": "arithmetic_operation-14531",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 1605.981, B: 2967.048",
+    "answer": "0.54"
+  },
+  {
+    "id": "arithmetic_operation-26811",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -2904.767, B: -7779.273",
+    "answer": "0.37"
+  },
+  {
+    "id": "arithmetic_operation-6084",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 76324.777, B: 93384749.783",
+    "answer": "93461074.56"
+  },
+  {
+    "id": "arithmetic_operation-3674",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: -156.575, B: 13852759.675",
+    "answer": "-2168995846.11"
+  },
+  {
+    "id": "arithmetic_operation-29084",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: 71849.974, B: -12606.629",
+    "answer": "59243.35"
+  },
+  {
+    "id": "arithmetic_operation-11743",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 798.593, B: 647.137",
+    "answer": "1.23"
+  },
+  {
+    "id": "arithmetic_operation-3307",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 679.059, B: 24123463.597",
+    "answer": "0.0"
+  },
+  {
+    "id": "arithmetic_operation-24287",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: -944.655, B: -182.747",
+    "answer": "5.17"
+  },
+  {
+    "id": "arithmetic_operation-18932",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -442030.909, B: -952139.161",
+    "answer": "-1394170.07"
+  },
+  {
+    "id": "arithmetic_operation-26041",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: -1017.595, B: 7057.898",
+    "answer": "-8075.49"
+  },
+  {
+    "id": "arithmetic_operation-7464",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -9.386, B: 1.932",
+    "answer": "-7.45"
+  },
+  {
+    "id": "arithmetic_operation-12747",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 276.144, B: -175.231",
+    "answer": "-1.58"
+  },
+  {
+    "id": "arithmetic_operation-7947",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -8.513, B: 9.822",
+    "answer": "-0.87"
+  },
+  {
+    "id": "arithmetic_operation-473",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: 402.517, B: -7112.277",
+    "answer": "7514.79"
+  },
+  {
+    "id": "arithmetic_operation-21767",
+    "question": "What is the result of A divided by B? Please round the answer to two decimal places.  A: 17.775, B: -51.107",
+    "answer": "-0.35"
+  },
+  {
+    "id": "arithmetic_operation-12083",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 638.433, B: 716.958",
+    "answer": "0.89"
+  },
+  {
+    "id": "arithmetic_operation-30530",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: -137891.108, B: -883354.116",
+    "answer": "121806677811.6"
+  },
+  {
+    "id": "arithmetic_operation-30862",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: 659587.374, B: 332366.767",
+    "answer": "219224923050.4"
+  },
+  {
+    "id": "arithmetic_operation-18434",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: -242874.817, B: -712357.211",
+    "answer": "173013627260.26"
+  },
+  {
+    "id": "arithmetic_operation-4219",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 75.987, B: 11921.755",
+    "answer": "0.01"
+  },
+  {
+    "id": "arithmetic_operation-30198",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: 688251.431, B: -280298.397",
+    "answer": "-192915772842.26"
+  },
+  {
+    "id": "arithmetic_operation-4726",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: -20.639, B: -51839.707",
+    "answer": "1069919.71"
+  },
+  {
+    "id": "arithmetic_operation-7539",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 1.213, B: 2.738",
+    "answer": "0.44"
+  },
+  {
+    "id": "arithmetic_operation-21509",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: 88.733, B: 12.901",
+    "answer": "75.83"
+  },
+  {
+    "id": "arithmetic_operation-30994",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: 824905.431, B: 229585.397",
+    "answer": "189386240863.59"
+  },
+  {
+    "id": "arithmetic_operation-9733",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -43.092, B: -19.261",
+    "answer": "-23.83"
+  },
+  {
+    "id": "arithmetic_operation-27973",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: -82769.415, B: -26182.579",
+    "answer": "-56586.84"
+  },
+  {
+    "id": "arithmetic_operation-30744",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: -251661.801, B: -967239.781",
+    "answer": "-1218901.58"
+  },
+  {
+    "id": "arithmetic_operation-25329",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: -5123.477, B: 7158.404",
+    "answer": "-12281.88"
+  },
+  {
+    "id": "arithmetic_operation-21709",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: 11.022, B: 22.349",
+    "answer": "-11.33"
+  },
+  {
+    "id": "arithmetic_operation-1124",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 513.779, B: 17007.635",
+    "answer": "17521.41"
+  },
+  {
+    "id": "arithmetic_operation-8365",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: 8.167, B: -6.323",
+    "answer": "14.49"
+  },
+  {
+    "id": "arithmetic_operation-15678",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: 50273.219, B: 21807.782",
+    "answer": "1096347400.39"
+  },
+  {
+    "id": "arithmetic_operation-14546",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: 1607.621, B: 1158.839",
+    "answer": "1862973.91"
+  },
+  {
+    "id": "arithmetic_operation-15139",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -1125.102, B: 2711.656",
+    "answer": "-0.41"
+  },
+  {
+    "id": "arithmetic_operation-6267",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 23839.792, B: 17295691.307",
+    "answer": "0.0"
+  },
+  {
+    "id": "arithmetic_operation-1852",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -453.753, B: -993562.098",
+    "answer": "-994015.85"
+  },
+  {
+    "id": "arithmetic_operation-676",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 929.073, B: -8418.163",
+    "answer": "-7489.09"
+  },
+  {
+    "id": "arithmetic_operation-24861",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: 840.983, B: 111.608",
+    "answer": "729.38"
+  },
+  {
+    "id": "arithmetic_operation-31068",
+    "question": "What is the result of A plus B? Please round the answer to two decimal places.  A: 426646.056, B: 918321.045",
+    "answer": "1344967.1"
+  },
+  {
+    "id": "arithmetic_operation-11978",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: 520.188, B: -141.526",
+    "answer": "-73620.13"
+  },
+  {
+    "id": "arithmetic_operation-18633",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -111176.519, B: 319312.181",
+    "answer": "-430488.7"
+  },
+  {
+    "id": "arithmetic_operation-18555",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -363049.159, B: 470929.523",
+    "answer": "-0.77"
+  },
+  {
+    "id": "arithmetic_operation-18317",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: 477894.591, B: 159693.152",
+    "answer": "318201.44"
+  },
+  {
+    "id": "arithmetic_operation-27137",
+    "question": "What is the result of A minus B? Please round the answer to two decimal places.  A: -1125.102, B: 2711.656",
+    "answer": "-3836.76"
+  },
+  {
+    "id": "arithmetic_operation-27702",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: 16134.566, B: -61886.046",
+    "answer": "-998504493.67"
+  },
+  {
+    "id": "arithmetic_operation-25782",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: 7201.161, B: -7585.453",
+    "answer": "-54624068.31"
+  },
+  {
+    "id": "arithmetic_operation-17627",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 806945.251, B: -982661.057",
+    "answer": "-0.82"
+  },
+  {
+    "id": "arithmetic_operation-5869",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -52831.995, B: 86891632.259",
+    "answer": "-86944464.25"
+  },
+  {
+    "id": "arithmetic_operation-16524",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: 64525.762, B: -26233.708",
+    "answer": "38292.05"
+  },
+  {
+    "id": "arithmetic_operation-23330",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: 906.129, B: -325.072",
+    "answer": "-294557.17"
+  },
+  {
+    "id": "arithmetic_operation-6073",
+    "question": "What is the result of A - B? Please round the answer to two decimal places.  A: -94269.016, B: 36768061.213",
+    "answer": "-36862330.23"
+  },
+  {
+    "id": "arithmetic_operation-15828",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -29452.356, B: -28878.677",
+    "answer": "-58331.03"
+  },
+  {
+    "id": "arithmetic_operation-2471",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 565.974, B: 5585703.095",
+    "answer": "0.0"
+  },
+  {
+    "id": "arithmetic_operation-24706",
+    "question": "What is the result of A times B? Please round the answer to two decimal places.  A: 314.115, B: -137.036",
+    "answer": "-43045.06"
+  },
+  {
+    "id": "arithmetic_operation-4247",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 89.464, B: -65776.115",
+    "answer": "-0.0"
+  },
+  {
+    "id": "arithmetic_operation-8094",
+    "question": "What is the result of A * B? Please round the answer to two decimal places.  A: 7.787, B: 3.031",
+    "answer": "23.6"
+  },
+  {
+    "id": "arithmetic_operation-11356",
+    "question": "What is the result of A + B? Please round the answer to two decimal places.  A: -877.292, B: -296.009",
+    "answer": "-1173.3"
+  },
+  {
+    "id": "arithmetic_operation-5887",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: 82859.808, B: 62557028.029",
+    "answer": "0.0"
+  },
+  {
+    "id": "arithmetic_operation-9735",
+    "question": "What is the result of A / B? Please round the answer to two decimal places.  A: -43.092, B: -19.261",
+    "answer": "2.24"
+  }
+]

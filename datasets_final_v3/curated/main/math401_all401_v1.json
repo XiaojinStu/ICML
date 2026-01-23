@@ -1,0 +1,1497 @@
+[
+  {
+    "id": "math401-0",
+    "question": "e^(iπ)+1=",
+    "answer": "0"
+  },
+  {
+    "id": "math401-2",
+    "question": "5+9=",
+    "answer": "14"
+  },
+  {
+    "id": "math401-3",
+    "question": "4+3=",
+    "answer": "7"
+  },
+  {
+    "id": "math401-4",
+    "question": "5+2=",
+    "answer": "7"
+  },
+  {
+    "id": "math401-5",
+    "question": "9+2=",
+    "answer": "11"
+  },
+  {
+    "id": "math401-6",
+    "question": "6+2=",
+    "answer": "8"
+  },
+  {
+    "id": "math401-7",
+    "question": "0+8=",
+    "answer": "8"
+  },
+  {
+    "id": "math401-8",
+    "question": "0+10=",
+    "answer": "10"
+  },
+  {
+    "id": "math401-9",
+    "question": "9+3=",
+    "answer": "12"
+  },
+  {
+    "id": "math401-10",
+    "question": "6+6=",
+    "answer": "12"
+  },
+  {
+    "id": "math401-12",
+    "question": "5+4=",
+    "answer": "9"
+  },
+  {
+    "id": "math401-13",
+    "question": "5+0=",
+    "answer": "5"
+  },
+  {
+    "id": "math401-14",
+    "question": "5-1=",
+    "answer": "4"
+  },
+  {
+    "id": "math401-15",
+    "question": "2-2=",
+    "answer": "0"
+  },
+  {
+    "id": "math401-17",
+    "question": "4-10=",
+    "answer": "-6"
+  },
+  {
+    "id": "math401-18",
+    "question": "2-8=",
+    "answer": "-6"
+  },
+  {
+    "id": "math401-19",
+    "question": "10-0=",
+    "answer": "10"
+  },
+  {
+    "id": "math401-20",
+    "question": "10-6=",
+    "answer": "4"
+  },
+  {
+    "id": "math401-21",
+    "question": "0-5=",
+    "answer": "-5"
+  },
+  {
+    "id": "math401-22",
+    "question": "9-5=",
+    "answer": "4"
+  },
+  {
+    "id": "math401-23",
+    "question": "10-4=",
+    "answer": "6"
+  },
+  {
+    "id": "math401-24",
+    "question": "2-3=",
+    "answer": "-1"
+  },
+  {
+    "id": "math401-26",
+    "question": "65+82=",
+    "answer": "147"
+  },
+  {
+    "id": "math401-27",
+    "question": "57+70=",
+    "answer": "127"
+  },
+  {
+    "id": "math401-28",
+    "question": "53+27=",
+    "answer": "80"
+  },
+  {
+    "id": "math401-31",
+    "question": "28+34=",
+    "answer": "62"
+  },
+  {
+    "id": "math401-32",
+    "question": "39+46=",
+    "answer": "85"
+  },
+  {
+    "id": "math401-33",
+    "question": "34+61=",
+    "answer": "95"
+  },
+  {
+    "id": "math401-35",
+    "question": "69+6=",
+    "answer": "75"
+  },
+  {
+    "id": "math401-36",
+    "question": "16+73=",
+    "answer": "89"
+  },
+  {
+    "id": "math401-37",
+    "question": "16+59=",
+    "answer": "75"
+  },
+  {
+    "id": "math401-38",
+    "question": "26+10=",
+    "answer": "36"
+  },
+  {
+    "id": "math401-39",
+    "question": "97-82=",
+    "answer": "15"
+  },
+  {
+    "id": "math401-43",
+    "question": "9-71=",
+    "answer": "-62"
+  },
+  {
+    "id": "math401-44",
+    "question": "15-5=",
+    "answer": "10"
+  },
+  {
+    "id": "math401-45",
+    "question": "9-23=",
+    "answer": "-14"
+  },
+  {
+    "id": "math401-46",
+    "question": "68-49=",
+    "answer": "19"
+  },
+  {
+    "id": "math401-47",
+    "question": "54-3=",
+    "answer": "51"
+  },
+  {
+    "id": "math401-48",
+    "question": "7-7=",
+    "answer": "0"
+  },
+  {
+    "id": "math401-49",
+    "question": "60-85=",
+    "answer": "-25"
+  },
+  {
+    "id": "math401-51",
+    "question": "184+44=",
+    "answer": "228"
+  },
+  {
+    "id": "math401-52",
+    "question": "459+315=",
+    "answer": "774"
+  },
+  {
+    "id": "math401-53",
+    "question": "461+822=",
+    "answer": "1283"
+  },
+  {
+    "id": "math401-55",
+    "question": "116+16=",
+    "answer": "132"
+  },
+  {
+    "id": "math401-56",
+    "question": "243+281=",
+    "answer": "524"
+  },
+  {
+    "id": "math401-57",
+    "question": "501+515=",
+    "answer": "1016"
+  },
+  {
+    "id": "math401-58",
+    "question": "636+766=",
+    "answer": "1402"
+  },
+  {
+    "id": "math401-59",
+    "question": "870+97=",
+    "answer": "967"
+  },
+  {
+    "id": "math401-60",
+    "question": "672+483=",
+    "answer": "1155"
+  },
+  {
+    "id": "math401-61",
+    "question": "701+70=",
+    "answer": "771"
+  },
+  {
+    "id": "math401-62",
+    "question": "13+934=",
+    "answer": "947"
+  },
+  {
+    "id": "math401-63",
+    "question": "345+502=",
+    "answer": "847"
+  },
+  {
+    "id": "math401-64",
+    "question": "35-846=",
+    "answer": "-811"
+  },
+  {
+    "id": "math401-65",
+    "question": "721-847=",
+    "answer": "-126"
+  },
+  {
+    "id": "math401-66",
+    "question": "945-127=",
+    "answer": "818"
+  },
+  {
+    "id": "math401-68",
+    "question": "647-516=",
+    "answer": "131"
+  },
+  {
+    "id": "math401-70",
+    "question": "311-221=",
+    "answer": "90"
+  },
+  {
+    "id": "math401-72",
+    "question": "479-7=",
+    "answer": "472"
+  },
+  {
+    "id": "math401-73",
+    "question": "408-702=",
+    "answer": "-294"
+  },
+  {
+    "id": "math401-74",
+    "question": "585-983=",
+    "answer": "-398"
+  },
+  {
+    "id": "math401-75",
+    "question": "681-831=",
+    "answer": "-150"
+  },
+  {
+    "id": "math401-76",
+    "question": "221034337578+352470528397=",
+    "answer": "573504865975"
+  },
+  {
+    "id": "math401-77",
+    "question": "946195468138+987210728275=",
+    "answer": "1933406196413"
+  },
+  {
+    "id": "math401-79",
+    "question": "234319923293+171632577931=",
+    "answer": "405952501224"
+  },
+  {
+    "id": "math401-80",
+    "question": "936913097197+52653430976=",
+    "answer": "989566528173"
+  },
+  {
+    "id": "math401-81",
+    "question": "623690866796+368029869233=",
+    "answer": "991720736029"
+  },
+  {
+    "id": "math401-82",
+    "question": "352860887460+79374684075=",
+    "answer": "432235571535"
+  },
+  {
+    "id": "math401-84",
+    "question": "786403083014+675944857940=",
+    "answer": "1462347940954"
+  },
+  {
+    "id": "math401-85",
+    "question": "774426524175+721318944497=",
+    "answer": "1495745468672"
+  },
+  {
+    "id": "math401-86",
+    "question": "485625085111+960366573672=",
+    "answer": "1445991658783"
+  },
+  {
+    "id": "math401-87",
+    "question": "892325753741+494303803604=",
+    "answer": "1386629557345"
+  },
+  {
+    "id": "math401-88",
+    "question": "509059009811+621706279712=",
+    "answer": "1130765289523"
+  },
+  {
+    "id": "math401-90",
+    "question": "373490079876-646750175965=",
+    "answer": "-273260096089"
+  },
+  {
+    "id": "math401-92",
+    "question": "177202792475-839074306801=",
+    "answer": "-661871514326"
+  },
+  {
+    "id": "math401-94",
+    "question": "239717090420-428074519958=",
+    "answer": "-188357429538"
+  },
+  {
+    "id": "math401-96",
+    "question": "522334417125-308500866990=",
+    "answer": "213833550135"
+  },
+  {
+    "id": "math401-97",
+    "question": "927561013643-793883892689=",
+    "answer": "133677120954"
+  },
+  {
+    "id": "math401-99",
+    "question": "948519956922-198789750913=",
+    "answer": "749730206009"
+  },
+  {
+    "id": "math401-100",
+    "question": "527653082067-742058336841=",
+    "answer": "-214405254774"
+  },
+  {
+    "id": "math401-101",
+    "question": "8+1=",
+    "answer": "9"
+  },
+  {
+    "id": "math401-103",
+    "question": "-6+(-2)=",
+    "answer": "-8"
+  },
+  {
+    "id": "math401-104",
+    "question": "-1+3=",
+    "answer": "2"
+  },
+  {
+    "id": "math401-105",
+    "question": "-7+(-1)=",
+    "answer": "-8"
+  },
+  {
+    "id": "math401-106",
+    "question": "-4+(-6)=",
+    "answer": "-10"
+  },
+  {
+    "id": "math401-107",
+    "question": "10+7=",
+    "answer": "17"
+  },
+  {
+    "id": "math401-108",
+    "question": "5+(-5)=",
+    "answer": "0"
+  },
+  {
+    "id": "math401-109",
+    "question": "2+1=",
+    "answer": "3"
+  },
+  {
+    "id": "math401-110",
+    "question": "-1+(-6)=",
+    "answer": "-7"
+  },
+  {
+    "id": "math401-112",
+    "question": "3+6=",
+    "answer": "9"
+  },
+  {
+    "id": "math401-114",
+    "question": "9-(-4)=",
+    "answer": "13"
+  },
+  {
+    "id": "math401-115",
+    "question": "9-(-6)=",
+    "answer": "15"
+  },
+  {
+    "id": "math401-116",
+    "question": "-5-(-2)=",
+    "answer": "-3"
+  },
+  {
+    "id": "math401-117",
+    "question": "-1-9=",
+    "answer": "-10"
+  },
+  {
+    "id": "math401-118",
+    "question": "-6-10=",
+    "answer": "-16"
+  },
+  {
+    "id": "math401-119",
+    "question": "5-(-6)=",
+    "answer": "11"
+  },
+  {
+    "id": "math401-121",
+    "question": "8-(-7)=",
+    "answer": "15"
+  },
+  {
+    "id": "math401-123",
+    "question": "1-(-3)=",
+    "answer": "4"
+  },
+  {
+    "id": "math401-124",
+    "question": "6-(-5)=",
+    "answer": "11"
+  },
+  {
+    "id": "math401-125",
+    "question": "9-(-2)=",
+    "answer": "11"
+  },
+  {
+    "id": "math401-126",
+    "question": "0.5+0.24=",
+    "answer": "0.7400"
+  },
+  {
+    "id": "math401-127",
+    "question": "0.0069+(-0.86)=",
+    "answer": "-0.8531"
+  },
+  {
+    "id": "math401-128",
+    "question": "-39.0+(-0.07)=",
+    "answer": "-39.0700"
+  },
+  {
+    "id": "math401-129",
+    "question": "-0.0089+(-22.0)=",
+    "answer": "-22.0089"
+  },
+  {
+    "id": "math401-130",
+    "question": "-0.0074+(-0.26)=",
+    "answer": "-0.2674"
+  },
+  {
+    "id": "math401-131",
+    "question": "-0.038+0.0092=",
+    "answer": "-0.0288"
+  },
+  {
+    "id": "math401-132",
+    "question": "88.0+(-0.54)=",
+    "answer": "87.4600"
+  },
+  {
+    "id": "math401-134",
+    "question": "-0.0069+3.6=",
+    "answer": "3.5931"
+  },
+  {
+    "id": "math401-135",
+    "question": "-16.0+0.08=",
+    "answer": "-15.9200"
+  },
+  {
+    "id": "math401-136",
+    "question": "64.0+(-0.83)=",
+    "answer": "63.1700"
+  },
+  {
+    "id": "math401-137",
+    "question": "-0.0067+0.085=",
+    "answer": "0.0783"
+  },
+  {
+    "id": "math401-138",
+    "question": "-0.099+0.84=",
+    "answer": "0.7410"
+  },
+  {
+    "id": "math401-139",
+    "question": "-23.0-(-0.43)=",
+    "answer": "-22.5700"
+  },
+  {
+    "id": "math401-140",
+    "question": "0.054-(-0.045)=",
+    "answer": "0.0990"
+  },
+  {
+    "id": "math401-141",
+    "question": "0.21-0.36=",
+    "answer": "-0.1500"
+  },
+  {
+    "id": "math401-142",
+    "question": "-23.0-(-2.0)=",
+    "answer": "-21.0000"
+  },
+  {
+    "id": "math401-143",
+    "question": "-0.06-(-3.1)=",
+    "answer": "3.0400"
+  },
+  {
+    "id": "math401-144",
+    "question": "0.78-0.79=",
+    "answer": "-0.0100"
+  },
+  {
+    "id": "math401-145",
+    "question": "-0.39-(-0.19)=",
+    "answer": "-0.2000"
+  },
+  {
+    "id": "math401-146",
+    "question": "2.2-(-1.0)=",
+    "answer": "3.2000"
+  },
+  {
+    "id": "math401-147",
+    "question": "-0.045-(-0.049)=",
+    "answer": "0.0040"
+  },
+  {
+    "id": "math401-148",
+    "question": "20.0-0.0097=",
+    "answer": "19.9903"
+  },
+  {
+    "id": "math401-149",
+    "question": "2.9-0.11=",
+    "answer": "2.7900"
+  },
+  {
+    "id": "math401-150",
+    "question": "0.15-0.032=",
+    "answer": "0.1180"
+  },
+  {
+    "id": "math401-151",
+    "question": "78*64=",
+    "answer": "4992"
+  },
+  {
+    "id": "math401-152",
+    "question": "62×42=",
+    "answer": "2604"
+  },
+  {
+    "id": "math401-153",
+    "question": "37*39=",
+    "answer": "1443"
+  },
+  {
+    "id": "math401-154",
+    "question": "61×20=",
+    "answer": "1220"
+  },
+  {
+    "id": "math401-156",
+    "question": "44*38=",
+    "answer": "1672"
+  },
+  {
+    "id": "math401-157",
+    "question": "7*8=",
+    "answer": "56"
+  },
+  {
+    "id": "math401-158",
+    "question": "8×57=",
+    "answer": "456"
+  },
+  {
+    "id": "math401-160",
+    "question": "68×63=",
+    "answer": "4284"
+  },
+  {
+    "id": "math401-161",
+    "question": "46*78=",
+    "answer": "3588"
+  },
+  {
+    "id": "math401-162",
+    "question": "38×42=",
+    "answer": "1596"
+  },
+  {
+    "id": "math401-163",
+    "question": "61×72=",
+    "answer": "4392"
+  },
+  {
+    "id": "math401-164",
+    "question": "63×37=",
+    "answer": "2331"
+  },
+  {
+    "id": "math401-165",
+    "question": "58×31=",
+    "answer": "1798"
+  },
+  {
+    "id": "math401-166",
+    "question": "50×89=",
+    "answer": "4450"
+  },
+  {
+    "id": "math401-167",
+    "question": "2×89=",
+    "answer": "178"
+  },
+  {
+    "id": "math401-168",
+    "question": "97*17=",
+    "answer": "1649"
+  },
+  {
+    "id": "math401-169",
+    "question": "79*17=",
+    "answer": "1343"
+  },
+  {
+    "id": "math401-170",
+    "question": "55×62=",
+    "answer": "3410"
+  },
+  {
+    "id": "math401-172",
+    "question": "85×47=",
+    "answer": "3995"
+  },
+  {
+    "id": "math401-173",
+    "question": "9×92=",
+    "answer": "828"
+  },
+  {
+    "id": "math401-174",
+    "question": "28*53=",
+    "answer": "1484"
+  },
+  {
+    "id": "math401-175",
+    "question": "69×0=",
+    "answer": "0"
+  },
+  {
+    "id": "math401-176",
+    "question": "3.0×6.0=",
+    "answer": "18.0000"
+  },
+  {
+    "id": "math401-177",
+    "question": "0.7*1.0=",
+    "answer": "0.7000"
+  },
+  {
+    "id": "math401-178",
+    "question": "0.1*1.0=",
+    "answer": "0.1000"
+  },
+  {
+    "id": "math401-179",
+    "question": "0.6×4.0=",
+    "answer": "2.4000"
+  },
+  {
+    "id": "math401-180",
+    "question": "5.0*0.09=",
+    "answer": "0.4500"
+  },
+  {
+    "id": "math401-181",
+    "question": "0.3×0.3=",
+    "answer": "0.0900"
+  },
+  {
+    "id": "math401-182",
+    "question": "3.0×0.3=",
+    "answer": "0.9000"
+  },
+  {
+    "id": "math401-183",
+    "question": "0.4*5.0=",
+    "answer": "2.0000"
+  },
+  {
+    "id": "math401-184",
+    "question": "8.0*1.0=",
+    "answer": "8.0000"
+  },
+  {
+    "id": "math401-185",
+    "question": "0.0×0.7=",
+    "answer": "0.0000"
+  },
+  {
+    "id": "math401-186",
+    "question": "0.1*3.0=",
+    "answer": "0.3000"
+  },
+  {
+    "id": "math401-187",
+    "question": "5.0×0.0=",
+    "answer": "0.0000"
+  },
+  {
+    "id": "math401-188",
+    "question": "4.0×0.0=",
+    "answer": "0.0000"
+  },
+  {
+    "id": "math401-189",
+    "question": "2.0×6.0=",
+    "answer": "12.0000"
+  },
+  {
+    "id": "math401-190",
+    "question": "8.0*0.8=",
+    "answer": "6.4000"
+  },
+  {
+    "id": "math401-191",
+    "question": "3.0*2.0=",
+    "answer": "6.0000"
+  },
+  {
+    "id": "math401-192",
+    "question": "0.09*2.0=",
+    "answer": "0.1800"
+  },
+  {
+    "id": "math401-193",
+    "question": "8.0×2.0=",
+    "answer": "16.0000"
+  },
+  {
+    "id": "math401-194",
+    "question": "0.4×0.8=",
+    "answer": "0.3200"
+  },
+  {
+    "id": "math401-195",
+    "question": "1.0×0.7=",
+    "answer": "0.7000"
+  },
+  {
+    "id": "math401-196",
+    "question": "0.0*3.0=",
+    "answer": "0.0000"
+  },
+  {
+    "id": "math401-197",
+    "question": "0.9×0.8=",
+    "answer": "0.7200"
+  },
+  {
+    "id": "math401-198",
+    "question": "0.6*0.5=",
+    "answer": "0.3000"
+  },
+  {
+    "id": "math401-199",
+    "question": "0.6×0.4=",
+    "answer": "0.2400"
+  },
+  {
+    "id": "math401-201",
+    "question": "6152×32179=",
+    "answer": "197965208"
+  },
+  {
+    "id": "math401-202",
+    "question": "91684*20008=",
+    "answer": "1834413472"
+  },
+  {
+    "id": "math401-203",
+    "question": "62195*99536=",
+    "answer": "6190641520"
+  },
+  {
+    "id": "math401-204",
+    "question": "5655×42805=",
+    "answer": "242062275"
+  },
+  {
+    "id": "math401-205",
+    "question": "4032*84266=",
+    "answer": "339760512"
+  },
+  {
+    "id": "math401-207",
+    "question": "92978×28845=",
+    "answer": "2681950410"
+  },
+  {
+    "id": "math401-208",
+    "question": "51677×90778=",
+    "answer": "4691134706"
+  },
+  {
+    "id": "math401-210",
+    "question": "61081×44496=",
+    "answer": "2717860176"
+  },
+  {
+    "id": "math401-211",
+    "question": "38010*88739=",
+    "answer": "3372969390"
+  },
+  {
+    "id": "math401-212",
+    "question": "90161*91816=",
+    "answer": "8278222376"
+  },
+  {
+    "id": "math401-214",
+    "question": "68163×81808=",
+    "answer": "5576278704"
+  },
+  {
+    "id": "math401-215",
+    "question": "41393*30824=",
+    "answer": "1275897832"
+  },
+  {
+    "id": "math401-216",
+    "question": "56854×24834=",
+    "answer": "1411912236"
+  },
+  {
+    "id": "math401-217",
+    "question": "52443*53061=",
+    "answer": "2782678023"
+  },
+  {
+    "id": "math401-218",
+    "question": "71786×21638=",
+    "answer": "1553305468"
+  },
+  {
+    "id": "math401-219",
+    "question": "11902×40630=",
+    "answer": "483578260"
+  },
+  {
+    "id": "math401-220",
+    "question": "50516×17016=",
+    "answer": "859580256"
+  },
+  {
+    "id": "math401-221",
+    "question": "40588×4621=",
+    "answer": "187557148"
+  },
+  {
+    "id": "math401-222",
+    "question": "88254×26228=",
+    "answer": "2314725912"
+  },
+  {
+    "id": "math401-224",
+    "question": "28445*80568=",
+    "answer": "2291756760"
+  },
+  {
+    "id": "math401-225",
+    "question": "37739*66015=",
+    "answer": "2491340085"
+  },
+  {
+    "id": "math401-226",
+    "question": "16÷83=",
+    "answer": "0.1928"
+  },
+  {
+    "id": "math401-227",
+    "question": "53÷30=",
+    "answer": "1.7667"
+  },
+  {
+    "id": "math401-228",
+    "question": "70÷61=",
+    "answer": "1.1475"
+  },
+  {
+    "id": "math401-229",
+    "question": "50/95=",
+    "answer": "0.5263"
+  },
+  {
+    "id": "math401-230",
+    "question": "89/34=",
+    "answer": "2.6176"
+  },
+  {
+    "id": "math401-231",
+    "question": "52÷40=",
+    "answer": "1.3000"
+  },
+  {
+    "id": "math401-232",
+    "question": "59÷14=",
+    "answer": "4.2143"
+  },
+  {
+    "id": "math401-233",
+    "question": "79/79=",
+    "answer": "1.0000"
+  },
+  {
+    "id": "math401-234",
+    "question": "15÷33=",
+    "answer": "0.4545"
+  },
+  {
+    "id": "math401-235",
+    "question": "28/39=",
+    "answer": "0.7179"
+  },
+  {
+    "id": "math401-236",
+    "question": "2÷3=",
+    "answer": "0.6667"
+  },
+  {
+    "id": "math401-237",
+    "question": "94/89=",
+    "answer": "1.0562"
+  },
+  {
+    "id": "math401-238",
+    "question": "82/40=",
+    "answer": "2.0500"
+  },
+  {
+    "id": "math401-239",
+    "question": "52÷42=",
+    "answer": "1.2381"
+  },
+  {
+    "id": "math401-240",
+    "question": "31÷55=",
+    "answer": "0.5636"
+  },
+  {
+    "id": "math401-241",
+    "question": "85÷27=",
+    "answer": "3.1481"
+  },
+  {
+    "id": "math401-242",
+    "question": "71/22=",
+    "answer": "3.2273"
+  },
+  {
+    "id": "math401-243",
+    "question": "77÷57=",
+    "answer": "1.3509"
+  },
+  {
+    "id": "math401-244",
+    "question": "33/22=",
+    "answer": "1.5000"
+  },
+  {
+    "id": "math401-245",
+    "question": "63÷4=",
+    "answer": "15.7500"
+  },
+  {
+    "id": "math401-246",
+    "question": "97÷1=",
+    "answer": "97.0000"
+  },
+  {
+    "id": "math401-247",
+    "question": "98/83=",
+    "answer": "1.1807"
+  },
+  {
+    "id": "math401-248",
+    "question": "14÷85=",
+    "answer": "0.1647"
+  },
+  {
+    "id": "math401-249",
+    "question": "82/34=",
+    "answer": "2.4118"
+  },
+  {
+    "id": "math401-250",
+    "question": "50/18=",
+    "answer": "2.7778"
+  },
+  {
+    "id": "math401-252",
+    "question": "3^3=",
+    "answer": "27"
+  },
+  {
+    "id": "math401-253",
+    "question": "4^2=",
+    "answer": "16"
+  },
+  {
+    "id": "math401-255",
+    "question": "1^3=",
+    "answer": "1"
+  },
+  {
+    "id": "math401-257",
+    "question": "7^4=",
+    "answer": "2401"
+  },
+  {
+    "id": "math401-258",
+    "question": "2^2=",
+    "answer": "4"
+  },
+  {
+    "id": "math401-259",
+    "question": "8**4=",
+    "answer": "4096"
+  },
+  {
+    "id": "math401-263",
+    "question": "1**3=",
+    "answer": "1"
+  },
+  {
+    "id": "math401-265",
+    "question": "9**4=",
+    "answer": "6561"
+  },
+  {
+    "id": "math401-266",
+    "question": "6**2=",
+    "answer": "36"
+  },
+  {
+    "id": "math401-267",
+    "question": "3**3=",
+    "answer": "27"
+  },
+  {
+    "id": "math401-268",
+    "question": "8**4=",
+    "answer": "4096"
+  },
+  {
+    "id": "math401-269",
+    "question": "6**3=",
+    "answer": "216"
+  },
+  {
+    "id": "math401-270",
+    "question": "3^3=",
+    "answer": "27"
+  },
+  {
+    "id": "math401-271",
+    "question": "3**4=",
+    "answer": "81"
+  },
+  {
+    "id": "math401-273",
+    "question": "5^4=",
+    "answer": "625"
+  },
+  {
+    "id": "math401-274",
+    "question": "6^2=",
+    "answer": "36"
+  },
+  {
+    "id": "math401-275",
+    "question": "6**3=",
+    "answer": "216"
+  },
+  {
+    "id": "math401-279",
+    "question": "2.242**3.7342=",
+    "answer": "20.3865"
+  },
+  {
+    "id": "math401-281",
+    "question": "8.8132^2.1955=",
+    "answer": "118.8614"
+  },
+  {
+    "id": "math401-282",
+    "question": "3.1699**2.0687=",
+    "answer": "10.8771"
+  },
+  {
+    "id": "math401-283",
+    "question": "7.6455^3.5773=",
+    "answer": "1446.1319"
+  },
+  {
+    "id": "math401-285",
+    "question": "4.3651^3.1882=",
+    "answer": "109.7563"
+  },
+  {
+    "id": "math401-289",
+    "question": "6.3411**3.2906=",
+    "answer": "436.1168"
+  },
+  {
+    "id": "math401-292",
+    "question": "1.1604^2.9258=",
+    "answer": "1.5454"
+  },
+  {
+    "id": "math401-301",
+    "question": "e+e=",
+    "answer": "5.4366"
+  },
+  {
+    "id": "math401-305",
+    "question": "7/π=",
+    "answer": "2.2282"
+  },
+  {
+    "id": "math401-306",
+    "question": "0*2=",
+    "answer": "0.0000"
+  },
+  {
+    "id": "math401-308",
+    "question": "π*π=",
+    "answer": "9.8690"
+  },
+  {
+    "id": "math401-309",
+    "question": "e*e=",
+    "answer": "7.3890"
+  },
+  {
+    "id": "math401-312",
+    "question": "e-e=",
+    "answer": "0.0000"
+  },
+  {
+    "id": "math401-313",
+    "question": "1+e=",
+    "answer": "3.7183"
+  },
+  {
+    "id": "math401-315",
+    "question": "2+6=",
+    "answer": "8.0000"
+  },
+  {
+    "id": "math401-316",
+    "question": "e*pi=",
+    "answer": "8.5395"
+  },
+  {
+    "id": "math401-317",
+    "question": "7*π=",
+    "answer": "21.9905"
+  },
+  {
+    "id": "math401-318",
+    "question": "6-5=",
+    "answer": "1.0000"
+  },
+  {
+    "id": "math401-319",
+    "question": "e-pi=",
+    "answer": "-0.4232"
+  },
+  {
+    "id": "math401-321",
+    "question": "3*4=",
+    "answer": "12.0000"
+  },
+  {
+    "id": "math401-322",
+    "question": "π-1=",
+    "answer": "2.1415"
+  },
+  {
+    "id": "math401-324",
+    "question": "e+pi=",
+    "answer": "5.8598"
+  },
+  {
+    "id": "math401-328",
+    "question": " 33 + 26=",
+    "answer": "59.0000"
+  },
+  {
+    "id": "math401-329",
+    "question": " 32 / 15=",
+    "answer": "2.1333"
+  },
+  {
+    "id": "math401-332",
+    "question": " 50 * 67=",
+    "answer": "3350.0000"
+  },
+  {
+    "id": "math401-334",
+    "question": " ( 97 - 56) / ( 97 + 56) * 31=",
+    "answer": "8.3072"
+  },
+  {
+    "id": "math401-335",
+    "question": " 0 * ( 95 * 68) + ( 26 / 45)=",
+    "answer": "0.5778"
+  },
+  {
+    "id": "math401-340",
+    "question": " 38 + ( 26 / 67) * 19=",
+    "answer": "45.3731"
+  },
+  {
+    "id": "math401-341",
+    "question": " 75 + ( 35 / 30) + 72=",
+    "answer": "148.1667"
+  },
+  {
+    "id": "math401-342",
+    "question": " ( 14 + 96) * 93 + ( 72 * 23)=",
+    "answer": "11886.0000"
+  },
+  {
+    "id": "math401-344",
+    "question": " ( 86 + 57) / 43=",
+    "answer": "3.3256"
+  },
+  {
+    "id": "math401-345",
+    "question": " 22 * ( 6 - 53)=",
+    "answer": "-1034.0000"
+  },
+  {
+    "id": "math401-348",
+    "question": " 16 / 51=",
+    "answer": "0.3137"
+  },
+  {
+    "id": "math401-350",
+    "question": " 77 / 81=",
+    "answer": "0.9506"
+  },
+  {
+    "id": "math401-351",
+    "question": "sin(-0.5π)=",
+    "answer": "-1.0000"
+  },
+  {
+    "id": "math401-352",
+    "question": "tan(-0.17π)=",
+    "answer": "-0.5774"
+  },
+  {
+    "id": "math401-353",
+    "question": "cos(5.25π)=",
+    "answer": "-0.7071"
+  },
+  {
+    "id": "math401-354",
+    "question": "cos(-0.75π)=",
+    "answer": "-0.7071"
+  },
+  {
+    "id": "math401-355",
+    "question": "cos(0.75π)=",
+    "answer": "-0.7071"
+  },
+  {
+    "id": "math401-357",
+    "question": "tan(2.67π)=",
+    "answer": "-1.7321"
+  },
+  {
+    "id": "math401-359",
+    "question": "cos(-7.0π)=",
+    "answer": "-1.0000"
+  },
+  {
+    "id": "math401-360",
+    "question": "cos(-2.0π)=",
+    "answer": "1.0000"
+  },
+  {
+    "id": "math401-362",
+    "question": "sin(-10.0π)=",
+    "answer": "0.0000"
+  },
+  {
+    "id": "math401-364",
+    "question": "tan(1.0π)=",
+    "answer": "-0.0000"
+  },
+  {
+    "id": "math401-365",
+    "question": "sin(-30°)=",
+    "answer": "-0.5000"
+  },
+  {
+    "id": "math401-366",
+    "question": "cos(-60°)=",
+    "answer": "0.5000"
+  },
+  {
+    "id": "math401-367",
+    "question": "sin(7.5π)=",
+    "answer": "-1.0000"
+  },
+  {
+    "id": "math401-368",
+    "question": "sin(7.0π)=",
+    "answer": "0.0000"
+  },
+  {
+    "id": "math401-370",
+    "question": "cos(-300°)=",
+    "answer": "0.5000"
+  },
+  {
+    "id": "math401-372",
+    "question": "cos(-210°)=",
+    "answer": "-0.8660"
+  },
+  {
+    "id": "math401-374",
+    "question": "cos(7.75π)=",
+    "answer": "0.7071"
+  },
+  {
+    "id": "math401-376",
+    "question": "log 2(71)=",
+    "answer": "6.1497"
+  },
+  {
+    "id": "math401-377",
+    "question": "log 10(725)=",
+    "answer": "2.8603"
+  },
+  {
+    "id": "math401-378",
+    "question": "log 10(63)=",
+    "answer": "1.7993"
+  },
+  {
+    "id": "math401-382",
+    "question": "log 2(213)=",
+    "answer": "7.7347"
+  },
+  {
+    "id": "math401-383",
+    "question": "log 2(102)=",
+    "answer": "6.6724"
+  },
+  {
+    "id": "math401-385",
+    "question": "log 10(495)=",
+    "answer": "2.6946"
+  },
+  {
+    "id": "math401-387",
+    "question": "log 10(16)=",
+    "answer": "1.2041"
+  },
+  {
+    "id": "math401-389",
+    "question": "log 2(803)=",
+    "answer": "9.6493"
+  },
+  {
+    "id": "math401-390",
+    "question": "ln(173)=",
+    "answer": "5.1533"
+  },
+  {
+    "id": "math401-392",
+    "question": "log 2(706)=",
+    "answer": "9.4635"
+  },
+  {
+    "id": "math401-393",
+    "question": "log 10(812)=",
+    "answer": "2.9096"
+  },
+  {
+    "id": "math401-394",
+    "question": "log 10(786)=",
+    "answer": "2.8954"
+  },
+  {
+    "id": "math401-395",
+    "question": "ln(477)=",
+    "answer": "6.1675"
+  },
+  {
+    "id": "math401-396",
+    "question": "log 10(652)=",
+    "answer": "2.8142"
+  },
+  {
+    "id": "math401-397",
+    "question": "ln(247)=",
+    "answer": "5.5094"
+  },
+  {
+    "id": "math401-398",
+    "question": "log 2(480)=",
+    "answer": "8.9069"
+  }
+]

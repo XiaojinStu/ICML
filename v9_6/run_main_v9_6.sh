@@ -12,7 +12,7 @@ set -euo pipefail
 # - Tables + plots under $RUNROOT/summary/**
 
 RUNROOT="${RUNROOT:-runs/v9.6_main_final_curated}"
-CURATED_DIR="${CURATED_DIR:-datasets_final_v2/curated/main}"
+CURATED_DIR="${CURATED_DIR:-datasets_final_v3/curated/main}"
 
 OUTROOT="$RUNROOT/results"
 LOGDIR="$RUNROOT/logs"
