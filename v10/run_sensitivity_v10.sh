@@ -15,8 +15,8 @@ NO_VIZ="${NO_VIZ:-1}"
 
 MODEL="/home/jinsk/Models/Llama-3.2-3B-Instruct"
 
-NON_GSM_DS="addition50_v1,bigbench_arithmetic600_seed42_v1,math401_all401_v1,nupa_test440_v1,numericbench_test500_seed2_v1"
-NON_GSM_PATHS="addition50_v1=datasets_final_v3/addition50_v1.json,bigbench_arithmetic600_seed42_v1=datasets_final_v3/bigbench_arithmetic600_seed42_v1.json,math401_all401_v1=datasets_final_v3/math401_all401_v1.json,nupa_test440_v1=datasets_final_v3/nupa_test440_v1.json,numericbench_test500_seed2_v1=datasets_final_v3/numericbench_test500_seed2_v1.json"
+NON_GSM_DS="addition50_v1,bigbench_arithmetic600_seed42_v1,math401_all401_v1,nupa_v2,numericbench_test500_seed2_v1"
+NON_GSM_PATHS="addition50_v1=datasets_final_v3/addition50_v1.json,bigbench_arithmetic600_seed42_v1=datasets_final_v3/bigbench_arithmetic600_seed42_v1.json,math401_all401_v1=datasets_final_v3/math401_all401_v1.json,nupa_v2=datasets_final_v3/nupa_v2.json,numericbench_test500_seed2_v1=datasets_final_v3/numericbench_test500_seed2_v1.json"
 
 MIXED_DS="bigbench_mixed_number_string300_seed42_v1"
 MIXED_PATHS="bigbench_mixed_number_string300_seed42_v1=datasets_final_v3/bigbench_mixed_number_string300_seed42_v1.json"
@@ -102,4 +102,3 @@ CUDA_VISIBLE_DEVICES=0 python v9/run_grid_v9.py \
 echo "[v10-sens] aggregating..."
 python v10/aggregate_v10.py --root "$OUTROOT" --out_dir "$SUMMARYDIR" --checkpoints "0,1,2,5,10,15,20,25,30"
 echo "[v10-sens] done. Summary in: $SUMMARYDIR"
-

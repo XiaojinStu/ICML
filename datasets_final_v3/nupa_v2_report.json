@@ -1,0 +1,73 @@
+{
+  "input": "datasets_final_v3/nupa_test440_v1.json",
+  "output": "datasets_final_v3/nupa_v2.json",
+  "seed": 42,
+  "hard": {
+    "model": "/home/jinsk/Models/Llama-3.1-8B-Instruct",
+    "device": "cuda:0",
+    "tta_steps": 5,
+    "tta_lr": 0.01,
+    "hard_ids": 53,
+    "dropped": 37
+  },
+  "easy": {
+    "model": "/home/jinsk/Models/Llama-3.2-1B-Instruct",
+    "device": "cuda:1",
+    "easy_ids": 22,
+    "dropped": 6
+  },
+  "counts": {
+    "before": 306,
+    "after_hard_drop": 269,
+    "after_easy_drop": 263
+  },
+  "dropped_ids": {
+    "hard": [
+      "nubp-sampled-160",
+      "nubp-sampled-169",
+      "nubp-sampled-179",
+      "nubp-sampled-191",
+      "nubp-sampled-2",
+      "nubp-sampled-205",
+      "nubp-sampled-211",
+      "nubp-sampled-212",
+      "nubp-sampled-229",
+      "nubp-sampled-26",
+      "nubp-sampled-265",
+      "nubp-sampled-28",
+      "nubp-sampled-281",
+      "nubp-sampled-282",
+      "nubp-sampled-283",
+      "nubp-sampled-288",
+      "nubp-sampled-29",
+      "nubp-sampled-300",
+      "nubp-sampled-307",
+      "nubp-sampled-310",
+      "nubp-sampled-33",
+      "nubp-sampled-331",
+      "nubp-sampled-341",
+      "nubp-sampled-342",
+      "nubp-sampled-351",
+      "nubp-sampled-357",
+      "nubp-sampled-359",
+      "nubp-sampled-362",
+      "nubp-sampled-410",
+      "nubp-sampled-413",
+      "nubp-sampled-419",
+      "nubp-sampled-51",
+      "nubp-sampled-54",
+      "nubp-sampled-74",
+      "nubp-sampled-80",
+      "nubp-sampled-84",
+      "nubp-sampled-88"
+    ],
+    "easy": [
+      "nubp-sampled-125",
+      "nubp-sampled-134",
+      "nubp-sampled-142",
+      "nubp-sampled-321",
+      "nubp-sampled-327",
+      "nubp-sampled-98"
+    ]
+  }
+}

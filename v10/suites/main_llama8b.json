@@ -30,7 +30,7 @@
     },
     {
       "name": "NUPA",
-      "path": "datasets_final_v3/nupa_test440_v1.json",
+      "path": "datasets_final_v3/nupa_v2.json",
       "lr": 0.005,
       "lr_schedule": "constant",
       "lr_norm": "none"
