@@ -190,10 +190,7 @@ def visualize_prob_heatmap(output: Dict, out_dir: str, exp_name: str, tokens_per
         ax.set_yticklabels([f"{start+i:03d}:{e['target_token']}" for i, e in enumerate(page_entries)], fontsize=10)
 
         suffix = f"_p{page+1}" if n_pages > 1 else ""
-        title = _paper_label(output)
-        if n_pages > 1:
-            title = f"{title} (page {page+1}/{n_pages})"
-        ax.set_title(title)
+        ax.set_title(_paper_label(output))
 
         plt.tight_layout(pad=0.4)
         plt.subplots_adjust(left=0.14)
@@ -250,10 +247,7 @@ def visualize_rank_heatmap(output: Dict, out_dir: str, exp_name: str, tokens_per
         ax.set_yticklabels([f"{start+i:03d}:{e['target_token']}" for i, e in enumerate(page_entries)], fontsize=10)
 
         suffix = f"_p{page+1}" if n_pages > 1 else ""
-        title = _paper_label(output)
-        if n_pages > 1:
-            title = f"{title} (page {page+1}/{n_pages})"
-        ax.set_title(title)
+        ax.set_title(_paper_label(output))
 
         plt.tight_layout(pad=0.4)
         plt.subplots_adjust(left=0.14)
