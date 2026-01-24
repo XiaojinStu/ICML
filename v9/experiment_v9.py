@@ -444,7 +444,7 @@ def evaluate(
 
         def _trim_metrics(m: Dict, keep_full: bool) -> Dict:
             # Always keep light curves used by heatmaps/avg curves/stat plots.
-            keep_keys = {"ane", "target_prob", "target_rank", "anchor_cos_target", "anchor_angle_target", "anchor_nearest_token", "step_status"}
+            keep_keys = {"ane", "target_prob", "target_rank", "pred_top1_id", "anchor_cos_target", "anchor_angle_target", "anchor_nearest_token", "step_status"}
             out = {k: m[k] for k in keep_keys if k in m}
             if keep_full:
                 for k in ["tracked_topk", "num_topk_snapshots", "num_topk_probs", "anchor_trace"]:

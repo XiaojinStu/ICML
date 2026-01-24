@@ -1,0 +1,55 @@
+{
+  "datasets": [
+    {
+      "name": "addition50_v1",
+      "path": "datasets_final_v3/addition50_v1.json",
+      "lr": 0.005,
+      "lr_schedule": "constant",
+      "lr_norm": "none"
+    },
+    {
+      "name": "bigbench_arithmetic600_seed42_v1",
+      "path": "datasets_final_v3/bigbench_arithmetic600_seed42_v1.json",
+      "lr": 0.005,
+      "lr_schedule": "constant",
+      "lr_norm": "none"
+    },
+    {
+      "name": "math401_all401_v1",
+      "path": "datasets_final_v3/math401_all401_v1.json",
+      "lr": 0.005,
+      "lr_schedule": "constant",
+      "lr_norm": "none"
+    },
+    {
+      "name": "numericbench_test500_seed2_v1",
+      "path": "datasets_final_v3/numericbench_test500_seed2_v1.json",
+      "lr": 0.005,
+      "lr_schedule": "constant",
+      "lr_norm": "none"
+    },
+    {
+      "name": "nupa_test440_v1",
+      "path": "datasets_final_v3/nupa_test440_v1.json",
+      "lr": 0.005,
+      "lr_schedule": "constant",
+      "lr_norm": "none"
+    },
+    {
+      "name": "bigbench_mixed_number_string300_seed42_v1",
+      "path": "datasets_final_v3/bigbench_mixed_number_string300_seed42_v1.json",
+      "lr": 0.005,
+      "lr_schedule": "cosine",
+      "lr_min": 0.0001,
+      "lr_norm": "grad_norm"
+    },
+    {
+      "name": "gsm8k_test500_v1",
+      "path": "datasets_final_v3/gsm8k_test500_v1.json",
+      "lr": 0.0001,
+      "lr_schedule": "constant",
+      "lr_norm": "none"
+    }
+  ]
+}
+
