@@ -179,6 +179,7 @@ class TTAEngine:
         num_topk: int = 10,
         tracked_topk: int = 10,
         snapshot_stride: int = 1,
+        snapshot_steps: Optional[List[int]] = None,
         anchor_log: str = "flipped",
     ) -> None:
         self.model = model
@@ -204,6 +205,16 @@ class TTAEngine:
         self.num_topk = int(num_topk)
         self.tracked_topk = int(tracked_topk)
         self.snapshot_stride = max(1, int(snapshot_stride))
+        if snapshot_steps:
+            uniq = sorted({int(s) for s in snapshot_steps if s is not None})
+            uniq = [s for s in uniq if 0 <= s <= self.steps]
+            if 0 not in uniq:
+                uniq = [0] + uniq
+            if self.steps not in uniq:
+                uniq.append(self.steps)
+            self.snapshot_steps = uniq
+        else:
+            self.snapshot_steps = None
         self.anchor_log = str(anchor_log)
 
     def _lr_for_step(self, step: int) -> float:
@@ -218,6 +229,8 @@ class TTAEngine:
         raise ValueError(f"Unknown lr_schedule: {self.lr_schedule}")
 
     def _snapshot_steps(self) -> List[int]:
+        if self.snapshot_steps is not None:
+            return list(self.snapshot_steps)
         steps = list(range(0, self.steps + 1, self.snapshot_stride))
         if steps[-1] != self.steps:
             steps.append(self.steps)

@@ -27,6 +27,7 @@ common_args=(
   --num_layers all
   --layer_stride 1
   --tta_reset token
+  --snapshot_steps "0,1,2,5,10,15,20,25,30"
   --dtype bf16
   --device_map auto
   --ane_metric angle
@@ -82,4 +83,3 @@ done
 echo "[v10-ablation] aggregating..."
 python v10/aggregate_v10.py --root "$OUTROOT" --out_dir "$SUMMARYDIR" --checkpoints "0,1,2,5,10,15,20,25,30"
 echo "[v10-ablation] done. Summary in: $SUMMARYDIR"
-

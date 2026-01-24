@@ -142,6 +142,7 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--num_topk", type=int, default=10)
     p.add_argument("--tracked_topk", type=int, default=10)
     p.add_argument("--snapshot_stride", type=int, default=1)
+    p.add_argument("--snapshot_steps", default="", help="Comma-separated explicit snapshot steps (overrides stride).")
     p.add_argument("--anchor_log", choices=["none", "flipped", "all"], default="flipped")
     p.add_argument("--anchor_trace_max", type=int, default=20)
 
@@ -191,6 +192,9 @@ def run_one_model(*, args, model_path: str, suite: Dict[str, Any]) -> None:
 
     num_idx, num_tokens, num_mask, num_idx_tensor, id_to_pos = _build_num_tables(model, tokenizer, allow_prefix_space=args.allow_prefix_space)
     topk_list = parse_topk_list(args.topk_list)
+    snapshot_steps = None
+    if str(args.snapshot_steps).strip():
+        snapshot_steps = sorted({int(s) for s in str(args.snapshot_steps).split(",") if s.strip()})
 
     eval_modes = [m.strip() for m in str(args.eval_modes).split(",") if m.strip()]
     if not eval_modes:
@@ -277,6 +281,7 @@ def run_one_model(*, args, model_path: str, suite: Dict[str, Any]) -> None:
                 tta_reset=str(args.tta_reset),
                 topk_list=topk_list,
                 snapshot_stride=int(args.snapshot_stride),
+                snapshot_steps=snapshot_steps,
                 num_topk=int(args.num_topk),
                 tracked_topk=int(args.tracked_topk),
                 backup_on_cpu=bool(args.backup_on_cpu),
@@ -318,4 +323,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

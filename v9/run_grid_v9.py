@@ -282,6 +282,7 @@ def run_one_model(args, model_path: str, datasets: Dict[str, List[Dict[str, Any]
                         tta_reset=spec.tta_reset,
                         topk_list=topk_list,
                         snapshot_stride=args.snapshot_stride,
+                        snapshot_steps=None,
                         num_topk=args.num_topk,
                         tracked_topk=args.tracked_topk,
                         backup_on_cpu=bool(args.backup_on_cpu),

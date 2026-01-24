@@ -16,7 +16,7 @@ import argparse
 import json
 import os
 import time
-from typing import Dict, List
+from typing import Dict, List, Optional
 
 import numpy as np
 import torch
@@ -86,6 +86,7 @@ def evaluate(
     tta_reset: str,
     topk_list: List[int],
     snapshot_stride: int,
+    snapshot_steps: Optional[List[int]],
     num_topk: int,
     tracked_topk: int,
     backup_on_cpu: bool,
@@ -135,6 +136,7 @@ def evaluate(
         num_topk=num_topk,
         tracked_topk=tracked_topk,
         snapshot_stride=snapshot_stride,
+        snapshot_steps=snapshot_steps,
         anchor_log=anchor_log,
     )
 
@@ -456,6 +458,17 @@ def evaluate(
             m = t.get("metrics", {})
             t["metrics"] = _trim_metrics(m, keep_full=(id(t) in keep))
 
+    checkpoints = None
+    if snapshot_steps:
+        checkpoints = sorted({int(s) for s in snapshot_steps if s is not None})
+    else:
+        checkpoints = list(range(0, int(steps) + 1, max(1, int(snapshot_stride))))
+    checkpoints = [int(s) for s in checkpoints if 0 <= int(s) <= int(steps)]
+    if 0 not in checkpoints:
+        checkpoints = [0] + checkpoints
+    if int(steps) not in checkpoints:
+        checkpoints.append(int(steps))
+
     summary = {
         "version": "v9",
         "dataset": dataset,
@@ -463,6 +476,7 @@ def evaluate(
         "algo": "ane_tta",
         "model": model_name,
         "steps": int(steps),
+        "checkpoint_steps": checkpoints,
         "lr": float(lr),
         "lr_schedule": str(lr_schedule),
         "lr_min": float(lr_min),
@@ -571,6 +585,7 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--num_topk", type=int, default=10)
     p.add_argument("--tracked_topk", type=int, default=10)
     p.add_argument("--snapshot_stride", type=int, default=1, help="Record subspace snapshots every N steps.")
+    p.add_argument("--snapshot_steps", default="", help="Comma-separated explicit snapshot steps (overrides --snapshot_stride).")
     p.add_argument("--anchor_log", choices=["none", "flipped", "all"], default="flipped", help="Store anchor vectors for visualization.")
     p.add_argument("--anchor_trace_max", type=int, default=20, help="Keep at most N token-level anchor traces in JSON.")
     p.add_argument("--ane_metric", choices=["angle", "cosine"], default="angle", help="ANE distance: geodesic angle (default) or cosine distance (1-cos).")
@@ -661,6 +676,7 @@ def main() -> None:
         tta_reset=args.tta_reset,
         topk_list=parse_topk_list(args.topk_list),
         snapshot_stride=args.snapshot_stride,
+        snapshot_steps=sorted({int(s) for s in str(args.snapshot_steps).split(",") if s.strip()}) if str(args.snapshot_steps).strip() else None,
         num_topk=args.num_topk,
         tracked_topk=args.tracked_topk,
         backup_on_cpu=args.backup_on_cpu,

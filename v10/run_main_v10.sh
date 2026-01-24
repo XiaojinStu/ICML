@@ -29,6 +29,7 @@ common_args=(
   --num_layers all
   --layer_stride 1
   --tta_reset token
+  --snapshot_steps "0,1,2,5,10,15,20,25,30"
   --dtype bf16
   --device_map auto
 )
@@ -110,4 +111,3 @@ done
 echo "[v10-main] aggregating..."
 python v10/aggregate_v10.py --root "$OUTROOT" --out_dir "$SUMMARYDIR" --checkpoints "0,1,2,5,10,15,20,25,30"
 echo "[v10-main] done. Summary in: $SUMMARYDIR"
-

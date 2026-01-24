@@ -190,7 +190,10 @@ def visualize_prob_heatmap(output: Dict, out_dir: str, exp_name: str, tokens_per
         ax.set_yticklabels([f"{start+i:03d}:{e['target_token']}" for i, e in enumerate(page_entries)], fontsize=10)
 
         suffix = f"_p{page+1}" if n_pages > 1 else ""
-        ax.set_title(f"Target Probability Evolution ({exp_name}{suffix})")
+        title = _paper_label(output)
+        if n_pages > 1:
+            title = f"{title} (page {page+1}/{n_pages})"
+        ax.set_title(title)
 
         plt.tight_layout(pad=0.4)
         plt.subplots_adjust(left=0.14)
@@ -247,7 +250,10 @@ def visualize_rank_heatmap(output: Dict, out_dir: str, exp_name: str, tokens_per
         ax.set_yticklabels([f"{start+i:03d}:{e['target_token']}" for i, e in enumerate(page_entries)], fontsize=10)
 
         suffix = f"_p{page+1}" if n_pages > 1 else ""
-        ax.set_title(f"Target Rank Evolution ({exp_name}{suffix})")
+        title = _paper_label(output)
+        if n_pages > 1:
+            title = f"{title} (page {page+1}/{n_pages})"
+        ax.set_title(title)
 
         plt.tight_layout(pad=0.4)
         plt.subplots_adjust(left=0.14)
@@ -370,15 +376,24 @@ def visualize_subspace_evolution(output: Dict, out_dir: str, exp_name: str, n_ca
     if not cases:
         return
 
-    # Determine the step list from the first case with snapshots.
-    steps = None
+    # Determine the available steps from the first case with snapshots.
+    available_steps = None
     for c in cases:
         snaps = c["metrics"].get("num_topk_snapshots", [])
         if snaps:
-            steps = [s["step"] for s in snaps]
+            available_steps = [int(s["step"]) for s in snaps if "step" in s]
             break
-    if not steps:
+    if not available_steps:
         return
+
+    wanted = output.get("summary", {}).get("checkpoint_steps")
+    if isinstance(wanted, list) and wanted:
+        steps = [int(t) for t in wanted if int(t) in set(available_steps)]
+    else:
+        steps = _default_step_checkpoints(int(output.get("summary", {}).get("steps", max(available_steps))))
+        steps = [t for t in steps if t in set(available_steps)]
+    if not steps:
+        steps = available_steps
 
     n_rows = len(cases)
     n_cols = len(steps)
@@ -407,7 +422,7 @@ def visualize_subspace_evolution(output: Dict, out_dir: str, exp_name: str, n_ca
             ax.set_xlim(0, 1.0)
             ax.invert_yaxis()
             if r == 0:
-                ax.set_title(f"Step {step}", fontsize=12)
+                ax.set_title(f"t={step}", fontsize=12, fontweight="bold")
             if c_idx == 0:
                 ax.set_ylabel(f"Case {r+1}", fontsize=12)
 
@@ -415,7 +430,7 @@ def visualize_subspace_evolution(output: Dict, out_dir: str, exp_name: str, n_ca
                 if v >= 0.05:
                     ax.text(v + 0.02, i, f"{v:.2f}", va="center", fontsize=9)
 
-    plt.suptitle(f"Numerical Subspace Evolution (top-k, each step) — {exp_name}", y=1.02, fontsize=14)
+    plt.suptitle(f"{_paper_label(output)} — Numerical Subspace Evolution (top-k)", y=1.02, fontsize=14, fontweight="bold")
     plt.tight_layout()
     plt.savefig(os.path.join(out_dir, f"{exp_name}_subspace_evolution.png"), facecolor="white")
     plt.close()
@@ -526,6 +541,50 @@ def _pca_2d(x: np.ndarray) -> np.ndarray:
     return x @ w
 
 
+def _paper_dataset_name(dataset: str) -> str:
+    d = str(dataset or "").strip()
+    dl = d.lower()
+    if "gsm8k" in dl:
+        return "GSM8K"
+    if "svamp" in dl:
+        return "SVAMP"
+    if "nupa" in dl:
+        return "NUPA"
+    if "math401" in dl:
+        return "MATH401"
+    if "numericbench" in dl:
+        return "NumericBench"
+    if "bigbench_arithmetic" in dl or "bigbench-arithmetic" in dl or "big-bench-arithmetic" in dl or dl.startswith("bb_arith"):
+        return "BIG-Bench Arithmetic"
+    if "bigbench_mixed" in dl or "bigbench-mixed" in dl or "big-bench-mixed" in dl or dl.startswith("bb_mixed"):
+        return "BIG-Bench Mixed"
+    if "addition" in dl:
+        return "Addition-50"
+    return d or "Dataset"
+
+
+def _paper_model_name(model: str) -> str:
+    m = str(model or "").strip()
+    base = os.path.basename(m) if m else ""
+    base = base or m
+    for suf in ["-Instruct-2507", "-Instruct"]:
+        if base.endswith(suf):
+            base = base[: -len(suf)]
+    return base or "Model"
+
+
+def _paper_label(output: Dict) -> str:
+    s = output.get("summary", {}) or {}
+    return f"{_paper_model_name(s.get('model'))} | {_paper_dataset_name(s.get('dataset'))}"
+
+
+def _default_step_checkpoints(steps: int) -> List[int]:
+    base = [0, 1, 2, 5, 10, 15, 20, 25, 30]
+    steps = int(steps)
+    keep = sorted({t for t in base if 0 <= t <= steps} | {0, steps})
+    return keep
+
+
 def visualize_anchor_traces(output: Dict, out_dir: str, exp_name: str, n_cases: int = 4, topk_show: int = 10) -> None:
     """High-density anchor embedding visualizations for (typically) flipped tokens."""
 
@@ -547,6 +606,7 @@ def visualize_anchor_traces(output: Dict, out_dir: str, exp_name: str, n_cases: 
     candidates.sort(key=lambda x: (x[0], x[1]), reverse=True)
     cases = candidates[: max(1, int(n_cases))]
 
+    run_label = _paper_label(output)
     n_rows = len(cases)
     fig, axes = plt.subplots(n_rows, 3, figsize=(19.0, 5.2 * n_rows))
     axes = _ensure_2d_axes(axes, n_rows, 3)
@@ -556,26 +616,41 @@ def visualize_anchor_traces(output: Dict, out_dir: str, exp_name: str, n_cases: 
         tr = m.get("anchor_trace", {}) or {}
         embeds = tr.get("embeds", {}) or {}
 
-        anchor_dir = np.asarray(tr.get("anchor_dir", []), dtype=float)  # (T,D)
-        cos_to_target = np.asarray(tr.get("cos_to_target", []), dtype=float)
+        anchor_dir_all = np.asarray(tr.get("anchor_dir", []), dtype=float)  # (T,D)
+        cos_all = np.asarray(tr.get("cos_to_target", []), dtype=float)
+        ang_all = np.asarray(tr.get("angle_to_target", []), dtype=float)
         nearest = tr.get("anchor_nearest_token", [])
-        steps = np.arange(len(cos_to_target))
+        n_steps = max(0, int(len(cos_all) - 1))
+        keep_steps = _default_step_checkpoints(n_steps)
+        keep_steps = [t for t in keep_steps if t < len(cos_all)]
 
-        title = f"id={sample.get('id')} | pos={tok.get('position')} | {tok.get('pred_before')}→{tok.get('pred_after')} | target={tok.get('target_token')}"
+        anchor_dir = anchor_dir_all[keep_steps] if anchor_dir_all.size and anchor_dir_all.shape[0] > max(keep_steps) else np.zeros((0, 0), dtype=float)
+        cos_to_target = cos_all[keep_steps] if cos_all.size else np.zeros((0,), dtype=float)
+        angle_deg = (ang_all[keep_steps] * (180.0 / math.pi)) if ang_all.size else np.zeros((0,), dtype=float)
+        x_steps = np.asarray(keep_steps, dtype=int)
 
-        # (1) Cosine similarity curve + nearest-token changes
+        case_title = f"{tok.get('pred_before')}→{tok.get('pred_after')} (target {tok.get('target_token')})"
+        case_meta = f"id={sample.get('id')}  pos={tok.get('position')}"
+
+        # (1) Angle-to-target curve (+ best checkpoint)
         ax = axes[r, 0]
         _full_box(ax)
-        ax.plot(steps, cos_to_target, color="#084594", lw=2.8, marker="o", markersize=4)
-        ax.set_title(title, fontsize=15, fontweight="bold")
+        if angle_deg.size:
+            ax.plot(x_steps, angle_deg, color="#d62728", lw=2.6, marker="o", markersize=5)
+            best_i = int(np.nanargmin(angle_deg)) if np.isfinite(angle_deg).any() else 0
+            ax.scatter([x_steps[best_i]], [angle_deg[best_i]], marker="*", s=220, color="#238b45", edgecolors="white", linewidths=0.8, zorder=5)
+            ax.set_ylabel("angle(anchor, target) [deg]", fontweight="bold")
+        ax.set_title(case_title, fontsize=15, fontweight="bold")
+        ax.text(0.01, 0.98, run_label, transform=ax.transAxes, ha="left", va="top", fontsize=12, fontweight="bold")
+        ax.text(0.01, 0.91, case_meta, transform=ax.transAxes, ha="left", va="top", fontsize=11, color="#333333")
         ax.set_xlabel("Step", fontweight="bold")
-        ax.set_ylabel("cos(anchor, target)", fontweight="bold")
         ax.grid(True, linestyle="--", alpha=0.25)
-        if nearest and len(nearest) == len(steps):
-            # Mark steps where nearest token changes.
-            changes = [i for i in range(1, len(nearest)) if nearest[i] != nearest[i - 1]]
-            for i in changes:
-                ax.axvline(i, color="#d62728", lw=1.6, alpha=0.35)
+        ax.set_xticks(list(x_steps))
+        if nearest and len(nearest) > max(keep_steps):
+            nearest_keep = [nearest[t] for t in keep_steps]
+            changes = [keep_steps[i] for i in range(1, len(nearest_keep)) if nearest_keep[i] != nearest_keep[i - 1]]
+            for t in changes:
+                ax.axvline(t, color="#111111", lw=1.4, alpha=0.18)
 
         # (2) PCA projection: anchor trajectory + tokens
         ax = axes[r, 1]
@@ -585,9 +660,9 @@ def visualize_anchor_traces(output: Dict, out_dir: str, exp_name: str, n_cases: 
         pa_dir = embeds.get("pred_after_dir")
         topk_dirs = embeds.get("topk_dirs", []) or []
 
-        vecs = []
+        vecs: List[np.ndarray] = []
         if anchor_dir.size:
-            vecs.extend(list(anchor_dir))
+            vecs.extend([np.asarray(v, dtype=float) for v in anchor_dir])
         extras = []
         for name, v in [("target", tgt_dir), ("pred_before", pb_dir), ("pred_after", pa_dir)]:
             if v is not None:
@@ -604,10 +679,26 @@ def visualize_anchor_traces(output: Dict, out_dir: str, exp_name: str, n_cases: 
         t_anchor = anchor_dir.shape[0] if anchor_dir.size else 0
         if t_anchor > 0:
             pts = xy[:t_anchor]
-            # Trajectory with step-gradient.
+            # Trajectory with checkpoint labels and color by angle-to-target.
             for i in range(1, t_anchor):
-                ax.plot(pts[i - 1 : i + 1, 0], pts[i - 1 : i + 1, 1], color=plt.cm.viridis(i / max(1, t_anchor - 1)), lw=3.0)
-            ax.scatter(pts[:, 0], pts[:, 1], s=45, c=np.linspace(0, 1, t_anchor), cmap="viridis", edgecolors="white", linewidths=0.6, label="anchor path")
+                ax.plot(pts[i - 1 : i + 1, 0], pts[i - 1 : i + 1, 1], color="#1f77b4", lw=2.4, alpha=0.75)
+            if angle_deg.size == t_anchor:
+                sc = ax.scatter(
+                    pts[:, 0],
+                    pts[:, 1],
+                    s=70,
+                    c=angle_deg,
+                    cmap="viridis_r",
+                    edgecolors="white",
+                    linewidths=0.7,
+                    label="anchor (checkpoints)",
+                )
+                cb = plt.colorbar(sc, ax=ax, fraction=0.046, pad=0.02)
+                cb.set_label("angle to target [deg]", fontweight="bold")
+            else:
+                ax.scatter(pts[:, 0], pts[:, 1], s=70, color="#1f77b4", edgecolors="white", linewidths=0.7, label="anchor (checkpoints)")
+            for i, step in enumerate(keep_steps[:t_anchor]):
+                ax.text(pts[i, 0], pts[i, 1], str(step), fontsize=10, fontweight="bold", ha="center", va="center", color="white")
 
         idx_base = t_anchor
         name_to_style = {
@@ -637,25 +728,35 @@ def visualize_anchor_traces(output: Dict, out_dir: str, exp_name: str, n_cases: 
             cb = plt.colorbar(sc, ax=ax, fraction=0.046, pad=0.02)
             cb.set_label("Δ prob (final - step0)", fontweight="bold")
 
-        ax.set_title("Anchor trajectory in embedding space (PCA-2D)", fontsize=15, fontweight="bold")
+        ax.set_title("Anchor trajectory (PCA-2D)", fontsize=15, fontweight="bold")
         ax.set_xlabel("PC1", fontweight="bold")
         ax.set_ylabel("PC2", fontweight="bold")
         ax.grid(True, linestyle="--", alpha=0.22)
         ax.legend(frameon=False, loc="best")
 
-        # (3) Distribution change (top-k) at step0 vs final
+        # (3) Distribution change (top-k) at step0 vs best checkpoint
         ax = axes[r, 2]
         _full_box(ax)
-        rows = list(embeds.get("topk_dirs", []) or [])
-        if rows:
-            rows.sort(key=lambda rr: max(float(rr.get("prob0", 0.0)), float(rr.get("probT", 0.0))), reverse=True)
-            rows = rows[: int(topk_show)]
-            labels = [str(rr.get("token")) for rr in rows]
-            p0 = np.array([float(rr.get("prob0", 0.0)) for rr in rows], dtype=float)
-            pT = np.array([float(rr.get("probT", 0.0)) for rr in rows], dtype=float)
-            y = np.arange(len(rows))
-            ax.barh(y - 0.18, p0, height=0.34, color="#6baed6", label="step0")
-            ax.barh(y + 0.18, pT, height=0.34, color="#fd8d3c", label="final")
+        snaps = m.get("num_topk_snapshots", []) or []
+        snap_map = {int(s.get("step")): list(s.get("tokens", [])) for s in snaps if s.get("tokens")}
+        step0 = 0
+        step_best = int(x_steps[int(np.nanargmin(angle_deg))]) if angle_deg.size and np.isfinite(angle_deg).any() else int(x_steps[-1]) if x_steps.size else 0
+        top0 = snap_map.get(step0, [])
+        topB = snap_map.get(step_best, [])
+
+        if top0 and topB:
+            p0 = {str(t.get("token")): float(t.get("prob", 0.0)) for t in top0}
+            pB = {str(t.get("token")): float(t.get("prob", 0.0)) for t in topB}
+            labels = sorted(set(p0.keys()) | set(pB.keys()), key=lambda k: max(p0.get(k, 0.0), pB.get(k, 0.0)), reverse=True)[: int(topk_show)]
+            y = np.arange(len(labels))
+            v0 = np.array([p0.get(k, 0.0) for k in labels], dtype=float)
+            vB = np.array([pB.get(k, 0.0) for k in labels], dtype=float)
+            target_tok = str(tok.get("target_token"))
+            colors0 = ["#d62728" if k == target_tok else "#6baed6" for k in labels]
+            colorsB = ["#d62728" if k == target_tok else "#fd8d3c" for k in labels]
+
+            ax.barh(y - 0.18, v0, height=0.34, color=colors0, label="step0")
+            ax.barh(y + 0.18, vB, height=0.34, color=colorsB, label=f"step{step_best}")
             ax.set_yticks(y)
             ax.set_yticklabels(labels, fontweight="bold")
             ax.invert_yaxis()
