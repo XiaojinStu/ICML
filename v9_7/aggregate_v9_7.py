@@ -136,7 +136,7 @@ def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(description="Aggregate v9.7 runs")
     p.add_argument("--root", required=True)
     p.add_argument("--out_dir", required=True)
-    p.add_argument("--checkpoints", default="0,1,2,5,10,20")
+    p.add_argument("--checkpoints", default="0,1,2,5,10,15,20,25,30")
     return p
 
 
@@ -171,6 +171,7 @@ def main() -> None:
             "num_layers": str(s.get("num_layers", "")),
             "tta_reset": str(s.get("tta_reset", "")),
             "ane_metric": str(s.get("ane_metric", "")),
+            "best_step": int(s.get("best_step", -1)),
             "token_total": int(s.get("token_total", 0)),
             "seq_total": int(s.get("seq_total", 0)),
             "token_acc_before": float(s.get("token_acc_before", 0.0)),
@@ -189,6 +190,12 @@ def main() -> None:
 
         for ck in checkpoints:
             row[f"token_acc@{ck}"] = token_acc_at(run, ck)
+
+        row["delta_acc"] = float(row["token_acc_after"]) - float(row["token_acc_before"])
+        row["delta_pass2"] = (float(row["pass2_after"]) - float(row["pass2_before"])) if (row["pass2_before"] is not None and row["pass2_after"] is not None) else None
+        row["delta_pass5"] = (float(row["pass5_after"]) - float(row["pass5_before"])) if (row["pass5_before"] is not None and row["pass5_after"] is not None) else None
+        row["delta_em"] = float(row["em_after"]) - float(row["em_before"])
+        row["delta_digit_acc"] = float(row["digit_acc_after"]) - float(row["digit_acc_before"])
         rows.append(row)
 
     rows.sort(key=lambda r: (r["dataset"], r["model"], r["phase"]))
@@ -205,19 +212,25 @@ def main() -> None:
         "num_layers",
         "tta_reset",
         "ane_metric",
+        "best_step",
         "token_total",
         "seq_total",
         "token_acc_before",
         *[f"token_acc@{ck}" for ck in checkpoints],
         "token_acc_after",
+        "delta_acc",
         "pass2_before",
         "pass2_after",
+        "delta_pass2",
         "pass5_before",
         "pass5_after",
+        "delta_pass5",
         "em_before",
         "em_after",
+        "delta_em",
         "digit_acc_before",
         "digit_acc_after",
+        "delta_digit_acc",
         "runtime_per_token",
         "json_path",
     ]
@@ -230,4 +243,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

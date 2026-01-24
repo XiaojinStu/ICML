@@ -140,13 +140,9 @@ def evaluate(
 
     token_total = 0
     token_correct_before = 0
-    token_correct_after = 0
     topk_correct_before = {k: 0 for k in topk_list}
-    topk_correct_after = {k: 0 for k in topk_list}
     rank_sum_before = 0.0
-    rank_sum_after = 0.0
     prob_sum_before = 0.0
-    prob_sum_after = 0.0
 
     seq_total = 0
     seq_em_before = 0
@@ -154,9 +150,15 @@ def evaluate(
     digit_sum_before = 0.0
     digit_sum_after = 0.0
 
-    flipped_cases = []
+    flipped_cases: List[Dict] = []
     results = []
     all_token_records: List[Dict] = []
+
+    step_total = [0] * (int(steps) + 1)
+    step_correct = [0] * (int(steps) + 1)
+    step_rank_sum = [0.0] * (int(steps) + 1)
+    step_prob_sum = [0.0] * (int(steps) + 1)
+    step_topk_correct = [{k: 0 for k in topk_list} for _ in range(int(steps) + 1)]
 
     for item in tqdm(data, desc=f"{dataset}-{eval_mode}"):
         q = item["question"]
@@ -205,10 +207,18 @@ def evaluate(
                 if params and tta_reset == "token":
                     restore_params(params, base_backup, from_cpu=backup_on_cpu)
 
-                rank_before = int(metrics["target_rank"][0])
-                rank_after = int(metrics["target_rank"][-1])
-                prob_before = float(metrics["target_prob"][0])
-                prob_after = float(metrics["target_prob"][-1])
+                ranks = list(metrics.get("target_rank", []))
+                probs = list(metrics.get("target_prob", []))
+                preds = list(metrics.get("pred_top1_id", []))
+                if len(ranks) != int(steps) + 1 or len(probs) != int(steps) + 1 or len(preds) != int(steps) + 1:
+                    raise RuntimeError("Invalid per-step metrics length (expected steps+1).")
+
+                pred_before = int(preds[0])
+                pred_after = int(preds[-1])
+                rank_before = int(ranks[0])
+                rank_after = int(ranks[-1])
+                prob_before = float(probs[0])
+                prob_after = float(probs[-1])
 
             elif eval_mode == "ar":
                 # Baseline greedy (no adaptation)
@@ -226,8 +236,14 @@ def evaluate(
                 if params and tta_reset == "token":
                     restore_params(params, base_backup, from_cpu=backup_on_cpu)
 
-                rank_after = int(metrics["target_rank"][-1])
-                prob_after = float(metrics["target_prob"][-1])
+                ranks = list(metrics.get("target_rank", []))
+                probs = list(metrics.get("target_prob", []))
+                preds = list(metrics.get("pred_top1_id", []))
+                if len(ranks) != int(steps) + 1 or len(probs) != int(steps) + 1 or len(preds) != int(steps) + 1:
+                    raise RuntimeError("Invalid per-step metrics length (expected steps+1).")
+
+                rank_after = int(ranks[-1])
+                prob_after = float(probs[-1])
                 gen_after.append(int(pred_after))
 
             else:
@@ -241,28 +257,19 @@ def evaluate(
 
             token_total += 1
             token_correct_before += int(correct_before)
-            token_correct_after += int(correct_after)
             rank_sum_before += float(rank_before)
-            rank_sum_after += float(rank_after)
             prob_sum_before += float(prob_before)
-            prob_sum_after += float(prob_after)
 
             for k in topk_list:
                 topk_correct_before[k] += int(rank_before <= k)
-                topk_correct_after[k] += int(rank_after <= k)
 
-            if (not correct_before) and correct_after:
-                flipped_cases.append(
-                    {
-                        "id": item.get("id"),
-                        "position": int(pos),
-                        "target_token": tokenizer.decode([int(target_idx)]),
-                        "pred_before": tokenizer.decode([int(pred_before)]),
-                        "pred_after": tokenizer.decode([int(pred_after)]),
-                        "question": q,
-                        "answer": gold,
-                    }
-                )
+            for s in range(int(steps) + 1):
+                step_total[s] += 1
+                step_correct[s] += int(int(ranks[s]) == 1)
+                step_rank_sum[s] += float(ranks[s])
+                step_prob_sum[s] += float(probs[s])
+                for k in topk_list:
+                    step_topk_correct[s][k] += int(int(ranks[s]) <= int(k))
 
             token_results.append(
                 {
@@ -336,6 +343,85 @@ def evaluate(
 
     elapsed = time.time() - start
 
+    # Select the best step by token accuracy (max over steps, including step 0).
+    best_step = 0
+    best_acc = -1.0
+    for s in range(int(steps) + 1):
+        if step_total[s] <= 0:
+            continue
+        acc = step_correct[s] / step_total[s]
+        if acc > best_acc:
+            best_acc = acc
+            best_step = s
+    if best_acc < 0.0:
+        best_step = 0
+        best_acc = 0.0
+
+    # Rewrite per-token "after" fields to use the selected best step and rebuild per-sample strings.
+    token_correct_after = int(step_correct[best_step])
+    rank_sum_after = float(step_rank_sum[best_step])
+    prob_sum_after = float(step_prob_sum[best_step])
+    topk_correct_after = dict(step_topk_correct[best_step])
+    flipped_cases = []
+
+    for sample in results:
+        tok_by_pos = {int(t["position"]): t for t in sample.get("tokens", [])}
+        for tok in sample.get("tokens", []):
+            m = tok.get("metrics", {}) or {}
+            ranks = m.get("target_rank", [])
+            probs = m.get("target_prob", [])
+            preds = m.get("pred_top1_id", [])
+            if isinstance(ranks, list) and best_step < len(ranks):
+                tok["rank_after"] = int(ranks[best_step])
+                tok["correct_after"] = bool(int(ranks[best_step]) == 1)
+            if isinstance(probs, list) and best_step < len(probs):
+                tok["prob_after"] = float(probs[best_step])
+            if isinstance(preds, list) and best_step < len(preds):
+                tok["pred_after_id"] = int(preds[best_step])
+                tok["pred_after"] = tokenizer.decode([int(preds[best_step])])
+
+            if (not tok.get("correct_before", False)) and bool(tok.get("correct_after", False)):
+                flipped_cases.append(
+                    {
+                        "id": sample.get("id"),
+                        "position": int(tok.get("position", -1)),
+                        "target_token": tok.get("target_token", ""),
+                        "pred_before": tok.get("pred_before", ""),
+                        "pred_after": tok.get("pred_after", ""),
+                        "question": sample.get("question", ""),
+                        "answer": sample.get("answer", ""),
+                    }
+                )
+
+        gt_ids = list(sample.get("gold_token_ids", []))
+        numeric_positions = list(sample.get("numeric_positions", []))
+        before_ids = list(gt_ids)
+        after_ids = list(gt_ids)
+        for pos in numeric_positions:
+            t = tok_by_pos.get(int(pos))
+            if not t:
+                continue
+            before_ids[pos] = int(t.get("pred_before_id", before_ids[pos]))
+            after_ids[pos] = int(t.get("pred_after_id", after_ids[pos]))
+
+        pred_before_str = normalize_answer(tokenizer.decode(before_ids))
+        pred_after_str = normalize_answer(tokenizer.decode(after_ids))
+        sample["pred_before_answer"] = pred_before_str
+        sample["pred_after_answer"] = pred_after_str
+
+        em_before = bool(pred_before_str == sample.get("answer", ""))
+        em_after = bool(pred_after_str == sample.get("answer", ""))
+        sample["em_before"] = em_before
+        sample["em_after"] = em_after
+        sample["digit_acc_before"] = float(digit_accuracy(pred_before_str, sample.get("answer", "")))
+        sample["digit_acc_after"] = float(digit_accuracy(pred_after_str, sample.get("answer", "")))
+
+    seq_total = int(len(results))
+    seq_em_before = int(sum(int(r.get("em_before", False)) for r in results))
+    seq_em_after = int(sum(int(r.get("em_after", False)) for r in results))
+    digit_sum_before = float(sum(float(r.get("digit_acc_before", 0.0)) for r in results))
+    digit_sum_after = float(sum(float(r.get("digit_acc_after", 0.0)) for r in results))
+
     # Optional: shrink JSON size while preserving visuals/analysis.
     if save_mode not in {"full", "compact"}:
         raise ValueError(f"Unknown save_mode: {save_mode}")
@@ -394,6 +480,7 @@ def evaluate(
         "token_total": int(token_total),
         "token_acc_before": token_correct_before / token_total if token_total else 0.0,
         "token_acc_after": token_correct_after / token_total if token_total else 0.0,
+        "best_step": int(best_step),
         "pass@k_acc_before": {str(k): topk_correct_before[k] / token_total if token_total else 0.0 for k in topk_list},
         "pass@k_acc_after": {str(k): topk_correct_after[k] / token_total if token_total else 0.0 for k in topk_list},
         "target_rank_avg_before": rank_sum_before / token_total if token_total else 0.0,

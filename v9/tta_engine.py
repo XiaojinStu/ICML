@@ -228,6 +228,7 @@ class TTAEngine:
             "ane": [],
             "target_prob": [],
             "target_rank": [],
+            "pred_top1_id": [],
             "anchor_cos_target": [],
             "anchor_angle_target": [],
             "anchor_nearest_token": [],
@@ -293,6 +294,7 @@ class TTAEngine:
         metrics["ane"].append(ane0)
         metrics["target_prob"].append(float(prob0))
         metrics["target_rank"].append(int(rank0))
+        metrics["pred_top1_id"].append(int(pred_before))
         metrics["num_topk_probs"].append([t["prob"] for t in topk0])
         metrics["step_lr"].append(float(self.lr))
         metrics["step_status"].append("baseline")
@@ -307,6 +309,7 @@ class TTAEngine:
                 "ane",
                 "target_prob",
                 "target_rank",
+                "pred_top1_id",
                 "anchor_cos_target",
                 "anchor_angle_target",
                 "anchor_nearest_token",
@@ -417,6 +420,8 @@ class TTAEngine:
             metrics["ane"].append(ane_v)
             metrics["target_prob"].append(float(prob))
             metrics["target_rank"].append(int(rank))
+            pred_step = int(torch.argmax(mask_logits_to_num(logits_current.detach(), self.num_mask)).item())
+            metrics["pred_top1_id"].append(int(pred_step))
             metrics["num_topk_probs"].append([t["prob"] for t in topk])
             metrics["step_lr"].append(float(lr_eff))
             metrics["tracked_topk"]["probs"].append(_tracked_probs(num_probs))
@@ -430,6 +435,7 @@ class TTAEngine:
             "ane",
             "target_prob",
             "target_rank",
+            "pred_top1_id",
             "anchor_cos_target",
             "anchor_angle_target",
             "anchor_nearest_token",

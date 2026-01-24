@@ -27,9 +27,8 @@ COMMON=(
   --shuffle
   --seed 42
   --eval_modes tf
-  --steps_list 20
+  --steps_list 30
   --lr_min 1e-4
-  --ane_metric cosine
   --optimizer sgd
   --momentum 0.0
   --topk_list 2,5
@@ -81,14 +80,24 @@ GSM_PATHS="gsm8k_test500_v1=${DATA_DIR}/gsm8k_test500_v1.json"
 
 run_llama_suite() {
   # Llama (GPU0): 1B/3B use lr=0.01; 8B use lr=0.005
-  run_grid 0 "$LLAMA_1B,$LLAMA_3B" "llama_non_gsm_lr0.01" "$NON_GSM_DS" "$NON_GSM_PATHS" "0.01" "constant" "none" "mlp+ln" 2>&1 | tee "$LOGDIR/llama_non_gsm_lr0.01.log"
-  run_grid 0 "$LLAMA_8B"          "llama8b_non_gsm_lr0.005" "$NON_GSM_DS" "$NON_GSM_PATHS" "0.005" "constant" "none" "mlp+ln" 2>&1 | tee "$LOGDIR/llama8b_non_gsm_lr0.005.log"
+  run_grid 0 "$LLAMA_1B,$LLAMA_3B" "llama_non_gsm_lr0.01_angle" "$NON_GSM_DS" "$NON_GSM_PATHS" "0.01" "constant" "none" "mlp+ln" --ane_metric angle 2>&1 | tee "$LOGDIR/llama_non_gsm_lr0.01_angle.log"
+  run_grid 0 "$LLAMA_8B"          "llama8b_non_gsm_lr0.005_angle" "$NON_GSM_DS" "$NON_GSM_PATHS" "0.005" "constant" "none" "mlp+ln" --ane_metric angle 2>&1 | tee "$LOGDIR/llama8b_non_gsm_lr0.005_angle.log"
 
-  run_grid 0 "$LLAMA_1B,$LLAMA_3B" "llama_mixed_robust_lr0.01" "$MIXED_DS" "$MIXED_PATHS" "0.01" "cosine" "grad_norm" "mlp+ln" 2>&1 | tee "$LOGDIR/llama_mixed_robust_lr0.01.log"
-  run_grid 0 "$LLAMA_8B"          "llama8b_mixed_robust_lr0.005" "$MIXED_DS" "$MIXED_PATHS" "0.005" "cosine" "grad_norm" "mlp+ln" 2>&1 | tee "$LOGDIR/llama8b_mixed_robust_lr0.005.log"
+  run_grid 0 "$LLAMA_1B,$LLAMA_3B" "llama_mixed_robust_lr0.01_angle" "$MIXED_DS" "$MIXED_PATHS" "0.01" "cosine" "grad_norm" "mlp+ln" --ane_metric angle 2>&1 | tee "$LOGDIR/llama_mixed_robust_lr0.01_angle.log"
+  run_grid 0 "$LLAMA_8B"          "llama8b_mixed_robust_lr0.005_angle" "$MIXED_DS" "$MIXED_PATHS" "0.005" "cosine" "grad_norm" "mlp+ln" --ane_metric angle 2>&1 | tee "$LOGDIR/llama8b_mixed_robust_lr0.005_angle.log"
 
-  run_grid 0 "$LLAMA_1B,$LLAMA_3B" "llama_gsm8k_lr1e-4" "$GSM_DS" "$GSM_PATHS" "0.0001" "constant" "none" "mlp+ln" 2>&1 | tee "$LOGDIR/llama_gsm8k_lr1e-4.log"
-  run_grid 0 "$LLAMA_8B"          "llama8b_gsm8k_lr1e-4" "$GSM_DS" "$GSM_PATHS" "0.0001" "constant" "none" "mlp+ln" 2>&1 | tee "$LOGDIR/llama8b_gsm8k_lr1e-4.log"
+  run_grid 0 "$LLAMA_1B,$LLAMA_3B" "llama_gsm8k_lr1e-4_angle" "$GSM_DS" "$GSM_PATHS" "0.0001" "constant" "none" "mlp+ln" --ane_metric angle 2>&1 | tee "$LOGDIR/llama_gsm8k_lr1e-4_angle.log"
+  run_grid 0 "$LLAMA_8B"          "llama8b_gsm8k_lr1e-4_angle" "$GSM_DS" "$GSM_PATHS" "0.0001" "constant" "none" "mlp+ln" --ane_metric angle 2>&1 | tee "$LOGDIR/llama8b_gsm8k_lr1e-4_angle.log"
+
+  # cosine (comparison)
+  run_grid 0 "$LLAMA_1B,$LLAMA_3B" "llama_non_gsm_lr0.01_cosine" "$NON_GSM_DS" "$NON_GSM_PATHS" "0.01" "constant" "none" "mlp+ln" --ane_metric cosine 2>&1 | tee "$LOGDIR/llama_non_gsm_lr0.01_cosine.log"
+  run_grid 0 "$LLAMA_8B"          "llama8b_non_gsm_lr0.005_cosine" "$NON_GSM_DS" "$NON_GSM_PATHS" "0.005" "constant" "none" "mlp+ln" --ane_metric cosine 2>&1 | tee "$LOGDIR/llama8b_non_gsm_lr0.005_cosine.log"
+
+  run_grid 0 "$LLAMA_1B,$LLAMA_3B" "llama_mixed_robust_lr0.01_cosine" "$MIXED_DS" "$MIXED_PATHS" "0.01" "cosine" "grad_norm" "mlp+ln" --ane_metric cosine 2>&1 | tee "$LOGDIR/llama_mixed_robust_lr0.01_cosine.log"
+  run_grid 0 "$LLAMA_8B"          "llama8b_mixed_robust_lr0.005_cosine" "$MIXED_DS" "$MIXED_PATHS" "0.005" "cosine" "grad_norm" "mlp+ln" --ane_metric cosine 2>&1 | tee "$LOGDIR/llama8b_mixed_robust_lr0.005_cosine.log"
+
+  run_grid 0 "$LLAMA_1B,$LLAMA_3B" "llama_gsm8k_lr1e-4_cosine" "$GSM_DS" "$GSM_PATHS" "0.0001" "constant" "none" "mlp+ln" --ane_metric cosine 2>&1 | tee "$LOGDIR/llama_gsm8k_lr1e-4_cosine.log"
+  run_grid 0 "$LLAMA_8B"          "llama8b_gsm8k_lr1e-4_cosine" "$GSM_DS" "$GSM_PATHS" "0.0001" "constant" "none" "mlp+ln" --ane_metric cosine 2>&1 | tee "$LOGDIR/llama8b_gsm8k_lr1e-4_cosine.log"
 }
 
 run_qwen_suite() {
@@ -96,12 +105,20 @@ run_qwen_suite() {
   QWEN_MODELS="$QWEN_25M,$QWEN_4B"
   QWEN_EXTRA=(--gradient_checkpointing)
 
-  run_grid 1 "$QWEN_MODELS" "qwen_add50_lr0.004" "addition50_v1" "addition50_v1=${DATA_DIR}/addition50_v1.json" "0.004" "constant" "none" "ln" "${QWEN_EXTRA[@]}" 2>&1 | tee "$LOGDIR/qwen_add50_lr0.004.log"
-  run_grid 1 "$QWEN_MODELS" "qwen_bba_lr0.001" "bigbench_arithmetic600_seed42_v1" "bigbench_arithmetic600_seed42_v1=${DATA_DIR}/bigbench_arithmetic600_seed42_v1.json" "0.001" "constant" "none" "ln" "${QWEN_EXTRA[@]}" 2>&1 | tee "$LOGDIR/qwen_bba_lr0.001.log"
-  run_grid 1 "$QWEN_MODELS" "qwen_lr0.002_group" "math401_all401_v1,numericbench_test500_seed2_v1,nupa_test440_v1" "math401_all401_v1=${DATA_DIR}/math401_all401_v1.json,numericbench_test500_seed2_v1=${DATA_DIR}/numericbench_test500_seed2_v1.json,nupa_test440_v1=${DATA_DIR}/nupa_test440_v1.json" "0.002" "constant" "none" "ln" "${QWEN_EXTRA[@]}" 2>&1 | tee "$LOGDIR/qwen_lr0.002_group.log"
+  run_grid 1 "$QWEN_MODELS" "qwen_add50_lr0.004_angle" "addition50_v1" "addition50_v1=${DATA_DIR}/addition50_v1.json" "0.004" "constant" "none" "ln" --ane_metric angle "${QWEN_EXTRA[@]}" 2>&1 | tee "$LOGDIR/qwen_add50_lr0.004_angle.log"
+  run_grid 1 "$QWEN_MODELS" "qwen_bba_lr0.001_angle" "bigbench_arithmetic600_seed42_v1" "bigbench_arithmetic600_seed42_v1=${DATA_DIR}/bigbench_arithmetic600_seed42_v1.json" "0.001" "constant" "none" "ln" --ane_metric angle "${QWEN_EXTRA[@]}" 2>&1 | tee "$LOGDIR/qwen_bba_lr0.001_angle.log"
+  run_grid 1 "$QWEN_MODELS" "qwen_lr0.002_group_angle" "math401_all401_v1,numericbench_test500_seed2_v1,nupa_test440_v1" "math401_all401_v1=${DATA_DIR}/math401_all401_v1.json,numericbench_test500_seed2_v1=${DATA_DIR}/numericbench_test500_seed2_v1.json,nupa_test440_v1=${DATA_DIR}/nupa_test440_v1.json" "0.002" "constant" "none" "ln" --ane_metric angle "${QWEN_EXTRA[@]}" 2>&1 | tee "$LOGDIR/qwen_lr0.002_group_angle.log"
 
-  run_grid 1 "$QWEN_MODELS" "qwen_mixed_robust_lr0.004" "$MIXED_DS" "$MIXED_PATHS" "0.004" "cosine" "grad_norm" "ln" "${QWEN_EXTRA[@]}" 2>&1 | tee "$LOGDIR/qwen_mixed_robust_lr0.004.log"
-  run_grid 1 "$QWEN_MODELS" "qwen_gsm8k_lr5e-5" "$GSM_DS" "$GSM_PATHS" "0.00005" "constant" "none" "ln" "${QWEN_EXTRA[@]}" 2>&1 | tee "$LOGDIR/qwen_gsm8k_lr5e-5.log"
+  run_grid 1 "$QWEN_MODELS" "qwen_mixed_robust_lr0.004_angle" "$MIXED_DS" "$MIXED_PATHS" "0.004" "cosine" "grad_norm" "ln" --ane_metric angle "${QWEN_EXTRA[@]}" 2>&1 | tee "$LOGDIR/qwen_mixed_robust_lr0.004_angle.log"
+  run_grid 1 "$QWEN_MODELS" "qwen_gsm8k_lr5e-5_angle" "$GSM_DS" "$GSM_PATHS" "0.00005" "constant" "none" "ln" --ane_metric angle "${QWEN_EXTRA[@]}" 2>&1 | tee "$LOGDIR/qwen_gsm8k_lr5e-5_angle.log"
+
+  # cosine (comparison)
+  run_grid 1 "$QWEN_MODELS" "qwen_add50_lr0.004_cosine" "addition50_v1" "addition50_v1=${DATA_DIR}/addition50_v1.json" "0.004" "constant" "none" "ln" --ane_metric cosine "${QWEN_EXTRA[@]}" 2>&1 | tee "$LOGDIR/qwen_add50_lr0.004_cosine.log"
+  run_grid 1 "$QWEN_MODELS" "qwen_bba_lr0.001_cosine" "bigbench_arithmetic600_seed42_v1" "bigbench_arithmetic600_seed42_v1=${DATA_DIR}/bigbench_arithmetic600_seed42_v1.json" "0.001" "constant" "none" "ln" --ane_metric cosine "${QWEN_EXTRA[@]}" 2>&1 | tee "$LOGDIR/qwen_bba_lr0.001_cosine.log"
+  run_grid 1 "$QWEN_MODELS" "qwen_lr0.002_group_cosine" "math401_all401_v1,numericbench_test500_seed2_v1,nupa_test440_v1" "math401_all401_v1=${DATA_DIR}/math401_all401_v1.json,numericbench_test500_seed2_v1=${DATA_DIR}/numericbench_test500_seed2_v1.json,nupa_test440_v1=${DATA_DIR}/nupa_test440_v1.json" "0.002" "constant" "none" "ln" --ane_metric cosine "${QWEN_EXTRA[@]}" 2>&1 | tee "$LOGDIR/qwen_lr0.002_group_cosine.log"
+
+  run_grid 1 "$QWEN_MODELS" "qwen_mixed_robust_lr0.004_cosine" "$MIXED_DS" "$MIXED_PATHS" "0.004" "cosine" "grad_norm" "ln" --ane_metric cosine "${QWEN_EXTRA[@]}" 2>&1 | tee "$LOGDIR/qwen_mixed_robust_lr0.004_cosine.log"
+  run_grid 1 "$QWEN_MODELS" "qwen_gsm8k_lr5e-5_cosine" "$GSM_DS" "$GSM_PATHS" "0.00005" "constant" "none" "ln" --ane_metric cosine "${QWEN_EXTRA[@]}" 2>&1 | tee "$LOGDIR/qwen_gsm8k_lr5e-5_cosine.log"
 }
 
 run_llama_suite & pid_llama=$!
@@ -112,6 +129,6 @@ echo "[v9.7] aggregating..."
 python v9_7/aggregate_v9_7.py \
   --root "$OUTROOT" \
   --out_dir "$SUMMARYDIR" \
-  --checkpoints "0,1,2,5,10,20"
+  --checkpoints "0,1,2,5,10,15,20,25,30"
 
 echo "[v9.7] done. Summary in: $SUMMARYDIR"

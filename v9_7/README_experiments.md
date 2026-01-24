@@ -13,12 +13,12 @@
 ```yaml
 common:
   eval_mode: tf
-  steps_total: 20
-  report_steps: [0, 1, 2, 5, 10, 20]
+  steps_total: 30
+  report_steps: [0, 1, 2, 5, 10, 15, 20, 25, 30]
   tta_reset: token
   optimizer: sgd
   topk_list: [2, 5]
-  ane_metric: cosine
+  ane_metric: angle
   update_target_llama: mlp+ln
   update_target_qwen: ln
 
@@ -45,4 +45,3 @@ qwen:
   nupa: 0.002
   gsm8k: 5e-05
 ```
-
