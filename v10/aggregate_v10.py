@@ -194,7 +194,8 @@ def main() -> None:
             "model": str(s.get("model", "")),
             "eval_mode": str(s.get("eval_mode", "")),
             "steps_total": int(s.get("steps", 0) or 0),
-            "best_step": int(s.get("best_step", -1) or -1),
+            # NOTE: best_step can be 0, so avoid `or -1` which would corrupt it.
+            "best_step": int(-1 if s.get("best_step", -1) is None else s.get("best_step", -1)),
             "lr": float(s.get("lr", 0.0) or 0.0),
             "lr_schedule": str(s.get("lr_schedule", "")),
             "lr_norm": str(s.get("lr_norm", "none")),
@@ -367,4 +368,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
